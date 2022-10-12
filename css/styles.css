@@ -90,6 +90,7 @@ h1 {
   background-color: rgb(39, 72, 39);
   transition: 0.4s;
 }
+
 .main-img-atelier {
   width: calc(8.4375rem * 3);
 
@@ -189,7 +190,7 @@ h1 {
 .img-corrientes-container {
   cursor: pointer;
 
-  width: calc(8.385rem * 3.5);
+  width: calc(8.702rem * 3.5);
 
   height: calc(5.625rem * 3.5);
   position: absolute;
@@ -201,7 +202,7 @@ h1 {
   transition: 0.4s;
 }
 .main-img-corrientes {
-  width: calc(8.385rem * 3.5);
+  width: calc(8.702rem * 3.5);
 
   height: calc(5.625rem * 3.5);
 }
@@ -223,7 +224,7 @@ h1 {
   left: 7.2rem;
 }
 .img-patio-de-uco-container:hover {
-  background-color: rgb(39, 72, 39);
+  background-color: #303c4e;
   transition: 0.4s;
 }
 
@@ -235,4 +236,11 @@ h1 {
 .main-img-patio-de-uco:hover {
   opacity: 0.5;
   transition: 0.4s;
+}
+.footer {
+  background-color: #303c4e;
+  width: 100%;
+
+  height: 20rem;
+  margin-top: -15rem;
 }
