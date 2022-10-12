@@ -77,7 +77,7 @@ h1 {
   height: calc(5.625rem * 2);
 }
 .main-ciudad-parque {
-  grid-template-areas: parque;
+  grid-area: parque;
 }
 .main-img-ciudad-parque {
   width: calc(15.1875rem * 2);
@@ -85,7 +85,7 @@ h1 {
   height: calc(5.625rem * 2);
 }
 .main-torre-dual {
-  grid-template-areas: torre;
+  grid-area: torre;
 }
 .main-img-torre-dual {
   height: calc(15.1875rem * 2);
@@ -93,7 +93,7 @@ h1 {
   width: calc(5.625rem * 2);
 }
 .main-santiago {
-  grid-template-areas: santiago;
+  grid-area: santiago;
 }
 .main-img-santiago {
   width: calc(15.1875rem * 2);
@@ -101,7 +101,7 @@ h1 {
   height: calc(5.625rem * 2);
 }
 .main-corrientes {
-  grid-template-areas: corrientes;
+  grid-area: corrientes;
 }
 .main-img-corrientes {
   width: calc(15.1875rem * 2);
@@ -109,7 +109,7 @@ h1 {
   height: calc(5.625rem * 2);
 }
 .main-patio-de-uco {
-  grid-template-areas: uco;
+  grid-area: uco;
 }
 .main-img-patio-de-uco {
   width: calc(15.1875rem * 2);
