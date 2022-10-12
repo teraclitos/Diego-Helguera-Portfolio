@@ -13,22 +13,22 @@
 .nat-var-container {
   width: 100%;
 
-  border-bottom: 0.15rem solid #d65f37;
+  border-bottom: 0.15em solid #d65f37;
   display: grid;
   grid-template-areas: "titulo links";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 5rem;
+  grid-template-rows: 5em;
 }
 .title-container {
   grid-area: titulo;
   display: flex;
   align-items: flex-end;
-  padding-left: 3rem;
-  padding-bottom: 1rem;
+  padding-left: 3em;
+  padding-bottom: 1em;
 }
 h1 {
   color: #d65f37;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
 }
 .links-container {
@@ -36,13 +36,13 @@ h1 {
   display: flex;
   align-items: flex-end;
   justify-content: end;
-  padding-bottom: 1rem;
-  padding-right: 3rem;
-  gap: 3rem;
+  padding-bottom: 1em;
+  padding-right: 3em;
+  gap: 3em;
 }
 .normal-link {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
+  font-size: 1em;
 
   color: rgb(119, 107, 107);
 }
@@ -50,22 +50,21 @@ h1 {
   color: #d65f37;
   transition: 0.5s;
 }
-.link-mueble {
-  display: none;
-}
+
 .contacto-link {
   font-family: Arial, Helvetica, sans-serif;
   color: #d65f37;
-  font-size: 1rem;
+  font-size: 1em;
 }
-.grid-projects {
+.main-body {
   width: 90%;
-  /* border: 1px solid #d65f37; */
 
   align-self: center;
+}
+.grid-projects {
   display: grid;
   grid-template-columns: 1 fr 1fr;
-  grid-template-rows: 30rem 30rem 30rem;
+  grid-template-rows: 30em 30em 30em;
   grid-template-areas:
     "atelier parque"
     "torre santiago"
@@ -79,12 +78,12 @@ h1 {
 .img-atelier-container {
   cursor: pointer;
 
-  width: calc(8.4375rem * 3);
+  width: calc(8.4375em * 3);
 
-  height: calc(5.625rem * 3);
+  height: calc(5.625em * 3);
   position: absolute;
-  top: 7rem;
-  left: 4rem;
+  top: 7em;
+  left: 4em;
 }
 .img-atelier-container:hover {
   background-color: rgb(39, 72, 39);
@@ -92,9 +91,9 @@ h1 {
 }
 
 .main-img-atelier {
-  width: calc(8.4375rem * 3);
+  width: calc(8.4375em * 3);
 
-  height: calc(5.625rem * 3);
+  height: calc(5.625em * 3);
 }
 .main-img-atelier:hover {
   opacity: 0.5;
@@ -107,22 +106,22 @@ h1 {
 .img-ciudad-parque-container {
   cursor: pointer;
 
-  width: calc(11.8125rem * 2.8);
+  width: calc(11.8125em * 2.8);
 
-  height: calc(5.625rem * 2.8);
+  height: calc(5.625em * 2.8);
   position: absolute;
-  top: 13rem;
+  top: 13em;
 
-  left: 4rem;
+  left: 4em;
 }
 .img-ciudad-parque-container {
   background-color: rgb(39, 72, 39);
   transition: 0.4s;
 }
 .main-img-ciudad-parque {
-  width: calc(11.8125rem * 2.8);
+  width: calc(11.8125em * 2.8);
 
-  height: calc(5.625rem * 2.8);
+  height: calc(5.625em * 2.8);
 }
 .main-img-ciudad-parque:hover {
   opacity: 0.5;
@@ -135,12 +134,12 @@ h1 {
 .img-torre-dual-container {
   cursor: pointer;
 
-  height: calc(8.971rem * 3.2);
+  height: calc(8.971em * 3.2);
 
-  width: calc(5.625rem * 3.2);
+  width: calc(5.625em * 3.2);
   cursor: pointer;
   position: absolute;
-  left: 7rem;
+  left: 7em;
 }
 .img-torre-dual-container:hover {
   background-color: rgb(39, 72, 39);
@@ -148,9 +147,9 @@ h1 {
 }
 
 .main-img-torre-dual {
-  height: calc(8.971rem * 3.2);
+  height: calc(8.971em * 3.2);
 
-  width: calc(5.625rem * 3.2);
+  width: calc(5.625em * 3.2);
 }
 .main-img-torre-dual:hover {
   opacity: 0.5;
@@ -161,12 +160,12 @@ h1 {
   position: relative;
 }
 .img-santiago-container {
-  height: calc(5.625rem * 3);
+  height: calc(5.625em * 3);
 
-  width: calc(10.054rem * 3);
+  width: calc(10.054em * 3);
   position: absolute;
-  top: 6rem;
-  left: -2rem;
+  top: 6em;
+  left: -2em;
   cursor: pointer;
 }
 .img-santiago-container:hover {
@@ -174,9 +173,9 @@ h1 {
   transition: 0.4s;
 }
 .main-img-santiago {
-  height: calc(5.625rem * 3);
+  height: calc(5.625em * 3);
 
-  width: calc(10.054rem * 3);
+  width: calc(10.054em * 3);
 }
 .main-img-santiago:hover {
   opacity: 0.5;
@@ -190,21 +189,21 @@ h1 {
 .img-corrientes-container {
   cursor: pointer;
 
-  width: calc(8.702rem * 3.5);
+  width: calc(8.702em * 3.5);
 
-  height: calc(5.625rem * 3.5);
+  height: calc(5.625em * 3.5);
   position: absolute;
-  top: 9.3125rem;
-  left: 3rem;
+  top: 9.3125em;
+  left: 3em;
 }
 .img-corrientes-container:hover {
   background-color: rgb(39, 72, 39);
   transition: 0.4s;
 }
 .main-img-corrientes {
-  width: calc(8.702rem * 3.5);
+  width: calc(8.702em * 3.5);
 
-  height: calc(5.625rem * 3.5);
+  height: calc(5.625em * 3.5);
 }
 .main-img-corrientes:hover {
   opacity: 0.5;
@@ -217,11 +216,11 @@ h1 {
 .img-patio-de-uco-container {
   cursor: pointer;
 
-  width: calc(8.306rem * 3.5);
+  width: calc(8.306em * 3.5);
 
-  height: calc(5.625rem * 3.5);
+  height: calc(5.625em * 3.5);
   position: absolute;
-  left: 7.2rem;
+  left: 7.2em;
 }
 .img-patio-de-uco-container:hover {
   background-color: #303c4e;
@@ -229,9 +228,9 @@ h1 {
 }
 
 .main-img-patio-de-uco {
-  width: calc(8.306rem * 3.5);
+  width: calc(8.306em * 3.5);
 
-  height: calc(5.625rem * 3.5);
+  height: calc(5.625em * 3.5);
 }
 .main-img-patio-de-uco:hover {
   opacity: 0.5;
@@ -241,6 +240,6 @@ h1 {
   background-color: #303c4e;
   width: 100%;
 
-  height: 20rem;
-  margin-top: -15rem;
+  height: 20em;
+  margin-top: -15em;
 }
