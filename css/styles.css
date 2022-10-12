@@ -1,0 +1,81 @@
+@import url(reset.css);
+
+/* paleta de colores:
+   rojo:#d65f37
+   azul:#303c4e*/
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nat-var-container {
+  width: 100%;
+
+  border-bottom: 0.15rem solid #d65f37;
+  display: grid;
+  grid-template-areas: "titulo links";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 5rem;
+}
+.title-container {
+  grid-area: titulo;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+h1 {
+  color: #d65f37;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.links-container {
+  grid-area: links;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+  gap: 3rem;
+}
+.normal-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+
+  color: rgb(119, 107, 107);
+}
+.normal-link:hover {
+  color: #d65f37;
+  transition: 0.5s;
+}
+.contacto-link {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d65f37;
+  font-size: 1rem;
+}
+.main-img-ciudad-parque {
+  width: calc(15.1875rem * 2);
+
+  height: calc(5.625rem * 2);
+}
+.main-img-torre-dual {
+  height: calc(15.1875rem * 2);
+
+  width: calc(5.625rem * 2);
+}
+.main-img-santiago {
+  width: calc(15.1875rem * 2);
+
+  height: calc(5.625rem * 2);
+}
+.main-img-corrientes {
+  width: calc(15.1875rem * 2);
+
+  height: calc(5.625rem * 2);
+}
+.main-img-patio-de-uco {
+  width: calc(15.1875rem * 2);
+
+  height: calc(5.625rem * 2);
+}
