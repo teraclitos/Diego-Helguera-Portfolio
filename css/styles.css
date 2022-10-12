@@ -88,6 +88,7 @@ h1 {
 }
 .img-atelier-container:hover {
   background-color: rgb(39, 72, 39);
+  transition: 0.4s;
 }
 .main-img-atelier {
   width: calc(8.4375rem * 3);
@@ -96,6 +97,7 @@ h1 {
 }
 .main-img-atelier:hover {
   opacity: 0.5;
+  transition: 0.4s;
 }
 .main-ciudad-parque {
   grid-area: parque;
@@ -114,6 +116,7 @@ h1 {
 }
 .img-ciudad-parque-container {
   background-color: rgb(39, 72, 39);
+  transition: 0.4s;
 }
 .main-img-ciudad-parque {
   width: calc(11.8125rem * 2.8);
@@ -122,6 +125,7 @@ h1 {
 }
 .main-img-ciudad-parque:hover {
   opacity: 0.5;
+  transition: 0.4s;
 }
 .main-torre-dual {
   grid-area: torre;
@@ -137,8 +141,9 @@ h1 {
   position: absolute;
   left: 7rem;
 }
-.img-torre-dual-container {
+.img-torre-dual-container:hover {
   background-color: rgb(39, 72, 39);
+  transition: 0.4s;
 }
 
 .main-img-torre-dual {
@@ -148,6 +153,7 @@ h1 {
 }
 .main-img-torre-dual:hover {
   opacity: 0.5;
+  transition: 0.4s;
 }
 .main-santiago {
   grid-area: santiago;
@@ -164,6 +170,7 @@ h1 {
 }
 .img-santiago-container:hover {
   background-color: rgb(39, 72, 39);
+  transition: 0.4s;
 }
 .main-img-santiago {
   height: calc(5.625rem * 3);
@@ -172,6 +179,7 @@ h1 {
 }
 .main-img-santiago:hover {
   opacity: 0.5;
+  transition: 0.4s;
 }
 
 .main-corrientes {
@@ -190,6 +198,7 @@ h1 {
 }
 .img-corrientes-container:hover {
   background-color: rgb(39, 72, 39);
+  transition: 0.4s;
 }
 .main-img-corrientes {
   width: calc(8.385rem * 3.5);
@@ -198,6 +207,7 @@ h1 {
 }
 .main-img-corrientes:hover {
   opacity: 0.5;
+  transition: 0.4s;
 }
 .main-patio-de-uco {
   grid-area: uco;
@@ -214,6 +224,7 @@ h1 {
 }
 .img-patio-de-uco-container:hover {
   background-color: rgb(39, 72, 39);
+  transition: 0.4s;
 }
 
 .main-img-patio-de-uco {
@@ -223,4 +234,5 @@ h1 {
 }
 .main-img-patio-de-uco:hover {
   opacity: 0.5;
+  transition: 0.4s;
 }
