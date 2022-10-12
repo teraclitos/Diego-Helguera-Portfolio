@@ -78,13 +78,16 @@ h1 {
 }
 .img-atelier-container {
   cursor: pointer;
-  background-color: rgb(39, 72, 39);
+
   width: calc(8.4375rem * 3);
 
   height: calc(5.625rem * 3);
   position: absolute;
   top: 7rem;
   left: 4rem;
+}
+.img-atelier-container:hover {
+  background-color: rgb(39, 72, 39);
 }
 .main-img-atelier {
   width: calc(8.4375rem * 3);
@@ -100,7 +103,7 @@ h1 {
 }
 .img-ciudad-parque-container {
   cursor: pointer;
-  background-color: rgb(39, 72, 39);
+
   width: calc(11.8125rem * 2.8);
 
   height: calc(5.625rem * 2.8);
@@ -108,6 +111,9 @@ h1 {
   top: 13rem;
 
   left: 4rem;
+}
+.img-ciudad-parque-container {
+  background-color: rgb(39, 72, 39);
 }
 .main-img-ciudad-parque {
   width: calc(11.8125rem * 2.8);
@@ -123,7 +129,6 @@ h1 {
 }
 .img-torre-dual-container {
   cursor: pointer;
-  background-color: rgb(39, 72, 39);
 
   height: calc(8.971rem * 3.2);
 
@@ -131,6 +136,9 @@ h1 {
   cursor: pointer;
   position: absolute;
   left: 7rem;
+}
+.img-torre-dual-container {
+  background-color: rgb(39, 72, 39);
 }
 
 .main-img-torre-dual {
@@ -146,8 +154,6 @@ h1 {
   position: relative;
 }
 .img-santiago-container {
-  background-color: rgb(39, 72, 39);
-
   height: calc(5.625rem * 3);
 
   width: calc(10.054rem * 3);
@@ -156,7 +162,9 @@ h1 {
   left: -2rem;
   cursor: pointer;
 }
-
+.img-santiago-container:hover {
+  background-color: rgb(39, 72, 39);
+}
 .main-img-santiago {
   height: calc(5.625rem * 3);
 
@@ -172,13 +180,16 @@ h1 {
 }
 .img-corrientes-container {
   cursor: pointer;
-  background-color: rgb(39, 72, 39);
+
   width: calc(8.385rem * 3.5);
 
   height: calc(5.625rem * 3.5);
   position: absolute;
   top: 9.3125rem;
   left: 3rem;
+}
+.img-corrientes-container:hover {
+  background-color: rgb(39, 72, 39);
 }
 .main-img-corrientes {
   width: calc(8.385rem * 3.5);
@@ -194,13 +205,17 @@ h1 {
 }
 .img-patio-de-uco-container {
   cursor: pointer;
-  background-color: rgb(39, 72, 39);
+
   width: calc(8.306rem * 3.5);
 
   height: calc(5.625rem * 3.5);
   position: absolute;
   left: 7.2rem;
 }
+.img-patio-de-uco-container:hover {
+  background-color: rgb(39, 72, 39);
+}
+
 .main-img-patio-de-uco {
   width: calc(8.306rem * 3.5);
 
