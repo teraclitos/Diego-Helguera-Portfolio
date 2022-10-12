@@ -10,6 +10,8 @@
 @media (max-width: 991.98px) {
   .main-body {
     font-size: 16px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
   .footer {
     font-size: 16px;
@@ -20,6 +22,7 @@
       "links";
     grid-template-columns: 1fr;
     grid-template-rows: 5em 12em;
+    border-bottom: 0;
   }
   .title-container {
     display: flex;
@@ -49,25 +52,136 @@
       "santiago"
       "corrientes"
       "uco";
+    gap: 0.5rem;
+  }
+  .main-atelier {
+    position: unset;
+    display: flex;
+    align-items: center;
   }
   .img-atelier-container {
+    width: calc(8.4375em * 3);
+
+    height: calc(5.625em * 3);
     position: unset;
+  }
+
+  .main-img-atelier {
+    width: calc(8.4375em * 3);
+
+    height: calc(5.625em * 3);
+  }
+
+  .main-ciudad-parque {
+    position: unset;
+    display: flex;
+    align-items: center;
   }
   .img-ciudad-parque-container {
+    width: calc(11.8125em * 2.8);
+
+    height: calc(5.625em * 2.8);
     position: unset;
   }
 
-  .img-torre-dual-container {
+  .main-img-ciudad-parque {
+    width: calc(11.8125em * 2.8);
+
+    height: calc(5.625em * 2.8);
+  }
+
+  .main-torre-dual {
     position: unset;
+    display: flex;
+    align-items: center;
+  }
+  .img-torre-dual-container {
+    height: calc(8.971em * 3.2);
+
+    width: calc(5.625em * 3.2);
+
+    position: unset;
+  }
+
+  .main-img-torre-dual {
+    height: calc(8.971em * 3.2);
+
+    width: calc(5.625em * 3.2);
+  }
+
+  .main-santiago {
+    position: unset;
+    display: flex;
+    align-items: center;
   }
   .img-santiago-container {
-    position: unset;
-  }
-  .img-corrientes-container {
+    height: calc(5.625em * 3);
+
+    width: calc(10.054em * 3);
     position: unset;
   }
 
-  .img-patio-de-uco-container {
+  .main-img-santiago {
+    height: calc(5.625em * 3);
+
+    width: calc(10.054em * 3);
+  }
+
+  .main-corrientes {
+    position: unset;
+    display: flex;
+    align-items: center;
+  }
+  .img-corrientes-container {
+    width: calc(8.702em * 3.5);
+
+    height: calc(5.625em * 3.5);
     position: unset;
   }
+
+  .main-img-corrientes {
+    width: calc(8.702em * 3.5);
+
+    height: calc(5.625em * 3.5);
+  }
+
+  .main-patio-de-uco {
+    position: unset;
+    display: flex;
+    align-items: center;
+  }
+  .img-patio-de-uco-container {
+    width: calc(8.306em * 3.5);
+
+    height: calc(5.625em * 3.5);
+    position: unset;
+  }
+
+  .main-img-patio-de-uco {
+    width: calc(8.306em * 3.5);
+
+    height: calc(5.625em * 3.5);
+  }
+  .footer {
+    margin: 0;
+  }
 }
+/* 
+@media (max-width: 650px) {
+  .main-body {
+    font-size: 6px;
+  }
+
+  .footer {
+    font-size: 6px;
+  }
+}
+@media (max-width: 450px) {
+  .main-body {
+    font-size: 4px;
+  }
+
+  .footer {
+    font-size: 4px;
+  }
+} */
