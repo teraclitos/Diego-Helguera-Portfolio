@@ -5,6 +5,7 @@
    azul:#303c4e*/
 
 .body-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -54,25 +55,61 @@ h1 {
   color: #d65f37;
   font-size: 1rem;
 }
+.grid-projects {
+  width: 90%;
+
+  align-self: center;
+  display: grid;
+  grid-template-columns: 1 fr 1fr;
+  grid-template-rows: 40rem 40rem 40rem;
+  grid-template-areas:
+    "atelier parque"
+    "torre santiago"
+    "corrientes uco";
+}
+
+.main-atelier {
+  grid-area: atelier;
+}
+.main-img-atelier {
+  width: calc(15.1875rem * 2);
+
+  height: calc(5.625rem * 2);
+}
+.main-ciudad-parque {
+  grid-template-areas: parque;
+}
 .main-img-ciudad-parque {
   width: calc(15.1875rem * 2);
 
   height: calc(5.625rem * 2);
+}
+.main-torre-dual {
+  grid-template-areas: torre;
 }
 .main-img-torre-dual {
   height: calc(15.1875rem * 2);
 
   width: calc(5.625rem * 2);
 }
+.main-santiago {
+  grid-template-areas: santiago;
+}
 .main-img-santiago {
   width: calc(15.1875rem * 2);
 
   height: calc(5.625rem * 2);
 }
+.main-corrientes {
+  grid-template-areas: corrientes;
+}
 .main-img-corrientes {
   width: calc(15.1875rem * 2);
 
   height: calc(5.625rem * 2);
+}
+.main-patio-de-uco {
+  grid-template-areas: uco;
 }
 .main-img-patio-de-uco {
   width: calc(15.1875rem * 2);
