@@ -166,22 +166,3 @@
     margin: 0;
   }
 }
-/* 
-@media (max-width: 650px) {
-  .main-body {
-    font-size: 6px;
-  }
-
-  .footer {
-    font-size: 6px;
-  }
-}
-@media (max-width: 450px) {
-  .main-body {
-    font-size: 4px;
-  }
-
-  .footer {
-    font-size: 4px;
-  }
-} */

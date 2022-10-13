@@ -242,4 +242,21 @@ h1 {
 
   height: 20em;
   margin-top: -15em;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.social-icons-container {
+  display: flex;
+  margin-bottom: 5.4em;
+  margin-right: 7em;
+  gap: 1.5rem;
+  z-index: 0;
+}
+.social-icon {
+  color: whitesmoke;
+  font-size: 2rem;
+}
+.social-icon:hover {
+  font-size: 2.01rem;
 }
