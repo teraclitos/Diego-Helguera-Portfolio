@@ -8,6 +8,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .nat-var-container {
@@ -64,11 +65,13 @@ h1 {
 .grid-projects {
   display: grid;
   grid-template-columns: 1 fr 1fr;
-  grid-template-rows: 30em 30em 30em;
+  grid-template-rows: 30em 30em 30em 30em;
   grid-template-areas:
     "atelier parque"
     "torre santiago"
-    "corrientes uco";
+    "corrientes uco"
+    "termitiere termitiere";
+  margin-bottom: -26em;
 }
 
 .main-atelier {
@@ -94,15 +97,18 @@ h1 {
   width: calc(8.4375em * 3);
 
   height: calc(5.625em * 3);
+  position: relative;
 }
 .main-img-atelier:hover {
   opacity: 0.5;
   transition: 0.4s;
 }
+
 .main-ciudad-parque {
   grid-area: parque;
   position: relative;
 }
+
 .img-ciudad-parque-container {
   cursor: pointer;
 
@@ -223,7 +229,7 @@ h1 {
   left: 7.2em;
 }
 .img-patio-de-uco-container:hover {
-  background-color: #303c4e;
+  background-color: rgb(39, 72, 39);
   transition: 0.4s;
 }
 
@@ -236,12 +242,38 @@ h1 {
   opacity: 0.5;
   transition: 0.4s;
 }
+.main-termitiere {
+  grid-area: termitiere;
+  position: relative;
+}
+.img-termitiere-container {
+  cursor: pointer;
+
+  width: calc(10em * 3.2);
+
+  height: calc(5.625em * 3.2);
+  position: absolute;
+  left: 41em;
+  top: -5rem;
+}
+.img-termitiere-container:hover {
+  background-color: #303c4e;
+}
+
+.main-img-termitiere {
+  width: calc(10em * 3.2);
+
+  height: calc(5.625em * 3.2);
+}
+.main-img-termitiere:hover {
+  opacity: 0.5;
+}
 .footer {
   background-color: #303c4e;
   width: 100%;
 
   height: 20em;
-  margin-top: -15em;
+  /* margin-top: -26em; */
   display: flex;
   justify-content: end;
   align-items: flex-end;
@@ -249,7 +281,7 @@ h1 {
 .social-icons-container {
   display: flex;
   margin-bottom: 5.4em;
-  margin-right: 7em;
+  margin-right: 8em;
   gap: 1.5rem;
   z-index: 0;
 }
@@ -258,5 +290,5 @@ h1 {
   font-size: 2rem;
 }
 .social-icon:hover {
-  font-size: 2.01rem;
+  font-size: 2.03rem;
 }

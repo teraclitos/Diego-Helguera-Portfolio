@@ -44,14 +44,15 @@
   }
   .grid-projects {
     grid-template-columns: 1 fr;
-    grid-template-rows: 16.875em 15.75em 28.707em 16.875em 19.6875em 19.6875em;
+    grid-template-rows: 16.875em 15.75em 28.707em 16.875em 19.6875em 19.6875em 18em;
     grid-template-areas:
       "atelier "
       "parque"
       "torre"
       "santiago"
       "corrientes"
-      "uco";
+      "uco"
+      "termitiere";
     gap: 0.5rem;
   }
   .main-atelier {
@@ -161,6 +162,23 @@
     width: calc(8.306em * 3.5);
 
     height: calc(5.625em * 3.5);
+  }
+  .main-termitiere-de-uco {
+    position: unset;
+    display: flex;
+    align-items: center;
+  }
+  .img-termitiere-container {
+    width: calc(10em * 3.2);
+
+    height: calc(5.625em * 3.2);
+    position: unset;
+  }
+
+  .main-img-termitiere {
+    width: calc(10em * 3.2);
+
+    height: calc(5.625em * 3.2);
   }
   .footer {
     margin: 0;
