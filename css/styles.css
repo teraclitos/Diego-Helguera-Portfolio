@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-size: 14px;
 }
 
 .nat-var-container {
@@ -58,7 +59,7 @@ h1 {
   font-size: 1em;
 }
 .main-body {
-  width: 90%;
+  width: 80%;
 
   align-self: center;
 }
@@ -76,9 +77,10 @@ h1 {
 .main-atelier {
   grid-area: atelier;
   position: relative;
+  z-index: 0;
 }
 .img-atelier-container {
-  cursor: pointer;
+  /* cursor: pointer; */
 
   width: calc(8.4375em * 3);
 
@@ -86,21 +88,30 @@ h1 {
   position: absolute;
   top: 7em;
   left: 4em;
+  z-index: -1;
+  /* background-color: rgb(39, 72, 39); */
+  /* background-color: #3a5f42; */
+  background-color: #1e5945;
 }
-.img-atelier-container:hover {
+/* .img-atelier-container:hover {
   background-color: rgb(39, 72, 39);
   transition: 0.4s;
-}
+} */
 
 .main-img-atelier {
+  position: absolute;
+  top: 7em;
+  left: 4em;
+  cursor: pointer;
   width: calc(8.4375em * 3);
 
   height: calc(5.625em * 3);
-  position: relative;
+  /* position: relative; */
+  z-index: 0;
 }
 .main-img-atelier:hover {
-  opacity: 0.5;
-  transition: 0.4s;
+  opacity: 0.3;
+  transition: 0.35s;
 }
 
 .main-ciudad-parque {
@@ -225,7 +236,7 @@ h1 {
 
   height: calc(5.625em * 3.5);
   position: absolute;
-  left: 7.2em;
+  left: 6.2em;
 }
 .img-patio-de-uco-container:hover {
   background-color: rgb(39, 72, 39);
@@ -248,21 +259,21 @@ h1 {
 .img-termitiere-container {
   cursor: pointer;
 
-  width: calc(10em * 3.2);
+  width: calc(10em * 3.1);
 
-  height: calc(5.625em * 3.2);
+  height: calc(5.625em * 3.1);
   position: absolute;
-  left: 41em;
-  top: -5rem;
+  left: 42em;
+  top: -2rem;
 }
 .img-termitiere-container:hover {
   background-color: #303c4e;
 }
 
 .main-img-termitiere {
-  width: calc(10em * 3.2);
+  width: calc(10em * 3.1);
 
-  height: calc(5.625em * 3.2);
+  height: calc(5.625em * 3.1);
 }
 .main-img-termitiere:hover {
   opacity: 0.5;
@@ -270,12 +281,22 @@ h1 {
 .footer {
   background-color: #303c4e;
   width: 100%;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  z-index: -1;
 
-  height: 27em;
-  margin-top: -26em;
-  display: flex;
+  height: 8em;
+  /* margin-top: -26em; */
+  /* display: flex;
   justify-content: end;
-  align-items: flex-end;
+  align-items: flex-end; */
+  font-size: 14px;
+}
+.white-line-footer {
+  width: 100%;
+  height: 6em;
+  border-bottom: 4px solid white;
 }
 .social-icons-container {
   display: flex;
@@ -290,4 +311,31 @@ h1 {
 }
 .social-icon:hover {
   font-size: 2.03rem;
+}
+.atelier-text {
+  position: absolute;
+  top: calc(45%);
+  left: calc(40%);
+
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+
+  z-index: -1;
+  /* color: #f4b61a; */
+  /* color: #efb810; */
+
+  background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #85cd00 0,
+    #abd800 16.67%,
+    #ffff5f 33.33%,
+    #f2f23c 50%,
+    #cfe503 66.67%,
+    #abd800 83.33%,
+    #85cd00 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 10;
 }
