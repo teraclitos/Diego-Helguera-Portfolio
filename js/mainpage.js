@@ -1,28 +1,44 @@
-const atelier = document.getElementById("atelier");
 const textAtelier = document.getElementById("text-atelier");
 const imgAtelier = document.getElementById("img-atelier");
-// const textAtelierContainer = document.getElementById("text-atelier-container");
+const textCiudadParque = document.getElementById("text-ciudad-parque");
+const imgCiudadParque = document.getElementById("img-ciudad-parque");
 
-atelier.addEventListener("mouseenter", () => innerTextAtelier());
-atelier.addEventListener("mouseleave", () => atelierNormal());
-// textAtelierContainer.addEventListener("mouseenter", () => ziIndexin());
-// textAtelierContainer.addEventListener("mouseleave", () => ziIndexout());
+const textHoverInImg = (title) => {
+  switch (title) {
+    case `atelier`:
+      textAtelier.style.display = "inline-block";
+      imgAtelier.style.opacity = "0.5";
+      imgAtelier.style.transition = "0.4s";
 
-const innerTextAtelier = () => {
-  textAtelier.style.display = "inline-block";
-  imgAtelier.style.opacity = "0.5";
-  imgAtelier.style.transition = "0.4s";
+      break;
+    case `ciudadParque`:
+      textCiudadParque.style.display = "inline-block";
+      imgCiudadParque.style.opacity = "0.5";
+      imgCiudadParque.style.transition = "0.4s";
+
+      break;
+
+    default:
+      break;
+  }
 };
 
-const atelierNormal = () => {
-  textAtelier.style.display = "none";
-  imgAtelier.style.opacity = "1";
-  imgAtelier.style.transition = "none";
-};
+const textHoverOutImg = (title) => {
+  switch (title) {
+    case `atelier`:
+      textAtelier.style.display = "none";
+      imgAtelier.style.opacity = "1";
+      imgAtelier.style.transition = "none";
 
-// const ziIndexin = () => {
-//   atelier.style.zIndex = "1";
-// };
-// const ziIndexout = () => {
-//   atelier.style.zIndex = "0";
-// };
+      break;
+    case `ciudadParque`:
+      textCiudadParque.style.display = "none";
+      imgCiudadParque.style.opacity = "1";
+      imgCiudadParque.style.transition = "none";
+
+      break;
+
+    default:
+      break;
+  }
+};

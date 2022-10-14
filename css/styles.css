@@ -73,15 +73,58 @@ h1 {
     "corrientes uco"
     "termitiere termitiere";
 }
-
+/* img atelier */
 .main-atelier {
   grid-area: atelier;
   position: relative;
+}
+
+.transparent-atelier {
+  z-index: 2;
+  background-color: transparent;
+  position: absolute;
+  top: 7em;
+  left: 4em;
+  width: calc(8.4375em * 3);
+
+  height: calc(5.625em * 3);
+  cursor: pointer;
+}
+.atelier-text {
+  position: absolute;
+  font-size: 1.7em;
+  font-family: Arial, Helvetica, sans-serif;
+
+  position: absolute;
+  top: calc(50%);
+  left: calc(35%);
+  z-index: 1;
+
+  background-image: radial-gradient(
+    circle at 69.29% 8.62%,
+    #d5d569 0,
+    #dac682 50%,
+    #947a1d 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 10;
+  display: none;
+}
+.main-img-atelier {
+  position: absolute;
+  top: 7em;
+  left: 4em;
+  cursor: pointer;
+  width: calc(8.4375em * 3);
+
+  height: calc(5.625em * 3);
+
   z-index: 0;
 }
-.img-atelier-container {
-  /* cursor: pointer; */
 
+.img-atelier-green {
   width: calc(8.4375em * 3);
 
   height: calc(5.625em * 3);
@@ -100,31 +143,64 @@ h1 {
     #19372e 100%
   );
 }
+/* img atelier end */
 
-.main-img-atelier {
-  position: absolute;
-  top: 7em;
-  left: 4em;
-  cursor: pointer;
-  width: calc(8.4375em * 3);
-
-  height: calc(5.625em * 3);
-  /* position: relative; */
-  z-index: 0;
-}
-/* .main-img-atelier:hover {
-  opacity: 0.5;
-  transition: 0.4s;
-} */
+/* img-ciudad-parque */
 
 .main-ciudad-parque {
   grid-area: parque;
   position: relative;
 }
+.transparent-ciudad-parque {
+  z-index: 2;
+  background-color: transparent;
+  position: absolute;
 
-.img-ciudad-parque-container {
+  top: 13em;
+
+  left: 4em;
+
+  width: calc(8.4375em * 3);
+
+  height: calc(5.625em * 3);
   cursor: pointer;
+}
+.ciudad-parque-text {
+  position: absolute;
+  font-size: 1.7em;
+  font-family: Arial, Helvetica, sans-serif;
 
+  position: absolute;
+  top: calc(67%);
+  left: calc(37%);
+  z-index: 1;
+
+  background-image: radial-gradient(
+    circle at 69.29% 8.62%,
+    #d5d569 0,
+    #dac682 50%,
+    #947a1d 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 10;
+  display: none;
+}
+
+.main-img-ciudad-parque {
+  position: absolute;
+  z-index: 0;
+
+  top: 13em;
+
+  left: 4em;
+  width: calc(11.8125em * 2.8);
+
+  height: calc(5.625em * 2.8);
+}
+
+.img-ciudad-parque-green {
   width: calc(11.8125em * 2.8);
 
   height: calc(5.625em * 2.8);
@@ -132,20 +208,19 @@ h1 {
   top: 13em;
 
   left: 4em;
+  z-index: -1;
+  background-image: radial-gradient(
+    circle at 68.87% -1.84%,
+    #636763 0,
+    #5b605b 16.67%,
+    #4f5851 33.33%,
+    #404e45 50%,
+    #31443a 66.67%,
+    #243c33 83.33%,
+    #19372e 100%
+  );
 }
-.img-ciudad-parque-container {
-  background-color: rgb(39, 72, 39);
-  transition: 0.4s;
-}
-.main-img-ciudad-parque {
-  width: calc(11.8125em * 2.8);
-
-  height: calc(5.625em * 2.8);
-}
-.main-img-ciudad-parque:hover {
-  opacity: 0.5;
-  transition: 0.4s;
-}
+/* ciudad-parque-end */
 .main-torre-dual {
   grid-area: torre;
   position: relative;
@@ -315,62 +390,3 @@ h1 {
 .social-icon:hover {
   font-size: 2.03rem;
 }
-.atelier-text {
-  position: absolute;
-  font-size: 1.7em;
-  font-family: Arial, Helvetica, sans-serif;
-
-  position: absolute;
-  top: calc(50%);
-  left: calc(35%);
-  z-index: 1;
-
-  background-image: radial-gradient(
-    circle at 69.29% 8.62%,
-    #d5d569 0,
-    #dac682 50%,
-    #947a1d 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 10;
-  display: none;
-}
-.transparent {
-  z-index: 2;
-  background-color: transparent;
-  position: absolute;
-  top: 7em;
-  left: 4em;
-  width: calc(8.4375em * 3);
-
-  height: calc(5.625em * 3);
-  cursor: pointer;
-}
-
-/* .atelier-text-container {
-  position: absolute;
-  top: calc(45%);
-  left: calc(30%);
-  z-index: 1;
-  width: 10em;
-  height: 5em;
-} */
-
-/* background-image: radial-gradient(
-    circle at 50% -20.71%,
-    #85cd00 0,
-    #abd800 16.67%,
-    #ffff5f 33.33%,
-    #f2f23c 50%,
-    #cfe503 66.67%,
-    #abd800 83.33%,
-    #85cd00 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
- 
-  display: none;
-} */

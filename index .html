@@ -36,29 +36,36 @@
     <main class="main-body">
       <section class="grid-projects">
         <article class="main-atelier">
-          <div id="atelier" class="transparent"></div>
-          <div class="img-atelier-container"></div>
-          <!-- <div id="text-atelier-container" class="atelier-text-container"> -->
-          <h3 id="text-atelier" class="atelier-text">
-            <strong>Atelier</strong>
-          </h3>
-          <!-- </div> -->
-
+          <div
+            onmouseenter="textHoverInImg(`atelier`)"
+            onmouseleave="textHoverOutImg(`atelier`)"
+            class="transparent-ciudad-parque"
+          ></div>
+          <h3 id="text-atelier" class="atelier-text">Atelier</h3>
           <img
             id="img-atelier"
             class="main-img-atelier"
             src="documentation/atelier/DSC_0105.jpeg"
             alt=""
           />
+          <div class="img-atelier-green"></div>
         </article>
         <article class="main-ciudad-parque">
-          <div class="img-ciudad-parque-container">
-            <img
-              class="main-img-ciudad-parque"
-              src="documentation/CIUDAD PARQUE/1 Fotomontaje final.png"
-              alt=""
-            />
-          </div>
+          <div
+            onmouseenter="textHoverInImg(`ciudadParque`)"
+            onmouseleave="textHoverOutImg(`ciudadParque`)"
+            class="transparent-ciudad-parque"
+          ></div>
+          <h3 id="text-ciudad-parque" class="ciudad-parque-text">
+            Ciudad Parque
+          </h3>
+          <img
+            id="img-ciudad-parque"
+            class="main-img-ciudad-parque"
+            src="documentation/CIUDAD PARQUE/1 Fotomontaje final.png"
+            alt=""
+          />
+          <div class="img-ciudad-parque-green"></div>
         </article>
         <article class="main-torre-dual">
           <div class="img-torre-dual-container">
