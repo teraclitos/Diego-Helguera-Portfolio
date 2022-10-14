@@ -96,8 +96,8 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 
   position: absolute;
-  top: calc(50%);
-  left: calc(35%);
+  top: 8.8em;
+  left: 8.3em;
   z-index: 1;
 
   background-image: radial-gradient(
@@ -171,8 +171,8 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 
   position: absolute;
-  top: calc(67%);
-  left: calc(37%);
+  top: 12em;
+  left: 8.7em;
   z-index: 1;
 
   background-image: radial-gradient(
@@ -221,34 +221,78 @@ h1 {
   );
 }
 /* ciudad-parque-end */
+
+/* torre-dual */
 .main-torre-dual {
   grid-area: torre;
   position: relative;
 }
-.img-torre-dual-container {
-  cursor: pointer;
+.transparent-torre-dual {
+  z-index: 2;
+  background-color: transparent;
+  position: absolute;
+
+  left: 7em;
 
   height: calc(8.971em * 3.2);
 
   width: calc(5.625em * 3.2);
   cursor: pointer;
+}
+.torre-dual-text {
   position: absolute;
-  left: 7em;
-}
-.img-torre-dual-container:hover {
-  background-color: rgb(39, 72, 39);
-  transition: 0.4s;
-}
+  font-size: 1.7em;
+  font-family: Arial, Helvetica, sans-serif;
 
+  position: absolute;
+  top: 8em;
+  left: 7.1em;
+  z-index: 1;
+
+  background-image: radial-gradient(
+    circle at 69.29% 8.62%,
+    #d5d569 0,
+    #dac682 50%,
+    #947a1d 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 10;
+  display: none;
+}
 .main-img-torre-dual {
   height: calc(8.971em * 3.2);
 
   width: calc(5.625em * 3.2);
+  position: absolute;
+  left: 7em;
+  z-index: 0;
 }
-.main-img-torre-dual:hover {
-  opacity: 0.5;
-  transition: 0.4s;
+.img-torre-dual-green {
+  cursor: pointer;
+
+  height: calc(8.971em * 3.2);
+
+  width: calc(5.625em * 3.2);
+
+  position: absolute;
+  left: 7em;
+  z-index: -1;
+  background-image: radial-gradient(
+    circle at 68.87% -1.84%,
+    #636763 0,
+    #5b605b 16.67%,
+    #4f5851 33.33%,
+    #404e45 50%,
+    #31443a 66.67%,
+    #243c33 83.33%,
+    #19372e 100%
+  );
 }
+
+/* torre-dual-end */
+
 .main-santiago {
   grid-area: santiago;
   position: relative;
@@ -362,13 +406,8 @@ h1 {
   position: fixed;
   left: 0px;
   bottom: 0px;
-  z-index: -1;
-
+  z-index: -2;
   height: 8em;
-  /* margin-top: -26em; */
-  /* display: flex;
-  justify-content: end;
-  align-items: flex-end; */
   font-size: 14px;
 }
 .white-line-footer {
@@ -377,16 +416,28 @@ h1 {
   border-bottom: 4px solid white;
 }
 .social-icons-container {
+  position: fixed;
+  right: 20.8px;
+  bottom: 40.8px;
+
   display: flex;
-  margin-bottom: 12em;
-  margin-right: 9em;
-  gap: 1.5rem;
+
+  gap: 1em;
   z-index: 0;
 }
 .social-icon {
-  color: whitesmoke;
-  font-size: 2rem;
+  color: white;
+  font-size: 1.2rem;
 }
 .social-icon:hover {
-  font-size: 2.03rem;
+  background-image: radial-gradient(
+    circle at 69.29% 8.62%,
+    #d5d569 0,
+    #dac682 50%,
+    #947a1d 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 10;
 }
