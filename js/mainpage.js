@@ -9,20 +9,21 @@ const textHoverInImg = (title) => {
   switch (title) {
     case `atelier`:
       textAtelier.style.display = "inline-block";
+
       imgAtelier.style.opacity = "0.5";
-      imgAtelier.style.transition = "0.4s";
+      imgAtelier.style.transition = "0.5s";
 
       break;
     case `ciudadParque`:
       textCiudadParque.style.display = "inline-block";
       imgCiudadParque.style.opacity = "0.5";
-      imgCiudadParque.style.transition = "0.4s";
+      imgCiudadParque.style.transition = "0.5s";
 
       break;
     case `torreDual`:
       textTorreDual.style.display = "inline-block";
       imgTorreDual.style.opacity = "0.5";
-      imgTorreDual.style.transition = "0.4s";
+      imgTorreDual.style.transition = "0.5s";
 
       break;
 
