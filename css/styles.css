@@ -9,7 +9,6 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-size: 14px;
 }
 
 .nat-var-container {
@@ -30,7 +29,7 @@
 }
 h1 {
   color: #d65f37;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 .links-container {
@@ -62,6 +61,7 @@ h1 {
   width: 80%;
 
   align-self: center;
+  font-size: 14px;
 }
 .grid-projects {
   display: grid;
@@ -89,14 +89,8 @@ h1 {
   top: 7em;
   left: 4em;
   z-index: -1;
-  /* background-color: rgb(39, 72, 39); */
-  /* background-color: #3a5f42; */
-  background-color: #1e5945;
-}
-/* .img-atelier-container:hover {
   background-color: rgb(39, 72, 39);
-  transition: 0.4s;
-} */
+}
 
 .main-img-atelier {
   position: absolute;
@@ -109,10 +103,10 @@ h1 {
   /* position: relative; */
   z-index: 0;
 }
-.main-img-atelier:hover {
-  opacity: 0.3;
-  transition: 0.35s;
-}
+/* .main-img-atelier:hover {
+  opacity: 0.5;
+  transition: 0.4s;
+} */
 
 .main-ciudad-parque {
   grid-area: parque;
@@ -314,17 +308,48 @@ h1 {
 }
 .atelier-text {
   position: absolute;
-  top: calc(45%);
-  left: calc(40%);
-
-  font-size: 2em;
+  font-size: 1.7em;
   font-family: Arial, Helvetica, sans-serif;
 
-  z-index: -1;
-  /* color: #f4b61a; */
-  /* color: #efb810; */
+  position: absolute;
+  top: calc(50%);
+  left: calc(35%);
+  z-index: 1;
 
   background-image: radial-gradient(
+    circle at 69.29% 8.62%,
+    #d5d569 0,
+    #dac682 50%,
+    #947a1d 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 10;
+  display: none;
+}
+.transparent {
+  z-index: 2;
+  background-color: transparent;
+  position: absolute;
+  top: 7em;
+  left: 4em;
+  width: calc(8.4375em * 3);
+
+  height: calc(5.625em * 3);
+  cursor: pointer;
+}
+
+/* .atelier-text-container {
+  position: absolute;
+  top: calc(45%);
+  left: calc(30%);
+  z-index: 1;
+  width: 10em;
+  height: 5em;
+} */
+
+/* background-image: radial-gradient(
     circle at 50% -20.71%,
     #85cd00 0,
     #abd800 16.67%,
@@ -337,5 +362,6 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 10;
-}
+ 
+  display: none;
+} */
