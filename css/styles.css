@@ -89,7 +89,16 @@ h1 {
   top: 7em;
   left: 4em;
   z-index: -1;
-  background-color: rgb(39, 72, 39);
+  background-image: radial-gradient(
+    circle at 68.87% -1.84%,
+    #636763 0,
+    #5b605b 16.67%,
+    #4f5851 33.33%,
+    #404e45 50%,
+    #31443a 66.67%,
+    #243c33 83.33%,
+    #19372e 100%
+  );
 }
 
 .main-img-atelier {
