@@ -1,3 +1,15 @@
+@media (min-width: 1600px) {
+  .main-body {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .main-body {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 1200px) {
   .main-body {
     font-size: 10px;
@@ -10,8 +22,8 @@
 @media (max-width: 991.98px) {
   .main-body {
     font-size: 14px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+
+    padding-top: 6em;
   }
   .footer {
     font-size: 16px;
@@ -22,7 +34,6 @@
       "links";
     grid-template-columns: 1fr;
     grid-template-rows: 5em 12em;
-    border-bottom: 0;
   }
   .title-container {
     display: flex;
@@ -31,7 +42,6 @@
     justify-content: center;
     padding-left: 0em;
     padding-bottom: 0em;
-    border-bottom: 0.15em solid #d65f37;
   }
   .links-container {
     display: flex;
@@ -43,8 +53,8 @@
     gap: 3em;
   }
   .grid-projects {
-    grid-template-columns: 1 fr;
-    grid-template-rows: 16.875em 15.75em 28.707em 16.875em 19.6875em 19.6875em 18em;
+    grid-template-columns: 1fr;
+    grid-template-rows: 16.875em 16.875em 28.7072em 16.875em 19.6875em 19.6875em 26em;
     grid-template-areas:
       "atelier "
       "parque"
@@ -53,136 +63,291 @@
       "corrientes"
       "uco"
       "termitiere";
-    gap: 0.5rem;
+    gap: 5em;
   }
-  .main-atelier {
-    /* position: unset; */
-    display: flex;
-    align-items: center;
-  }
-  .img-atelier-container {
-    width: calc(8.4375em * 3);
-
-    height: calc(5.625em * 3);
-    top: 0%;
-
-    left: 20%;
+  /* .main-atelier {
+    position: static;
+  } */
+  .img-atelier-green {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
   }
 
   .main-img-atelier {
-    width: calc(8.4375em * 3);
-
-    height: calc(5.625em * 3);
-    top: 0%;
-
-    left: 20%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
   }
-
+  .transparent-atelier {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .atelier-text {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 10em;
+  }
+  /* 
   .main-ciudad-parque {
-    position: unset;
+   left:0
     display: flex;
     align-items: center;
-  }
-  .img-ciudad-parque-container {
-    width: calc(11.8125em * 2.8);
-
-    height: calc(5.625em * 2.8);
-    position: unset;
+  } */
+  .img-ciudad-parque-green {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
   }
 
   .main-img-ciudad-parque {
-    width: calc(11.8125em * 2.8);
-
-    height: calc(5.625em * 2.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .transparent-ciudad-parque {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .ciudad-parque-text {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 10em;
   }
 
-  .main-torre-dual {
-    position: unset;
+  /* .main-torre-dual {
+   left:0
     display: flex;
     align-items: center;
-  }
-  .img-torre-dual-container {
-    height: calc(8.971em * 3.2);
-
-    width: calc(5.625em * 3.2);
-
-    position: unset;
+  } */
+  .img-torre-dual-green {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
   }
 
   .main-img-torre-dual {
-    height: calc(8.971em * 3.2);
-
-    width: calc(5.625em * 3.2);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .transparent-torre-dual {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
   }
 
-  .main-santiago {
-    position: unset;
+  .torre-dual-text {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 18em;
+  }
+  /* .main-santiago {
+   left:0
     display: flex;
     align-items: center;
-  }
-  .img-santiago-container {
-    height: calc(5.625em * 3);
-
-    width: calc(10.054em * 3);
-    position: unset;
+  } */
+  .img-santiago-green {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
   }
 
   .main-img-santiago {
-    height: calc(5.625em * 3);
-
-    width: calc(10.054em * 3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
   }
 
-  .main-corrientes {
-    position: unset;
+  .transparent-santiago {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .santiago-text {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 10em;
+  }
+
+  /* .main-corrientes {
+   left:0
     display: flex;
     align-items: center;
-  }
-  .img-corrientes-container {
-    width: calc(8.702em * 3.5);
-
-    height: calc(5.625em * 3.5);
-    position: unset;
+  } */
+  .img-corrientes-green {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
   }
 
   .main-img-corrientes {
-    width: calc(8.702em * 3.5);
-
-    height: calc(5.625em * 3.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
   }
-
-  .main-patio-de-uco {
-    position: unset;
+  .transparent-corrientes {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .corrientes-text {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 11.5em;
+  }
+  /* .main-patio-de-uco {
+   left:0
     display: flex;
     align-items: center;
-  }
-  .img-patio-de-uco-container {
-    width: calc(8.306em * 3.5);
-
-    height: calc(5.625em * 3.5);
-    position: unset;
+  } */
+  .img-patio-de-uco-green {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
   }
 
   .main-img-patio-de-uco {
-    width: calc(8.306em * 3.5);
-
-    height: calc(5.625em * 3.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
   }
-  .main-termitiere-de-uco {
-    position: unset;
+  .transparent-patio-de-uco {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .patio-de-uco-text {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 11.5em;
+  }
+  /* .main-termitiere-de-uco {
+   left:0
     display: flex;
     align-items: center;
-  }
-  .img-termitiere-container {
-    width: calc(10em * 3.2);
-
-    height: calc(5.625em * 3.2);
-    position: unset;
+  } */
+  .img-termitiere-green {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
   }
 
   .main-img-termitiere {
-    width: calc(10em * 3.2);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
 
-    height: calc(5.625em * 3.2);
+  .transparent-termitiere {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .termitiere-text {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 16em;
+  }
+}
+@media (max-width: 768px) {
+  .main-body {
+    font-size: 12px;
+  }
+  .grid-projects {
+    grid-template-rows: 16.875em 16.875em 28.7072em 16.875em 19.6875em 19.6875em 40em;
+  }
+  .social-icons-container {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .main-body {
+    font-size: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .main-body {
+    font-size: 6px;
   }
 }
