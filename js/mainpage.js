@@ -127,5 +127,33 @@ const scrollRedes = () => {
     }
   });
 };
+const natVar = document.getElementById("nat-var");
+const linksNatVar = document.getElementById("links-nat-var");
+const titleDiego = document.getElementById("title-diego");
+const mainBody = document.getElementById("main-body");
+
+titleDiego.addEventListener("click", () => {
+  slideNatVar();
+});
+mainBody.addEventListener("click", () => {
+  slideNatVarOut();
+});
+
+const slideNatVar = () => {
+  if (document.documentElement.clientWidth < 992) {
+    linksNatVar.style.display = "flex";
+    // linksNatVar.style.borderBottom = " 0.15em solid #d65f37";
+
+    // natVar.style.borderBottom = "0";
+    natVar.style.gridTemplateRows = "5em 12em";
+  }
+};
+const slideNatVarOut = () => {
+  if (document.documentElement.clientWidth < 992) {
+    linksNatVar.style.display = "none";
+
+    natVar.style.gridTemplateRows = "5em ";
+  }
+};
 
 scrollRedes();

@@ -33,6 +33,7 @@ h1 {
   color: #d65f37;
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
 .links-container {
   grid-area: links;
