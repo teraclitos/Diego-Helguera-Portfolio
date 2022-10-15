@@ -107,3 +107,17 @@ const textHoverOutImg = (title) => {
       break;
   }
 };
+alert(body.clientWidth);
+// const body = document.getElementById("body");
+// const socialIcons = document.getElementById("social-icons");
+// window.onscroll = function () {
+//   myFunction();
+// };
+
+// function myFunction() {
+//   if (document.documentElement.scrollTop > body.clientHeight - 1000) {
+//     socialIcons.style.display = "inline-block";
+//   } else {
+//     socialIcons.style.display = "none";
+//   }
+// }
