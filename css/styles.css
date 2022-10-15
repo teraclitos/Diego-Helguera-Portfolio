@@ -318,8 +318,8 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 
   position: absolute;
-  top: 8em;
-  left: 7.1em;
+  top: 8.3em;
+  left: 5.8em;
   z-index: 1;
 
   background-image: radial-gradient(
@@ -370,7 +370,7 @@ h1 {
   grid-area: corrientes;
   position: relative;
 }
-.transparent-torre-dual {
+.transparent-corrientes {
   z-index: 2;
   background-color: transparent;
 
@@ -388,8 +388,8 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 
   position: absolute;
-  top: 8em;
-  left: 7.1em;
+  top: 11em;
+  left: 8.1em;
   z-index: 1;
 
   background-image: radial-gradient(
@@ -457,8 +457,8 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 
   position: absolute;
-  top: 8em;
-  left: 7.1em;
+  top: 5.8em;
+  left: 9.1em;
   z-index: 1;
 
   background-image: radial-gradient(
@@ -525,8 +525,8 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 
   position: absolute;
-  top: 8em;
-  left: 7.1em;
+  top: 3.5em;
+  left: 31.5em;
   z-index: 1;
 
   background-image: radial-gradient(
