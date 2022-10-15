@@ -107,17 +107,25 @@ const textHoverOutImg = (title) => {
       break;
   }
 };
-alert(body.clientWidth);
-// const body = document.getElementById("body");
-// const socialIcons = document.getElementById("social-icons");
-// window.onscroll = function () {
-//   myFunction();
-// };
 
-// function myFunction() {
-//   if (document.documentElement.scrollTop > body.clientHeight - 1000) {
-//     socialIcons.style.display = "inline-block";
-//   } else {
-//     socialIcons.style.display = "none";
-//   }
-// }
+const socialIcons = document.getElementById("social-icons");
+
+const scrollRedes = () => {
+  document.addEventListener("scroll", function (e) {
+    let documentHeight = document.body.scrollHeight;
+    let currentScroll = window.scrollY + window.innerHeight;
+    // When the user is [modifier]px from the bottom, fire the event.
+    let modifier = 75;
+    if (document.documentElement.clientWidth < 768) {
+      if (currentScroll + modifier > documentHeight) {
+        socialIcons.style.display = "flex";
+      } else {
+        socialIcons.style.display = "none";
+      }
+    } else {
+      socialIcons.style.display = "flex";
+    }
+  });
+};
+
+scrollRedes();
