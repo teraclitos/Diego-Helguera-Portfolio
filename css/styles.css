@@ -222,9 +222,9 @@ h1 {
     #19372e 100%
   );
 }
-/* ciudad-parque-end */
+/* img-ciudad-parque-end */
 
-/* torre-dual */
+/*img-torre-dual */
 .main-torre-dual {
   grid-area: torre;
   position: relative;
@@ -293,42 +293,88 @@ h1 {
   );
 }
 
-/* torre-dual-end */
+/*img-torre-dual-end */
 
+/* img-santiago */
 .main-santiago {
   grid-area: santiago;
   position: relative;
 }
-.img-santiago-container {
+.transparent-santiago {
+  z-index: 2;
+  background-color: transparent;
   height: calc(5.625em * 3);
 
   width: calc(10.054em * 3);
   position: absolute;
   top: 6em;
   left: -2em;
+
   cursor: pointer;
 }
-.img-santiago-container:hover {
-  background-color: rgb(39, 72, 39);
-  transition: 0.4s;
+.santiago-text {
+  position: absolute;
+  font-size: 1.7em;
+  font-family: Arial, Helvetica, sans-serif;
+
+  position: absolute;
+  top: 8em;
+  left: 7.1em;
+  z-index: 1;
+
+  background-image: radial-gradient(
+    circle at 69.29% 8.62%,
+    #d5d569 0,
+    #dac682 50%,
+    #947a1d 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 10;
+  display: none;
 }
+.img-santiago-green {
+  height: calc(5.625em * 3);
+
+  width: calc(10.054em * 3);
+  position: absolute;
+  top: 6em;
+  left: -2em;
+  z-index: -1;
+  background-image: radial-gradient(
+    circle at 68.87% -1.84%,
+    #636763 0,
+    #5b605b 16.67%,
+    #4f5851 33.33%,
+    #404e45 50%,
+    #31443a 66.67%,
+    #243c33 83.33%,
+    #19372e 100%
+  );
+}
+
 .main-img-santiago {
   height: calc(5.625em * 3);
 
   width: calc(10.054em * 3);
+  position: absolute;
+  top: 6em;
+  left: -2em;
+  z-index: 0;
 }
-.main-img-santiago:hover {
-  opacity: 0.5;
-  transition: 0.4s;
-}
+/* img-santiago-end */
 
+/* img-corrientes */
 .main-corrientes {
   grid-area: corrientes;
   position: relative;
 }
-.img-corrientes-container {
-  cursor: pointer;
+.transparent-torre-dual {
+  z-index: 2;
+  background-color: transparent;
 
+  cursor: pointer;
   width: calc(8.702em * 3.5);
 
   height: calc(5.625em * 3.5);
@@ -336,72 +382,197 @@ h1 {
   top: 9.3125em;
   left: 3em;
 }
-.img-corrientes-container:hover {
-  background-color: rgb(39, 72, 39);
-  transition: 0.4s;
+.corrientes-text {
+  position: absolute;
+  font-size: 1.7em;
+  font-family: Arial, Helvetica, sans-serif;
+
+  position: absolute;
+  top: 8em;
+  left: 7.1em;
+  z-index: 1;
+
+  background-image: radial-gradient(
+    circle at 69.29% 8.62%,
+    #d5d569 0,
+    #dac682 50%,
+    #947a1d 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 10;
+  display: none;
 }
+.img-corrientes-green {
+  width: calc(8.702em * 3.5);
+
+  height: calc(5.625em * 3.5);
+  position: absolute;
+  top: 9.3125em;
+  left: 3em;
+  z-index: -1;
+  background-image: radial-gradient(
+    circle at 68.87% -1.84%,
+    #636763 0,
+    #5b605b 16.67%,
+    #4f5851 33.33%,
+    #404e45 50%,
+    #31443a 66.67%,
+    #243c33 83.33%,
+    #19372e 100%
+  );
+}
+
 .main-img-corrientes {
   width: calc(8.702em * 3.5);
 
   height: calc(5.625em * 3.5);
+  position: absolute;
+  top: 9.3125em;
+  left: 3em;
+  z-index: 0;
 }
-.main-img-corrientes:hover {
-  opacity: 0.5;
-  transition: 0.4s;
-}
+/* img-corrientes-end */
+
+/* img-patio-de-uco */
 .main-patio-de-uco {
   grid-area: uco;
   position: relative;
 }
-.img-patio-de-uco-container {
-  cursor: pointer;
+.transparent-patio-de-uco {
+  z-index: 2;
+  background-color: transparent;
 
+  cursor: pointer;
   width: calc(8.306em * 3.5);
 
   height: calc(5.625em * 3.5);
   position: absolute;
   left: 6.2em;
 }
-.img-patio-de-uco-container:hover {
-  background-color: rgb(39, 72, 39);
-  transition: 0.4s;
+.patio-de-uco-text {
+  position: absolute;
+  font-size: 1.7em;
+  font-family: Arial, Helvetica, sans-serif;
+
+  position: absolute;
+  top: 8em;
+  left: 7.1em;
+  z-index: 1;
+
+  background-image: radial-gradient(
+    circle at 69.29% 8.62%,
+    #d5d569 0,
+    #dac682 50%,
+    #947a1d 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 10;
+  display: none;
+}
+.img-patio-de-uco-green {
+  width: calc(8.306em * 3.5);
+
+  height: calc(5.625em * 3.5);
+  position: absolute;
+  left: 6.2em;
+  z-index: -1;
+  background-image: radial-gradient(
+    circle at 68.87% -1.84%,
+    #636763 0,
+    #5b605b 16.67%,
+    #4f5851 33.33%,
+    #404e45 50%,
+    #31443a 66.67%,
+    #243c33 83.33%,
+    #19372e 100%
+  );
 }
 
 .main-img-patio-de-uco {
   width: calc(8.306em * 3.5);
 
   height: calc(5.625em * 3.5);
+  position: absolute;
+  left: 6.2em;
+  z-index: 0;
 }
-.main-img-patio-de-uco:hover {
-  opacity: 0.5;
-  transition: 0.4s;
-}
+/* img-patio-de-uco-end */
+
+/* img-termitiere */
 .main-termitiere {
   grid-area: termitiere;
   position: relative;
 }
-.img-termitiere-container {
-  cursor: pointer;
-
+.transparent-termitiere {
+  z-index: 2;
+  background-color: transparent;
   width: calc(10em * 3.1);
 
   height: calc(5.625em * 3.1);
   position: absolute;
   left: 42em;
   top: -2rem;
+
+  cursor: pointer;
 }
-.img-termitiere-container:hover {
-  background-color: #303c4e;
+.termitiere-text {
+  position: absolute;
+  font-size: 1.7em;
+  font-family: Arial, Helvetica, sans-serif;
+
+  position: absolute;
+  top: 8em;
+  left: 7.1em;
+  z-index: 1;
+
+  background-image: radial-gradient(
+    circle at 69.29% 8.62%,
+    #d5d569 0,
+    #dac682 50%,
+    #947a1d 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 10;
+  display: none;
+}
+.img-termitiere-green {
+  width: calc(10em * 3.1);
+
+  height: calc(5.625em * 3.1);
+  position: absolute;
+  left: 42em;
+  top: -2rem;
+  z-index: -1;
+  background-image: radial-gradient(
+    circle at 68.87% -1.84%,
+    #636763 0,
+    #5b605b 16.67%,
+    #4f5851 33.33%,
+    #404e45 50%,
+    #31443a 66.67%,
+    #243c33 83.33%,
+    #19372e 100%
+  );
 }
 
 .main-img-termitiere {
   width: calc(10em * 3.1);
 
   height: calc(5.625em * 3.1);
+  position: absolute;
+  left: 42em;
+  top: -2rem;
+  z-index: 0;
 }
-.main-img-termitiere:hover {
-  opacity: 0.5;
-}
+/* img-termitiere-end */
+
+/* footer */
 .footer {
   background-color: #303c4e;
   width: 100%;
@@ -443,3 +614,4 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* footer */
