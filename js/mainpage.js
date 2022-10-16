@@ -116,7 +116,7 @@ const scrollRedes = () => {
     let currentScroll = window.scrollY + window.innerHeight;
     // When the user is [modifier]px from the bottom, fire the event.
     let modifier = 75;
-    if (document.documentElement.clientWidth < 768) {
+    if (screen.width < 768) {
       if (currentScroll + modifier > documentHeight) {
         socialIcons.style.display = "flex";
       } else {
@@ -140,7 +140,7 @@ mainBody.addEventListener("click", () => {
 });
 
 const slideNatVar = () => {
-  if (document.documentElement.clientWidth < 992) {
+  if (screen.width < 992) {
     if (linksNatVar.style.display === "none") {
       linksNatVar.style.display = "flex";
 
@@ -153,7 +153,7 @@ const slideNatVar = () => {
   }
 };
 const slideNatVarOut = () => {
-  if (document.documentElement.clientWidth < 992) {
+  if (screen.width < 992) {
     linksNatVar.style.display = "none";
 
     natVar.style.gridTemplateRows = "5em ";
@@ -161,7 +161,7 @@ const slideNatVarOut = () => {
 };
 
 // const RenderWideScreen = () => {
-//   if (screen.width > 992) {
+//   if (document.documentElement.clientWidth > 992) {
 //     linksNatVar.style.display = "flex";
 
 //     natVar.style.gridTemplateRows = "5em ";
