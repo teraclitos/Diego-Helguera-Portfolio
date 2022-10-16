@@ -141,11 +141,15 @@ mainBody.addEventListener("click", () => {
 
 const slideNatVar = () => {
   if (document.documentElement.clientWidth < 992) {
-    linksNatVar.style.display = "flex";
-    // linksNatVar.style.borderBottom = " 0.15em solid #d65f37";
+    if (linksNatVar.style.display === "none") {
+      linksNatVar.style.display = "flex";
 
-    // natVar.style.borderBottom = "0";
-    natVar.style.gridTemplateRows = "5em 12em";
+      natVar.style.gridTemplateRows = "5em 12em";
+    } else {
+      linksNatVar.style.display = "none";
+
+      natVar.style.gridTemplateRows = "5em ";
+    }
   }
 };
 const slideNatVarOut = () => {
@@ -155,5 +159,21 @@ const slideNatVarOut = () => {
     natVar.style.gridTemplateRows = "5em ";
   }
 };
+
+// const RenderWideScreen = () => {
+//   if (screen.width > 992) {
+//     linksNatVar.style.display = "flex";
+
+//     natVar.style.gridTemplateRows = "5em ";
+//   } else {
+//     linksNatVar.style.display = "none";
+
+//     natVar.style.gridTemplateRows = "5em 12em";
+//   }
+// };
+
+// window.addEventListener("mouseover", () => {
+//   RenderWideScreen();
+// });
 
 scrollRedes();
