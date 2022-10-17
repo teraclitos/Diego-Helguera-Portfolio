@@ -154,12 +154,12 @@ const linksNatVar = document.getElementById("links-nat-var");
 const titleDiego = document.getElementById("title-diego");
 const mainBody = document.getElementById("main-body");
 
-titleDiego.addEventListener("click", () => {
-  slideNatVar();
-});
-mainBody.addEventListener("click", () => {
-  slideNatVarOut();
-});
+const inyectDisplayNoneLinksNarrowScreen = () => {
+  if (screen.width < 992) {
+    linksNatVar.style.display = "none";
+  }
+};
+inyectDisplayNoneLinksNarrowScreen();
 
 const slideNatVar = () => {
   if (screen.width < 992) {
