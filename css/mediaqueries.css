@@ -49,10 +49,7 @@
 
     animation: slide-nav;
   }
-  /* 
-  .links-container:hover {
-    animation: slide-nav 1s;
-  } */
+
   @keyframes slide-nav {
     from {
       transform: translatey(-100%);
@@ -74,9 +71,7 @@
       "termitiere";
     gap: 5em;
   }
-  /* .main-atelier {
-    position: static;
-  } */
+
   .img-atelier-green {
     top: 0;
     left: 0;
@@ -109,12 +104,7 @@
     text-align: center;
     line-height: 10em;
   }
-  /* 
-  .main-ciudad-parque {
-   left:0
-    display: flex;
-    align-items: center;
-  } */
+
   .img-ciudad-parque-green {
     top: 0;
     left: 0;
@@ -148,11 +138,6 @@
     line-height: 10em;
   }
 
-  /* .main-torre-dual {
-   left:0
-    display: flex;
-    align-items: center;
-  } */
   .img-torre-dual-green {
     top: 0;
     left: 0;
@@ -186,11 +171,7 @@
     text-align: center;
     line-height: 18em;
   }
-  /* .main-santiago {
-   left:0
-    display: flex;
-    align-items: center;
-  } */
+
   .img-santiago-green {
     top: 0;
     left: 0;
@@ -226,11 +207,6 @@
     line-height: 10em;
   }
 
-  /* .main-corrientes {
-   left:0
-    display: flex;
-    align-items: center;
-  } */
   .img-corrientes-green {
     top: 0;
     left: 0;
@@ -263,11 +239,7 @@
     text-align: center;
     line-height: 11.5em;
   }
-  /* .main-patio-de-uco {
-   left:0
-    display: flex;
-    align-items: center;
-  } */
+
   .img-patio-de-uco-green {
     top: 0;
     left: 0;
@@ -300,11 +272,7 @@
     text-align: center;
     line-height: 11.5em;
   }
-  /* .main-termitiere-de-uco {
-   left:0
-    display: flex;
-    align-items: center;
-  } */
+
   .img-termitiere-green {
     top: 0;
     left: 0;
