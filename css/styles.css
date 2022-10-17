@@ -154,7 +154,10 @@ h1 {
     #243c33 83.33%,
     #19372e 100%
   );
-  display: none;
+  opacity: 0;
+}
+.transition--opacity--green {
+  transition-delay: 0.5s;
 }
 /* img atelier end */
 
@@ -232,7 +235,7 @@ h1 {
     #243c33 83.33%,
     #19372e 100%
   );
-  display: none;
+  opacity: 0;
 }
 /* img-ciudad-parque-end */
 
@@ -303,7 +306,7 @@ h1 {
     #243c33 83.33%,
     #19372e 100%
   );
-  display: none;
+  opacity: 0;
 }
 
 /*img-torre-dual-end */
@@ -365,7 +368,7 @@ h1 {
     #243c33 83.33%,
     #19372e 100%
   );
-  display: none;
+  opacity: 0;
 }
 
 .main-img-santiago {
@@ -436,7 +439,7 @@ h1 {
     #243c33 83.33%,
     #19372e 100%
   );
-  display: none;
+  opacity: 0;
 }
 
 .main-img-corrientes {
@@ -505,7 +508,7 @@ h1 {
     #243c33 83.33%,
     #19372e 100%
   );
-  display: none;
+  opacity: 0;
 }
 
 .main-img-patio-de-uco {
@@ -575,7 +578,7 @@ h1 {
     #243c33 83.33%,
     #19372e 100%
   );
-  display: none;
+  opacity: 0;
 }
 
 .main-img-termitiere {

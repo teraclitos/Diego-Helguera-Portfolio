@@ -27,42 +27,48 @@ const textHoverInImg = (title) => {
 
       imgAtelier.style.opacity = "0.5";
       imgAtelier.style.transition = "0.5s";
-      atelierGreen.style.display = "block";
+      atelierGreen.style.opacity = "1";
+      atelierGreen.classList.remove("transition--opacity--green");
 
       break;
     case "ciudadParque":
       textCiudadParque.style.display = "inline-block";
       imgCiudadParque.style.opacity = "0.5";
       imgCiudadParque.style.transition = "0.5s";
-      ciudadParqueGreen.style.display = "block";
+      ciudadParqueGreen.style.opacity = "1";
+      ciudadParqueGreen.classList.remove("transition--opacity--green");
 
       break;
     case "torreDual":
       textTorreDual.style.display = "inline-block";
       imgTorreDual.style.opacity = "0.5";
       imgTorreDual.style.transition = "0.5s";
-      torreDualGreen.style.display = "block";
+      torreDualGreen.style.opacity = "1";
+      torreDualGreen.classList.remove("transition--opacity--green");
 
       break;
     case "santiago":
       textSantiago.style.display = "inline-block";
       imgSantiago.style.opacity = "0.5";
       imgSantiago.style.transition = "0.5s";
-      santiagoGreen.style.display = "block";
+      santiagoGreen.style.opacity = "1";
+      santiagoGreen.classList.remove("transition--opacity--green");
 
       break;
     case "corrientes":
       textCorrientes.style.display = "inline-block";
       imgCorrientes.style.opacity = "0.5";
       imgCorrientes.style.transition = "0.5s";
-      corrientesGreen.style.display = "block";
+      corrientesGreen.style.opacity = "1";
+      corrientesGreen.classList.remove("transition--opacity--green");
 
       break;
     case "patioDeUco":
       textPatioDeUco.style.display = "inline-block";
       imgPatioDeUco.style.opacity = "0.5";
       imgPatioDeUco.style.transition = "0.5s";
-      patioDeUcoGreen.style.display = "block";
+      patioDeUcoGreen.style.opacity = "1";
+      patioDeUcoGreen.classList.remove("transition--opacity--green");
 
       break;
 
@@ -70,7 +76,8 @@ const textHoverInImg = (title) => {
       textTermitiere.style.display = "inline-block";
       imgTermitiere.style.opacity = "0.5";
       imgTermitiere.style.transition = "0.5s";
-      termitiereGreen.style.display = "block";
+      termitiereGreen.style.opacity = "1";
+      termitiereGreen.classList.remove("transition--opacity--green");
       break;
   }
 };
@@ -80,51 +87,58 @@ const textHoverOutImg = (title) => {
     case "atelier":
       textAtelier.style.display = "none";
       imgAtelier.style.opacity = "1";
-      imgAtelier.style.transition = "none";
-      atelierGreen.style.display = "none";
+      imgAtelier.style.transition = "0.5";
+      atelierGreen.style.opacity = "0";
+      atelierGreen.classList.add("transition--opacity--green");
 
       break;
     case "ciudadParque":
       textCiudadParque.style.display = "none";
       imgCiudadParque.style.opacity = "1";
-      imgCiudadParque.style.transition = "none";
-      ciudadParqueGreen.style.display = "none";
+      imgCiudadParque.style.transition = "0.5s";
+      ciudadParqueGreen.style.opacity = "0";
+      ciudadParqueGreen.classList.add("transition--opacity--green");
 
       break;
     case "torreDual":
       textTorreDual.style.display = "none";
       imgTorreDual.style.opacity = "1";
-      imgTorreDual.style.transition = "none";
-      torreDualGreen.style.display = "none";
+      imgTorreDual.style.transition = "0.5s";
+      torreDualGreen.style.opacity = "0";
+      torreDualGreen.classList.add("transition--opacity--green");
 
       break;
     case "santiago":
       textSantiago.style.display = "none";
       imgSantiago.style.opacity = "1";
-      imgSantiago.style.transition = "none";
-      santiagoGreen.style.display = "none";
+      imgSantiago.style.transition = "0.5s";
+      santiagoGreen.style.opacity = "0";
+      santiagoGreen.classList.add("transition--opacity--green");
 
       break;
     case "corrientes":
       textCorrientes.style.display = "none";
       imgCorrientes.style.opacity = "1";
-      imgCorrientes.style.transition = "none";
-      corrientesGreen.style.display = "none";
+      imgCorrientes.style.transition = "0.5s";
+      corrientesGreen.style.opacity = "0";
+      corrientesGreen.classList.add("transition--opacity--green");
 
       break;
     case "patioDeUco":
       textPatioDeUco.style.display = "none";
       imgPatioDeUco.style.opacity = "1";
-      imgPatioDeUco.style.transition = "none";
-      patioDeUcoGreen.style.display = "none";
+      imgPatioDeUco.style.transition = "0.5s";
+      patioDeUcoGreen.style.opacity = "0";
+      patioDeUcoGreen.classList.add("transition--opacity--green");
 
       break;
 
     default:
       textTermitiere.style.display = "none";
       imgTermitiere.style.opacity = "1";
-      imgTermitiere.style.transition = "none";
-      termitiereGreen.style.display = "none";
+      imgTermitiere.style.transition = "0.5s";
+      termitiereGreen.style.opacity = "0";
+      termitiereGreen.classList.add("transition--opacity--green");
       break;
   }
 };
