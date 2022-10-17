@@ -182,14 +182,15 @@ const slideNatVarOut = () => {
 };
 
 const loader = document.getElementById("loader");
+
 const finishLoading = () => {
-  setTimeout(() => {
-    loader.style.display = "none";
-  }, 3000);
+  loader.style.display = "none";
 };
 
 window.addEventListener("load", () => {
-  finishLoading();
+  setTimeout(() => {
+    finishLoading();
+  }, 3000);
 });
 
 scrollRedes();
