@@ -25,42 +25,42 @@ const textHoverInImg = (title) => {
     case "atelier":
       textAtelier.style.display = "inline-block";
 
-      imgAtelier.style.opacity = "0.3";
+      imgAtelier.style.opacity = "0.5";
       imgAtelier.style.transition = "0.5s";
       atelierGreen.style.display = "block";
 
       break;
     case "ciudadParque":
       textCiudadParque.style.display = "inline-block";
-      imgCiudadParque.style.opacity = "0.3";
+      imgCiudadParque.style.opacity = "0.5";
       imgCiudadParque.style.transition = "0.5s";
       ciudadParqueGreen.style.display = "block";
 
       break;
     case "torreDual":
       textTorreDual.style.display = "inline-block";
-      imgTorreDual.style.opacity = "0.3";
+      imgTorreDual.style.opacity = "0.5";
       imgTorreDual.style.transition = "0.5s";
       torreDualGreen.style.display = "block";
 
       break;
     case "santiago":
       textSantiago.style.display = "inline-block";
-      imgSantiago.style.opacity = "0.3";
+      imgSantiago.style.opacity = "0.5";
       imgSantiago.style.transition = "0.5s";
       santiagoGreen.style.display = "block";
 
       break;
     case "corrientes":
       textCorrientes.style.display = "inline-block";
-      imgCorrientes.style.opacity = "0.3";
+      imgCorrientes.style.opacity = "0.5";
       imgCorrientes.style.transition = "0.5s";
       corrientesGreen.style.display = "block";
 
       break;
     case "patioDeUco":
       textPatioDeUco.style.display = "inline-block";
-      imgPatioDeUco.style.opacity = "0.3";
+      imgPatioDeUco.style.opacity = "0.5";
       imgPatioDeUco.style.transition = "0.5s";
       patioDeUcoGreen.style.display = "block";
 
@@ -68,7 +68,7 @@ const textHoverInImg = (title) => {
 
     default:
       textTermitiere.style.display = "inline-block";
-      imgTermitiere.style.opacity = "0.3";
+      imgTermitiere.style.opacity = "0.5";
       imgTermitiere.style.transition = "0.5s";
       termitiereGreen.style.display = "block";
       break;
