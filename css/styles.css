@@ -129,7 +129,7 @@ h1 {
   position: absolute;
   top: 7em;
   left: 4em;
-  cursor: pointer;
+
   width: calc(8.4375em * 3);
 
   height: calc(5.625em * 3);
@@ -174,9 +174,9 @@ h1 {
 
   left: 4em;
 
-  width: calc(8.4375em * 3);
+  width: calc(11.8125em * 2.8);
 
-  height: calc(5.625em * 3);
+  height: calc(5.625em * 2.8);
   cursor: pointer;
 }
 .ciudad-parque-text {
