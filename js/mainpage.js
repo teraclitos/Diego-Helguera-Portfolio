@@ -181,6 +181,15 @@ const slideNatVarOut = () => {
   }
 };
 
+let loader = document.getElementById("loader");
+const finishLoading = () => {
+  loader.style.display = "none";
+};
+
+window.addEventListener("load", () => {
+  finishLoading();
+});
+
 // const RenderWideScreen = () => {
 //   if (document.documentElement.clientWidth > 992) {
 //     linksNatVar.style.display = "flex";

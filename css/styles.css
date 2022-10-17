@@ -3,6 +3,16 @@
 /* paleta de colores:
    rojo:#d65f37
    azul:#303c4e*/
+
+.loader {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background: rgb(255, 255, 255) url(/documentation/loader.gif) no-repeat center
+    center;
+  background-size: 20%;
+}
 html {
   scroll-behavior: smooth;
 }
