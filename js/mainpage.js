@@ -183,7 +183,9 @@ const slideNatVarOut = () => {
 
 let loader = document.getElementById("loader");
 const finishLoading = () => {
-  loader.style.display = "none";
+  setTimeout(() => {
+    loader.style.display = "none";
+  }, 3000);
 };
 
 window.addEventListener("load", () => {
