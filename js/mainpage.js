@@ -130,24 +130,25 @@ const textHoverOutImg = (title) => {
 };
 
 const socialIcons = document.getElementById("social-icons");
-
 const scrollRedes = () => {
-  document.addEventListener("scroll", function (e) {
-    let documentHeight = document.body.scrollHeight;
-    let currentScroll = window.scrollY + window.innerHeight;
-    // When the user is [modifier]px from the bottom, fire the event.
-    let modifier = 75;
-    if (screen.width < 768) {
-      if (currentScroll + modifier > documentHeight) {
-        socialIcons.style.display = "flex";
-      } else {
-        socialIcons.style.display = "none";
-      }
-    } else {
+  let documentHeight = document.body.scrollHeight;
+  let currentScroll = window.scrollY + window.innerHeight;
+  // When the user is [modifier]px from the bottom, fire the event.
+  let modifier = 75;
+  if (screen.width < 768) {
+    if (currentScroll > documentHeight - modifier) {
       socialIcons.style.display = "flex";
+    } else {
+      socialIcons.style.display = "none";
     }
-  });
+  } else {
+    socialIcons.style.display = "flex";
+  }
 };
+
+document.addEventListener("scroll", () => {
+  scrollRedes();
+});
 const natVar = document.getElementById("nat-var");
 const linksNatVar = document.getElementById("links-nat-var");
 const titleDiego = document.getElementById("title-diego");
@@ -192,5 +193,3 @@ window.addEventListener("load", () => {
     finishLoading();
   }, 3000);
 });
-
-scrollRedes();
