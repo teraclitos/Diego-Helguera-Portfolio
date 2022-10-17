@@ -190,20 +190,4 @@ window.addEventListener("load", () => {
   finishLoading();
 });
 
-// const RenderWideScreen = () => {
-//   if (document.documentElement.clientWidth > 992) {
-//     linksNatVar.style.display = "flex";
-
-//     natVar.style.gridTemplateRows = "5em ";
-//   } else {
-//     linksNatVar.style.display = "none";
-
-//     natVar.style.gridTemplateRows = "5em 12em";
-//   }
-// };
-
-// window.addEventListener("mouseover", () => {
-//   RenderWideScreen();
-// });
-
 scrollRedes();

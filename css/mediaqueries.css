@@ -341,6 +341,9 @@
   }
 }
 @media (max-width: 768px) {
+  .loader {
+    background-size: 40%;
+  }
   .main-body {
     font-size: 12px;
   }
