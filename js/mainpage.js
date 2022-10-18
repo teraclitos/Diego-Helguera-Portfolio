@@ -26,7 +26,7 @@ const textHoverInImg = (title) => {
       textAtelier.style.display = "inline-block";
 
       imgAtelier.style.opacity = "0.5";
-      imgAtelier.style.transition = "0.5s";
+      imgAtelier.classList.add("transition--opacity--img");
       atelierGreen.style.opacity = "1";
       atelierGreen.classList.remove("transition--opacity--green");
 
@@ -34,7 +34,7 @@ const textHoverInImg = (title) => {
     case "ciudadParque":
       textCiudadParque.style.display = "inline-block";
       imgCiudadParque.style.opacity = "0.5";
-      imgCiudadParque.style.transition = "0.5s";
+      imgCiudadParque.classList.add("transition--opacity--img");
       ciudadParqueGreen.style.opacity = "1";
       ciudadParqueGreen.classList.remove("transition--opacity--green");
 
@@ -42,7 +42,7 @@ const textHoverInImg = (title) => {
     case "torreDual":
       textTorreDual.style.display = "inline-block";
       imgTorreDual.style.opacity = "0.5";
-      imgTorreDual.style.transition = "0.5s";
+      imgTorreDual.classList.add("transition--opacity--img");
       torreDualGreen.style.opacity = "1";
       torreDualGreen.classList.remove("transition--opacity--green");
 
@@ -50,7 +50,7 @@ const textHoverInImg = (title) => {
     case "santiago":
       textSantiago.style.display = "inline-block";
       imgSantiago.style.opacity = "0.5";
-      imgSantiago.style.transition = "0.5s";
+      imgSantiago.classList.add("transition--opacity--img");
       santiagoGreen.style.opacity = "1";
       santiagoGreen.classList.remove("transition--opacity--green");
 
@@ -58,7 +58,7 @@ const textHoverInImg = (title) => {
     case "corrientes":
       textCorrientes.style.display = "inline-block";
       imgCorrientes.style.opacity = "0.5";
-      imgCorrientes.style.transition = "0.5s";
+      imgCorrientes.classList.add("transition--opacity--img");
       corrientesGreen.style.opacity = "1";
       corrientesGreen.classList.remove("transition--opacity--green");
 
@@ -66,7 +66,7 @@ const textHoverInImg = (title) => {
     case "patioDeUco":
       textPatioDeUco.style.display = "inline-block";
       imgPatioDeUco.style.opacity = "0.5";
-      imgPatioDeUco.style.transition = "0.5s";
+      imgPatioDeUco.classList.add("transition--opacity--img");
       patioDeUcoGreen.style.opacity = "1";
       patioDeUcoGreen.classList.remove("transition--opacity--green");
 
@@ -75,7 +75,7 @@ const textHoverInImg = (title) => {
     default:
       textTermitiere.style.display = "inline-block";
       imgTermitiere.style.opacity = "0.5";
-      imgTermitiere.style.transition = "0.5s";
+      imgTermitiere.classList.add("transition--opacity--img");
       termitiereGreen.style.opacity = "1";
       termitiereGreen.classList.remove("transition--opacity--green");
       break;
@@ -87,7 +87,7 @@ const textHoverOutImg = (title) => {
     case "atelier":
       textAtelier.style.display = "none";
       imgAtelier.style.opacity = "1";
-      imgAtelier.style.transition = "0.5";
+
       atelierGreen.style.opacity = "0";
       atelierGreen.classList.add("transition--opacity--green");
 
@@ -95,7 +95,7 @@ const textHoverOutImg = (title) => {
     case "ciudadParque":
       textCiudadParque.style.display = "none";
       imgCiudadParque.style.opacity = "1";
-      imgCiudadParque.style.transition = "0.5s";
+
       ciudadParqueGreen.style.opacity = "0";
       ciudadParqueGreen.classList.add("transition--opacity--green");
 
@@ -103,7 +103,7 @@ const textHoverOutImg = (title) => {
     case "torreDual":
       textTorreDual.style.display = "none";
       imgTorreDual.style.opacity = "1";
-      imgTorreDual.style.transition = "0.5s";
+
       torreDualGreen.style.opacity = "0";
       torreDualGreen.classList.add("transition--opacity--green");
 
@@ -111,7 +111,7 @@ const textHoverOutImg = (title) => {
     case "santiago":
       textSantiago.style.display = "none";
       imgSantiago.style.opacity = "1";
-      imgSantiago.style.transition = "0.5s";
+
       santiagoGreen.style.opacity = "0";
       santiagoGreen.classList.add("transition--opacity--green");
 
@@ -119,7 +119,7 @@ const textHoverOutImg = (title) => {
     case "corrientes":
       textCorrientes.style.display = "none";
       imgCorrientes.style.opacity = "1";
-      imgCorrientes.style.transition = "0.5s";
+
       corrientesGreen.style.opacity = "0";
       corrientesGreen.classList.add("transition--opacity--green");
 
@@ -127,7 +127,7 @@ const textHoverOutImg = (title) => {
     case "patioDeUco":
       textPatioDeUco.style.display = "none";
       imgPatioDeUco.style.opacity = "1";
-      imgPatioDeUco.style.transition = "0.5s";
+
       patioDeUcoGreen.style.opacity = "0";
       patioDeUcoGreen.classList.add("transition--opacity--green");
 
@@ -136,7 +136,7 @@ const textHoverOutImg = (title) => {
     default:
       textTermitiere.style.display = "none";
       imgTermitiere.style.opacity = "1";
-      imgTermitiere.style.transition = "0.5s";
+
       termitiereGreen.style.opacity = "0";
       termitiereGreen.classList.add("transition--opacity--green");
       break;

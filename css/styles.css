@@ -121,7 +121,7 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 10;
+
   display: none;
 }
 .main-img-atelier {
@@ -155,6 +155,9 @@ h1 {
     #19372e 100%
   );
   opacity: 0;
+}
+.transition--opacity--img {
+  transition-duration: 0.5s;
 }
 .transition--opacity--green {
   transition-delay: 0.5s;
@@ -200,7 +203,7 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 10;
+
   display: none;
 }
 
@@ -275,7 +278,7 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 10;
+
   display: none;
 }
 .main-img-torre-dual {
@@ -287,8 +290,6 @@ h1 {
   z-index: 0;
 }
 .img-torre-dual-green {
-  cursor: pointer;
-
   height: calc(8.971em * 3.2);
 
   width: calc(5.625em * 3.2);
@@ -347,7 +348,7 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 10;
+
   display: none;
 }
 .img-santiago-green {
@@ -418,7 +419,7 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 10;
+
   display: none;
 }
 .img-corrientes-green {
@@ -488,7 +489,7 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 10;
+
   display: none;
 }
 .img-patio-de-uco-green {
@@ -557,7 +558,7 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 10;
+
   display: none;
 }
 .img-termitiere-green {
