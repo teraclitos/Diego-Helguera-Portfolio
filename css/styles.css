@@ -106,9 +106,7 @@ h1 {
   top: 7em;
   left: 4em;
 }
-.transition--opacity--img {
-  transition-duration: 0.5s;
-}
+
 .transition--opacity--green {
   transition-delay: 0.5s;
 }
@@ -275,6 +273,11 @@ h1 {
 .img-common-properties {
   cursor: pointer;
   z-index: 0;
+  transition: 0.5s;
+}
+
+.img-common-properties:hover {
+  opacity: 0.5;
 }
 
 .img-green-common-properties {
