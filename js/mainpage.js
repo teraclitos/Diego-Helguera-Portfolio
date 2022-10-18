@@ -16,51 +16,44 @@ const termitiereGreen = document.getElementById("termitiere-green");
 const textHoverInImg = (title) => {
   switch (title) {
     case "atelier":
-      textAtelier.style.display = "inline-block";
-
+      textAtelier.style.opacity = "1";
       atelierGreen.style.opacity = "1";
       atelierGreen.classList.remove("transition--opacity--green");
 
       break;
     case "ciudadParque":
-      textCiudadParque.style.display = "inline-block";
-
+      textCiudadParque.style.opacity = "1";
       ciudadParqueGreen.style.opacity = "1";
       ciudadParqueGreen.classList.remove("transition--opacity--green");
 
       break;
     case "torreDual":
-      textTorreDual.style.display = "inline-block";
-
+      textTorreDual.style.opacity = "1";
       torreDualGreen.style.opacity = "1";
       torreDualGreen.classList.remove("transition--opacity--green");
 
       break;
     case "santiago":
-      textSantiago.style.display = "inline-block";
-
+      textSantiago.style.opacity = "1";
       santiagoGreen.style.opacity = "1";
       santiagoGreen.classList.remove("transition--opacity--green");
 
       break;
     case "corrientes":
-      textCorrientes.style.display = "inline-block";
-
+      textCorrientes.style.opacity = "1";
       corrientesGreen.style.opacity = "1";
       corrientesGreen.classList.remove("transition--opacity--green");
 
       break;
     case "patioDeUco":
-      textPatioDeUco.style.display = "inline-block";
-
+      textPatioDeUco.style.opacity = "1";
       patioDeUcoGreen.style.opacity = "1";
       patioDeUcoGreen.classList.remove("transition--opacity--green");
 
       break;
 
     default:
-      textTermitiere.style.display = "inline-block";
-
+      textTermitiere.style.opacity = "1";
       termitiereGreen.style.opacity = "1";
       termitiereGreen.classList.remove("transition--opacity--green");
       break;
@@ -70,51 +63,44 @@ const textHoverInImg = (title) => {
 const textHoverOutImg = (title) => {
   switch (title) {
     case "atelier":
-      textAtelier.style.display = "none";
-
+      textAtelier.style.opacity = "0";
       atelierGreen.style.opacity = "0";
       atelierGreen.classList.add("transition--opacity--green");
 
       break;
     case "ciudadParque":
-      textCiudadParque.style.display = "none";
-
+      textCiudadParque.style.opacity = "0";
       ciudadParqueGreen.style.opacity = "0";
       ciudadParqueGreen.classList.add("transition--opacity--green");
 
       break;
     case "torreDual":
-      textTorreDual.style.display = "none";
-
+      textTorreDual.style.opacity = "0";
       torreDualGreen.style.opacity = "0";
       torreDualGreen.classList.add("transition--opacity--green");
 
       break;
     case "santiago":
-      textSantiago.style.display = "none";
-
+      textSantiago.style.opacity = "0";
       santiagoGreen.style.opacity = "0";
       santiagoGreen.classList.add("transition--opacity--green");
 
       break;
     case "corrientes":
-      textCorrientes.style.display = "none";
-
+      textCorrientes.style.opacity = "0";
       corrientesGreen.style.opacity = "0";
       corrientesGreen.classList.add("transition--opacity--green");
 
       break;
     case "patioDeUco":
-      textPatioDeUco.style.display = "none";
-
+      textPatioDeUco.style.opacity = "0";
       patioDeUcoGreen.style.opacity = "0";
       patioDeUcoGreen.classList.add("transition--opacity--green");
 
       break;
 
     default:
-      textTermitiere.style.display = "none";
-
+      textTermitiere.style.opacity = "0";
       termitiereGreen.style.opacity = "0";
       termitiereGreen.classList.add("transition--opacity--green");
       break;

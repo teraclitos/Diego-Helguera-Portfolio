@@ -267,8 +267,9 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: 0.5s;
 
-  display: none;
+  opacity: 0;
 }
 .img-common-properties {
   cursor: pointer;
