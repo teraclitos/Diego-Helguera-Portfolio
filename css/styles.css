@@ -3,6 +3,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* preloader */
 .loader {
   width: 100%;
   height: 100vh;
@@ -64,6 +66,7 @@ html {
     opacity: 0;
   }
 }
+/* preloader end */
 .body-container {
   width: 100%;
   display: flex;
@@ -73,6 +76,8 @@ html {
 .body-overflow-preloader {
   overflow: hidden;
 }
+
+/* natvar */
 
 .nat-var-container {
   width: 100%;
@@ -124,6 +129,8 @@ h1 {
   font-size: 1em;
   user-select: none;
 }
+/* nat var end */
+
 .main-body {
   width: 80%;
 
