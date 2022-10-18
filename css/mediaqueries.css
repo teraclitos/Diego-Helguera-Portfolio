@@ -46,16 +46,17 @@
     padding-bottom: 0em;
     padding-right: 0em;
     gap: 3em;
+    height: 12em;
 
-    animation: slide-nav;
+    animation: slide-nav 0.75s;
   }
 
   @keyframes slide-nav {
     from {
-      transform: translatey(-100%);
+      height: 0em;
     }
     to {
-      transform: translatey(0%);
+      height: 12em;
     }
   }
   .grid-projects {

@@ -143,22 +143,17 @@ const slideNatVar = () => {
   if (screen.width < 992) {
     if (linksNatVar.style.display === "none") {
       linksNatVar.style.display = "flex";
-
-      natVar.style.gridTemplateRows = "5em 12em";
     } else {
       linksNatVar.style.display = "none";
-
-      natVar.style.gridTemplateRows = "5em ";
     }
   }
 };
 const slideNatVarOut = () => {
   if (screen.width < 992) {
     linksNatVar.style.display = "none";
-
-    natVar.style.gridTemplateRows = "5em ";
   }
 };
+
 const loader = document.getElementById("loader");
 const body = document.getElementById("body");
 
