@@ -212,7 +212,7 @@ const imgAtelier = document.getElementById("img-atelier");
 
 const modalAtelier = () => {
   body.style.position = "relative";
-  body.style.height = "455vh";
+  body.style.height = "250rem";
 
   atelierModalBackground.style.display = "flex";
   atelierModalContainer.style.display = "flex";
