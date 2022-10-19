@@ -147,12 +147,14 @@ const slideNatVar = () => {
     if (linksNatVar.style.display === "none") {
       linksNatVar.style.display = "flex";
       linksNatVar.classList.add("slide--nav");
+      linkContact.classList.add("link-contact-open");
       linksNatVar.classList.remove("slide--nav--fold");
       linkContact.classList.remove("link-contact-vanish");
       linkMe.classList.remove("link-me-vanish");
       linkProject.classList.remove("link-project-vanish");
     } else {
       linksNatVar.classList.remove("slide--nav");
+      linkContact.classList.remove("link-contact-open");
       linksNatVar.classList.add("slide--nav--fold");
       linkContact.classList.add("link-contact-vanish");
       linkMe.classList.add("link-me-vanish");
@@ -167,6 +169,7 @@ const slideNatVar = () => {
 const slideNatVarOut = () => {
   if (screen.width < 992) {
     linksNatVar.classList.remove("slide--nav");
+    linkContact.classList.remove("link-contact-open");
     linksNatVar.classList.add("slide--nav--fold");
     linkContact.classList.add("link-contact-vanish");
     linkMe.classList.add("link-me-vanish");

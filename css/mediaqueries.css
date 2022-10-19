@@ -47,6 +47,7 @@
     padding-right: 0em;
     gap: 3em;
   }
+
   .slide--nav {
     height: 12em;
     animation: slide-nav 0.5s;
@@ -85,6 +86,18 @@
 
   .link-project-vanish {
     opacity: 0;
+  }
+  .link-contact-open {
+    animation: contact-open 0.6s;
+  }
+
+  @keyframes contact-open {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
   .grid-projects {
