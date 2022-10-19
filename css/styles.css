@@ -372,9 +372,9 @@ h1 {
   background-color: #303c4e;
   width: 100%;
   position: fixed;
-  left: 0px;
-  bottom: 0px;
-  z-index: -2;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
   height: 112px;
   font-size: 14px;
 }
@@ -391,7 +391,6 @@ h1 {
   display: flex;
 
   gap: 1em;
-  z-index: 0;
 }
 .social-icon {
   color: white;
@@ -411,7 +410,7 @@ h1 {
 }
 /* footer */
 
-.modal-background {
+/* .modal-background {
   background-color: rgb(225, 205, 205);
   opacity: 0.8;
   width: 100%;
@@ -434,4 +433,4 @@ h1 {
 
   height: 231rem;
   z-index: 100;
-}
+} */
