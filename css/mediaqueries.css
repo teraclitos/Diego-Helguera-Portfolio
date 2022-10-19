@@ -87,6 +87,28 @@
   .link-project-vanish {
     opacity: 0;
   }
+  .link-project-open {
+    animation: project-open 0.3s;
+  }
+  @keyframes project-open {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link-me-open {
+    animation: me-open 0.5s;
+  }
+  @keyframes me-open {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
   .link-contact-open {
     animation: contact-open 0.6s;
   }

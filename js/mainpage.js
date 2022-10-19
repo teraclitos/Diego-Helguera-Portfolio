@@ -147,6 +147,8 @@ const slideNatVar = () => {
     if (linksNatVar.style.display === "none") {
       linksNatVar.style.display = "flex";
       linksNatVar.classList.add("slide--nav");
+      linkProject.classList.add("link-project-open");
+      linkMe.classList.add("link-me-open");
       linkContact.classList.add("link-contact-open");
       linksNatVar.classList.remove("slide--nav--fold");
       linkContact.classList.remove("link-contact-vanish");
@@ -155,6 +157,8 @@ const slideNatVar = () => {
     } else {
       linksNatVar.classList.remove("slide--nav");
       linkContact.classList.remove("link-contact-open");
+      linkMe.classList.remove("link-me-open");
+      linkProject.classList.remove("link-project-open");
       linksNatVar.classList.add("slide--nav--fold");
       linkContact.classList.add("link-contact-vanish");
       linkMe.classList.add("link-me-vanish");
@@ -170,6 +174,8 @@ const slideNatVarOut = () => {
   if (screen.width < 992) {
     linksNatVar.classList.remove("slide--nav");
     linkContact.classList.remove("link-contact-open");
+    linkMe.classList.remove("link-me-open");
+    linkProject.classList.remove("link-project-open");
     linksNatVar.classList.add("slide--nav--fold");
     linkContact.classList.add("link-contact-vanish");
     linkMe.classList.add("link-me-vanish");
