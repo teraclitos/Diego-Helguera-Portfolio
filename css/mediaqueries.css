@@ -88,7 +88,7 @@
     opacity: 0;
   }
   .link-project-open {
-    animation: project-open 0.5s;
+    animation: project-open 0.6s;
   }
   @keyframes project-open {
     from {
@@ -99,7 +99,7 @@
     }
   }
   .link-me-open {
-    animation: me-open 0.6s;
+    animation: me-open 0.65s;
   }
   @keyframes me-open {
     from {
@@ -110,7 +110,7 @@
     }
   }
   .link-contact-open {
-    animation: contact-open 0.7s;
+    animation: contact-open 0.75s;
   }
 
   @keyframes contact-open {
