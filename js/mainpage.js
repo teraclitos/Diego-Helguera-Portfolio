@@ -150,7 +150,7 @@ const slideNatVar = () => {
       linksNatVar.classList.add("slide--nav--fold");
       setTimeout(() => {
         linksNatVar.style.display = "none";
-      }, 500);
+      }, 480);
     }
   }
 };
@@ -160,7 +160,7 @@ const slideNatVarOut = () => {
     linksNatVar.classList.add("slide--nav--fold");
     setTimeout(() => {
       linksNatVar.style.display = "none";
-    }, 500);
+    }, 480);
   }
 };
 
