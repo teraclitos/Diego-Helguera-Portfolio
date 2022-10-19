@@ -72,8 +72,19 @@
 
     to {
       height: 0;
-      opacity: 0;
     }
+  }
+
+  .link-contact-vanish {
+    opacity: 0;
+  }
+
+  .link-me-vanish {
+    opacity: 0;
+  }
+
+  .link-project-vanish {
+    opacity: 0;
   }
 
   .grid-projects {

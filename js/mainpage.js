@@ -131,6 +131,9 @@ const natVar = document.getElementById("nat-var");
 const linksNatVar = document.getElementById("links-nat-var");
 const titleDiego = document.getElementById("title-diego");
 const mainBody = document.getElementById("main-body");
+const linkProject = document.getElementById("project-link");
+const linkMe = document.getElementById("me-link");
+const linkContact = document.getElementById("contact-link");
 
 const inyectDisplayNoneLinksNarrowScreen = () => {
   if (screen.width < 992) {
@@ -145,9 +148,16 @@ const slideNatVar = () => {
       linksNatVar.style.display = "flex";
       linksNatVar.classList.add("slide--nav");
       linksNatVar.classList.remove("slide--nav--fold");
+      linkContact.classList.remove("link-contact-vanish");
+      linkMe.classList.remove("link-me-vanish");
+      linkProject.classList.remove("link-project-vanish");
     } else {
       linksNatVar.classList.remove("slide--nav");
       linksNatVar.classList.add("slide--nav--fold");
+      linkContact.classList.add("link-contact-vanish");
+      linkMe.classList.add("link-me-vanish");
+      linkProject.classList.add("link-project-vanish");
+
       setTimeout(() => {
         linksNatVar.style.display = "none";
       }, 480);
@@ -158,6 +168,9 @@ const slideNatVarOut = () => {
   if (screen.width < 992) {
     linksNatVar.classList.remove("slide--nav");
     linksNatVar.classList.add("slide--nav--fold");
+    linkContact.classList.add("link-contact-vanish");
+    linkMe.classList.add("link-me-vanish");
+    linkProject.classList.add("link-project-vanish");
     setTimeout(() => {
       linksNatVar.style.display = "none";
     }, 480);

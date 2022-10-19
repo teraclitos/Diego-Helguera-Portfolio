@@ -123,12 +123,19 @@ h1 {
   color: #d65f37;
   transition: 0.5s;
 }
+.project-link {
+  transition: opacity 0.1s;
+}
+.me-link {
+  transition: opacity 0.4s;
+}
 
-.contacto-link {
+.contact-link {
   font-family: Arial, Helvetica, sans-serif;
   color: #d65f37;
   font-size: 1em;
   user-select: none;
+  transition: opacity 0.1s;
 }
 /* nat var end */
 
