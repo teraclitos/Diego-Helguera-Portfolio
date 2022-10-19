@@ -411,3 +411,28 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 /* footer */
+
+.modal-background {
+  background-color: rgb(225, 205, 205);
+  opacity: 0.8;
+  width: 100%;
+  height: 455vh;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+
+  z-index: 50;
+}
+.modal-atelier-container {
+  width: 100%;
+  background-color: #848282;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  height: 410vh;
+  z-index: 100;
+}

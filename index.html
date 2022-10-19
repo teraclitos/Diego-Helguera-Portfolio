@@ -58,6 +58,7 @@
             Atelier
           </h3>
           <img
+            onclick="modalAtelier()"
             onmouseenter="textHoverInImg(`atelier`)"
             onmouseleave="textHoverOutImg(`atelier`)"
             id="img-atelier"
@@ -208,6 +209,17 @@
     <footer class="footer">
       <div class="white-line-footer"></div>
     </footer>
+
+    <section
+      id="modal-atelier-background"
+      style="display: none; height: 455vh"
+      class="modal-background"
+    ></section>
+    <div
+      style="display: none"
+      id="modal-atelier-container"
+      class="modal modal-atelier-container"
+    ></div>
 
     <script src="/js/mainpage.js"></script>
   </body>
