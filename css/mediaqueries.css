@@ -46,9 +46,14 @@
     padding-bottom: 0em;
     padding-right: 0em;
     gap: 3em;
+  }
+  .slide--nav {
     height: 12em;
-
-    animation: slide-nav 0.75s;
+    animation: slide-nav 0.5s;
+  }
+  .slide--nav--fold {
+    height: 0;
+    animation: slide-nav-fold 0.5s;
   }
 
   @keyframes slide-nav {
@@ -59,6 +64,18 @@
       height: 12em;
     }
   }
+
+  @keyframes slide-nav-fold {
+    from {
+      height: 12em;
+    }
+
+    to {
+      height: 0;
+      opacity: 0;
+    }
+  }
+
   .grid-projects {
     grid-template-columns: 1fr;
     grid-template-rows: 16.875em 16.875em 28.7072em 16.875em 19.6875em 19.6875em 26em;

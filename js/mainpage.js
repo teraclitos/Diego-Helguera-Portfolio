@@ -143,14 +143,24 @@ const slideNatVar = () => {
   if (screen.width < 992) {
     if (linksNatVar.style.display === "none") {
       linksNatVar.style.display = "flex";
+      linksNatVar.classList.add("slide--nav");
+      linksNatVar.classList.remove("slide--nav--fold");
     } else {
-      linksNatVar.style.display = "none";
+      linksNatVar.classList.remove("slide--nav");
+      linksNatVar.classList.add("slide--nav--fold");
+      setTimeout(() => {
+        linksNatVar.style.display = "none";
+      }, 500);
     }
   }
 };
 const slideNatVarOut = () => {
   if (screen.width < 992) {
-    linksNatVar.style.display = "none";
+    linksNatVar.classList.remove("slide--nav");
+    linksNatVar.classList.add("slide--nav--fold");
+    setTimeout(() => {
+      linksNatVar.style.display = "none";
+    }, 500);
   }
 };
 
