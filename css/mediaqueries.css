@@ -11,9 +11,9 @@
   .footer {
     font-size: 10px;
   }
-  .modal-atelier-container {
+  /* .modal-atelier-container {
     height: 235rem;
-  }
+  } */
 }
 
 @media (max-width: 991.98px) {
@@ -211,17 +211,17 @@
   .termitiere-text {
     line-height: 11em;
   }
-  .modal-atelier-container {
+  /* .modal-atelier-container {
     height: 225rem;
-  }
+  } */
 }
 @media (max-width: 576px) {
   .main-body {
     font-size: 10px;
   }
-  .modal-atelier-container {
+  /* .modal-atelier-container {
     height: 229rem;
-  }
+  } */
 }
 @media (max-width: 450px) {
   .main-body {

@@ -202,20 +202,20 @@ window.addEventListener("load", () => {
     finishLoading();
   }, 3000);
 });
-const atelierModalBackground = document.getElementById(
-  "modal-atelier-background"
-);
-const atelierModalContainer = document.getElementById(
-  "modal-atelier-container"
-);
-const imgAtelier = document.getElementById("img-atelier");
+// const atelierModalBackground = document.getElementById(
+//   "modal-atelier-background"
+// );
+// const atelierModalContainer = document.getElementById(
+//   "modal-atelier-container"
+// );
+// const imgAtelier = document.getElementById("img-atelier");
 
-const modalAtelier = () => {
-  body.style.position = "relative";
-  body.style.height = "250rem";
+// const modalAtelier = () => {
+//   body.style.position = "relative";
+//   body.style.height = "250rem";
 
-  atelierModalBackground.style.display = "flex";
-  atelierModalContainer.style.display = "flex";
-  imgAtelier.style.zIndex = "150";
-  imgAtelier.style.pointerEvents = "none";
-};
+//   atelierModalBackground.style.display = "flex";
+//   atelierModalContainer.style.display = "flex";
+//   imgAtelier.style.zIndex = "150";
+//   imgAtelier.style.pointerEvents = "none";
+// };
