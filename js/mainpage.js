@@ -211,7 +211,7 @@ const slideNatVar = () => {
         linkProject.style.display = "inline-block";
         linkMe.style.display = "inline-block";
         linkContact.style.display = "inline-block";
-      }, 200);
+      }, 250);
     } else {
       linksNatVar.classList.remove("slide--nav");
       // linkContact.classList.remove("link-contact-open");
