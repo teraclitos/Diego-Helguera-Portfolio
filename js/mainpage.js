@@ -186,6 +186,9 @@ const linkContact = document.getElementById("contact-link");
 const inyectDisplayNoneLinksNarrowScreen = () => {
   if (screen.width < 992) {
     linksNatVar.style.display = "none";
+    linkContact.style.display = "none";
+    linkProject.style.display = "none";
+    linkMe.style.display = "none";
   }
 };
 inyectDisplayNoneLinksNarrowScreen();
@@ -195,42 +198,59 @@ const slideNatVar = () => {
     if (linksNatVar.style.display === "none") {
       linksNatVar.style.display = "flex";
       linksNatVar.classList.add("slide--nav");
-      linkProject.classList.add("link-project-open");
-      linkMe.classList.add("link-me-open");
-      linkContact.classList.add("link-contact-open");
+
+      // linkProject.classList.add("link-project-open");
+      // linkMe.classList.add("link-me-open");
+      // linkContact.classList.add("link-contact-open");
       linksNatVar.classList.remove("slide--nav--fold");
-      linkContact.classList.remove("link-contact-vanish");
-      linkMe.classList.remove("link-me-vanish");
-      linkProject.classList.remove("link-project-vanish");
+      // linkContact.classList.remove("link-contact-vanish");
+      // linkMe.classList.remove("link-me-vanish");
+      // linkProject.classList.remove("link-project-vanish");
+
+      setTimeout(() => {
+        linkProject.style.display = "inline-block";
+        linkMe.style.display = "inline-block";
+        linkContact.style.display = "inline-block";
+      }, 175);
     } else {
       linksNatVar.classList.remove("slide--nav");
-      linkContact.classList.remove("link-contact-open");
-      linkMe.classList.remove("link-me-open");
-      linkProject.classList.remove("link-project-open");
+      // linkContact.classList.remove("link-contact-open");
+      // linkMe.classList.remove("link-me-open");
+      // linkProject.classList.remove("link-project-open");
       linksNatVar.classList.add("slide--nav--fold");
-      linkContact.classList.add("link-contact-vanish");
-      linkMe.classList.add("link-me-vanish");
-      linkProject.classList.add("link-project-vanish");
+      // linkContact.classList.add("link-contact-vanish");
+      // linkMe.classList.add("link-me-vanish");
+      // linkProject.classList.add("link-project-vanish");
 
       setTimeout(() => {
         linksNatVar.style.display = "none";
       }, 480);
+      setTimeout(() => {
+        linkContact.style.display = "none";
+        linkProject.style.display = "none";
+        linkMe.style.display = "none";
+      }, 50);
     }
   }
 };
 const slideNatVarOut = () => {
   if (screen.width < 992) {
     linksNatVar.classList.remove("slide--nav");
-    linkContact.classList.remove("link-contact-open");
-    linkMe.classList.remove("link-me-open");
-    linkProject.classList.remove("link-project-open");
+    // linkContact.classList.remove("link-contact-open");
+    // linkMe.classList.remove("link-me-open");
+    // linkProject.classList.remove("link-project-open");
     linksNatVar.classList.add("slide--nav--fold");
-    linkContact.classList.add("link-contact-vanish");
-    linkMe.classList.add("link-me-vanish");
-    linkProject.classList.add("link-project-vanish");
+    // linkContact.classList.add("link-contact-vanish");
+    // linkMe.classList.add("link-me-vanish");
+    // linkProject.classList.add("link-project-vanish");
     setTimeout(() => {
-      linksNatVar.style.display = "none";
+      linkMe.style.display = "none";
     }, 480);
+    setTimeout(() => {
+      linkContact.style.display = "none";
+      linkProject.style.display = "none";
+      linkMe.style.display = "none";
+    }, 50);
   }
 };
 
