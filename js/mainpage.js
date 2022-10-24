@@ -110,7 +110,8 @@ const projectsDetailWideScreen = (title) => {
   if (screen.width > 992) {
     switch (title) {
       case "atelier":
-        location.href = "http://127.0.0.1:5500/atelier.html";
+        location.href =
+          "https://guileless-bombolone-fba30d.netlify.app/atelier/";
 
         break;
       case "ciudadParque":
@@ -133,7 +134,8 @@ const projectsDetailNarrowScreen = (title) => {
   if (screen.width < 992) {
     switch (title) {
       case "atelier":
-        location.href = "http://127.0.0.1:5500/atelier.html";
+        location.href =
+          "https://guileless-bombolone-fba30d.netlify.app/atelier/";
 
         break;
       case "ciudadParque":
