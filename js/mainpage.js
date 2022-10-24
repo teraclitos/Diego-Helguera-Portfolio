@@ -244,7 +244,5 @@ const finishLoading = () => {
 };
 
 window.addEventListener("load", () => {
-  setTimeout(() => {
-    finishLoading();
-  }, 3000);
+  finishLoading();
 });
