@@ -106,6 +106,27 @@ const textHoverOutImg = (title) => {
       break;
   }
 };
+const projectsDetail = (title) => {
+  switch (title) {
+    case "atelier":
+      location.href = "http://127.0.0.1:5500/atelier.html";
+
+      break;
+    case "ciudadParque":
+      break;
+    case "torreDual":
+      break;
+    case "santiago":
+      break;
+    case "corrientes":
+      break;
+    case "patioDeUco":
+      break;
+
+    default:
+      break;
+  }
+};
 
 const socialIcons = document.getElementById("social-icons");
 const scrollRedes = () => {
