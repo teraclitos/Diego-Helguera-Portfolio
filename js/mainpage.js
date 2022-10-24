@@ -106,25 +106,50 @@ const textHoverOutImg = (title) => {
       break;
   }
 };
-const projectsDetail = (title) => {
-  switch (title) {
-    case "atelier":
-      location.href = "http://127.0.0.1:5500/atelier.html";
+const projectsDetailWideScreen = (title) => {
+  if (screen.width > 992) {
+    switch (title) {
+      case "atelier":
+        location.href = "http://127.0.0.1:5500/atelier.html";
 
-      break;
-    case "ciudadParque":
-      break;
-    case "torreDual":
-      break;
-    case "santiago":
-      break;
-    case "corrientes":
-      break;
-    case "patioDeUco":
-      break;
+        break;
+      case "ciudadParque":
+        break;
+      case "torreDual":
+        break;
+      case "santiago":
+        break;
+      case "corrientes":
+        break;
+      case "patioDeUco":
+        break;
 
-    default:
-      break;
+      default:
+        break;
+    }
+  }
+};
+const projectsDetailNarrowScreen = (title) => {
+  if (screen.width < 992) {
+    switch (title) {
+      case "atelier":
+        location.href = "http://127.0.0.1:5500/atelier.html";
+
+        break;
+      case "ciudadParque":
+        break;
+      case "torreDual":
+        break;
+      case "santiago":
+        break;
+      case "corrientes":
+        break;
+      case "patioDeUco":
+        break;
+
+      default:
+        break;
+    }
   }
 };
 
