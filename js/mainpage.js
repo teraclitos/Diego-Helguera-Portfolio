@@ -110,32 +110,32 @@ const projectsDetailWideScreen = (title) => {
   if (screen.width > 992) {
     switch (title) {
       case "atelier":
-        location.href = "https://diego-helguera.netlify.app/atelier";
+        location.href = "https://diego-helguera.netlify.app/html/atelier";
 
         break;
       case "ciudadParque":
-        location.href = "https://diego-helguera.netlify.app/ciudadparque";
+        location.href = "https://diego-helguera.netlify.app/html/ciudadparque";
 
         break;
       case "torreDual":
-        location.href = "https://diego-helguera.netlify.app/torredual";
+        location.href = "https://diego-helguera.netlify.app/html/torredual";
 
         break;
       case "santiago":
-        location.href = "https://diego-helguera.netlify.app/santiago";
+        location.href = "https://diego-helguera.netlify.app/html/santiago";
 
         break;
       case "corrientes":
-        location.href = "https://diego-helguera.netlify.app/corrientes";
+        location.href = "https://diego-helguera.netlify.app/html/corrientes";
 
         break;
       case "patioDeUco":
-        location.href = "https://diego-helguera.netlify.app/patiodeuco";
+        location.href = "https://diego-helguera.netlify.app/html/patiodeuco";
 
         break;
 
       default:
-        location.href = "https://diego-helguera.netlify.app/termitiere";
+        location.href = "https://diego-helguera.netlify.app/html/termitiere";
 
         break;
     }
@@ -145,32 +145,32 @@ const projectsDetailNarrowScreen = (title) => {
   if (screen.width < 992) {
     switch (title) {
       case "atelier":
-        location.href = "https://diego-helguera.netlify.app/atelier";
+        location.href = "https://diego-helguera.netlify.app/html/atelier";
 
         break;
       case "ciudadParque":
-        location.href = "https://diego-helguera.netlify.app/ciudadparque";
+        location.href = "https://diego-helguera.netlify.app/html/ciudadparque";
 
         break;
       case "torreDual":
-        location.href = "https://diego-helguera.netlify.app/torredual";
+        location.href = "https://diego-helguera.netlify.app/html/torredual";
 
         break;
       case "santiago":
-        location.href = "https://diego-helguera.netlify.app/santiago";
+        location.href = "https://diego-helguera.netlify.app/html/santiago";
 
         break;
       case "corrientes":
-        location.href = "https://diego-helguera.netlify.app/corrientes";
+        location.href = "https://diego-helguera.netlify.app/html/corrientes";
 
         break;
       case "patioDeUco":
-        location.href = "https://diego-helguera.netlify.app/patiodeuco";
+        location.href = "https://diego-helguera.netlify.app/html/patiodeuco";
 
         break;
 
       default:
-        location.href = "https://diego-helguera.netlify.app/termitiere";
+        location.href = "https://diego-helguera.netlify.app/html/termitiere";
 
         break;
     }
