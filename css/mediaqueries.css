@@ -11,9 +11,6 @@
   .footer {
     font-size: 10px;
   }
-  /* .modal-atelier-container {
-    height: 235rem;
-  } */
 }
 
 @media (max-width: 991.98px) {
@@ -27,102 +24,42 @@
     font-size: 16px;
   }
   .nat-var-container {
-    grid-template-areas:
-      "titulo"
-      "links";
-    grid-template-columns: 1fr;
-    grid-template-rows: 5em auto;
+    display: block;
+    overflow: hidden;
   }
 
   .title-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block;
+
     justify-content: center;
     padding-left: 0em;
-    padding-bottom: 0em;
+
+    box-sizing: border-box;
+    padding: 1.8em 1.8em;
+    text-align: center;
   }
   .links-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 0em;
-    padding-right: 0em;
-    gap: 3em;
-  }
-
-  .slide--nav {
-    height: 12em;
-    animation: slide-nav 0.5s;
-  }
-  .slide--nav--fold {
+    display: block;
+    padding-right: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    text-align: center;
     height: 0;
-    animation: slide-nav-fold 0.5s;
+    transition: height 0.5s;
   }
-
-  @keyframes slide-nav {
-    from {
-      height: 0em;
-    }
-    to {
-      height: 12em;
-    }
+  .normal-link {
+    display: block;
+    box-sizing: border-box;
+    padding: 1em 1em;
   }
-
-  @keyframes slide-nav-fold {
-    from {
-      height: 12em;
-    }
-
-    to {
-      height: 0;
-    }
+  .project-link {
+    padding-top: 0.2em;
+    padding-bottom: 1em;
   }
-
-  .link-contact-vanish {
-    opacity: 0;
-  }
-
-  .link-me-vanish {
-    opacity: 0;
-  }
-
-  .link-project-vanish {
-    opacity: 0;
-  }
-  .link-project-open {
-    animation: project-open 0.6s;
-  }
-  @keyframes project-open {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .link-me-open {
-    animation: me-open 0.65s;
-  }
-  @keyframes me-open {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  .link-contact-open {
-    animation: contact-open 0.75s;
-  }
-
-  @keyframes contact-open {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+  .contact-link {
+    display: block;
+    box-sizing: border-box;
+    padding: 1em 1em;
   }
 
   .grid-projects {
@@ -211,17 +148,11 @@
   .termitiere-text {
     line-height: 11em;
   }
-  /* .modal-atelier-container {
-    height: 225rem;
-  } */
 }
 @media (max-width: 576px) {
   .main-body {
     font-size: 10px;
   }
-  /* .modal-atelier-container {
-    height: 229rem;
-  } */
 }
 @media (max-width: 450px) {
   .main-body {

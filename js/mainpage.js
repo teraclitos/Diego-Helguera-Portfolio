@@ -175,82 +175,22 @@ const scrollRedes = () => {
 document.addEventListener("scroll", () => {
   scrollRedes();
 });
-const natVar = document.getElementById("nat-var");
-const linksNatVar = document.getElementById("links-nat-var");
-const titleDiego = document.getElementById("title-diego");
-const mainBody = document.getElementById("main-body");
-const linkProject = document.getElementById("project-link");
-const linkMe = document.getElementById("me-link");
-const linkContact = document.getElementById("contact-link");
 
-const inyectDisplayNoneLinksNarrowScreen = () => {
-  if (screen.width < 992) {
-    linksNatVar.style.display = "none";
-    linkContact.style.display = "none";
-    linkProject.style.display = "none";
-    linkMe.style.display = "none";
-  }
-};
-inyectDisplayNoneLinksNarrowScreen();
+const linksNatVar = document.getElementById("links-nat-var");
+const mainBody = document.getElementById("main-body");
 
 const slideNatVar = () => {
   if (screen.width < 992) {
-    if (linksNatVar.style.display === "none") {
-      linksNatVar.style.display = "flex";
-      linksNatVar.classList.add("slide--nav");
-
-      // linkProject.classList.add("link-project-open");
-      // linkMe.classList.add("link-me-open");
-      // linkContact.classList.add("link-contact-open");
-      linksNatVar.classList.remove("slide--nav--fold");
-      // linkContact.classList.remove("link-contact-vanish");
-      // linkMe.classList.remove("link-me-vanish");
-      // linkProject.classList.remove("link-project-vanish");
-
-      setTimeout(() => {
-        linkProject.style.display = "inline-block";
-        linkMe.style.display = "inline-block";
-        linkContact.style.display = "inline-block";
-      }, 250);
-    } else {
-      linksNatVar.classList.remove("slide--nav");
-      // linkContact.classList.remove("link-contact-open");
-      // linkMe.classList.remove("link-me-open");
-      // linkProject.classList.remove("link-project-open");
-      linksNatVar.classList.add("slide--nav--fold");
-      // linkContact.classList.add("link-contact-vanish");
-      // linkMe.classList.add("link-me-vanish");
-      // linkProject.classList.add("link-project-vanish");
-
-      setTimeout(() => {
-        linksNatVar.style.display = "none";
-      }, 480);
-      setTimeout(() => {
-        linkContact.style.display = "none";
-        linkProject.style.display = "none";
-        linkMe.style.display = "none";
-      }, 50);
+    let height = 0;
+    if (linksNatVar.clientHeight === 0) {
+      height = 8.5;
     }
+    linksNatVar.style.height = `${height}em`;
   }
 };
 const slideNatVarOut = () => {
   if (screen.width < 992) {
-    linksNatVar.classList.remove("slide--nav");
-    // linkContact.classList.remove("link-contact-open");
-    // linkMe.classList.remove("link-me-open");
-    // linkProject.classList.remove("link-project-open");
-    linksNatVar.classList.add("slide--nav--fold");
-    // linkContact.classList.add("link-contact-vanish");
-    // linkMe.classList.add("link-me-vanish");
-    // linkProject.classList.add("link-project-vanish");
-    setTimeout(() => {
-      linkMe.style.display = "none";
-    }, 480);
-    setTimeout(() => {
-      linkContact.style.display = "none";
-      linkProject.style.display = "none";
-      linkMe.style.display = "none";
-    }, 50);
+    linksNatVar.style.height = "0";
   }
 };
 
