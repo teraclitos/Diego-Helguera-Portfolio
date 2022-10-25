@@ -115,17 +115,35 @@ const projectsDetailWideScreen = (title) => {
 
         break;
       case "ciudadParque":
+        location.href =
+          "https://guileless-bombolone-fba30d.netlify.app/ciudadparque/";
+
         break;
       case "torreDual":
+        location.href =
+          "https://guileless-bombolone-fba30d.netlify.app/torredual/";
+
         break;
       case "santiago":
+        location.href =
+          "https://guileless-bombolone-fba30d.netlify.app/santiago/";
+
         break;
       case "corrientes":
+        location.href =
+          "https://guileless-bombolone-fba30d.netlify.app/corrientes/";
+
         break;
       case "patioDeUco":
+        location.href =
+          "https://guileless-bombolone-fba30d.netlify.app/patiodeuco/";
+
         break;
 
       default:
+        location.href =
+          "https://guileless-bombolone-fba30d.netlify.app/termitiere/";
+
         break;
     }
   }
@@ -139,17 +157,35 @@ const projectsDetailNarrowScreen = (title) => {
 
         break;
       case "ciudadParque":
+        location.href =
+          "https://guileless-bombolone-fba30d.netlify.app/ciudadparque/";
+
         break;
       case "torreDual":
+        location.href =
+          "https://guileless-bombolone-fba30d.netlify.app/torredual/";
+
         break;
       case "santiago":
+        location.href =
+          "https://guileless-bombolone-fba30d.netlify.app/santiago/";
+
         break;
       case "corrientes":
+        location.href =
+          "https://guileless-bombolone-fba30d.netlify.app/corrientes/";
+
         break;
       case "patioDeUco":
+        location.href =
+          "https://guileless-bombolone-fba30d.netlify.app/patiodeuco/";
+
         break;
 
       default:
+        location.href =
+          "https://guileless-bombolone-fba30d.netlify.app/termitiere/";
+
         break;
     }
   }
