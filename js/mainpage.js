@@ -178,6 +178,7 @@ document.addEventListener("scroll", () => {
 
 const linksNatVar = document.getElementById("links-nat-var");
 const mainBody = document.getElementById("main-body");
+const arrow = document.getElementById("arrow");
 
 const slideNatVar = () => {
   if (screen.width < 992) {
@@ -186,11 +187,13 @@ const slideNatVar = () => {
       height = 9.2;
     }
     linksNatVar.style.height = `${height}em`;
+    arrow.classList.toggle("arrow-rotate");
   }
 };
 const slideNatVarOut = () => {
   if (screen.width < 992) {
     linksNatVar.style.height = "0";
+    arrow.classList.remove("arrow-rotate");
   }
 };
 
