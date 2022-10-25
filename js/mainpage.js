@@ -180,6 +180,15 @@ const linksNatVar = document.getElementById("links-nat-var");
 const mainBody = document.getElementById("main-body");
 const arrow = document.getElementById("arrow");
 
+const removeArrowWideScreen = () => {
+  if (screen.width > 992) {
+    arrow.style.display = "none";
+  } else {
+    arrow.style.display = "inline-block";
+  }
+};
+removeArrowWideScreen();
+
 const slideNatVar = () => {
   if (screen.width < 992) {
     let height = 0;

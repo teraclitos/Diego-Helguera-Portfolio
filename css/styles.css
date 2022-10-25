@@ -103,9 +103,7 @@ h1 {
   cursor: pointer;
   user-select: none;
 }
-.arrow {
-  display: none;
-}
+
 .links-container {
   grid-area: links;
   display: flex;
