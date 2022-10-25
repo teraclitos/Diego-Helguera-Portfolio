@@ -183,7 +183,7 @@ const slideNatVar = () => {
   if (screen.width < 992) {
     let height = 0;
     if (linksNatVar.clientHeight === 0) {
-      height = 9.5;
+      height = 9.2;
     }
     linksNatVar.style.height = `${height}em`;
   }
