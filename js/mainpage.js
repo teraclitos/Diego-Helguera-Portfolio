@@ -110,32 +110,32 @@ const projectsDetailWideScreen = (title) => {
   if (screen.width > 992) {
     switch (title) {
       case "atelier":
-        location.href = "http://127.0.0.1:5500/atelier.html";
+        location.href = "https://diego-helguera.netlify.app/atelier";
 
         break;
       case "ciudadParque":
-        location.href = "http://127.0.0.1:5500/ciudadparque.html";
+        location.href = "https://diego-helguera.netlify.app/ciudadparque";
 
         break;
       case "torreDual":
-        location.href = "http://127.0.0.1:5500/torredual.html";
+        location.href = "https://diego-helguera.netlify.app/torredual";
 
         break;
       case "santiago":
-        location.href = "http://127.0.0.1:5500/santiago.html";
+        location.href = "https://diego-helguera.netlify.app/santiago";
 
         break;
       case "corrientes":
-        location.href = "http://127.0.0.1:5500/corrientes.html";
+        location.href = "https://diego-helguera.netlify.app/corrientes";
 
         break;
       case "patioDeUco":
-        location.href = "http://127.0.0.1:5500/patiodeuco.html";
+        location.href = "https://diego-helguera.netlify.app/patiodeuco";
 
         break;
 
       default:
-        location.href = "http://127.0.0.1:5500/termitiere.html";
+        location.href = "https://diego-helguera.netlify.app/termitiere";
 
         break;
     }
@@ -145,32 +145,32 @@ const projectsDetailNarrowScreen = (title) => {
   if (screen.width < 992) {
     switch (title) {
       case "atelier":
-        location.href = "http://127.0.0.1:5500/atelier.html";
+        location.href = "https://diego-helguera.netlify.app/atelier";
 
         break;
       case "ciudadParque":
-        location.href = "http://127.0.0.1:5500/ciudadparque.html";
+        location.href = "https://diego-helguera.netlify.app/ciudadparque";
 
         break;
       case "torreDual":
-        location.href = "http://127.0.0.1:5500/torredual.html";
+        location.href = "https://diego-helguera.netlify.app/torredual";
 
         break;
       case "santiago":
-        location.href = "http://127.0.0.1:5500/santiago.html";
+        location.href = "https://diego-helguera.netlify.app/santiago";
 
         break;
       case "corrientes":
-        location.href = "http://127.0.0.1:5500/corrientes.html";
+        location.href = "https://diego-helguera.netlify.app/corrientes";
 
         break;
       case "patioDeUco":
-        location.href = "http://127.0.0.1:5500/patiodeuco.html";
+        location.href = "https://diego-helguera.netlify.app/patiodeuco";
 
         break;
 
       default:
-        location.href = "http://127.0.0.1:5500/termitiere.html";
+        location.href = "https://diego-helguera.netlify.app/termitiere";
 
         break;
     }
