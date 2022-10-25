@@ -38,6 +38,23 @@
     padding-top: 1.8em;
     padding-bottom: 1.5em;
   }
+  h1 {
+    position: relative;
+  }
+  h1::after {
+    content: "";
+    display: block;
+    position: absolute;
+
+    top: 1.2em;
+    left: 4em;
+
+    border-top: 0.35em solid #d65f37;
+    border-right: 0.35em solid transparent;
+    border-bottom: 0.35em solid transparent;
+    border-left: 0.35em solid transparent;
+  }
+
   .links-container {
     display: block;
     padding-right: 0;
