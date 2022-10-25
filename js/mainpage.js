@@ -110,39 +110,32 @@ const projectsDetailWideScreen = (title) => {
   if (screen.width > 992) {
     switch (title) {
       case "atelier":
-        location.href =
-          "https://guileless-bombolone-fba30d.netlify.app/atelier/";
+        location.href = "http://127.0.0.1:5500/atelier.html";
 
         break;
       case "ciudadParque":
-        location.href =
-          "https://guileless-bombolone-fba30d.netlify.app/ciudadparque/";
+        location.href = "http://127.0.0.1:5500/ciudadparque.html";
 
         break;
       case "torreDual":
-        location.href =
-          "https://guileless-bombolone-fba30d.netlify.app/torredual/";
+        location.href = "http://127.0.0.1:5500/torredual.html";
 
         break;
       case "santiago":
-        location.href =
-          "https://guileless-bombolone-fba30d.netlify.app/santiago/";
+        location.href = "http://127.0.0.1:5500/santiago.html";
 
         break;
       case "corrientes":
-        location.href =
-          "https://guileless-bombolone-fba30d.netlify.app/corrientes/";
+        location.href = "http://127.0.0.1:5500/corrientes.html";
 
         break;
       case "patioDeUco":
-        location.href =
-          "https://guileless-bombolone-fba30d.netlify.app/patiodeuco/";
+        location.href = "http://127.0.0.1:5500/patiodeuco.html";
 
         break;
 
       default:
-        location.href =
-          "https://guileless-bombolone-fba30d.netlify.app/termitiere/";
+        location.href = "http://127.0.0.1:5500/termitiere.html";
 
         break;
     }
@@ -152,39 +145,32 @@ const projectsDetailNarrowScreen = (title) => {
   if (screen.width < 992) {
     switch (title) {
       case "atelier":
-        location.href =
-          "https://guileless-bombolone-fba30d.netlify.app/atelier/";
+        location.href = "http://127.0.0.1:5500/atelier.html";
 
         break;
       case "ciudadParque":
-        location.href =
-          "https://guileless-bombolone-fba30d.netlify.app/ciudadparque/";
+        location.href = "http://127.0.0.1:5500/ciudadparque.html";
 
         break;
       case "torreDual":
-        location.href =
-          "https://guileless-bombolone-fba30d.netlify.app/torredual/";
+        location.href = "http://127.0.0.1:5500/torredual.html";
 
         break;
       case "santiago":
-        location.href =
-          "https://guileless-bombolone-fba30d.netlify.app/santiago/";
+        location.href = "http://127.0.0.1:5500/santiago.html";
 
         break;
       case "corrientes":
-        location.href =
-          "https://guileless-bombolone-fba30d.netlify.app/corrientes/";
+        location.href = "http://127.0.0.1:5500/corrientes.html";
 
         break;
       case "patioDeUco":
-        location.href =
-          "https://guileless-bombolone-fba30d.netlify.app/patiodeuco/";
+        location.href = "http://127.0.0.1:5500/patiodeuco.html";
 
         break;
 
       default:
-        location.href =
-          "https://guileless-bombolone-fba30d.netlify.app/termitiere/";
+        location.href = "http://127.0.0.1:5500/termitiere.html";
 
         break;
     }
