@@ -40,8 +40,8 @@
   }
   .arrow {
     color: #d65f37;
-    margin-left: 0.5em;
-    font-size: 1.5em;
+    margin-left: 0.4em;
+    margin-bottom: 0.3em;
     transition: transform 0.5s;
   }
   .arrow-rotate {
