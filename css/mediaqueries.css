@@ -29,7 +29,7 @@
   }
 
   .title-container {
-    display: block;
+    display: flex;
 
     justify-content: center;
     padding-left: 0em;
@@ -37,7 +37,6 @@
     box-sizing: border-box;
     padding-top: 1.8em;
     padding-bottom: 1.5em;
-    text-align: center;
   }
   .links-container {
     display: block;
@@ -51,17 +50,17 @@
   .normal-link {
     display: block;
     box-sizing: border-box;
-    padding-top: 1.2em;
-    padding-bottom: 1.2em;
+    padding-top: 1.1em;
+    padding-bottom: 1.1em;
   }
   .project-link {
     padding-top: 0.5em;
-    padding-bottom: 1.2em;
+    padding-bottom: 1.1em;
   }
   .contact-link {
     display: block;
     box-sizing: border-box;
-    padding-top: 1.2em;
+    padding-top: 1.1em;
   }
 
   .grid-projects {

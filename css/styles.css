@@ -112,19 +112,19 @@ h1 {
   padding-right: 3em;
   gap: 3em;
 }
-.normal-link {
+.normal-link-a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
 
   color: rgb(119, 107, 107);
   user-select: none;
 }
-.normal-link:hover {
+.normal-link-a:hover {
   color: #d65f37;
   transition: 0.5s;
 }
 
-.contact-link {
+.contact-link-a {
   font-family: Arial, Helvetica, sans-serif;
   color: #d65f37;
   font-size: 1em;
