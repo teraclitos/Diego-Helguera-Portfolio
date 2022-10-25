@@ -98,7 +98,7 @@ html {
 }
 h1 {
   color: #d65f37;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
   user-select: none;
