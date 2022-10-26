@@ -5,7 +5,7 @@
 }
 
 @media (max-width: 1200px) {
-  .main-body {
+  .main-body-projects {
     font-size: 10px;
   }
   .footer {
@@ -16,7 +16,8 @@
 @media (max-width: 991.98px) {
   .main-body {
     font-size: 14px;
-
+  }
+  .main-body-projects {
     padding-top: 6em;
     width: 100%;
   }
@@ -141,10 +142,6 @@
   .acercademi-container {
     flex-direction: column;
   }
-
-  .acercademi-text {
-    font-size: 1.4em;
-  }
 }
 @media (max-width: 768px) {
   .loader {
@@ -170,6 +167,10 @@
 @media (max-width: 576px) {
   .main-body {
     font-size: 10px;
+  }
+  .acercademi-text {
+    width: 100%;
+    font-size: 1.3em;
   }
 }
 @media (max-width: 450px) {
