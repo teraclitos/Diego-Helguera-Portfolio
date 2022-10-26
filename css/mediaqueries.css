@@ -13,16 +13,6 @@
   }
 }
 
-@media (min-width: 991.98px) {
-  .main-body-acercademi {
-    top: 5em;
-  }
-
-  .footer-nofixed {
-    top: 5em;
-  }
-}
-
 @media (max-width: 991.98px) {
   .main-body {
     font-size: 14px;
@@ -147,6 +137,9 @@
 
   .termitiere-text {
     line-height: 16em;
+  }
+  .acercademi-container {
+    flex-direction: column;
   }
 }
 @media (max-width: 768px) {

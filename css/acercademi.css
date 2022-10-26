@@ -16,7 +16,7 @@
 
 .acercademi-container {
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
   align-items: center;
   gap: 3em;
@@ -36,7 +36,6 @@
 
 .footer-nofixed {
   position: relative;
-
   background-color: #303c4e;
   width: 100%;
   height: 112px;
@@ -45,6 +44,7 @@
 
 .white-line-footer-nofixed {
   display: flex;
+
   justify-content: end;
   align-items: flex-end;
   padding-bottom: 7px;
