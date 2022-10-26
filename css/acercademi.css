@@ -20,6 +20,13 @@
   align-items: center;
   gap: 3em;
 }
+.img-acercademi-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
 
 .img-acercademi {
   width: 15em;
@@ -32,7 +39,8 @@
   line-height: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  font-size: 1em;
+  font-size: 0.95em;
+  color: #373434;
 }
 
 .footer-nofixed {
@@ -55,4 +63,32 @@
 .social-icons-container-nofixed {
   display: flex;
   gap: 1em;
+}
+
+/* CSS */
+.btn-cv {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid rgb(229, 208, 208);
+  border-radius: 0.375em;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #d65f37;
+  cursor: pointer;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  height: 2.5em;
+  justify-content: center;
+  padding: calc(0.5em - 1px) 1em;
+  text-align: center;
+  user-select: none;
+}
+
+.btn-cv:active {
+  box-shadow: rgba(72, 95, 199, 0.25) 0 0 0 0.125em;
+}
+
+.btn-cv:hover {
+  border-color: #d65f37;
 }
