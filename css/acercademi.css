@@ -68,7 +68,7 @@
 .btn-cv {
   align-items: center;
   background-color: #fff;
-  border: 1px solid rgb(229, 208, 208);
+  border: 0.0625rem solid rgb(229, 208, 208);
   border-radius: 0.375em;
   box-shadow: none;
   box-sizing: border-box;
