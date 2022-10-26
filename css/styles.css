@@ -159,8 +159,8 @@ h1 {
 .atelier-text {
   position: absolute;
 
-  top: 8.8em;
-  left: 8.3em;
+  top: 10em;
+  left: 9.5em;
 }
 
 .img-atelier-green {
@@ -187,8 +187,8 @@ h1 {
 .ciudad-parque-text {
   position: absolute;
 
-  top: 12em;
-  left: 8.7em;
+  top: 13.5em;
+  left: 10.2em;
 }
 
 .img-ciudad-parque-green {
@@ -211,8 +211,8 @@ h1 {
 .torre-dual-text {
   position: absolute;
 
-  top: 8em;
-  left: 7.1em;
+  top: 9em;
+  left: 8.3em;
 }
 
 .img-torre-dual-green {
@@ -234,8 +234,8 @@ h1 {
 
 .santiago-text {
   position: absolute;
-  top: 8.3em;
-  left: 5.8em;
+  top: 9.5em;
+  left: 6.5em;
 }
 
 .img-santiago-green {
@@ -259,8 +259,8 @@ h1 {
 .corrientes-text {
   position: absolute;
 
-  top: 11em;
-  left: 8.1em;
+  top: 12.5em;
+  left: 10em;
 }
 
 .img-corrientes-green {
@@ -282,8 +282,8 @@ h1 {
 
 .patio-de-uco-text {
   position: absolute;
-  top: 5.8em;
-  left: 9.1em;
+  top: 6.5em;
+  left: 11em;
 }
 
 .img-patio-de-uco-green {
@@ -304,8 +304,8 @@ h1 {
 
 .termitiere-text {
   position: absolute;
-  top: 3.5em;
-  left: 31.5em;
+  top: 4em;
+  left: 35.8em;
 }
 
 .img-termitiere-green {
@@ -318,28 +318,30 @@ h1 {
 }
 
 .img-text-common-properties {
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
   pointer-events: none;
   z-index: 2;
+  color: #dac682;
 
   background-image: radial-gradient(
     circle at 69.29% 8.62%,
     #d5d569 0,
-    #dac682 50%,
-    #947a1d 100%
+    #d5d569 50%,
+    #d5d569 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: 0.5s;
+  transition: 0.3s;
 
   opacity: 0;
+  height: 2.5em;
 }
 .img-common-properties {
   cursor: pointer;
   z-index: 1;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .img-common-properties:hover {
@@ -392,15 +394,4 @@ h1 {
   font-size: 1.2rem;
 }
 
-.social-icon:hover {
-  background-image: radial-gradient(
-    circle at 69.29% 8.62%,
-    #d5d569 0,
-    #dac682 50%,
-    #947a1d 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 /* footer */
