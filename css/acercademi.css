@@ -1,8 +1,17 @@
+.nat-var-container-fixed {
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+}
+
 .main-body-acercademi {
+  top: 3em;
+  position: relative;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  pointer-events: none;
 }
 
 .acercademi-container {
