@@ -141,6 +141,10 @@
   .acercademi-container {
     flex-direction: column;
   }
+
+  .acercademi-text {
+    font-size: 1.2 em;
+  }
 }
 @media (max-width: 768px) {
   .loader {
