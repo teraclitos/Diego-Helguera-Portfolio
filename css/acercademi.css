@@ -40,7 +40,7 @@
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 0.95em;
-  color: #373434;
+  color: rgb(119, 107, 107);
 }
 
 .footer-nofixed {
@@ -65,7 +65,6 @@
   gap: 1em;
 }
 
-/* CSS */
 .btn-cv {
   align-items: center;
   background-color: #fff;
