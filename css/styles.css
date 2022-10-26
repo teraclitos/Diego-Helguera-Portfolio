@@ -323,6 +323,7 @@ h1 {
   pointer-events: none;
   z-index: 2;
   color: #dac682;
+  user-select: none;
 
   background-image: radial-gradient(
     circle at 69.29% 8.62%,
@@ -342,6 +343,7 @@ h1 {
   cursor: pointer;
   z-index: 1;
   transition: 0.3s;
+  user-select: none;
 }
 
 .img-common-properties:hover {
