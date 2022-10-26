@@ -169,8 +169,10 @@
     font-size: 10px;
   }
   .acercademi-text {
-    width: 100%;
     font-size: 1.3em;
+  }
+  .acercademi-text-container {
+    width: 90%;
   }
 }
 @media (max-width: 450px) {
