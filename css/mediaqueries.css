@@ -148,6 +148,7 @@
   }
   .acercademi-text-container {
     margin-top: 0;
+    align-self: center;
   }
 }
 @media (max-width: 768px) {
