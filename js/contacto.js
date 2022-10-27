@@ -3,6 +3,28 @@ const mainBodyContact = document.querySelector(".main-body-acercademi");
 const navBar = document.getElementById("nat-var");
 const formContact = document.querySelector(".form-contact");
 
+const RendeInputsPhone = () => {
+  inputsContact.forEach((input) => {
+    if (screen.width < 992) {
+      input.addEventListener("focus", () => {
+        RendeInputsPhoneFocus();
+      });
+      input.addEventListener("blur", () => {
+        RendeInputsPhoneBlur();
+      });
+    }
+  });
+};
+
+const RendeInputsPhoneFocus = () => {
+  mainBody.classList.add("contact-modifier");
+  navBar.style.display = "none";
+};
+const RendeInputsPhoneBlur = () => {
+  mainBody.classList.remove("contact-modifier");
+  navBar.style.display = "block";
+};
+
 const RenderFormContactPage = () => {
   if (screen.width > 992) {
     formContact.innerHTML = `  <div> <label class="label-contact" for="name">Nombre</label>
@@ -26,25 +48,5 @@ const RenderFormContactPage = () => {
              <div class="btn-submit-container-narrow-screen"><input class="btn-cv" type="submit" value="enviar" /></div>`;
   }
 };
-
-inputsContact.forEach((input) => {
-  if (screen.width < 992) {
-    input.addEventListener("focus", () => {
-      RendeInputsPhoneFocus();
-    });
-    input.addEventListener("blur", () => {
-      RendeInputsPhoneBlur();
-    });
-  }
-});
-
-const RendeInputsPhoneFocus = () => {
-  mainBody.classList.add("contact-modifier");
-  navBar.style.display = "none";
-};
-const RendeInputsPhoneBlur = () => {
-  mainBody.classList.remove("contact-modifier");
-  navBar.style.display = "block";
-};
-
 RenderFormContactPage();
+RendeInputsPhone();
