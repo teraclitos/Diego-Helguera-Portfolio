@@ -123,7 +123,7 @@ const textHoverOutImg = (title) => {
 };
 
 const projectsDetailWideScreen = (title) => {
-  if (screen.width > 992) {
+  if (arrow.style.display === "none") {
     switch (title) {
       case "atelier":
         location.href = "/html/atelier.html";
@@ -158,7 +158,7 @@ const projectsDetailWideScreen = (title) => {
   }
 };
 const projectsDetailNarrowScreen = (title) => {
-  if (screen.width < 992) {
+  if (arrow.style.display === "inline-block") {
     switch (title) {
       case "atelier":
         location.href = "/html/atelier.html";
@@ -236,8 +236,7 @@ const slideNatVarOut = () => {
 const removeArrowWideScreen = () => {
   if (windowScreen.matches) {
     arrow.style.display = "inline-block";
-    slideNatVar();
-    slideNatVarOut();
+
     socialIcons.style.display = "none";
     window.addEventListener("scroll", () => {
       scrollRedes();
