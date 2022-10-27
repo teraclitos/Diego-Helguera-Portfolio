@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url(acercademi.css);
+@import url(contacto.css);
 
 html {
   scroll-behavior: smooth;

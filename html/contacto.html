@@ -12,14 +12,18 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="body-container">
     <header>
-    <nav id="nat-var" class="nat-var-container">
+      <nav id="nat-var" class="nat-var-container nat-var-container-fixed">
         <div class="title-container">
           <h1 onclick="slideNatVar()" id="title-diego">
             <strong> DIEGO HELGUERA</strong>
           </h1>
-          <i id="arrow" class="fa-solid fa-arrow-right arrow"></i>
+          <i
+            onclick="slideNatVar()"
+            id="arrow"
+            class="fa-solid fa-arrow-right arrow"
+          ></i>
         </div>
         <ul id="links-nat-var" class="links-container">
           <li id="project-link" class="normal-link project-link">
@@ -43,24 +47,43 @@
         </ul>
       </nav>
     </header>
-    <main onclick="slideNatVarOut()" id="main-body" class="main-body"></main>
- 
-</main >
-      <div class="social-icons-container" id="social-icons">
-      <a target="_blank" href="https://www.linkedin.com/in/diegohelguera/">
-        <i class="fa-brands fa-linkedin social-icon"></i
-      ></a>
-      <a target="_blank" href="https://www.instagram.com/diegohelguera/?hl=es"
-        ><i class="fa-brands fa-instagram social-icon"></i
-      ></a>
-      <a
-        target="_blank"
-        href="https://api.whatsapp.com/send?phone=5493815115637&text=Hola!%20me%20interesar%C3%ADa%20saber%20mas%20sobre%20tus%20servicios%20como%20proyectista"
-        ><i class="fa-brands fa-whatsapp social-icon"></i
-      ></a>
-    </div>
-    <footer class="footer">
-      <div class="white-line-footer"></div>
+    <main
+      onclick="slideNatVarOut()"
+      id="main-body"
+      class="main-body main-body-acercademi"
+    >
+      <div class="form-contact-container">
+        <form class="form-contact">  
+            <div> <label class="label-contact" for="name">Nombre</label>
+          <input class="input-contact" type="text" id="fname" name="name" /></div>
+            <div> <label class="label-contact" for="affair">Asunto</label>
+          <input class="input-contact" type="text" id="affair" name="affair" /></div>
+             <div><label  class="label-contact" for="email">Email</label>
+          <input class="input-contact" type="email" id="email" name="email" /></div>
+            <div class="text-contact-container"> <label class="label-contact " for="text">Deje su mensaje</label>
+          <textarea class="input-contact input-contact-text" id="text" name="text"></textarea></div>
+             <div class="btn-submit-container"><input class="btn-cv" type="submit" value="enviar" /></div>
+        </form>
+     
+    </main>
+    <footer class="footer-nofixed">
+      <div class="white-line-footer white-line-footer-nofixed">
+        <div class="social-icons-container-nofixed" id="social-icons">
+          <a target="_blank" href="https://www.linkedin.com/in/diegohelguera/">
+            <i class="fa-brands fa-linkedin social-icon"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/diegohelguera/?hl=es"
+            ><i class="fa-brands fa-instagram social-icon"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=5493815115637&text=Hola!%20me%20interesar%C3%ADa%20saber%20mas%20sobre%20tus%20servicios%20como%20proyectista"
+            ><i class="fa-brands fa-whatsapp social-icon"></i
+          ></a>
+        </div>
+      </div>
     </footer>
 
     <script src="/js/mainpage.js"></script>
