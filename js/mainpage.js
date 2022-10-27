@@ -123,7 +123,7 @@ const textHoverOutImg = (title) => {
 };
 
 const projectsDetailWideScreen = (title) => {
-  if (screen.width > 992) {
+  if (windowScreen.matches > 992) {
     switch (title) {
       case "atelier":
         location.href = "/html/atelier.html";
