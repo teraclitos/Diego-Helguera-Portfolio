@@ -3,10 +3,6 @@
   padding-top: 5em;
 }
 
-.form-contact-container {
-  position: relative;
-  right: 2em;
-}
 .form-contact {
   display: flex;
   flex-direction: column;
@@ -36,16 +32,24 @@
   display: flex;
   align-items: center;
 }
-.input-contact-text {
+.input-contact-text-wide-screen {
   position: relative;
   left: 0.3em;
   height: 6em;
 
   font-family: Arial, Helvetica, sans-serif;
 }
+.input-contact-text-narrow-screen {
+  height: 6em;
 
-.btn-submit-container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-submit-container-wide-screen {
   align-self: center;
   position: relative;
   left: 5em;
+}
+.btn-submit-container-narrow-screen {
+  align-self: center;
 }
