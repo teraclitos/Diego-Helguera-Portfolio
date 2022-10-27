@@ -123,7 +123,7 @@ const textHoverOutImg = (title) => {
 };
 
 const projectsDetailWideScreen = (title) => {
-  if (windowScreen.matches > 992) {
+  if (screen.width > 992) {
     switch (title) {
       case "atelier":
         location.href = "/html/atelier.html";
@@ -216,6 +216,22 @@ const linksNatVar = document.getElementById("links-nat-var");
 const mainBody = document.getElementById("main-body");
 const arrow = document.getElementById("arrow");
 let windowScreen = window.matchMedia("(max-width: 991.98px)");
+const slideNatVar = () => {
+  let height = 0;
+  if (linksNatVar.clientHeight === 0) {
+    linksNatVar.classList.add("links-container-height");
+    height = 9.2;
+  } else {
+    height = 0;
+    linksNatVar.classList.remove("links-container-height");
+  }
+
+  arrow.classList.toggle("arrow-rotate");
+};
+const slideNatVarOut = () => {
+  linksNatVar.classList.remove("links-container-height");
+  arrow.classList.remove("arrow-rotate");
+};
 
 const removeArrowWideScreen = () => {
   if (windowScreen.matches) {
@@ -242,20 +258,3 @@ removeArrowWideScreen();
 windowScreen.addEventListener("change", () => {
   removeArrowWideScreen();
 });
-
-const slideNatVar = () => {
-  let height = 0;
-  if (linksNatVar.clientHeight === 0) {
-    linksNatVar.classList.add("links-container-height");
-    height = 9.2;
-  } else {
-    height = 0;
-    linksNatVar.classList.remove("links-container-height");
-  }
-
-  arrow.classList.toggle("arrow-rotate");
-};
-const slideNatVarOut = () => {
-  linksNatVar.classList.remove("links-container-height");
-  arrow.classList.remove("arrow-rotate");
-};
