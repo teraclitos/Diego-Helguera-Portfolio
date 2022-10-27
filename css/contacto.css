@@ -10,9 +10,8 @@
   align-items: center;
 } */
 .form-contact-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  position: relative;
+  right: 4em;
 }
 .form-contact {
   display: flex;
