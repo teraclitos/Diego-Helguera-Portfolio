@@ -21,6 +21,7 @@
   display: inline-block;
   width: 10em;
   text-align: center;
+
   color: rgb(119, 107, 107);
 }
 .input-contact {
@@ -29,6 +30,7 @@
   height: 1.8em;
   color: rgb(119, 107, 107);
   font-size: 1em;
+  width: 18em;
 }
 
 .text-contact-container {
@@ -39,7 +41,7 @@
   position: relative;
   left: 0.3em;
   height: 6em;
-  width: 12.6em;
+
   font-family: Arial, Helvetica, sans-serif;
 }
 
