@@ -1,14 +1,7 @@
-/* .form-contact-container {
-  width: 30em;
-  height: 35em;
-  border: 0.0625em solid #d65f37;
-  border-radius: 1em;
-  box-shadow: none;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+.body-contacto {
+  position: relative;
+  z-index: -1;
+}
 .form-contact-container {
   position: relative;
   right: 2em;
@@ -34,6 +27,7 @@
   color: rgb(119, 107, 107);
   font-size: 1em;
   width: 18em;
+
   outline: none;
 }
 
