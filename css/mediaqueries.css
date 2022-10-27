@@ -193,9 +193,15 @@
   .main-body {
     font-size: 8px;
   }
+  .nat-var-container {
+    font-size: 14px;
+  }
 }
 @media (max-width: 350px) {
   .main-body {
     font-size: 6px;
+  }
+  .nat-var-container {
+    font-size: 12px;
   }
 }
