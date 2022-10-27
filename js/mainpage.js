@@ -106,6 +106,7 @@ const textHoverOutImg = (title) => {
       break;
   }
 };
+
 const projectsDetailWideScreen = (title) => {
   if (screen.width > 992) {
     switch (title) {
@@ -183,49 +184,65 @@ const scrollRedes = () => {
   let currentScroll = window.scrollY + window.innerHeight;
   // When the user is [modifier]px from the bottom, fire the event.
   let modifier = 75;
-  if (screen.width < 768) {
-    if (currentScroll > documentHeight - modifier) {
-      socialIcons.style.display = "flex";
-    } else {
-      socialIcons.style.display = "none";
-    }
+
+  if (currentScroll > documentHeight - modifier) {
+    socialIcons.style.display = "flex";
   } else {
+    socialIcons.style.display = "none";
+  }
+};
+const scrollRedesWide = () => {
+  let currentScroll = window.scrollY + window.innerHeight;
+  if (currentScroll >= 0) {
     socialIcons.style.display = "flex";
   }
 };
-
-document.addEventListener("scroll", () => {
-  scrollRedes();
-});
-
 const linksNatVar = document.getElementById("links-nat-var");
 const mainBody = document.getElementById("main-body");
 const arrow = document.getElementById("arrow");
+let windowScreen = window.matchMedia("(max-width: 991.98px)");
 
 const removeArrowWideScreen = () => {
-  if (screen.width > 992) {
-    arrow.style.display = "none";
-  } else {
+  if (windowScreen.matches) {
     arrow.style.display = "inline-block";
+    slideNatVar();
+    slideNatVarOut();
+    socialIcons.style.display = "none";
+    window.addEventListener("scroll", () => {
+      scrollRedes();
+    });
+  } else {
+    arrow.style.display = "none";
+    linksNatVar.classList.remove("links-container-height");
+    arrow.classList.remove("arrow-rotate");
+
+    window.addEventListener("scroll", () => {
+      scrollRedesWide();
+    });
+    socialIcons.style.display = "flex";
   }
 };
 removeArrowWideScreen();
 
+windowScreen.addEventListener("change", () => {
+  removeArrowWideScreen();
+});
+
 const slideNatVar = () => {
-  if (screen.width < 992) {
-    let height = 0;
-    if (linksNatVar.clientHeight === 0) {
-      height = 9.2;
-    }
-    linksNatVar.style.height = `${height}em`;
-    arrow.classList.toggle("arrow-rotate");
+  let height = 0;
+  if (linksNatVar.clientHeight === 0) {
+    linksNatVar.classList.add("links-container-height");
+    height = 9.2;
+  } else {
+    height = 0;
+    linksNatVar.classList.remove("links-container-height");
   }
+
+  arrow.classList.toggle("arrow-rotate");
 };
 const slideNatVarOut = () => {
-  if (screen.width < 992) {
-    linksNatVar.style.height = "0";
-    arrow.classList.remove("arrow-rotate");
-  }
+  linksNatVar.classList.remove("links-container-height");
+  arrow.classList.remove("arrow-rotate");
 };
 
 const loader = document.getElementById("loader");

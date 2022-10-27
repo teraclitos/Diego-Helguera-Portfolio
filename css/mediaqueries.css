@@ -48,6 +48,7 @@
     margin-left: 0.6em;
     margin-bottom: 0.3em;
     transition: transform 0.5s;
+    cursor: pointer;
   }
   .arrow-rotate {
     transform: rotate(90deg);
@@ -61,6 +62,9 @@
     text-align: center;
     height: 0;
     transition: height 0.5s;
+  }
+  .links-container-height {
+    height: 9.2em;
   }
   .normal-link {
     display: block;
