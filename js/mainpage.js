@@ -1,18 +1,3 @@
-const loader = document.getElementById("loader");
-const body = document.getElementById("body");
-
-const finishLoading = () => {
-  loader.classList.add("loader--transition");
-  body.classList.remove("body-overflow-preloader");
-  loader.addEventListener("transitionend", () => {
-    document.body.removeChild(body.firstChild);
-  });
-};
-
-window.addEventListener("load", () => {
-  finishLoading();
-});
-
 const textAtelier = document.getElementById("text-atelier");
 const atelierGreen = document.getElementById("atelier-green");
 const textCiudadParque = document.getElementById("text-ciudad-parque");
@@ -194,7 +179,7 @@ const projectsDetailNarrowScreen = (title) => {
 };
 
 const socialIcons = document.getElementById("social-icons");
-const scrollRedes = () => {
+const scrollRedesFunction = () => {
   let documentHeight = document.body.scrollHeight;
   let currentScroll = window.scrollY + window.innerHeight;
   // When the user is [modifier]px from the bottom, fire the event.
@@ -206,12 +191,13 @@ const scrollRedes = () => {
     socialIcons.style.display = "none";
   }
 };
-const scrollRedesWide = () => {
-  let currentScroll = window.scrollY + window.innerHeight;
-  if (currentScroll >= 0) {
-    socialIcons.style.display = "flex";
+
+window.addEventListener("scroll", () => {
+  if (arrow.style.display === "inline-block") {
+    scrollRedesFunction();
   }
-};
+});
+
 const linksNatVar = document.getElementById("links-nat-var");
 const mainBody = document.getElementById("main-body");
 const arrow = document.getElementById("arrow");
@@ -238,17 +224,11 @@ const removeArrowWideScreen = () => {
     arrow.style.display = "inline-block";
 
     socialIcons.style.display = "none";
-    window.addEventListener("scroll", () => {
-      scrollRedes();
-    });
   } else {
     arrow.style.display = "none";
     linksNatVar.classList.remove("links-container-height");
     arrow.classList.remove("arrow-rotate");
 
-    window.addEventListener("scroll", () => {
-      scrollRedesWide();
-    });
     socialIcons.style.display = "flex";
   }
 };

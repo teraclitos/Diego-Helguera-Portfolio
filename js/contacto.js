@@ -1,4 +1,5 @@
 const formContact = document.querySelector(".form-contact");
+const arrowC = document.getElementById("arrow");
 
 let windowScreenContact = window.matchMedia("(max-width: 991.98px)");
 
@@ -47,12 +48,15 @@ windowScreenContact.addEventListener("change", () => {
 // };
 
 // const RenderInputsPhone = () => {
-//   inputsContact.forEach((input) => {
-//     input.addEventListener("focus", () => {
-//       RenderInputsPhoneFocus();
+//   if (arrowC.style.display === "inline-block") {
+//     inputsContact.forEach((input) => {
+//       input.addEventListener("focus", () => {
+//         RenderInputsPhoneFocus();
+//       });
+//       input.addEventListener("blur", () => {
+//         RenderInputsPhoneBlur();
+//       });
 //     });
-//     input.addEventListener("blur", () => {
-//       RenderInputsPhoneBlur();
-//     });
-//   });
+//   }
 // };
+// RenderInputsPhone();
