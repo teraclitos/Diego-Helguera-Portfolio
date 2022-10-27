@@ -1,3 +1,18 @@
+const loader = document.getElementById("loader");
+const body = document.getElementById("body");
+
+const finishLoading = () => {
+  loader.classList.add("loader--transition");
+  body.classList.remove("body-overflow-preloader");
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(body.firstChild);
+  });
+};
+
+window.addEventListener("load", () => {
+  finishLoading();
+});
+
 const textAtelier = document.getElementById("text-atelier");
 const atelierGreen = document.getElementById("atelier-green");
 const textCiudadParque = document.getElementById("text-ciudad-parque");
@@ -244,18 +259,3 @@ const slideNatVarOut = () => {
   linksNatVar.classList.remove("links-container-height");
   arrow.classList.remove("arrow-rotate");
 };
-
-const loader = document.getElementById("loader");
-const body = document.getElementById("body");
-
-const finishLoading = () => {
-  loader.classList.add("loader--transition");
-  body.classList.remove("body-overflow-preloader");
-  loader.addEventListener("transitionend", () => {
-    document.body.removeChild(body.firstChild);
-  });
-};
-
-window.addEventListener("load", () => {
-  finishLoading();
-});
