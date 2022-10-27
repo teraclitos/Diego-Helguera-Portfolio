@@ -31,6 +31,7 @@
   color: rgb(119, 107, 107);
   font-size: 1em;
   width: 18em;
+  outline: none;
 }
 
 .text-contact-container {
