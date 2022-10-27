@@ -182,6 +182,12 @@
   .acercademi-text-container {
     width: 90%;
   }
+  .input-contact {
+    font-size: 1.3em;
+  }
+  .label_contac {
+    font-size: 1.3em;
+  }
 }
 @media (max-width: 450px) {
   .main-body {
