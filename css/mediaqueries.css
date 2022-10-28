@@ -155,6 +155,26 @@
   .form-contact-container {
     right: 0;
   }
+  .wrong-name-wide {
+    left: 0.5em;
+  }
+  .btn-submit-container-wide-screen {
+    align-self: center;
+    left: 0;
+  }
+  .input-contact-text-wide-screen {
+    height: 6em;
+
+    left: 0;
+  }
+  .label-contact {
+    width: 0;
+    overflow: hidden;
+  }
+
+  .text-contact-container {
+    display: inline-block;
+  }
 }
 @media (max-width: 768px) {
   .loader {

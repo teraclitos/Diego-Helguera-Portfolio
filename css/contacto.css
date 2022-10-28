@@ -4,13 +4,13 @@
 }
 .form-contact-container {
   position: relative;
-  bottom: 3rem;
+  bottom: 2rem;
   right: 4rem;
 }
 .form-contact {
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  gap: 1em;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -45,11 +45,7 @@
   position: relative;
   left: 0.3em;
   height: 6em;
-
-  font-family: Arial, Helvetica, sans-serif;
-}
-.input-contact-text-narrow-screen {
-  height: 6em;
+  resize: none;
 
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -59,6 +55,21 @@
   position: relative;
   left: 5em;
 }
-.btn-submit-container-narrow-screen {
-  align-self: center;
+
+.wrong-name-wide {
+  position: relative;
+  max-width: 25em;
+  top: 0.3em;
+
+  bottom: 0;
+  right: 0;
+  left: 15em;
+
+  font-size: 0.7em;
+
+  color: #303c4e;
+}
+
+.none {
+  display: none;
 }
