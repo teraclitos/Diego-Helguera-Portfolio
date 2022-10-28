@@ -9,7 +9,7 @@ const RenderContact = () => {
           <input autocomplete="off" placeholder="Julian"  class="input-contact" type="text" id="fname" name="name" /></div>
             <div> <label  for="affair"></label>
           <input autocomplete="off"  placeholder="Asunto"  class="input-contact" type="text" id="affair" name="affair" /></div>
-             <div><label     for="email"></label>
+             <div><label for="email"></label>
           <input autocomplete="off" placeholder="Julian@gmail.com" class="input-contact" type="email" id="email" name="email" /></div>
             <div class="text-contact-container"> <label  " for="text"></label>
           <textarea autocomplete="off" placeholder="Deje su mensaje"  class="input-contact input-contact-text-narrow-screen" id="text" name="text"></textarea></div>
