@@ -6,6 +6,7 @@
 }
 
 .main-body-acercademi {
+  height: 400px;
   min-height: 95vh;
   display: flex;
   justify-content: center;
