@@ -21,9 +21,6 @@
     padding-top: 6em;
     width: 100%;
   }
-  .main-body-acercademi {
-    top: 0;
-  }
 
   .footer {
     font-size: 16px;
@@ -150,6 +147,9 @@
   .acercademi-container {
     flex-direction: column;
   }
+  .main-body-acercademi {
+    top: 6em;
+  }
   .acercademi-text-container {
     margin-top: 0;
     align-self: center;
@@ -159,6 +159,7 @@
   .loader {
     background-size: 40%;
   }
+
   .main-body {
     font-size: 12px;
   }
@@ -175,14 +176,18 @@
   .termitiere-text {
     line-height: 12.5em;
   }
+  .form-contact {
+    font-size: 14px;
+  }
+  .acercademi-text-container {
+    font-size: 14px;
+  }
 }
 @media (max-width: 576px) {
   .main-body {
     font-size: 10px;
   }
-  .acercademi-text {
-    font-size: 1.3em;
-  }
+
   .acercademi-text-container {
     width: 90%;
   }
@@ -192,6 +197,9 @@
   .label_contact {
     font-size: 1.3em;
   }
+  .form-contact {
+    font-size: 10px;
+  }
 }
 @media (max-width: 450px) {
   .main-body {
@@ -199,6 +207,12 @@
   }
   .nat-var-container {
     font-size: 14px;
+  }
+  .form-contact {
+    font-size: 8px;
+  }
+  .main-body-acercademi {
+    top: 0em;
   }
 }
 @media (max-width: 350px) {
