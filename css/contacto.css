@@ -13,7 +13,9 @@
 .label-contact {
   display: inline-block;
   width: 10em;
-  text-align: center;
+  text-align: end;
+  position: relative;
+  right: 1em;
 
   color: rgb(119, 107, 107);
 }
@@ -30,7 +32,10 @@
 
 .text-contact-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+}
+.label-contact-text {
+  top: 0.5em;
 }
 .input-contact-text-wide-screen {
   position: relative;
