@@ -147,12 +147,13 @@
   .acercademi-container {
     flex-direction: column;
   }
-  .main-body-acercademi {
-    top: 0em;
-  }
+
   .acercademi-text-container {
     margin-top: 0;
     align-self: center;
+  }
+  .form-contact-container {
+    right: 0;
   }
 }
 @media (max-width: 768px) {
@@ -211,9 +212,6 @@
   }
   .form-contact {
     font-size: 8px;
-  }
-  .main-body-acercademi {
-    top: 0em;
   }
 }
 @media (max-width: 350px) {

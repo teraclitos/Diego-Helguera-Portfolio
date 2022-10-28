@@ -4,7 +4,8 @@
 }
 .form-contact-container {
   position: relative;
-  bottom: 2em;
+  bottom: 3rem;
+  right: 4rem;
 }
 .form-contact {
   display: flex;
