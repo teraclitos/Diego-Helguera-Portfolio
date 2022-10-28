@@ -2,7 +2,10 @@
   align-items: flex-start;
   padding-top: 5em;
 }
-
+.form-contact-container {
+  position: relative;
+  bottom: 2em;
+}
 .form-contact {
   display: flex;
   flex-direction: column;

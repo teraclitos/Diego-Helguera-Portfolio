@@ -1,20 +1,20 @@
 .nat-var-container-fixed {
-  position: fixed;
+  position: sticky;
   background-color: white;
   z-index: 1;
+  top: 0;
 }
 
 .main-body-acercademi {
-  position: relative;
-  min-height: 100vh;
-  top: 3em;
-
+  min-height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .acercademi-container {
+  position: relative;
+  bottom: 2em;
   display: flex;
 
   justify-content: center;
