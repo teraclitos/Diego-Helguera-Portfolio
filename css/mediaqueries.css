@@ -175,6 +175,9 @@
   .text-contact-container {
     display: inline-block;
   }
+  .form-contact-container {
+    bottom: 3rem;
+  }
 }
 @media (max-width: 768px) {
   .loader {
