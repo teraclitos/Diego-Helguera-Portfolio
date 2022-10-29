@@ -102,3 +102,6 @@
 .none {
   display: none;
 }
+.border-wrong {
+  border: 0.1em solid #303c4e;
+}
