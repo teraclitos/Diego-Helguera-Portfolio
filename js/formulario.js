@@ -104,11 +104,11 @@ form.addEventListener("submit", (e) => {
     form.reset();
     setTimeout(() => {
       location.href = "/index.html";
-    }, 3000);
+    }, 5000);
   } else {
     error.classList.remove("none");
     setTimeout(() => {
       error.classList.add("none");
-    }, 3000);
+    }, 5000);
   }
 });
