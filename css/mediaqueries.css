@@ -186,6 +186,7 @@
   }
   .error-text {
     left: 0;
+    max-width: 18em;
   }
   .correct-text {
     left: 0;
@@ -237,6 +238,9 @@
   .form-contact {
     font-size: 10px;
   }
+  .error-text {
+    max-width: 25em;
+  }
 }
 @media (max-width: 450px) {
   .main-body {
@@ -258,5 +262,10 @@
   }
   .acercademi-text-container {
     font-size: 8px;
+  }
+}
+@media (max-width: 260px) {
+  .form-contact {
+    font-size: 6px;
   }
 }
