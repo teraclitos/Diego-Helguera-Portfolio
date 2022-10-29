@@ -161,6 +161,9 @@
   .wrong-email {
     left: 0.5em;
   }
+  .wrong-text {
+    left: 0.5em;
+  }
   .btn-submit-container-wide-screen {
     align-self: center;
     left: 0;

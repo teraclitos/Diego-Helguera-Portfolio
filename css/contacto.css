@@ -82,7 +82,23 @@
 
   color: #303c4e;
 }
+.wrong-text {
+  position: relative;
+  max-width: 25em;
+  top: -1em;
 
+  bottom: 0;
+  right: 0;
+  left: 15em;
+
+  font-size: 0.7em;
+
+  color: #303c4e;
+}
+.top-btn-submit {
+  position: relative;
+  bottom: 1em;
+}
 .none {
   display: none;
 }
