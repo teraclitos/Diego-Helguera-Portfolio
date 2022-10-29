@@ -7,12 +7,12 @@ const text = document.getElementById("text");
 const RenderContact = () => {
   if (windowScreenContact.matches) {
     names.placeholder = "Julian";
-    asunto.placeholder = "Asunto";
+    asunto.placeholder = "Asunto(opcional)";
     email.placeholder = "julian@gmail.com";
     text.placeholder = "Deje su mensaje";
   } else {
     names.placeholder = "";
-    asunto.placeholder = "";
+    asunto.placeholder = "(opcional)";
     email.placeholder = "";
     text.placeholder = "";
   }

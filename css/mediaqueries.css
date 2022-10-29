@@ -184,6 +184,12 @@
   .form-contact-container {
     bottom: 3rem;
   }
+  .error-text {
+    left: 0;
+  }
+  .correct-text {
+    left: 0;
+  }
 }
 @media (max-width: 768px) {
   .loader {

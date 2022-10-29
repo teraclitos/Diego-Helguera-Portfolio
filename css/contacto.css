@@ -105,3 +105,24 @@
 .border-wrong {
   border: 0.1em solid #303c4e;
 }
+.error-container {
+  text-align: center;
+}
+
+.error-text {
+  color: #303c4e;
+  position: relative;
+  left: 5em;
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+}
+.correct-container {
+  text-align: center;
+}
+.correct-text {
+  color: #d65f37;
+  position: relative;
+  left: 5em;
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+}
