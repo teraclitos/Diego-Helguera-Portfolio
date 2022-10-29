@@ -11,18 +11,18 @@ const expression = {
 
   mail: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 
-  text: /\S{5,100}/,
+  text: /\S{5,10}/,
 };
 
-const validation = (x, y, z) => {
-  switch (x) {
+const validation = (inputName, inputValue, inputs) => {
+  switch (inputName) {
     case "name":
-      if (expression.name.test(y) || y === "") {
+      if (expression.name.test(inputValue) || inputValue === "") {
         wrongName.classList.add("none");
-        z.classList.remove("border-wrong");
+        inputs.classList.remove("border-wrong");
       } else {
         wrongName.classList.remove("none");
-        z.classList.add("border-wrong");
+        inputs.classList.add("border-wrong");
       }
 
       break;
@@ -31,25 +31,25 @@ const validation = (x, y, z) => {
 
       break;
     case "email":
-      if (expression.mail.test(y) || y === "") {
+      if (expression.mail.test(inputValue) || inputValue === "") {
         wrongEmail.classList.add("none");
-        z.classList.remove("border-wrong");
+        inputs.classList.remove("border-wrong");
       } else {
         wrongEmail.classList.remove("none");
-        z.classList.add("border-wrong");
+        inputs.classList.add("border-wrong");
       }
 
       break;
 
     default:
-      if (expression.text.test(y) || y === "") {
+      if (expression.text.test(inputValue) || inputValue === "") {
         wrongText.classList.add("none");
         btnSubmit.classList.remove("top-btn-submit");
-        z.classList.remove("border-wrong");
+        inputs.classList.remove("border-wrong");
       } else {
         wrongText.classList.remove("none");
         btnSubmit.classList.add("top-btn-submit");
-        z.classList.add("border-wrong");
+        inputs.classList.add("border-wrong");
       }
       break;
   }
