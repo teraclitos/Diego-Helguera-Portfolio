@@ -27,10 +27,10 @@ const validation = (x, y) => {
 
       break;
     case "email":
-      if (expression.mail.test(y)) {
-        console.log("es valido");
+      if (expression.mail.test(y) || y === "") {
+        wrongEmail.classList.add("none");
       } else {
-        console.log("No es un nombre");
+        wrongEmail.classList.remove("none");
       }
 
       break;

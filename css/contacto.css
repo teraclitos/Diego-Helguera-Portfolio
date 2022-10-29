@@ -56,7 +56,20 @@
   left: 5em;
 }
 
-.wrong-name-wide {
+.wrong-name {
+  position: relative;
+  max-width: 25em;
+  top: 0.3em;
+
+  bottom: 0;
+  right: 0;
+  left: 15em;
+
+  font-size: 0.7em;
+
+  color: #303c4e;
+}
+.wrong-email {
   position: relative;
   max-width: 25em;
   top: 0.3em;
