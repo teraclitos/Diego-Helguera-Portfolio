@@ -1,7 +1,8 @@
 const form = document.getElementById("form");
 
 const inputsArray = document.querySelectorAll("#form input, textarea ");
-const wrongNameWide = document.querySelector(".wrong-name-wide");
+const wrongName = document.querySelector(".wrong-name");
+const wrongEmail = document.querySelector(".wrong-email");
 
 const expression = {
   name: /^[a-zA-ZÀ-ÿ\s]{3,40}$/,
@@ -15,9 +16,9 @@ const validation = (x, y) => {
   switch (x) {
     case "name":
       if (expression.name.test(y) || y === "") {
-        wrongNameWide.classList.add("none");
+        wrongName.classList.add("none");
       } else {
-        wrongNameWide.classList.remove("none");
+        wrongName.classList.remove("none");
       }
 
       break;
