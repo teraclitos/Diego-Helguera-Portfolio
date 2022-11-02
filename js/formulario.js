@@ -103,14 +103,16 @@ inputsArray.forEach((input) => {
     validation(input.name, input.value, input);
   });
 });
-
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   if (validations.name && validations.email && validations.text) {
     correct.classList.remove("none");
     error.classList.add("none");
-    form.reset();
+    setTimeout(() => {
+      form.submit();
+    }, 3000);
+
     setTimeout(() => {
       location.href = "/index.html";
     }, 5000);
