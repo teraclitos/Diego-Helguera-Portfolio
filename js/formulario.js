@@ -109,11 +109,9 @@ form.addEventListener("submit", (e) => {
   if (validations.name && validations.email && validations.text) {
     correct.classList.remove("none");
     error.classList.add("none");
-    setTimeout(() => {
-      form.submit();
-    }, 3000);
 
     setTimeout(() => {
+      form.submit();
       location.href = "/index.html";
     }, 5000);
   } else {
