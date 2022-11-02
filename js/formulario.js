@@ -15,17 +15,20 @@ const validations = {
 };
 
 const expression = {
-  name: /^[a-zA-ZÀ-ÿ\s]{3,20}$/,
+  name: /^[a-zA-ZÀ-ÿ\s]{0,100}$/,
 
-  mail: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-
-  text: /^\S{5,150}$/,
+  mail: /[[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+]{0,100}$/,
 };
 
 const validation = (inputName, inputValue, inputs) => {
   switch (inputName) {
     case "name":
-      if (expression.name.test(inputValue) || inputValue === "") {
+      if (
+        (expression.name.test(inputValue) &&
+          inputValue.trim().length > 2 &&
+          inputValue.trim().length < 30) ||
+        inputValue === ""
+      ) {
         wrongName.classList.add("none");
         inputs.classList.remove("border-wrong");
 
@@ -46,7 +49,12 @@ const validation = (inputName, inputValue, inputs) => {
 
       break;
     case "email":
-      if (expression.mail.test(inputValue) || inputValue === "") {
+      if (
+        (expression.mail.test(inputValue) &&
+          inputValue.trim().length > 2 &&
+          inputValue.trim().length < 31) ||
+        inputValue === ""
+      ) {
         wrongEmail.classList.add("none");
         inputs.classList.remove("border-wrong");
         if (inputValue !== "") {
@@ -65,7 +73,7 @@ const validation = (inputName, inputValue, inputs) => {
     default:
       if (
         // (expression.text.test(inputValue) &&
-        (inputValue.length > 6 && inputValue.length < 150) ||
+        (inputValue.trim().length > 6 && inputValue.trim().length < 151) ||
         inputValue === ""
       ) {
         wrongText.classList.add("none");
@@ -87,7 +95,7 @@ const validation = (inputName, inputValue, inputs) => {
 };
 
 inputsArray.forEach((input) => {
-  input.addEventListener("keyup", () => {
+  input.addEventListener("input", () => {
     validation(input.name, input.value, input);
   });
   input.addEventListener("blur", () => {
