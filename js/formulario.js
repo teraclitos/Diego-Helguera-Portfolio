@@ -73,7 +73,7 @@ const validation = (inputName, inputValue, inputs) => {
     default:
       if (
         // (expression.text.test(inputValue) &&
-        (inputValue.trim().length > 6 && inputValue.trim().length < 151) ||
+        (inputValue.trim().length > 6 && inputValue.trim().length < 401) ||
         inputValue === ""
       ) {
         wrongText.classList.add("none");
