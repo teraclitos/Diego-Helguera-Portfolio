@@ -116,11 +116,8 @@ form.addEventListener("submit", (e) => {
     }, 5000);
   } else {
     inputsArrayRequired.forEach((inputs) => {
-      if (inputs.value === "") {
+      if (inputs.value.trim() === "") {
         inputs.classList.add("border-wrong");
-        // setTimeout(() => {
-        //   inputs.classList.remove("border-wrong");
-        // }, 5000);
       }
     });
 
