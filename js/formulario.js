@@ -1,6 +1,7 @@
 const form = document.getElementById("form");
 
 const inputsArray = document.querySelectorAll(".input-contact");
+const inputsArrayRequired = document.querySelectorAll(".required");
 const wrongName = document.querySelector(".wrong-name");
 const wrongEmail = document.querySelector(".wrong-email");
 const wrongText = document.querySelector(".wrong-text");
@@ -114,6 +115,15 @@ form.addEventListener("submit", (e) => {
       location.href = "/index.html";
     }, 5000);
   } else {
+    inputsArrayRequired.forEach((inputs) => {
+      if (inputs.value === "") {
+        inputs.classList.add("border-wrong");
+        // setTimeout(() => {
+        //   inputs.classList.remove("border-wrong");
+        // }, 5000);
+      }
+    });
+
     error.classList.remove("none");
     setTimeout(() => {
       error.classList.add("none");
