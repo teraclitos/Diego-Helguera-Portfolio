@@ -108,8 +108,8 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   if (validations.name && validations.email && validations.text) {
-    correct.classList.remove("none");
-    error.classList.add("none");
+    correct.classList.remove("hidden");
+    error.classList.add("hidden");
 
     setTimeout(() => {
       form.submit();
@@ -121,9 +121,9 @@ form.addEventListener("submit", (e) => {
       }
     });
 
-    error.classList.remove("none");
+    error.classList.remove("hidden");
     setTimeout(() => {
-      error.classList.add("none");
+      error.classList.add("hidden");
     }, 5000);
   }
 });

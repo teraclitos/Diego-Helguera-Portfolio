@@ -113,6 +113,7 @@
   color: #303c4e;
   position: relative;
   left: 5em;
+  bottom: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
   user-select: none;
 }
@@ -122,7 +123,12 @@
 .correct-text {
   color: #d65f37;
   position: relative;
+  top: 0.5em;
   left: 5em;
   font-family: Arial, Helvetica, sans-serif;
   user-select: none;
+}
+
+.hidden {
+  visibility: hidden;
 }
