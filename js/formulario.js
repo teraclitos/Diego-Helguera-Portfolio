@@ -103,6 +103,7 @@ inputsArray.forEach((input) => {
     validation(input.name, input.value, input);
   });
 });
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
@@ -111,7 +112,6 @@ form.addEventListener("submit", (e) => {
     error.classList.add("none");
 
     setTimeout(() => {
-      form.submit();
       location.href = "/index.html";
     }, 5000);
   } else {
