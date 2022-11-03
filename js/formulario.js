@@ -46,8 +46,6 @@ const validation = (inputName, inputValue, inputs) => {
 
       break;
     case "asunto":
-      console.log("el asunto funciona");
-
       break;
     case "email":
       if (
@@ -75,12 +73,12 @@ const validation = (inputName, inputValue, inputs) => {
       if (
         // (expression.text.test(inputValue) &&
         (inputValue.trim().length > 6 && inputValue.trim().length < 401) ||
-        inputValue === ""
+        inputValue.trim() === ""
       ) {
         wrongText.classList.add("none");
         btnSubmit.classList.remove("top-btn-submit");
         inputs.classList.remove("border-wrong");
-        if (inputValue !== "") {
+        if (inputValue.trim() !== "") {
           validations.text = true;
         } else {
           validations.text = false;
