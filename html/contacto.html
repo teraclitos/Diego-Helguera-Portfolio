@@ -54,7 +54,12 @@
       class="main-body main-body-acercademi"
     >
       <div class="form-contact-container">
-        <form id="form" class="form-contact">
+        <form
+          action="https://formsubmit.co/e3ce6f8aed119be59340c2fa0e9b2440 "
+          method="post"
+          id="form"
+          class="form-contact"
+        >
           <div>
             <label class="label-contact" for="name">Nombre</label>
             <input
@@ -108,11 +113,14 @@
             >
             </textarea>
           </div>
+
           <p class="wrong-text none">
             El mensaje puede tener un largo de 5 a 400 caracteres
           </p>
           <div id="btn-submit" class="btn-submit-container-wide-screen">
             <input class="btn-cv" type="submit" value="enviar" id="text" />
+            <input type="hidden" name="_next" value="/index.html" />
+            <input type="hidden" name="_captcha" value="false" />
           </div>
 
           <div class="correct-container none">

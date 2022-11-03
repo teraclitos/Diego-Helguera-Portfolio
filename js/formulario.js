@@ -112,8 +112,8 @@ form.addEventListener("submit", (e) => {
     error.classList.add("none");
 
     setTimeout(() => {
-      location.href = "/index.html";
-    }, 5000);
+      form.submit();
+    }, 3000);
   } else {
     inputsArrayRequired.forEach((inputs) => {
       if (inputs.value.trim() === "") {
