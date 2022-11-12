@@ -204,31 +204,6 @@ h1 {
 }
 /* img-ciudad-parque-end */
 
-/*img-torre-dual */
-.main-torre-dual {
-  grid-area: torre;
-  position: relative;
-}
-
-.torre-dual-text {
-  position: absolute;
-
-  top: 4em;
-  left: 8.3em;
-}
-
-.img-torre-dual-green {
-  height: calc(8.971em * 3.2);
-
-  width: calc(5.625em * 3.2);
-
-  position: absolute;
-  left: 7em;
-  top: -5em;
-}
-
-/*img-torre-dual-end */
-
 /* edificio1 */
 
 .main-edificio1 {
@@ -278,6 +253,31 @@ h1 {
   left: 2em;
 }
 /* edificio2-end */
+
+/*img-torre-dual */
+.main-torre-dual {
+  grid-area: torre;
+  position: relative;
+}
+
+.torre-dual-text {
+  position: absolute;
+
+  top: 4em;
+  left: 8.3em;
+}
+
+.img-torre-dual-green {
+  height: calc(8.971em * 3.2);
+
+  width: calc(5.625em * 3.2);
+
+  position: absolute;
+  left: 7em;
+  top: -5em;
+}
+
+/*img-torre-dual-end */
 
 /* img-santiago */
 .main-santiago {
