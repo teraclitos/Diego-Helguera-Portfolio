@@ -214,8 +214,8 @@ h1 {
 .edificio1-text {
   position: absolute;
 
-  top: 10em;
-  left: 9.5em;
+  top: 6.8em;
+  left: 9.2em;
 }
 
 .img-edificio1-green {
@@ -239,7 +239,7 @@ h1 {
 .edificio2-text {
   position: absolute;
 
-  top: 10em;
+  top: 9.2em;
   left: 9.5em;
 }
 
@@ -263,7 +263,7 @@ h1 {
 .torre-dual-text {
   position: absolute;
 
-  top: 4em;
+  top: 6em;
   left: 8.3em;
 }
 
@@ -287,8 +287,8 @@ h1 {
 
 .santiago-text {
   position: absolute;
-  top: 2.5em;
-  left: 6.5em;
+  top: 4.5em;
+  left: 12em;
 }
 
 .img-santiago-green {
@@ -312,8 +312,8 @@ h1 {
 .corrientes-text {
   position: absolute;
 
-  top: 7.5em;
-  left: 10em;
+  top: 9em;
+  left: 8.5em;
 }
 
 .img-corrientes-green {
@@ -335,8 +335,8 @@ h1 {
 
 .patio-de-uco-text {
   position: absolute;
-  top: -0.5em;
-  left: 11em;
+  top: 1.8em;
+  left: 8.2em;
 }
 
 .img-patio-de-uco-green {
@@ -358,8 +358,8 @@ h1 {
 
 .termitiere-text {
   position: absolute;
-  top: -3em;
-  left: 35.8em;
+  top: 1.8em;
+  left: 39em;
 }
 
 .img-termitiere-green {

@@ -81,7 +81,7 @@
 
   .grid-projects {
     grid-template-columns: 1fr;
-    grid-template-rows: 16.875em 16.875em 16.875em 16.3125em 28.7072em 16.875em 19.6875em 19.6875em 26em;
+    grid-template-rows: 16.875em 16.875em 16.875em 16.3125em 28.7072em 16.875em 19.6875em 19.6875em 35em;
     grid-template-areas:
       "atelier"
       "parque"
@@ -126,6 +126,12 @@
   .ciudad-parque-text {
     line-height: 11.5em;
   }
+  .edificio1-text {
+    line-height: 11.5em;
+  }
+  .edificio2-text {
+    line-height: 11.5em;
+  }
 
   .torre-dual-text {
     line-height: 20em;
@@ -142,9 +148,12 @@
   .patio-de-uco-text {
     line-height: 13.5em;
   }
+  .img-termitiere-green {
+    bottom: 18em;
+  }
 
   .termitiere-text {
-    line-height: 18em;
+    line-height: 12em;
   }
   .acercademi-container {
     flex-direction: column;
