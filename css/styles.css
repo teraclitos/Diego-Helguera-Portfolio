@@ -86,8 +86,8 @@ html {
 
   border-bottom: 0.15em solid #d65f37;
   display: grid;
-  grid-template-areas: "titulo links";
-  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "titulo links language";
+  grid-template-columns: 6fr 6fr 1fr;
   grid-template-rows: 5em;
 }
 
@@ -95,9 +95,22 @@ html {
   grid-area: titulo;
   display: flex;
   align-items: flex-end;
+
   padding-left: 3em;
   padding-bottom: 1em;
 }
+.btn-language {
+  padding: 0.5em 1em;
+}
+.btn-language-container {
+  grid-area: language;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  padding-bottom: 0.5em;
+  padding-right: 3em;
+}
+
 h1 {
   color: #d65f37;
   font-size: 1.5em;

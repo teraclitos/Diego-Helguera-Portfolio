@@ -72,7 +72,7 @@
   gap: 1em;
 }
 
-.btn-cv {
+.btn {
   align-items: center;
   background-color: #fff;
   border: 0.0625em solid rgb(229, 208, 208);
@@ -91,10 +91,10 @@
   user-select: none;
 }
 
-.btn-cv:active {
+.btn:active {
   box-shadow: rgba(72, 95, 199, 0.25) 0 0 0 0.125em;
 }
 
-.btn-cv:hover {
+.btn:hover {
   border-color: #d65f37;
 }

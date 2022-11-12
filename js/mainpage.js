@@ -266,3 +266,22 @@ removeArrowWideScreen();
 windowScreen.addEventListener("change", () => {
   removeArrowWideScreen();
 });
+
+const projects = document.getElementById("projects");
+const me = document.getElementById("me");
+const contact = document.getElementById("contact");
+const languagePush = document.getElementById("language");
+
+const language = () => {
+  if (languagePush.innerText === "In") {
+    me.innerText = "About me";
+    projects.innerText = "Projects";
+    contact.innerText = "Contact";
+    languagePush.innerText = "Es";
+  } else {
+    me.innerText = "Acerca de mí";
+    projects.innerText = "Proyectos";
+    contact.innerText = "Contacto";
+    languagePush.innerText = "In";
+  }
+};
