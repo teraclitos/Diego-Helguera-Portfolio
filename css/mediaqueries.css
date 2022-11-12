@@ -81,10 +81,12 @@
 
   .grid-projects {
     grid-template-columns: 1fr;
-    grid-template-rows: 16.875em 16.875em 28.7072em 16.875em 19.6875em 19.6875em 26em;
+    grid-template-rows: 16.875em 16.875em 16.875em 16.3125em 28.7072em 16.875em 19.6875em 19.6875em 26em;
     grid-template-areas:
       "atelier "
       "parque"
+      "edificio1"
+      "edificio2"
       "torre"
       "santiago"
       "corrientes"

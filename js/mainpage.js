@@ -2,6 +2,10 @@ const textAtelier = document.getElementById("text-atelier");
 const atelierGreen = document.getElementById("atelier-green");
 const textCiudadParque = document.getElementById("text-ciudad-parque");
 const ciudadParqueGreen = document.getElementById("ciudad-parque-green");
+const textEdificio1 = document.getElementById("text-edificio1");
+const edificio1Green = document.getElementById("edificio1-green");
+const textEdificio2 = document.getElementById("text-edificio2");
+const edificio2Green = document.getElementById("edificio2-green");
 const textTorreDual = document.getElementById("text-torre-dual");
 const torreDualGreen = document.getElementById("torre-dual-green");
 const textSantiago = document.getElementById("text-santiago");
@@ -27,6 +31,19 @@ const textHoverInImg = (title) => {
       ciudadParqueGreen.classList.remove("transition--opacity--green");
 
       break;
+    case "edificio1":
+      textEdificio1.style.opacity = "1";
+      edificio1Green.style.opacity = "1";
+      edificio1Green.classList.remove("transition--opacity--green");
+
+      break;
+    case "edificio2":
+      textEdificio2.style.opacity = "1";
+      edificio2Green.style.opacity = "1";
+      edificio2Green.classList.remove("transition--opacity--green");
+
+      break;
+
     case "torreDual":
       textTorreDual.style.opacity = "1";
       torreDualGreen.style.opacity = "1";
@@ -72,6 +89,18 @@ const textHoverOutImg = (title) => {
       textCiudadParque.style.opacity = "0";
       ciudadParqueGreen.style.opacity = "0";
       ciudadParqueGreen.classList.add("transition--opacity--green");
+
+      break;
+    case "edificio1":
+      textEdificio1.style.opacity = "0";
+      edificio1Green.style.opacity = "0";
+      edificio1Green.classList.add("transition--opacity--green");
+
+      break;
+    case "edificio2":
+      textEdificio2.style.opacity = "0";
+      edificio2Green.style.opacity = "0";
+      edificio2Green.classList.add("transition--opacity--green");
 
       break;
     case "torreDual":

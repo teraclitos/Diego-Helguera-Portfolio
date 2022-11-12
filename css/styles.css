@@ -144,9 +144,10 @@ h1 {
 .grid-projects {
   display: grid;
   grid-template-columns: 1 fr 1fr;
-  grid-template-rows: 30em 30em 30em 30em;
+  grid-template-rows: 30em 30em 30em 30em 25em;
   grid-template-areas:
     "atelier parque"
+    "edificio1 edificio2"
     "torre santiago"
     "corrientes uco"
     "termitiere termitiere";
@@ -212,7 +213,7 @@ h1 {
 .torre-dual-text {
   position: absolute;
 
-  top: 9em;
+  top: 4em;
   left: 8.3em;
 }
 
@@ -223,9 +224,60 @@ h1 {
 
   position: absolute;
   left: 7em;
+  top: -5em;
 }
 
 /*img-torre-dual-end */
+
+/* edificio1 */
+
+.main-edificio1 {
+  grid-area: edificio1;
+  position: relative;
+}
+
+.edificio1-text {
+  position: absolute;
+
+  top: 10em;
+  left: 9.5em;
+}
+
+.img-edificio1-green {
+  width: calc(8.4375em * 3.6);
+
+  height: calc(5.625em * 3);
+  position: absolute;
+  top: 2em;
+  left: 1.5em;
+}
+
+/* edificio1-end */
+
+/* edificio2 */
+
+.main-edificio2 {
+  grid-area: edificio2;
+  position: relative;
+}
+
+.edificio2-text {
+  position: absolute;
+
+  top: 10em;
+  left: 9.5em;
+}
+
+.img-edificio2-green {
+  width: calc(11.8125em * 2.55);
+
+  height: calc(5.625em * 2.9);
+  position: absolute;
+  top: 6em;
+
+  left: 2em;
+}
+/* edificio2-end */
 
 /* img-santiago */
 .main-santiago {
@@ -235,7 +287,7 @@ h1 {
 
 .santiago-text {
   position: absolute;
-  top: 9.5em;
+  top: 2.5em;
   left: 6.5em;
 }
 
@@ -245,8 +297,8 @@ h1 {
   width: calc(10.054em * 3);
 
   position: absolute;
-  top: 6em;
-  left: -2em;
+  top: -1em;
+  left: 6em;
 }
 
 /* img-santiago-end */
@@ -260,7 +312,7 @@ h1 {
 .corrientes-text {
   position: absolute;
 
-  top: 12.5em;
+  top: 7.5em;
   left: 10em;
 }
 
@@ -269,8 +321,8 @@ h1 {
 
   height: calc(5.625em * 3.5);
   position: absolute;
-  top: 9.3125em;
-  left: 3em;
+  top: 4.3125em;
+  left: 1em;
 }
 
 /* img-corrientes-end */
@@ -283,7 +335,7 @@ h1 {
 
 .patio-de-uco-text {
   position: absolute;
-  top: 6.5em;
+  top: -0.5em;
   left: 11em;
 }
 
@@ -292,7 +344,8 @@ h1 {
 
   height: calc(5.625em * 3.5);
   position: absolute;
-  left: 6.2em;
+  left: 2em;
+  top: -7em;
 }
 
 /* img-patio-de-uco-end */
@@ -305,7 +358,7 @@ h1 {
 
 .termitiere-text {
   position: absolute;
-  top: 4em;
+  top: -3em;
   left: 35.8em;
 }
 
@@ -314,8 +367,8 @@ h1 {
 
   height: calc(5.625em * 3.1);
   position: absolute;
-  left: 42em;
-  top: -2rem;
+  left: 46em;
+  top: -5rem;
 }
 
 .img-text-common-properties {
