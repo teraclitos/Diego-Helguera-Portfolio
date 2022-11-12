@@ -376,9 +376,11 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   pointer-events: none;
   z-index: 2;
-  color: #dac682;
-  user-select: none;
+  color: #d5d569;
 
+  user-select: none;
+  font-weight: 100;
+  /* 
   background-image: radial-gradient(
     circle at 69.29% 8.62%,
     #d5d569 0,
@@ -387,7 +389,7 @@ h1 {
   );
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
   transition: 0.3s;
 
   opacity: 0;
