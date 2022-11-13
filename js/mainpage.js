@@ -305,7 +305,7 @@ const language = () => {
       wrongMessageLanguage.innerText =
         "The message can only have from 5 to 400 characters";
       errorSubmitLanguage.innerText =
-        "Error!!! Fill all the required fields correctly ";
+        "ERROR!!! Fill all the required fields correctly ";
       correctSubmitLanguage.innerText =
         "Your message has been sent successfully";
     }
@@ -390,7 +390,7 @@ const RenderNavBar = () => {
       wrongMessageLanguage.innerText =
         "The message can only have from 5 to 400 characters";
       errorSubmitLanguage.innerText =
-        "Error!!! Fill all the required fields correctly ";
+        "ERROR!!! Fill all the required fields correctly ";
       correctSubmitLanguage.innerText =
         "Your message has been sent successfully";
     }
