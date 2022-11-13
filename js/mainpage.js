@@ -270,6 +270,11 @@ windowScreen.addEventListener("change", () => {
 const projects = document.getElementById("projects");
 const me = document.getElementById("me");
 const contact = document.getElementById("contact");
+const nameLabel = document.getElementById("name-label");
+const matter = document.getElementById("matter");
+const message = document.getElementById("message");
+const submit = document.getElementById("submit-btn");
+
 const languagePush = document.getElementById("language");
 const localSTGLanguage = JSON.parse(localStorage.getItem("number")) || {
   id: 0,
@@ -281,18 +286,40 @@ const language = () => {
     projects.innerText = "Projects";
     contact.innerText = "Contact";
     languagePush.innerText = "Es";
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/contacto.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/contacto.html"
+    ) {
+      nameLabel.innerText = "Name";
+      matter.innerText = "Matter";
+      message.innerText = "Leave you message";
+      submit.value = "send";
+    }
     localStorage.setItem("number", JSON.stringify({ id: 1 }));
   } else {
     me.innerText = "Acerca de mí";
     projects.innerText = "Proyectos";
     contact.innerText = "Contacto";
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/contacto.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/contacto.html"
+    ) {
+      nameLabel.innerText = "Nombre";
+      matter.innerText = "Asunto";
+      message.innerText = "Deje su mensaje";
+      submit.value = "enviar";
+    }
+
     languagePush.innerText = "In";
     localStorage.setItem("number", JSON.stringify({ id: 0 }));
   }
 
   if (
     window.location.href ===
-    "https://diego-helguera.netlify.app/html/contacto.html"
+      "https://diego-helguera.netlify.app/html/contacto.html" ||
+    window.location.href === "http://127.0.0.1:5500/html/contacto.html"
   ) {
     location.href = "";
   }
@@ -303,11 +330,33 @@ const RenderNavBar = () => {
     me.innerText = "Acerca de mí";
     projects.innerText = "Proyectos";
     contact.innerText = "Contacto";
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/contacto.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/contacto.html"
+    ) {
+      nameLabel.innerText = "Nombre";
+      matter.innerText = "Asunto";
+      message.innerText = "Deje su mensaje";
+      submit.value = "enviar";
+    }
+
     languagePush.innerText = "In";
   } else {
     me.innerText = "About me";
     projects.innerText = "Projects";
     contact.innerText = "Contact";
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/contacto.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/contacto.html"
+    ) {
+      nameLabel.innerText = "Name";
+      matter.innerText = "Matter";
+      message.innerText = "Leave your message";
+      submit.value = "send";
+    }
+
     languagePush.innerText = "Es";
   }
 };
