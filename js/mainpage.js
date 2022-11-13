@@ -352,7 +352,7 @@ const RenderNavBar = () => {
       window.location.href === "http://127.0.0.1:5500/html/contacto.html"
     ) {
       nameLabel.innerText = "Name";
-      matter.innerText = "Matter";
+      matter.innerText = "Subject";
       message.innerText = "Leave your message";
       submit.value = "send";
     }
