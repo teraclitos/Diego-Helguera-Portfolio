@@ -274,7 +274,11 @@ const nameLabel = document.getElementById("name-label");
 const matter = document.getElementById("matter");
 const message = document.getElementById("message");
 const submit = document.getElementById("submit-btn");
-
+const WrongNameLanguage = document.getElementById("wrong-name");
+const wrongEmailLanguage = document.getElementById("wrong-email");
+const wrongMessageLanguage = document.getElementById("wrong-message");
+const errorSubmitLanguage = document.getElementById("error");
+const correctSubmitLanguage = document.getElementById("correct");
 const languagePush = document.getElementById("language");
 const localSTGLanguage = JSON.parse(localStorage.getItem("number")) || {
   id: 0,
@@ -295,6 +299,15 @@ const language = () => {
       matter.innerText = "Matter";
       message.innerText = "Leave you message";
       submit.value = "send";
+      WrongNameLanguage.innerText =
+        " The name can only have from 3 to 30 characters, it must not have numbers or symbols!!!";
+      wrongEmailLanguage.innerText = " This doesn`t look like an email";
+      wrongMessageLanguage.innerText =
+        "The message can only have from 5 to 400 characters";
+      errorSubmitLanguage.innerText =
+        "Error!!! Fill all the required fields correctly ";
+      correctSubmitLanguage.innerText =
+        "Your message has been sent successfully";
     }
     localStorage.setItem("number", JSON.stringify({ id: 1 }));
   } else {
@@ -310,6 +323,15 @@ const language = () => {
       matter.innerText = "Asunto";
       message.innerText = "Deje su mensaje";
       submit.value = "enviar";
+      WrongNameLanguage.innerText =
+        " El nombre puede tener de 3 a 30 caracteres, no debe llevar ni números ni símbolos!!!";
+      wrongEmailLanguage.innerText = " Debe respetar la forma de un email";
+      wrongMessageLanguage.innerText =
+        "El mensaje puede tener un largo de 5 a 400 caracteres";
+      errorSubmitLanguage.innerText =
+        " ERROR!!! Rellena correctamente todos los campos obligatorios";
+      correctSubmitLanguage.innerText =
+        "  Su mensaje ha sido enviado con éxito";
     }
 
     languagePush.innerText = "In";
@@ -339,6 +361,15 @@ const RenderNavBar = () => {
       matter.innerText = "Asunto";
       message.innerText = "Deje su mensaje";
       submit.value = "enviar";
+      WrongNameLanguage.innerText =
+        " El nombre puede tener de 3 a 30 caracteres, no debe llevar ni números ni símbolos!!!";
+      wrongEmailLanguage.innerText = " Debe respetar la forma de un email";
+      wrongMessageLanguage.innerText =
+        "El mensaje puede tener un largo de 5 a 400 caracteres";
+      errorSubmitLanguage.innerText =
+        " ERROR!!! Rellena correctamente todos los campos obligatorios";
+      correctSubmitLanguage.innerText =
+        "  Su mensaje ha sido enviado con éxito";
     }
 
     languagePush.innerText = "In";
@@ -355,6 +386,15 @@ const RenderNavBar = () => {
       matter.innerText = "Subject";
       message.innerText = "Leave your message";
       submit.value = "send";
+      WrongNameLanguage.innerText =
+        " The name can only have from 3 to 30 characters, it must not have numbers or symbols!!!";
+      wrongEmailLanguage.innerText = " This doesn`t look like an email";
+      wrongMessageLanguage.innerText =
+        "The message can only have from 5 to 400 characters";
+      errorSubmitLanguage.innerText =
+        "Error!!! Fill all the required fields correctly ";
+      correctSubmitLanguage.innerText =
+        "Your message has been sent successfully";
     }
 
     languagePush.innerText = "Es";
