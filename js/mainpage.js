@@ -297,7 +297,7 @@ const language = () => {
     ) {
       nameLabel.innerText = "Name";
       matter.innerText = "Subject";
-      message.innerText = "Leave you message";
+      message.innerText = "Leave your message";
       submit.value = "send";
       WrongNameLanguage.innerText =
         " The name can only have from 3 to 30 characters, it must not have numbers or symbols!!!";
@@ -330,8 +330,7 @@ const language = () => {
         "El mensaje puede tener un largo de 5 a 400 caracteres";
       errorSubmitLanguage.innerText =
         " ERROR!!! Rellena correctamente todos los campos obligatorios";
-      correctSubmitLanguage.innerText =
-        "  Su mensaje ha sido enviado con éxito";
+      correctSubmitLanguage.innerText = "Su mensaje ha sido enviado con éxito";
     }
 
     languagePush.innerText = "In";
@@ -362,14 +361,13 @@ const RenderNavBar = () => {
       message.innerText = "Deje su mensaje";
       submit.value = "enviar";
       WrongNameLanguage.innerText =
-        " El nombre puede tener de 3 a 30 caracteres, no debe llevar ni números ni símbolos!!!";
+        "El nombre puede tener de 3 a 30 caracteres, no debe llevar ni números ni símbolos!!!";
       wrongEmailLanguage.innerText = " Debe respetar la forma de un email";
       wrongMessageLanguage.innerText =
         "El mensaje puede tener un largo de 5 a 400 caracteres";
       errorSubmitLanguage.innerText =
         " ERROR!!! Rellena correctamente todos los campos obligatorios";
-      correctSubmitLanguage.innerText =
-        "  Su mensaje ha sido enviado con éxito";
+      correctSubmitLanguage.innerText = "Su mensaje ha sido enviado con éxito";
     }
 
     languagePush.innerText = "In";
