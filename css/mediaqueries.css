@@ -262,8 +262,9 @@
   .form-contact {
     font-size: 10px;
   }
-  .error-text {
-    max-width: 25em;
+  .error-container {
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 450px) {
