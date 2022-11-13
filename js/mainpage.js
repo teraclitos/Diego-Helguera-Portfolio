@@ -271,8 +271,9 @@ const projects = document.getElementById("projects");
 const me = document.getElementById("me");
 const contact = document.getElementById("contact");
 const languagePush = document.getElementById("language");
-const localSTGLanguage = JSON.parse(localStorage.getItem("number")) || [];
-const array = [];
+const localSTGLanguage = JSON.parse(localStorage.getItem("number")) || {
+  id: 0,
+};
 
 const language = () => {
   if (languagePush.innerText === "In") {
@@ -280,23 +281,18 @@ const language = () => {
     projects.innerText = "Projects";
     contact.innerText = "Contact";
     languagePush.innerText = "Es";
+    localStorage.setItem("number", JSON.stringify({ id: 1 }));
   } else {
     me.innerText = "Acerca de mí";
     projects.innerText = "Proyectos";
     contact.innerText = "Contacto";
     languagePush.innerText = "In";
+    localStorage.setItem("number", JSON.stringify({ id: 0 }));
   }
-
-  localSTGLanguage.forEach((element) => {
-    array.push(element);
-  });
-  array.push("number");
-
-  localStorage.setItem("number", JSON.stringify(array));
 };
 
 const RenderNavBar = () => {
-  if (localSTGLanguage.length % 2 === 0) {
+  if (localSTGLanguage.id === 0) {
     me.innerText = "Acerca de mí";
     projects.innerText = "Proyectos";
     contact.innerText = "Contacto";
