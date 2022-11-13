@@ -148,7 +148,7 @@ const projectsDetailWideScreen = (title) => {
 
         break;
       case "torreDual":
-        location.href = "/html/torredual.html";
+        location.href = "/html/torreduo.html";
 
         break;
       case "santiago":
@@ -183,7 +183,7 @@ const projectsDetailNarrowScreen = (title) => {
 
         break;
       case "torreDual":
-        location.href = "/html/torredual.html";
+        location.href = "/html/torreduo.html";
 
         break;
       case "santiago":
