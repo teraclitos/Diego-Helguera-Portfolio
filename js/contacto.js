@@ -3,7 +3,12 @@ const names = document.getElementById("name");
 const asunto = document.getElementById("asunto");
 const email = document.getElementById("email");
 const text = document.getElementById("area");
-const localSTGContact = JSON.parse(localStorage.getItem("number"));
+const languageBtn = document.getElementById("language");
+const languageBtnNarrowScreen = document.getElementById(
+  "language-narrow-screen"
+);
+
+let localSTGContact = JSON.parse(localStorage.getItem("number"));
 
 const RenderContact = () => {
   if (windowScreenContact.matches) {
@@ -35,5 +40,15 @@ const RenderContact = () => {
 RenderContact();
 
 windowScreenContact.addEventListener("change", () => {
+  RenderContact();
+});
+
+languageBtn.addEventListener("click", () => {
+  localSTGContact = JSON.parse(localStorage.getItem("number"));
+  RenderContact();
+});
+
+languageBtnNarrowScreen.addEventListener("click", () => {
+  localSTGContact = JSON.parse(localStorage.getItem("number"));
   RenderContact();
 });

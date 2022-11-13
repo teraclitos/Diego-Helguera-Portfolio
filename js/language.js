@@ -71,13 +71,13 @@ const language = () => {
     localStorage.setItem("number", JSON.stringify({ id: 0 }));
   }
 
-  if (
-    window.location.href ===
-      "https://diego-helguera.netlify.app/html/contacto.html" ||
-    window.location.href === "http://127.0.0.1:5500/html/contacto.html"
-  ) {
-    location.href = "";
-  }
+  //   if (
+  //     window.location.href ===
+  //       "https://diego-helguera.netlify.app/html/contacto.html" ||
+  //     window.location.href === "http://127.0.0.1:5500/html/contacto.html"
+  //   ) {
+  //     location.href = "";
+  //   }
 };
 
 const RenderLanguage = () => {
