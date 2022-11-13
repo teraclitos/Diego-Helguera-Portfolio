@@ -289,6 +289,13 @@ const language = () => {
     languagePush.innerText = "In";
     localStorage.setItem("number", JSON.stringify({ id: 0 }));
   }
+
+  if (
+    window.location.href ===
+    "https://diego-helguera.netlify.app/html/contacto.html"
+  ) {
+    location.href = "";
+  }
 };
 
 const RenderNavBar = () => {
