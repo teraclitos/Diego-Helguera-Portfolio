@@ -41,6 +41,9 @@
     padding-top: 1.8em;
     padding-bottom: 1.5em;
   }
+  h1 {
+    margin-left: 1em;
+  }
   .arrow {
     color: #d65f37;
     margin-left: 0.6em;
@@ -55,7 +58,10 @@
     display: none;
   }
   #language-narrow-screen {
-    display: inline-block;
+    display: block;
+    position: relative;
+    left: 1em;
+    top: 0.3em;
   }
   .links-container {
     display: block;
@@ -287,6 +293,9 @@
     font-size: 6px;
   }
   #language-narrow-screen {
-    left: 0.75em;
+    left: 0.3em;
+  }
+  h1 {
+    margin-left: 0.3em;
   }
 }

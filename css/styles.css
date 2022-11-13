@@ -113,9 +113,6 @@ html {
 
 #language-narrow-screen {
   display: none;
-  position: relative;
-  left: 1.5em;
-  top: 0.3em;
 }
 
 h1 {
