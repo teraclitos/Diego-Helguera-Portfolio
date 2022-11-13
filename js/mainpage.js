@@ -147,6 +147,14 @@ const projectsDetailWideScreen = (title) => {
         location.href = "/html/ciudadparque.html";
 
         break;
+      case "edificio1":
+        location.href = "/html/jardinescolgantes.html";
+
+        break;
+      case "edificio2":
+        location.href = "/html/patioalto.html";
+
+        break;
       case "torreDual":
         location.href = "/html/torreduo.html";
 
