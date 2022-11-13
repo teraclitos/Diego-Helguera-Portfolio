@@ -100,7 +100,8 @@ html {
   padding-bottom: 1em;
 }
 .btn-language {
-  padding: 0.5em 1em;
+  padding: 0.5em 0em;
+  width: 3em;
 }
 .btn-language-container {
   grid-area: language;
