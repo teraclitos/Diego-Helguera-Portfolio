@@ -288,6 +288,7 @@ const wrongMessageLanguage = document.getElementById("wrong-message");
 const errorSubmitLanguage = document.getElementById("error");
 const correctSubmitLanguage = document.getElementById("correct");
 const languagePush = document.getElementById("language");
+const languageNarrowScreen = document.getElementById("language-narrow-screen");
 const localSTGLanguage = JSON.parse(localStorage.getItem("number")) || {
   id: 0,
 };
@@ -298,6 +299,7 @@ const language = () => {
     projects.innerText = "Projects";
     contact.innerText = "Contact";
     languagePush.innerText = "Es";
+    languageNarrowScreen.innerText = "Es";
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/contacto.html" ||
@@ -342,6 +344,7 @@ const language = () => {
     }
 
     languagePush.innerText = "In";
+    languageNarrowScreen.innerText = "In";
     localStorage.setItem("number", JSON.stringify({ id: 0 }));
   }
 
@@ -379,6 +382,7 @@ const RenderNavBar = () => {
     }
 
     languagePush.innerText = "In";
+    languageNarrowScreen.innerText = "In";
   } else {
     me.innerText = "About me";
     projects.innerText = "Projects";
@@ -404,6 +408,7 @@ const RenderNavBar = () => {
     }
 
     languagePush.innerText = "Es";
+    languageNarrowScreen.innerText = "Es";
   }
 };
 
