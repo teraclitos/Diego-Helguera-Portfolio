@@ -19,10 +19,10 @@
 }
 .imgs-right-container {
   align-self: center;
-  justify-self: end;
 }
 .imgs-right {
   width: 100%;
-  align-self: center;
-  justify-self: end;
+}
+.project-detail-display-narrow {
+  display: none;
 }

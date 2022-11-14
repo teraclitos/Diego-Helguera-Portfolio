@@ -243,7 +243,13 @@
   .acercademi-text-container {
     font-size: 12px;
   }
-  .project-detail-grid {
+  .project-detail-display-narrow {
+    display: flex;
+  }
+  .project-detail-display-wide {
+    display: none;
+  }
+  .grid-img {
     grid-template-columns: 1fr;
   }
 }
