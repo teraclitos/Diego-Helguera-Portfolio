@@ -41,9 +41,6 @@
     padding-top: 1.8em;
     padding-bottom: 1.5em;
   }
-  h1 {
-    margin-left: 1em;
-  }
 
   .arrow {
     color: #d65f37;
@@ -302,11 +299,5 @@
 @media (max-width: 260px) {
   .form-contact {
     font-size: 6px;
-  }
-  #language-narrow-screen {
-    left: 0.3em;
-  }
-  h1 {
-    margin-left: 0.3em;
   }
 }
