@@ -70,17 +70,29 @@ const language = () => {
     languageNarrowScreen.innerText = "In";
     localStorage.setItem("number", JSON.stringify({ id: 0 }));
   }
-
-  //   if (
-  //     window.location.href ===
-  //       "https://diego-helguera.netlify.app/html/contacto.html" ||
-  //     window.location.href === "http://127.0.0.1:5500/html/contacto.html"
-  //   ) {
-  //     location.href = "";
-  //   }
 };
 
 const RenderLanguage = () => {
+  if (
+    window.location.href === "https://diego-helguera.netlify.app/" ||
+    window.location.href === "http://127.0.0.1:5500/index.html"
+  ) {
+    projects.style.color = "#d65f37";
+  } else if (
+    window.location.href ===
+      "https://diego-helguera.netlify.app/html/acercademi.html" ||
+    window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
+  ) {
+    me.style.color = "#d65f37";
+  } else if (
+    window.location.href ===
+      "https://diego-helguera.netlify.app/html/contacto.html" ||
+    window.location.href === "http://127.0.0.1:5500/html/contacto.html"
+  ) {
+    contact.style.color = "#d65f37";
+  } else {
+    contact.style.color = "#d65f37";
+  }
   if (localSTGLanguage.id === 0) {
     me.innerText = "Acerca de mí";
     projects.innerText = "Proyectos";
@@ -90,6 +102,7 @@ const RenderLanguage = () => {
         "https://diego-helguera.netlify.app/html/contacto.html" ||
       window.location.href === "http://127.0.0.1:5500/html/contacto.html"
     ) {
+      contact.style.color = "#d65f37";
       nameLabel.innerText = "Nombre";
       matter.innerText = "Asunto";
       message.innerText = "Deje su mensaje";
