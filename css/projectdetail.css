@@ -1,6 +1,6 @@
 .project-detail-grid {
   display: grid;
-  grid-template-columns: 5fr 4fr;
+  grid-template-columns: 1fr;
   gap: 4em;
   margin: 5em 0;
 }
@@ -9,8 +9,20 @@
   flex-direction: column;
   gap: 4em;
 }
-.img {
+.grid-img {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  gap: 4em;
+}
+.imgs {
   width: 100%;
-  border: 0.15em solid #d65f37;
-  height: 20em;
+}
+.imgs-right-container {
+  align-self: center;
+  justify-self: end;
+}
+.imgs-right {
+  width: 100%;
+  align-self: center;
+  justify-self: end;
 }
