@@ -44,7 +44,7 @@
   h1 {
     margin-left: 1em;
   }
-  .btn-title {
+  /* .btn-title {
     align-items: center;
     background-color: #fff;
     border: 0.0625em solid rgb(229, 208, 208);
@@ -68,7 +68,7 @@
 
   .btn-title:hover {
     border-color: #d65f37;
-  }
+  } */
 
   .arrow {
     color: #d65f37;
@@ -87,7 +87,7 @@
     display: block;
     position: relative;
     left: 1em;
-    bottom: 0.5em;
+    top: 0.5em;
   }
   .links-container {
     display: block;
