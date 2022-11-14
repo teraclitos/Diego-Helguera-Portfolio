@@ -58,9 +58,16 @@
     font-size: 1.5em;
     height: 2.5em;
     justify-content: center;
-    padding: 0.5em 2em;
+    padding: 0.5em 1em;
     text-align: center;
     user-select: none;
+  }
+  .btn-title:active {
+    box-shadow: rgba(72, 95, 199, 0.25) 0 0 0 0.125em;
+  }
+
+  .btn-title:hover {
+    border-color: #d65f37;
   }
 
   .arrow {
