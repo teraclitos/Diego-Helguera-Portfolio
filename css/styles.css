@@ -109,8 +109,8 @@ html {
   display: flex;
   align-items: flex-end;
   justify-content: end;
-  padding-bottom: 0.5em;
-  padding-right: 3em;
+  padding-bottom: 0.35em;
+  padding-right: 6em;
 }
 
 #language-narrow-screen {
