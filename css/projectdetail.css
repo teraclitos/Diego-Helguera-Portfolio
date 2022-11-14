@@ -1,0 +1,16 @@
+.project-detail-grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 4em;
+  margin: 5em 0;
+}
+.project-detail-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+.img {
+  width: 100%;
+  border: 0.15em solid #d65f37;
+  height: 20em;
+}
