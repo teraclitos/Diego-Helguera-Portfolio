@@ -74,7 +74,7 @@ const language = () => {
 
 const RenderLanguage = () => {
   if (
-    window.location.href === "https://diego-helguera.netlify.app/" ||
+    window.location.href === "https://diego-helguera.netlify.app/index.html" ||
     window.location.href === "http://127.0.0.1:5500/index.html"
   ) {
     projects.style.color = "#d65f37";
