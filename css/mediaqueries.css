@@ -58,7 +58,7 @@
   #language-narrow-screen {
     display: block;
     position: absolute;
-    bottom: 1em;
+    top: 1.2em;
     right: 1em;
   }
   .links-container {
