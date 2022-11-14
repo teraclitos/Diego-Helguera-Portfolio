@@ -243,6 +243,9 @@
   .acercademi-text-container {
     font-size: 12px;
   }
+  .project-detail-grid {
+    grid-template-columns: 1fr;
+  }
 }
 @media (max-width: 576px) {
   .main-body {
