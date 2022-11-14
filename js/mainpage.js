@@ -177,41 +177,6 @@ const projectsDetailWideScreen = (title) => {
       break;
   }
 };
-// const projectsDetailNarrowScreen = (title) => {
-//   if (arrow.style.display === "inline-block") {
-//     switch (title) {
-//       case "atelier":
-//         location.href = "/html/atelier.html";
-
-//         break;
-//       case "ciudadParque":
-//         location.href = "/html/ciudadparque.html";
-
-//         break;
-//       case "torreDual":
-//         location.href = "/html/torreduo.html";
-
-//         break;
-//       case "santiago":
-//         location.href = "/html/santiago.html";
-
-//         break;
-//       case "corrientes":
-//         location.href = "/html/corrientes.html";
-
-//         break;
-//       case "patioDeUco":
-//         location.href = "/html/patiodeuco.html";
-
-//         break;
-
-//       default:
-//         location.href = "/html/termitiere.html";
-
-//         break;
-//     }
-//   }
-// };
 
 const socialIcons = document.getElementById("social-icons");
 const scrollRedesFunction = () => {
