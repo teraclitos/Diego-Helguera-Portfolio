@@ -137,83 +137,81 @@ const textHoverOutImg = (title) => {
 };
 
 const projectsDetailWideScreen = (title) => {
-  if (arrow.style.display === "none") {
-    switch (title) {
-      case "atelier":
-        location.href = "/html/atelier.html";
+  switch (title) {
+    case "atelier":
+      location.href = "/html/atelier.html";
 
-        break;
-      case "ciudadParque":
-        location.href = "/html/ciudadparque.html";
+      break;
+    case "ciudadParque":
+      location.href = "/html/ciudadparque.html";
 
-        break;
-      case "edificio1":
-        location.href = "/html/jardinescolgantes.html";
+      break;
+    case "edificio1":
+      location.href = "/html/jardinescolgantes.html";
 
-        break;
-      case "edificio2":
-        location.href = "/html/patioalto.html";
+      break;
+    case "edificio2":
+      location.href = "/html/patioalto.html";
 
-        break;
-      case "torreDual":
-        location.href = "/html/torreduo.html";
+      break;
+    case "torreDual":
+      location.href = "/html/torreduo.html";
 
-        break;
-      case "santiago":
-        location.href = "/html/santiago.html";
+      break;
+    case "santiago":
+      location.href = "/html/santiago.html";
 
-        break;
-      case "corrientes":
-        location.href = "/html/corrientes.html";
+      break;
+    case "corrientes":
+      location.href = "/html/corrientes.html";
 
-        break;
-      case "patioDeUco":
-        location.href = "/html/patiodeuco.html";
+      break;
+    case "patioDeUco":
+      location.href = "/html/patiodeuco.html";
 
-        break;
+      break;
 
-      default:
-        location.href = "/html/termitiere.html";
+    default:
+      location.href = "/html/termitiere.html";
 
-        break;
-    }
+      break;
   }
 };
-const projectsDetailNarrowScreen = (title) => {
-  if (arrow.style.display === "inline-block") {
-    switch (title) {
-      case "atelier":
-        location.href = "/html/atelier.html";
+// const projectsDetailNarrowScreen = (title) => {
+//   if (arrow.style.display === "inline-block") {
+//     switch (title) {
+//       case "atelier":
+//         location.href = "/html/atelier.html";
 
-        break;
-      case "ciudadParque":
-        location.href = "/html/ciudadparque.html";
+//         break;
+//       case "ciudadParque":
+//         location.href = "/html/ciudadparque.html";
 
-        break;
-      case "torreDual":
-        location.href = "/html/torreduo.html";
+//         break;
+//       case "torreDual":
+//         location.href = "/html/torreduo.html";
 
-        break;
-      case "santiago":
-        location.href = "/html/santiago.html";
+//         break;
+//       case "santiago":
+//         location.href = "/html/santiago.html";
 
-        break;
-      case "corrientes":
-        location.href = "/html/corrientes.html";
+//         break;
+//       case "corrientes":
+//         location.href = "/html/corrientes.html";
 
-        break;
-      case "patioDeUco":
-        location.href = "/html/patiodeuco.html";
+//         break;
+//       case "patioDeUco":
+//         location.href = "/html/patiodeuco.html";
 
-        break;
+//         break;
 
-      default:
-        location.href = "/html/termitiere.html";
+//       default:
+//         location.href = "/html/termitiere.html";
 
-        break;
-    }
-  }
-};
+//         break;
+//     }
+//   }
+// };
 
 const socialIcons = document.getElementById("social-icons");
 const scrollRedesFunction = () => {
