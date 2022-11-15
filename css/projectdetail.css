@@ -1,3 +1,16 @@
+.title-project-detail {
+  text-align: center;
+  color: #303c4e;
+  color: #d65f37;
+  color: rgb(119, 107, 107);
+  margin-top: 1em;
+  font-size: 3em;
+  user-select: none;
+  cursor: pointer;
+}
+.title-project-detail:hover {
+  text-decoration-line: underline;
+}
 .project-detail-grid {
   display: grid;
   grid-template-columns: 1fr;
