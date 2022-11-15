@@ -192,15 +192,9 @@ const scrollRedesFunction = () => {
   }
 };
 
-window.addEventListener("scroll", () => {
-  if (arrow.style.display === "inline-block") {
-    scrollRedesFunction();
-  }
-});
-
 const linksNatVar = document.getElementById("links-nat-var");
 const mainBody = document.getElementById("main-body");
-const arrow = document.getElementById("arrow");
+// const arrow = document.getElementById("arrow");
 let windowScreen = window.matchMedia("(max-width: 991.98px)");
 const slideNatVar = () => {
   let height = 0;
@@ -212,28 +206,34 @@ const slideNatVar = () => {
     linksNatVar.classList.remove("links-container-height");
   }
 
-  arrow.classList.toggle("arrow-rotate");
+  // arrow.classList.toggle("arrow-rotate");
 };
 const slideNatVarOut = () => {
   linksNatVar.classList.remove("links-container-height");
-  arrow.classList.remove("arrow-rotate");
+  // arrow.classList.remove("arrow-rotate");
 };
 
 const removeArrowWideScreen = () => {
   if (windowScreen.matches) {
-    arrow.style.display = "inline-block";
+    // arrow.style.display = "inline-block";
 
     socialIcons.style.display = "none";
   } else {
-    arrow.style.display = "none";
+    // arrow.style.display = "none";
     linksNatVar.classList.remove("links-container-height");
-    arrow.classList.remove("arrow-rotate");
+    // arrow.classList.remove("arrow-rotate");
 
     socialIcons.style.display = "flex";
   }
 };
 removeArrowWideScreen();
+window.addEventListener("scroll", () => {
+  if (windowScreen.matches) {
+    scrollRedesFunction();
+  }
+});
 
 windowScreen.addEventListener("change", () => {
+  scrollRedesFunction();
   removeArrowWideScreen();
 });

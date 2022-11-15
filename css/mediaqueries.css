@@ -41,7 +41,7 @@
     padding-top: 1.8em;
     padding-bottom: 1.5em;
   }
-
+  /* 
   .arrow {
     color: #d65f37;
     margin-left: 0.6em;
@@ -51,7 +51,7 @@
   }
   .arrow-rotate {
     transform: rotate(90deg);
-  }
+  } */
   .btn-language-container {
     display: none;
   }
