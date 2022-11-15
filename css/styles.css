@@ -2,6 +2,7 @@
 @import url(acercademi.css);
 @import url(contacto.css);
 @import url(projectdetail.css);
+@import url("https://fonts.cdnfonts.com/css/helvetica-2");
 
 html {
   scroll-behavior: smooth;
@@ -397,13 +398,14 @@ h1 {
 
 .img-text-common-properties {
   font-size: 1.5em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   pointer-events: none;
   z-index: 2;
   color: #d5d569;
+  font-family: "Helvetica", sans-serif;
 
   user-select: none;
-  font-weight: 300;
+  font-weight: lighter;
   /* 
   background-image: radial-gradient(
     circle at 69.29% 8.62%,
@@ -422,7 +424,7 @@ h1 {
 .img-common-properties {
   cursor: pointer;
   z-index: 1;
-  transition: 0.3s;
+  transition: opacity 0.3s;
   user-select: none;
 }
 
