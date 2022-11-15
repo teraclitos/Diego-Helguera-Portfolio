@@ -4,6 +4,9 @@
 @import url(projectdetail.css);
 @import url("https://fonts.cdnfonts.com/css/helvetica-2");
 
+:root {
+  font-family: Arial, Helvetica, sans-serif, "Helvetica Neue", sans-serif;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -119,7 +122,7 @@ html {
 h1 {
   color: #d65f37;
   font-size: 1.5em;
-  font-family: Arial, Helvetica, sans-serif;
+
   cursor: pointer;
   user-select: none;
 }
@@ -134,7 +137,6 @@ h1 {
   gap: 3em;
 }
 .normal-link-a {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
 
   color: rgb(119, 107, 107);
@@ -146,7 +148,6 @@ h1 {
 }
 
 .contact-link-a {
-  font-family: Arial, Helvetica, sans-serif;
   color: rgb(119, 107, 107);
 
   font-size: 1em;
