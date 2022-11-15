@@ -10,5 +10,7 @@ const finishLoading = () => {
 };
 
 window.addEventListener("load", () => {
-  finishLoading();
+  setTimeout(() => {
+    finishLoading();
+  }, 1000);
 });

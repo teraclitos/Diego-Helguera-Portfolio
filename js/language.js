@@ -17,11 +17,11 @@ const localSTGLanguage = JSON.parse(localStorage.getItem("number")) || {
 };
 
 const language = () => {
-  if (languagePush.innerText === "In") {
+  if (languagePush.innerText === "EN") {
     me.innerText = "About me";
     projects.innerText = "Projects";
     contact.innerText = "Contact";
-    languagePush.innerText = "Es";
+    languagePush.innerText = "ES";
     languageNarrowScreen.innerText = "Es";
     if (
       window.location.href ===
@@ -66,8 +66,8 @@ const language = () => {
       correctSubmitLanguage.innerText = "Su mensaje ha sido enviado con éxito";
     }
 
-    languagePush.innerText = "In";
-    languageNarrowScreen.innerText = "In";
+    languagePush.innerText = "EN";
+    languageNarrowScreen.innerText = "EN";
     localStorage.setItem("number", JSON.stringify({ id: 0 }));
   }
 };
@@ -117,8 +117,8 @@ const RenderLanguage = () => {
       correctSubmitLanguage.innerText = "Su mensaje ha sido enviado con éxito";
     }
 
-    languagePush.innerText = "In";
-    languageNarrowScreen.innerText = "In";
+    languagePush.innerText = "EN";
+    languageNarrowScreen.innerText = "EN";
   } else {
     me.innerText = "About me";
     projects.innerText = "Projects";
@@ -143,8 +143,8 @@ const RenderLanguage = () => {
         "Your message has been sent successfully";
     }
 
-    languagePush.innerText = "Es";
-    languageNarrowScreen.innerText = "Es";
+    languagePush.innerText = "ES";
+    languageNarrowScreen.innerText = "ES";
   }
 };
 RenderLanguage();
