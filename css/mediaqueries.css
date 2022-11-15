@@ -70,7 +70,7 @@
     text-align: center;
     height: 0;
 
-    transition: height 0.5s;
+    transition: height 0.3s;
   }
   .links-container-height {
     height: 9.2em;
