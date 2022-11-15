@@ -297,6 +297,9 @@
   }
 }
 @media (max-width: 260px) {
+  #language-narrow-screen {
+    right: 0.2em;
+  }
   .form-contact {
     font-size: 6px;
   }
