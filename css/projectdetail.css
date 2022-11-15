@@ -1,18 +1,14 @@
 .title-project-detail {
   text-align: center;
-  color: #d65f37;
   color: rgb(119, 107, 107);
   color: #303c4e;
-  margin-top: 1em;
-  font-size: 2.5em;
+  color: #d65f37;
+  margin-top: 1.8em;
+  font-size: 2rem;
   user-select: none;
   cursor: pointer;
-  text-decoration-line: underline;
-  position: sticky;
 }
-/* .title-project-detail:hover {
-  text-decoration-line: underline;
-} */
+
 .project-detail-grid {
   display: grid;
   grid-template-columns: 1fr;
