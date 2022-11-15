@@ -12,57 +12,227 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <header>
-             <nav id="nat-var" class="nat-var-container">
+  <body class="body-container">
+    <header class="nat-var-container-fixed">
+      <nav id="nat-var" class="nat-var-container">
         <div class="title-container">
-          <h1 onclick="slideNatVar()" id="title-diego">
+          <h1 class="btn-title" onclick="slideNatVar()" id="title-diego">
             <strong> DIEGO HELGUERA</strong>
           </h1>
-          <i id="arrow" class="fa-solid fa-arrow-right arrow"></i>
+          <button
+            id="language-narrow-screen"
+            class="btn btn-language"
+            role="button"
+            onclick="language()"
+          ></button>
         </div>
         <ul id="links-nat-var" class="links-container">
           <li id="project-link" class="normal-link project-link">
             <h2>
-              <a class="normal-link-a" href="/index.html">Proyectos</a>
+              <a id="projects" class="normal-link-a" href="/index.html"></a>
             </h2>
           </li>
           <li id="me-link" class="normal-link">
             <h2>
-              <a class="normal-link-a" href="/html/acercademi.html"
-                >Acerca de mí</a
-              >
+              <a id="me" class="normal-link-a" href="/html/acercademi.html"></a>
             </h2>
           </li>
 
           <li id="contact-link" class="contact-link">
-            <a class="contact-link-a" href="/html/contacto.html"
-              ><strong> Contacto</strong></a
-            >
+            <a id="contact" class="contact-link-a" href="/html/contacto.html"
+              ><strong> </strong
+            ></a>
           </li>
         </ul>
+        <div class="btn-language-container">
+          <button
+            id="language"
+            class="btn btn-language"
+            role="button"
+            onclick="language()"
+          ></button>
+        </div>
       </nav>
     </header>
-    <main onclick="slideNatVarOut()" id="main-body" class="main-body"></main>
- 
-</main >
-      <div class="social-icons-container" id="social-icons">
-      <a target="_blank" href="https://www.linkedin.com/in/diegohelguera/">
-        <i class="fa-brands fa-linkedin social-icon"></i
-      ></a>
-      <a target="_blank" href="https://www.instagram.com/diegohelguera/?hl=es"
-        ><i class="fa-brands fa-instagram social-icon"></i
-      ></a>
-      <a
-        target="_blank"
-        href="https://api.whatsapp.com/send?phone=5493815115637&text=Hola!%20me%20interesar%C3%ADa%20saber%20mas%20sobre%20tus%20servicios%20como%20proyectista"
-        ><i class="fa-brands fa-whatsapp social-icon"></i
-      ></a>
-    </div>
-    <footer class="footer">
-      <div class="white-line-footer"></div>
+  <main
+     
+      onclick="slideNatVarOut()"
+      id="main-body"
+      class="main-body"
+    >
+     <h2 class="title-project-detail">Jardines colgantes</h2>
+      <article class="project-detail-grid">
+        <div class="project-detail-flex">
+          <div class="grid-img">
+            <img loading="lazy"
+              class="imgs"
+              src="/documentation/edificio 1/e2-gif-web.gif"
+              alt=""
+            />
+            <div class="imgs-right-container project-detail-display-wide" >
+            
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, 
+                fugit eligendi. Assumenda, perspiciatis ipsam reiciendis exercitationem
+                 impedit explicabo repellendus laboriosam non eum, repudiandae ullam laborum voluptatibus tempore eos adipisci quam.</p>
+              </div>
+            
+          </div>
+          <div class="grid-img">
+            <img loading="lazy"
+              class="imgs"
+              src="/documentation/edificio 1/VEREDA-1.jpg"
+              alt=""
+            />
+            <div class="imgs-right-container project-detail-display-wide" >
+           
+              <p></p>
+              </div>
+          </div>
+          <div class="grid-img">
+            <img loading="lazy"
+              src="/documentation/edificio 1/vereda-1a.jpg"
+              alt=""
+              class="imgs"
+            />
+            <div class="imgs-right-container project-detail-display-wide" >
+              <p></p>
+              </div>
+          </div>
+          <div class="grid-img">
+            <img loading="lazy"
+              src="/documentation/edificio 1/vereda-2.jpg"
+              alt=""
+              class="imgs"
+            />
+          </div>
+          <div class="grid-img">
+            <img loading="lazy"
+              src="/documentation/edificio 1/vereda-3.jpg"
+              alt=""
+              class="imgs"
+            />
+          </div>
+          <div class="grid-img">
+            <img loading="lazy"
+              src="/documentation/edificio 1/vereda-4.jpg"
+              alt=""
+              class="imgs"
+            />
+          </div>
+          <div class="grid-img">
+            <img loading="lazy"
+              src="/documentation/edificio 1/vereda-4a.jpg"
+              alt=""
+              class="imgs"
+            />
+          </div>
+          <div class="grid-img">
+            <img loading="lazy"
+              src="/documentation/edificio 1/vereda-5.jpg"
+              alt=""
+              class="imgs"
+            />
+          </div>
+          <div class="grid-img">
+            <img loading="lazy"
+              src="/documentation/edificio 1/vereda-6.jpg"
+              alt=""
+              class="imgs"
+            />
+          </div>
+          <div class="grid-img">
+            <img loading="lazy"
+              src="/documentation/edificio 1/vereda-7.jpg"
+              alt=""
+              class="imgs"
+            />
+          </div>
+          <div class="grid-img">
+            <img loading="lazy"
+              src="/documentation/edificio 1/z planta-techos-e1.jpg"
+              alt=""
+              class="imgs"
+            />
+          </div>
+          <div class="grid-img">
+            <img loading="lazy"
+              src="/documentation/edificio 1/z1 E1-planta-baja.jpg"
+              class="imgs"
+            />
+          </div>
+            <div class="grid-img">
+            <img loading="lazy"
+              src="/documentation/edificio 1/z2 E1-piso-1.jpg"
+              alt=""
+              class="imgs"
+            />
+          </div>
+            <div class="grid-img">
+            <img loading="lazy"
+              src="/documentation/edificio 1/z3 E1-piso-2.jpg"
+              alt=""
+              class="imgs"
+            />
+          </div>
+            <div class="grid-img">
+            <img loading="lazy"
+              src="/documentation/edificio 1/z4 E1-piso-3.jpg"
+              alt=""
+              class="imgs"
+            />
+          </div>
+            <div class="grid-img">
+            <img loading="lazy"
+              src="/documentation/edificio 1/z5 cortes-1.jpg"
+              alt=""
+              class="imgs"
+            />
+          </div>
+           
+        </div>
+        
+          <div class="project-detail-flex project-detail-display-narrow">
+            <div>
+           
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Consectetur ut quae corrupti dolores aliquam quaerat saepe cupiditate quas?
+                 Dolores repudiandae blanditiis maiores iusto consequatur
+                  necessitatibus, illo dicta expedita reprehenderit ducimus.</p>
+            </div>
+            <div>
+            
+              <p></p>
+            </div>
+            <div>
+           
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+       <footer class="footer-nofixed">
+      <div class="white-line-footer white-line-footer-nofixed">
+        <div class="social-icons-container-nofixed" id="social-icons">
+          <a target="_blank" href="https://www.linkedin.com/in/diegohelguera/">
+            <i class="fa-brands fa-linkedin social-icon"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/diegohelguera/?hl=es"
+            ><i class="fa-brands fa-instagram social-icon"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=5493815115637&text=Hola!%20me%20interesar%C3%ADa%20saber%20mas%20sobre%20tus%20servicios%20como%20proyectista"
+            ><i class="fa-brands fa-whatsapp social-icon"></i
+          ></a>
+        </div>
+      </div>
     </footer>
 
     <script src="/js/mainpage.js"></script>
+    <script src="/js/language.js"></script>
   </body>
 </html>
