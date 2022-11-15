@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 5fr 4fr;
   gap: 4em;
-  font-size: 16px;
 }
 
 .title-project-detail {
@@ -14,7 +13,7 @@
   color: #d65f37;
   color: #303c4e;
   color: rgb(56, 54, 54);
-  font-size: 1em;
+  font-size: 1.5em;
   user-select: none;
 }
 

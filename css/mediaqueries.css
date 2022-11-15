@@ -214,6 +214,9 @@
   .correct-text {
     left: 0;
   }
+  .title-project-container {
+    grid-template-columns: 1fr;
+  }
 }
 @media (max-width: 768px) {
   .loader {
