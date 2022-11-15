@@ -1,19 +1,28 @@
+.title-project-container {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  gap: 4em;
+  font-size: 16px;
+}
+
 .title-project-detail {
+  position: relative;
+  top: 3em;
+  letter-spacing: 1px;
+  /* left: 2em; */
   text-align: center;
   color: #d65f37;
   color: #303c4e;
-  color: rgb(119, 107, 107);
-  margin-top: 1.8em;
-  font-size: 2.5em;
+  color: rgb(56, 54, 54);
+  font-size: 1em;
   user-select: none;
-  cursor: pointer;
 }
 
 .project-detail-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 4em;
-  margin: 5em 0;
+  margin: 6em 0;
   color: rgb(119, 107, 107);
 }
 .project-detail-flex {
@@ -47,4 +56,31 @@
 }
 .project-detail-corrientes {
   gap: 10em;
+}
+.img-project-santiago {
+  width: 60%;
+}
+
+.imgs-horizontal {
+  position: fixed;
+  top: 10em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: 10;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.imgs-vertical {
+  position: fixed;
+  top: 8em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 25%;
+  z-index: 10;
+  margin-right: auto;
+  margin-left: auto;
 }
