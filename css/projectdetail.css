@@ -38,3 +38,6 @@
 .project-detail-display-narrow {
   display: none;
 }
+.rotation-img {
+  transform: rotate(-90deg);
+}
