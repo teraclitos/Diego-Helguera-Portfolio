@@ -125,14 +125,12 @@ h1 {
 }
 
 .links-container {
-  position: relative;
-  left: 1em;
   grid-area: links;
   display: flex;
   align-items: flex-end;
   justify-content: end;
   padding-bottom: 1em;
-  padding-right: 3em;
+  padding-right: 2em;
   gap: 3em;
 }
 .normal-link-a {
