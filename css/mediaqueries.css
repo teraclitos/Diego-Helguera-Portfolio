@@ -260,10 +260,6 @@
   }
 }
 @media (max-width: 576px) {
-  .main-body {
-    font-size: 12px;
-  }
-
   .acercademi-text-container {
     width: 90%;
     font-size: 10px;
