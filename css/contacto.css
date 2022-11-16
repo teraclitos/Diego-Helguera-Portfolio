@@ -19,6 +19,7 @@
   text-align: end;
   position: relative;
   right: 1em;
+  translate: none;
 
   color: rgb(119, 107, 107);
 }
@@ -29,6 +30,7 @@
   color: rgb(119, 107, 107);
   font-size: 1em;
   width: 18em;
+  translate: none;
 
   outline: none;
 }
@@ -39,12 +41,14 @@
 }
 .label-contact-text {
   top: 0.5em;
+  translate: none;
 }
 .input-contact-text-wide-screen {
   position: relative;
   left: 0.3em;
   height: 6em;
   resize: none;
+  translate: none;
 }
 
 .btn-submit-container-wide-screen {
