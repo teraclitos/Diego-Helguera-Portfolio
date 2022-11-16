@@ -93,6 +93,7 @@
   width: 125%;
   height: 75vh;
   margin: 3em 0;
+  min-height: 600px;
 }
 .video-container {
   display: flex;
