@@ -40,3 +40,9 @@ window.addEventListener("mouseup", () => {
   });
   localStorage.setItem("idImg", JSON.stringify({ id: 0 }));
 });
+window.addEventListener("dragend", () => {
+  arrayImgModal.forEach((element) => {
+    element.style.display = "none";
+  });
+  localStorage.setItem("idImg", JSON.stringify({ id: 0 }));
+});
