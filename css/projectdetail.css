@@ -2,18 +2,16 @@
   display: grid;
   grid-template-columns: 5fr 4fr;
   gap: 4em;
+  font-size: 16px;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .title-project-detail {
-  position: relative;
-  top: 3em;
   letter-spacing: 1px;
-  /* left: 2em; */
   text-align: center;
-  color: #d65f37;
-  color: #303c4e;
   color: rgb(56, 54, 54);
-  font-size: 1.5em;
+  font-size: 1em;
   user-select: none;
 }
 
@@ -21,7 +19,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 4em;
-  margin: 6em 0;
+
   color: rgb(119, 107, 107);
 }
 .project-detail-flex {
