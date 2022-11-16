@@ -258,6 +258,9 @@
   .title-project-container {
     font-size: 14px;
   }
+  .video-container {
+    height: 50%;
+  }
 }
 @media (max-width: 576px) {
   .acercademi-text-container {
