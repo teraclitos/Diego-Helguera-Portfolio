@@ -81,3 +81,19 @@
   margin-right: auto;
   margin-left: auto;
 }
+.video-container {
+  position: relative;
+  right: 12.5%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(36, 36, 36);
+  justify-self: flex-start;
+  width: 125%;
+  height: 75vh;
+  margin: 3em 0;
+}
+.video {
+  width: 80%;
+}
