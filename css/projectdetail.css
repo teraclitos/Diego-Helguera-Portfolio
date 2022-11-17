@@ -60,72 +60,47 @@
 
 .imgs-horizontal {
   position: fixed;
-  top: 10em;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 50%;
-  z-index: 10;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.imgs-vertical {
-  position: fixed;
   top: 8em;
   left: 0;
   right: 0;
   bottom: 0;
-  width: 25%;
+  width: 60%;
   z-index: 10;
   margin-right: auto;
   margin-left: auto;
 }
-.imgs-normal {
-  position: fixed;
-  top: 7em;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 50%;
-  z-index: 10;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.imgs-vertical-horizontal {
-  position: fixed;
-  top: 5.1em;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 50%;
-  z-index: 10;
-  margin-right: auto;
-  margin-left: auto;
-}
-.imgs-vertical-horizontal-alto {
-  position: fixed;
+/* vertical-horizontal vertical-horizontal-alto */
+.top--2 {
   top: -2em;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 50%;
-
-  margin-right: auto;
-  margin-left: auto;
 }
-.imgs-colgante-singular {
-  position: fixed;
+/* normal */
+.top-7 {
+  top: 7em;
+}
+/*vertical colgante-singular */
+.top-8 {
   top: 8em;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 35%;
-  z-index: 10;
-  margin-right: auto;
-  margin-left: auto;
 }
+/* imgs-horizontal-colgante-singular  */
+.top-10 {
+  top: 10em;
+}
+/* vertical */
+.width-25 {
+  width: 25%;
+}
+/* colgante-singular */
+.width-35 {
+  width: 35%;
+}
+/* normal vertical-horizontal-alto */
+.width-50 {
+  width: 50%;
+}
+.width-55 {
+  width: 55%;
+}
+
 .video-container-container {
   position: relative;
   right: 12.5%;
