@@ -81,6 +81,17 @@
   margin-right: auto;
   margin-left: auto;
 }
+.imgs-normal {
+  position: fixed;
+  top: 7em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: 10;
+  margin-right: auto;
+  margin-left: auto;
+}
 .video-container-container {
   position: relative;
   right: 12.5%;
@@ -107,4 +118,5 @@
 .video {
   width: 80%;
   height: 80%;
+  user-select: none;
 }
