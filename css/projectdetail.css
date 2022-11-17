@@ -92,6 +92,29 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+.imgs-colgante {
+  position: fixed;
+  top: 5.1em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: 10;
+  margin-right: auto;
+  margin-left: auto;
+}
+.imgs-colgante-singular {
+  position: fixed;
+  top: 8em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 35%;
+  z-index: 10;
+  margin-right: auto;
+  margin-left: auto;
+}
 .video-container-container {
   position: relative;
   right: 12.5%;
