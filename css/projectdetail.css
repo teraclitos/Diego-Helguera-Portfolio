@@ -93,7 +93,7 @@
   margin-left: auto;
 }
 
-.imgs-colgante {
+.imgs-vertical-horizontal {
   position: fixed;
   top: 5.1em;
   left: 0;
@@ -101,6 +101,17 @@
   bottom: 0;
   width: 50%;
   z-index: 10;
+  margin-right: auto;
+  margin-left: auto;
+}
+.imgs-vertical-horizontal-alto {
+  position: fixed;
+  top: -2em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+
   margin-right: auto;
   margin-left: auto;
 }
