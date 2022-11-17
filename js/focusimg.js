@@ -2,8 +2,20 @@ let windowScreenContact = window.matchMedia("(max-width: 991.98px)");
 const arrayImg = document.querySelectorAll(".imgs");
 const arrayImgModal = document.querySelectorAll(".imgs-modal");
 localSTGiMG = JSON.parse(localStorage.getItem("idImg")) || { id: 0 };
+let imgContainer = document.querySelector(".img-modal-container");
+let navBarHeight = document.querySelector(".title-container").clientHeight;
+
+let imgContainerHeight = window.innerHeight - navBarHeight;
+
+let imgContainerHeightREnder =
+  (imgContainer.style.height = `${imgContainerHeight}px`);
 
 const RenderContact = () => {
+  imgContainer = document.querySelector(".img-modal-container");
+  navBarHeight = document.querySelector(".title-container").clientHeight;
+  imgContainerHeight = window.innerHeight - navBarHeight;
+  imgContainerHeight = window.innerHeight - navBarHeight;
+
   if (windowScreenContact.matches) {
     arrayImg.forEach((element) => {
       element.style.pointerEvents = "none";
