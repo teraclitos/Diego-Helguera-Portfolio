@@ -65,7 +65,7 @@
   right: 0;
   bottom: 0;
   width: 60%;
-  z-index: 10;
+
   margin-right: auto;
   margin-left: auto;
 }
@@ -77,13 +77,15 @@
 .top-7 {
   top: 7em;
 }
-/*vertical colgante-singular */
-.top-8 {
-  top: 8em;
+.top-9 {
+  top: 9em;
 }
 /* imgs-horizontal-colgante-singular  */
 .top-10 {
   top: 10em;
+}
+.top-12 {
+  top: 12em;
 }
 /* vertical */
 .width-25 {
@@ -100,7 +102,12 @@
 .width-55 {
   width: 55%;
 }
-
+.width-70 {
+  width: 70%;
+}
+.width-85 {
+  width: 85%;
+}
 .video-container-container {
   position: relative;
   right: 12.5%;
