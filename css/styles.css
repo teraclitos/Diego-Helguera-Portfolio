@@ -408,7 +408,8 @@ h1 {
   align-items: center;
 }
 .text-size {
-  font-size: 1.3em;
+  font-size: 1em;
+  letter-spacing: 1px;
 }
 .img-common-properties {
   cursor: pointer;
