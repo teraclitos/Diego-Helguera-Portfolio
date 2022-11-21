@@ -34,7 +34,9 @@
 }
 .imgs {
   width: 100%;
+  cursor: zoom-in;
 }
+
 .imgs-right-container {
   align-self: flex-end;
 }
