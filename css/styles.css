@@ -395,7 +395,7 @@ h1 {
 }
 
 .img-text-common-properties {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica", sans-serif;
   pointer-events: none;
   z-index: 2;
   color: #d5d569;
