@@ -33,12 +33,12 @@
   .menu-icon-container {
     display: flex;
     justify-content: center;
-    transition: transform 0.3s;
   }
   .menu-icon {
     width: 1.8em;
     height: 1.8em;
     cursor: pointer;
+    transition: transform 0.3s;
   }
   .btn-title {
     display: block;
