@@ -57,6 +57,7 @@ html {
 }
 .menu-icon-container {
   display: none;
+  cursor: pointer;
 }
 
 .title-container {
@@ -157,10 +158,11 @@ h1 {
 }
 
 .atelier-text {
+  width: calc(8.4375em * 3);
+  height: calc(5.625em * 3);
   position: absolute;
-
-  top: 10em;
-  left: 9.5em;
+  top: 7em;
+  left: 4em;
 }
 
 .img-atelier-green {
@@ -185,10 +187,13 @@ h1 {
 }
 
 .ciudad-parque-text {
-  position: absolute;
+  width: calc(11.8125em * 2.8);
 
-  top: 13.5em;
-  left: 10.2em;
+  height: calc(5.625em * 2.8);
+  position: absolute;
+  top: 13em;
+
+  left: 4em;
 }
 
 .img-ciudad-parque-green {
@@ -210,10 +215,12 @@ h1 {
 }
 
 .edificio1-text {
-  position: absolute;
+  width: calc(8.4375em * 3.6);
 
-  top: 6.8em;
-  left: 7em;
+  height: calc(5.625em * 3);
+  position: absolute;
+  top: 2em;
+  left: 1.5em;
 }
 
 .img-edificio1-green {
@@ -235,10 +242,13 @@ h1 {
 }
 
 .edificio2-text {
-  position: absolute;
+  width: calc(11.8125em * 2.55);
 
-  top: 9.2em;
-  left: 9.5em;
+  height: calc(5.625em * 2.9);
+  position: absolute;
+  top: 6em;
+
+  left: 2em;
 }
 
 .img-edificio2-green {
@@ -259,10 +269,13 @@ h1 {
 }
 
 .torre-dual-text {
-  position: absolute;
+  height: calc(8.971em * 3.2);
 
-  top: 6em;
-  left: 8.3em;
+  width: calc(5.625em * 3.2);
+
+  position: absolute;
+  left: 7em;
+  top: -5em;
 }
 
 .img-torre-dual-green {
@@ -284,9 +297,13 @@ h1 {
 }
 
 .santiago-text {
+  height: calc(5.625em * 3);
+
+  width: calc(10.054em * 3);
+
   position: absolute;
-  top: 4.5em;
-  left: 12em;
+  top: -1em;
+  left: 6em;
 }
 
 .img-santiago-green {
@@ -308,10 +325,12 @@ h1 {
 }
 
 .corrientes-text {
-  position: absolute;
+  width: calc(8.702em * 3.5);
 
-  top: 9em;
-  left: 8.5em;
+  height: calc(5.625em * 3.5);
+  position: absolute;
+  top: 4.3125em;
+  left: 1em;
 }
 
 .img-corrientes-green {
@@ -332,9 +351,12 @@ h1 {
 }
 
 .patio-de-uco-text {
+  width: calc(8.306em * 3.5);
+
+  height: calc(5.625em * 3.5);
   position: absolute;
-  top: 1.8em;
-  left: 8.2em;
+  left: 2em;
+  top: -7em;
 }
 
 .img-patio-de-uco-green {
@@ -355,9 +377,12 @@ h1 {
 }
 
 .termitiere-text {
+  width: calc(10em * 3.1);
+
+  height: calc(5.625em * 3.1);
   position: absolute;
-  top: 1.8em;
-  left: 39em;
+  left: 46em;
+  top: -5rem;
 }
 
 .img-termitiere-green {
@@ -370,17 +395,20 @@ h1 {
 }
 
 .img-text-common-properties {
-  font-size: 1.5em;
   font-family: "Helvetica Neue", sans-serif;
   pointer-events: none;
   z-index: 2;
   color: #d5d569;
-  font-family: "Helvetica", sans-serif;
   user-select: none;
   font-weight: lighter;
   transition: 0.3s;
   opacity: 0;
-  height: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-size {
+  font-size: 1.4em;
 }
 .img-common-properties {
   cursor: pointer;

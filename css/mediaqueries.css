@@ -118,13 +118,11 @@
   }
 
   .img-text-common-properties {
-    width: 100%;
-    height: 100%;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    text-align: center;
+    margin: auto;
   }
   .img-green-common-properties {
     top: 0;
@@ -141,41 +139,11 @@
     margin: auto;
   }
 
-  .atelier-text {
-    line-height: 12em;
-  }
-
-  .ciudad-parque-text {
-    line-height: 11.5em;
-  }
-  .edificio1-text {
-    line-height: 11.5em;
-  }
-  .edificio2-text {
-    line-height: 11.5em;
-  }
-
-  .torre-dual-text {
-    line-height: 20em;
-  }
-
-  .santiago-text {
-    line-height: 12em;
-  }
-
-  .corrientes-text {
-    line-height: 13.5em;
-  }
-
-  .patio-de-uco-text {
-    line-height: 13.5em;
-  }
   .img-termitiere-green {
     bottom: 18em;
   }
-
   .termitiere-text {
-    line-height: 12em;
+    bottom: 18em;
   }
   .acercademi-container {
     flex-direction: column;
@@ -245,7 +213,7 @@
   }
 
   .termitiere-text {
-    line-height: 12.5em;
+    bottom: 22em;
   }
   .form-contact {
     font-size: 14px;
