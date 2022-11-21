@@ -402,21 +402,9 @@ h1 {
   z-index: 2;
   color: #d5d569;
   font-family: "Helvetica", sans-serif;
-
   user-select: none;
   font-weight: lighter;
-  /* 
-  background-image: radial-gradient(
-    circle at 69.29% 8.62%,
-    #d5d569 0,
-    #d5d569 50%,
-    #d5d569 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
   transition: 0.3s;
-
   opacity: 0;
   height: 2.5em;
 }
