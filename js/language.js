@@ -5,6 +5,7 @@ const nameLabel = document.getElementById("name-label");
 const matter = document.getElementById("matter");
 const message = document.getElementById("message");
 const submit = document.getElementById("submit-btn");
+const aboutMeText = document.querySelector(".acercademi-text");
 const WrongNameLanguage = document.getElementById("wrong-name");
 const wrongEmailLanguage = document.getElementById("wrong-email");
 const wrongMessageLanguage = document.getElementById("wrong-message");
@@ -23,6 +24,14 @@ const language = () => {
     contact.innerText = "Contact";
     languagePush.innerText = "ES";
     languageNarrowScreen.innerText = "Es";
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/acercademi.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
+    ) {
+      aboutMeText.innerText =
+        "Im an architect graduated in the Architecture and urbanism Tucumán National University of Argentina. I participated in numerous workshops, competitions and architecture meetings. With experience in the real estate sector and at the same time education in the purely project field, I believe that both approaches must cooperate to result in economically viable, culturally representative, socially responsable and environmentally correct projects that at the same time respond to the personal needs and desires of its users. But above all things: an architecture for daily enjoyment, which ensures good living. Management of graphic representation tools, bim and rendering.Recognitions:- Finalist: Inspirelli awards 2020.- 3° place: Contest for students coastal city plan in Corrientes province.- 2° place: Arquisur Arzotegui awards in Belo Horizonte, Brasil. - 1° place: Internal contest to represent Tucumán national University at arzotegui awards.- 3° place: “Taller virtual de las Américas” international contest for winery building in Mendoza, Argentina.  2018.";
+    }
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/contacto.html" ||
@@ -47,6 +56,13 @@ const language = () => {
     me.innerText = "Acerca de mí";
     projects.innerText = "Proyectos";
     contact.innerText = "Contacto";
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/acercademi.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
+    ) {
+      aboutMeText.innerText = ` Arquitecto graduado de la facultad de arquitectura y urbanismo de la Universidad Nacional de Tucumán. Participe de numerosos workshops, concursos y encuentros de arquitectura. Con experiencia en el rubro inmobiliario y de la construcción y a su vez educación en el ámbito meramente proyectual, creo que ambas lógicas deben cooperar para dar como resultado proyectos económicamente viables, culturalmente representativos, socialmente responsables, ambientalmente correctos que a la vez respondan a las necesidades y deseos personales de sus usuarios. Pero por sobre todas las cosas: una arquitectura de disfrute cotidiano, que vele por el buen vivir. Manejo herramientas de representación gráfica, bim y renderismo.Reconocimientos:- Finalista en Inspirelli awards 2020.- 3° Puesto concurso para estudiantes Proyecto costero ciudad de corrientes.- 2° Puesto en Premio Arquisur  Arzotegui categoría C celebrado en Belo Horizonte. - 1° Lugar en categoría 4to y 5to año selección para participar en representación de laFAU en premios Arzotegui.- 3° Puesto en concurso internacional de estudiantes taller virtual de las Américas 2018.`;
+    }
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/contacto.html" ||
@@ -99,6 +115,13 @@ const RenderLanguage = () => {
     contact.innerText = "Contacto";
     if (
       window.location.href ===
+        "https://diego-helguera.netlify.app/html/acercademi.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
+    ) {
+      aboutMeText.innerText = ` Arquitecto graduado de la facultad de arquitectura y urbanismo de la Universidad Nacional de Tucumán. Participe de numerosos workshops, concursos y encuentros de arquitectura. Con experiencia en el rubro inmobiliario y de la construcción y a su vez educación en el ámbito meramente proyectual, creo que ambas lógicas deben cooperar para dar como resultado proyectos económicamente viables, culturalmente representativos, socialmente responsables, ambientalmente correctos que a la vez respondan a las necesidades y deseos personales de sus usuarios. Pero por sobre todas las cosas: una arquitectura de disfrute cotidiano, que vele por el buen vivir. Manejo herramientas de representación gráfica, bim y renderismo.Reconocimientos:- Finalista en Inspirelli awards 2020.- 3° Puesto concurso para estudiantes Proyecto costero ciudad de corrientes.- 2° Puesto en Premio Arquisur  Arzotegui categoría C celebrado en Belo Horizonte. - 1° Lugar en categoría 4to y 5to año selección para participar en representación de laFAU en premios Arzotegui.- 3° Puesto en concurso internacional de estudiantes taller virtual de las Américas 2018.`;
+    }
+    if (
+      window.location.href ===
         "https://diego-helguera.netlify.app/html/contacto.html" ||
       window.location.href === "http://127.0.0.1:5500/html/contacto.html"
     ) {
@@ -123,6 +146,14 @@ const RenderLanguage = () => {
     me.innerText = "About me";
     projects.innerText = "Projects";
     contact.innerText = "Contact";
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/acercademi.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
+    ) {
+      aboutMeText.innerText =
+        "Im an architect graduated in the Architecture and urbanism Tucumán National University of Argentina. I participated in numerous workshops, competitions and architecture meetings. With experience in the real estate sector and at the same time education in the purely project field, I believe that both approaches must cooperate to result in economically viable, culturally representative, socially responsable and environmentally correct projects that at the same time respond to the personal needs and desires of its users. But above all things: an architecture for daily enjoyment, which ensures good living. Management of graphic representation tools, bim and rendering.Recognitions:- Finalist: Inspirelli awards 2020.- 3° place: Contest for students coastal city plan in Corrientes province.- 2° place: Arquisur Arzotegui awards in Belo Horizonte, Brasil. - 1° place: Internal contest to represent Tucumán national University at arzotegui awards.- 3° place: “Taller virtual de las Américas” international contest for winery building in Mendoza, Argentina.  2018.";
+    }
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/contacto.html" ||

@@ -37,14 +37,17 @@
   user-select: none;
 }
 .acercademi-text-container {
-  width: 35em;
+  width: 50em;
   align-self: flex-start;
   margin-top: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .acercademi-text {
   line-height: 1.5em;
 
-  text-align: center;
   font-size: 0.95em;
   color: rgb(119, 107, 107);
   user-select: none;
