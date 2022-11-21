@@ -200,7 +200,7 @@ const scrollRedesFunction = () => {
 
 const linksNatVar = document.getElementById("links-nat-var");
 const mainBody = document.getElementById("main-body");
-// const arrow = document.getElementById("arrow");
+const menu = document.querySelector(".menu-icon-container");
 let windowScreen = window.matchMedia("(max-width: 991.98px)");
 const slideNatVar = () => {
   let height = 0;
@@ -212,22 +212,18 @@ const slideNatVar = () => {
     linksNatVar.classList.remove("links-container-height");
   }
 
-  // arrow.classList.toggle("arrow-rotate");
+  menu.classList.toggle("arrow-rotate");
 };
 const slideNatVarOut = () => {
   linksNatVar.classList.remove("links-container-height");
-  // arrow.classList.remove("arrow-rotate");
+  menu.classList.remove("arrow-rotate");
 };
 
 const removeArrowWideScreen = () => {
   if (windowScreen.matches) {
-    // arrow.style.display = "inline-block";
-
     socialIcons.style.display = "none";
   } else {
-    // arrow.style.display = "none";
     linksNatVar.classList.remove("links-container-height");
-    // arrow.classList.remove("arrow-rotate");
 
     socialIcons.style.display = "flex";
   }
