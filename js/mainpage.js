@@ -200,7 +200,7 @@ const scrollRedesFunction = () => {
 
 const linksNatVar = document.getElementById("links-nat-var");
 const mainBody = document.getElementById("main-body");
-const menu = document.querySelector(".menu-icon-container");
+const menu = document.querySelector(".menu-icon");
 let windowScreen = window.matchMedia("(max-width: 991.98px)");
 const slideNatVar = () => {
   let height = 0;

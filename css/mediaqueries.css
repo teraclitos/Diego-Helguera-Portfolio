@@ -31,21 +31,24 @@
     position: relative;
   }
   .menu-icon-container {
-    display: inline-block;
-    position: absolute;
-    top: 1.4em;
-    left: 1.8em;
+    display: flex;
+    justify-content: center;
     transition: transform 0.3s;
   }
   .menu-icon {
     width: 1.8em;
     height: 1.8em;
+    cursor: pointer;
+  }
+  .btn-title {
+    display: block;
+    justify-self: center;
   }
 
   .title-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
 
-    justify-content: center;
     padding-left: 0em;
 
     box-sizing: border-box;
