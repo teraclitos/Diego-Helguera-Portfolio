@@ -32,36 +32,7 @@ html {
   height: 10em;
   width: 10em;
 }
-@keyframes lds-ripple {
-  0% {
-    top: 36px;
-    left: 36px;
-    width: 0;
-    height: 0;
-    opacity: 0;
-  }
-  4.9% {
-    top: 36px;
-    left: 36px;
-    width: 0;
-    height: 0;
-    opacity: 0;
-  }
-  5% {
-    top: 36px;
-    left: 36px;
-    width: 0;
-    height: 0;
-    opacity: 1;
-  }
-  100% {
-    top: 0px;
-    left: 0px;
-    width: 72px;
-    height: 72px;
-    opacity: 0;
-  }
-}
+
 /* preloader end */
 .body-container {
   width: 100%;
@@ -83,6 +54,9 @@ html {
   grid-template-areas: "titulo links language";
   grid-template-columns: 6fr 6fr 1fr;
   grid-template-rows: 5em;
+}
+.menu-icon-container {
+  display: none;
 }
 
 .title-container {

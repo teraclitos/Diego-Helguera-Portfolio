@@ -178,6 +178,12 @@ const projectsDetailWideScreen = (title) => {
   }
 };
 
+const titleDiego = document.getElementById("title-diego");
+
+titleDiego.addEventListener("click", () => {
+  location.href = "/index.html";
+});
+
 const socialIcons = document.getElementById("social-icons");
 const scrollRedesFunction = () => {
   let documentHeight = document.body.scrollHeight;

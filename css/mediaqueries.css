@@ -30,6 +30,16 @@
     overflow: hidden;
     position: relative;
   }
+  .menu-icon-container {
+    display: inline-block;
+    position: absolute;
+    top: 1.65em;
+    left: 1em;
+  }
+  .menu-icon {
+    color: #d65f37;
+    font-size: 1.8em;
+  }
 
   .title-container {
     display: flex;
