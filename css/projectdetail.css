@@ -58,7 +58,10 @@
 .project-detail-corrientes {
   gap: 10em;
 }
-.img-project-santiago {
+.img-croquis {
+  width: 100%;
+}
+.width-60 {
   width: 60%;
 }
 
