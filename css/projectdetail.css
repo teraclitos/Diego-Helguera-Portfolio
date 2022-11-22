@@ -39,6 +39,8 @@
 
 .imgs-right-container {
   align-self: flex-end;
+  display: flex;
+  justify-content: center;
 }
 .imgs-right {
   width: 100%;
