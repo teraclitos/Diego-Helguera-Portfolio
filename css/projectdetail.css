@@ -40,7 +40,8 @@
 .imgs-right-container {
   align-self: flex-end;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .imgs-right {
   width: 100%;
@@ -60,6 +61,9 @@
 }
 .img-croquis {
   width: 100%;
+}
+.width-90 {
+  width: 90%;
 }
 .width-60 {
   width: 60%;
