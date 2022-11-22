@@ -39,7 +39,6 @@ html {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #d2d2d2;
 }
 .body-overflow-preloader {
   overflow: hidden;
