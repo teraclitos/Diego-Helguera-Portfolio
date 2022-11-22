@@ -30,7 +30,7 @@ const language = () => {
       window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
     ) {
       aboutMeText.innerText =
-        "Im an architect graduated in the Architecture and urbanism Tucumán National University of Argentina. I participated in numerous workshops, competitions and architecture meetings. With experience in the real estate sector and at the same time education in the purely project field, I believe that both approaches must cooperate to result in economically viable, culturally representative, socially responsable and environmentally correct projects that at the same time respond to the personal needs and desires of its users. But above all things: an architecture for daily enjoyment, which ensures good living. Management of graphic representation tools, bim and rendering.";
+        "I'm an architect graduated in the Architecture and urbanism Tucumán National University of Argentina. I took part in numerous workshops, competitions and architecture meetings. With experience in the real estate sector and, at the same time, with education in the purely project field; I believe that both approaches must cooperate to result in economically viable, culturally representative, socially responsable and environmentally correct projects that, at the same time, respond to the personal needs and desires of its users. But above all things: an architecture for daily enjoyment, which ensures good living. Management of graphic representation tools, bim and rendering.";
     }
     if (
       window.location.href ===
@@ -61,7 +61,7 @@ const language = () => {
         "https://diego-helguera.netlify.app/html/acercademi.html" ||
       window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
     ) {
-      aboutMeText.innerText = ` Arquitecto graduado de la facultad de arquitectura y urbanismo de la Universidad Nacional de Tucumán. Participe de numerosos workshops, concursos y encuentros de arquitectura. Con experiencia en el rubro inmobiliario y de la construcción y a su vez educación en el ámbito meramente proyectual, creo que ambas lógicas deben cooperar para dar como resultado proyectos económicamente viables, culturalmente representativos, socialmente responsables, ambientalmente correctos que a la vez respondan a las necesidades y deseos personales de sus usuarios. Pero por sobre todas las cosas: una arquitectura de disfrute cotidiano, que vele por el buen vivir. Manejo herramientas de representación gráfica, bim y renderismo.`;
+      aboutMeText.innerText = ` Arquitecto graduado de la facultad de arquitectura y urbanismo de la Universidad Nacional de Tucumán. Participe de numerosos workshops, concursos y encuentros de arquitectura. Con experiencia en el rubro inmobiliario y de la construcción y, a su vez, educación en el ámbito meramente proyectual; creo que ambas lógicas deben cooperar para dar como resultado proyectos económicamente viables, culturalmente representativos, socialmente responsables, ambientalmente correctos, que a la vez respondan a las necesidades y deseos personales de sus usuarios. Pero por sobre todas las cosas: una arquitectura de disfrute cotidiano, que vele por el buen vivir. Manejo herramientas de representación gráfica, bim y renderismo.`;
     }
     if (
       window.location.href ===
@@ -118,7 +118,7 @@ const RenderLanguage = () => {
         "https://diego-helguera.netlify.app/html/acercademi.html" ||
       window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
     ) {
-      aboutMeText.innerText = ` Arquitecto graduado de la facultad de arquitectura y urbanismo de la Universidad Nacional de Tucumán. Participe de numerosos workshops, concursos y encuentros de arquitectura. Con experiencia en el rubro inmobiliario y de la construcción y a su vez educación en el ámbito meramente proyectual, creo que ambas lógicas deben cooperar para dar como resultado proyectos económicamente viables, culturalmente representativos, socialmente responsables, ambientalmente correctos que a la vez respondan a las necesidades y deseos personales de sus usuarios. Pero por sobre todas las cosas: una arquitectura de disfrute cotidiano, que vele por el buen vivir. Manejo herramientas de representación gráfica, bim y renderismo.`;
+      aboutMeText.innerText = ` Arquitecto graduado de la facultad de arquitectura y urbanismo de la Universidad Nacional de Tucumán. Participe de numerosos workshops, concursos y encuentros de arquitectura. Con experiencia en el rubro inmobiliario y de la construcción y, a su vez, educación en el ámbito meramente proyectual; creo que ambas lógicas deben cooperar para dar como resultado proyectos económicamente viables, culturalmente representativos, socialmente responsables, ambientalmente correctos, que a la vez respondan a las necesidades y deseos personales de sus usuarios. Pero por sobre todas las cosas: una arquitectura de disfrute cotidiano, que vele por el buen vivir. Manejo herramientas de representación gráfica, bim y renderismo.`;
     }
     if (
       window.location.href ===
@@ -152,7 +152,7 @@ const RenderLanguage = () => {
       window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
     ) {
       aboutMeText.innerText =
-        "Im an architect graduated in the Architecture and urbanism Tucumán National University of Argentina. I participated in numerous workshops, competitions and architecture meetings. With experience in the real estate sector and at the same time education in the purely project field, I believe that both approaches must cooperate to result in economically viable, culturally representative, socially responsable and environmentally correct projects that at the same time respond to the personal needs and desires of its users. But above all things: an architecture for daily enjoyment, which ensures good living. Management of graphic representation tools, bim and rendering.";
+        "I'm an architect graduated in the Architecture and urbanism Tucumán National University of Argentina. I took part in numerous workshops, competitions and architecture meetings. With experience in the real estate sector and, at the same time, with education in the purely project field; I believe that both approaches must cooperate to result in economically viable, culturally representative, socially responsable and environmentally correct projects that, at the same time, respond to the personal needs and desires of its users. But above all things: an architecture for daily enjoyment, which ensures good living. Management of graphic representation tools, bim and rendering.";
     }
     if (
       window.location.href ===
