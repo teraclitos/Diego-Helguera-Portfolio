@@ -60,17 +60,18 @@
   width: 60%;
 }
 
-.imgs-modal {
-  max-width: 85%;
-  min-height: 85%;
-  max-height: 90%;
-}
 .img-modal-container-container {
   position: fixed;
   height: 100vh;
   width: 100%;
   pointer-events: none;
-  z-index: 1;
+  display: none;
+  background: rgb(0, 0, 0, 0.8);
+}
+.imgs-modal {
+  max-width: 85%;
+  min-height: 85%;
+  max-height: 90%;
 }
 
 .img-modal-container {

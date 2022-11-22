@@ -3,6 +3,9 @@ const arrayImg = document.querySelectorAll(".imgs");
 const arrayImgModal = document.querySelectorAll(".imgs-modal");
 localSTGiMG = JSON.parse(localStorage.getItem("idImg")) || { id: 0 };
 let imgContainer = document.querySelector(".img-modal-container");
+const imgContainerContainer = document.querySelector(
+  ".img-modal-container-container"
+);
 let navBarHeight = document.querySelector(".title-container").clientHeight;
 
 let imgContainerHeight = window.innerHeight - navBarHeight;
@@ -34,6 +37,7 @@ windowScreenContact.addEventListener("change", () => {
 
 arrayImg.forEach((element, i) => {
   element.addEventListener("mousedown", () => {
+    imgContainerContainer.style.display = "flex";
     localStorage.setItem("idImg", JSON.stringify({ id: i + 1 }));
     localSTGiMG = JSON.parse(localStorage.getItem("idImg"));
     arrayImgModal.forEach((elementModal) => {
@@ -47,12 +51,14 @@ arrayImg.forEach((element, i) => {
 });
 
 window.addEventListener("mouseup", () => {
+  imgContainerContainer.style.display = "none";
   arrayImgModal.forEach((element) => {
     element.style.display = "none";
   });
   localStorage.setItem("idImg", JSON.stringify({ id: 0 }));
 });
 window.addEventListener("dragend", () => {
+  imgContainerContainer.style.display = "none";
   arrayImgModal.forEach((element) => {
     element.style.display = "none";
   });
