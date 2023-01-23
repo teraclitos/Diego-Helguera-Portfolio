@@ -15,12 +15,11 @@ const errorSubmitLanguage = document.getElementById("error");
 const correctSubmitLanguage = document.getElementById("correct");
 const languagePush = document.getElementById("language");
 const languageNarrowScreen = document.getElementById("language-narrow-screen");
-let localSTGLanguage = JSON.parse(localStorage.getItem("number")) || {
-  id: 0,
-};
+
+let localSTGLanguage = JSON.parse(localStorage.getItem("number")) || { id: 0 };
 
 const language = () => {
-  localSTGLanguage = JSON.parse(localStorage.getItem("number"));
+  localSTGLanguage = JSON.parse(localStorage.getItem("number")) || { id: 0 };
   if (localSTGLanguage.id === 0) {
     me.innerText = "About me";
     projects.innerText = "Projects";
