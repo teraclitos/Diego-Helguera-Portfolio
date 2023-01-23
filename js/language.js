@@ -235,8 +235,16 @@ Large openings on the ground floor, a large open terrace, an infinit pool, the k
         "https://diego-helguera.netlify.app/html/acercademi.html" ||
       window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
     ) {
-      aboutMeText.innerText = `I'm an architect graduated in the Architecture and urbanism Tucumán National University of Argentina. I took part in numerous workshops, competitions and architecture meetings.
-         With experience in the real estate sector and, at the same time, knowledge in the purely project field; I believe that both approaches must cooperate to result in economically viable, culturally representative, socially responsable and environmentally correct projects, that respond to the personal needs and desires of its users. But above all things: an architecture for daily enjoyment, which ensures good living. `;
+      aboutMeText.innerText = `Im an architect graduated in the Architecture and urbanism Tucumán National University of Argentina. I participated in numerous workshops, competitions and architecture meetings. 
+With experience in the real estate sector and at the same time education in the purely project field, I believe that both approaches must cooperate to result in economically viable, culturally representative, socially responsable and environmentally correct projects that at the same time respond to the personal needs and desires of its users. But above all things: an architecture for daily enjoyment, which ensures good living. 
+Management of graphic representation tools, bim and rendering.
+  Recognitions:
+- Finalist: Inspirelli awards 2020.
+- 3° place: Contest for students coastal city plan in Corrientes province.
+- 2° place: Arquisur Arzotegui awards in Belo Horizonte, Brasil. 
+- 1° place: Internal contest to represent Tucumán national University at arzotegui awards.
+- 3° place: “Taller virtual de las Américas” international contest for winery building in 
+  Mendoza, Argentina.  2018. `;
     }
     if (
       window.location.href ===
