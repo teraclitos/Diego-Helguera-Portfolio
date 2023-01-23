@@ -239,3 +239,7 @@ windowScreen.addEventListener("change", () => {
   scrollRedesFunction();
   removeArrowWideScreen();
 });
+
+for (let index = 0; index < array.length; index++) {
+
+}

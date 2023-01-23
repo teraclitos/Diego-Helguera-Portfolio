@@ -33,17 +33,16 @@
 
 .img-acercademi {
   width: 15em;
-  height: calc(15em * 1.2);
+  /* height: calc(15em * 1.2); */
   user-select: none;
 }
 .acercademi-text-container {
-  width: 30em;
   align-self: flex-start;
   margin-top: 1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: start;
 }
 .acercademi-text {
   line-height: 1.5em;
