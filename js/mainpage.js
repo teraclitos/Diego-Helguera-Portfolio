@@ -240,6 +240,18 @@ windowScreen.addEventListener("change", () => {
   removeArrowWideScreen();
 });
 
-for (let index = 0; index < array.length; index++) {
+const bestDistance = (max, q, list) => {
+  let value = 0;
+  list.reduce((acumulator, currentValue) => {
+    value = acumulator + currentValue;
+    return value;
+  }, 0);
+  return value;
+};
 
-}
+const array1 = [0, 4, 5];
+const array2 = [1, 2];
+const array3 = array1.concat(array2);
+const array4 = array3.sort();
+const array5 = array4.map((element) => element * element);
+const array6 = array5.splice(0, 3);
