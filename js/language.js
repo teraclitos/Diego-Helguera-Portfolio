@@ -9,6 +9,9 @@ const aboutMeText = document.querySelector(".acercademi-text");
 const textSantiago1 = document.querySelector(".text-santiago-1");
 const textSantiago2 = document.querySelector(".text-santiago-2");
 const textAtelierProject = document.querySelector(".text-atelier-project");
+const textCiudadParqueProject = document.querySelector(
+  ".text-ciudad-parque-project"
+);
 const WrongNameLanguage = document.getElementById("wrong-name");
 const wrongEmailLanguage = document.getElementById("wrong-email");
 const wrongMessageLanguage = document.getElementById("wrong-message");
@@ -54,6 +57,38 @@ We understand that the form, the image of the building greatly influences the be
 Respect is not always mimetic.
 
 Diego Helguera, Luz María Helguera, Javier Dagnilo, Ricardo Gómez as a blacksmith who was a true craftsman.
+`;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/ciudadparque.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/ciudadparque.html"
+    ) {
+      textCiudadParqueProject.innerText = `Team: Diego Helguera, Teachers National University of Tucumán
+
+Ciudad Parque is an urban masterplan for Yerba Buena, Tucumán, Argentina. An application of contemporary urban guidelines to respond to the post-pandemic context that we are going through.
+
+It has a park with sports equipment and wild routes taking advantage of the landscape possibilities of the open-air water canal.
+
+Continuity was given to the pre-existing urban fabric by means of a grid of rectangular blocks with a greater North-South orientation, to reduce heat gains in an East-West direction and increase the surface area exposed to the favorable sun of the North and ventilation from the South. At the same time, these blocks will be grouped into two superblocks where the main objective is to punish the use of the car to increase public space for commercial, recreational and environmental support.
+
+In this way, the interior streets of the superblock will become a semi-pedestrian environmental corridor with reduced vehicular access, and the lungs of the block will become semi-public parks for the use of the surrounding buildings. The latter will be intervened and cared for by the immediate neighbors of the block, promoting a sense of belonging and neighborhood interaction. The heart of the superblock is a 30m x 30m central plaza.
+
+The streets in a North-South direction present an organic development and the East-West streets an aligned development, clearing the hill as a backdrop and reference point.
+
+Both the block lungs and the environmental corridor generated on the public road will serve as a support for the restoration and regeneration of the natural territory, through a conscious afforestation and landscaping plan, the goal is to recover original native flora and fauna, avoid changing the metabolic functions of the territory and generate a continuous tree layer that allows the development of these functions without interruptions.
+
+In addition, the diversity of tree species and water treatment will attract various species of birds and other fauna.
+
+The increase in built-up density in height proposes to satisfy housing demand and free up green space for common use, increasing green square meters per inhabitant.
+
+The homogeneous dispersion of functions facilitates the arrival of the inhabitants to consumer goods, work, services in a short time and without the need to use a car or public transport, reducing carbon emissions and improving the quality of life and the availability of time of the community. 
+
+This increase of building density will be treated visually with the interruption of the urban profile through intermittent setbacks, with tree masses that will “camouflage” the buildings, generating in turn widening of the sidewalk for commercial and recreational support.
+
+Ideally, a building should produce more energy than it consumes. Meeting this energy demand completely with solar energy may not be possible, but it may be possible to reduce it. In the process of implementing energy labeling and the possibility of easily donating energy to the grid, it is proposed to develop a photovoltaic grid that reduces electrical network consumption.
+
+
 `;
     }
 
@@ -167,6 +202,37 @@ Diego Helguera, Luz María Helguera, Javier Dagnilo, Ricardo Gómez como herrero
     }
     if (
       window.location.href ===
+        "https://diego-helguera.netlify.app/html/ciudadparque.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/ciudadparque.html"
+    ) {
+      textCiudadParqueProject.innerText = `Equipo: Diego Helguera, Docentes Universidad Nacional de Tucumán
+
+Ciudad parque es un masterplan urbanístico para Yerba Buena, Tucumán, Argentina. Una aplicación de lineamientos urbanísticos contemporáneos para dar respuesta al context pospandémico que atravesamos.
+
+Cuenta con un parque con equipamiento deportivo y vías silvestres aprovechando las posibilidades paisajísticas del canal hídrico a cielo abierto. 
+
+Se dió continuidad a la trama urbana preexistente mediante una malla de manzanas rectangulares con mayor orientación Norte – Sur, para reducir las ganancias de calor en sentido este-oeste y aumentar superficie expuesta al favorable sol del norte y la ventilación del sur. A su vez, estas manzanas se agruparán en dos supermanzanas donde el principal objetivo es castigar el uso del automóvil para aumentar espacio público de apoyo comercial, recreativo y Ambiental.
+
+De esta manera las calles interiores de la supermanzana se convertirán en un corredor ambiental semipeatonal de acceso vehicular reducido, y los pulmones de manzana en parques semipúblicos para uso de los edificios circundantes. Estos últimos serán intervenidos y cuidados por los vecinos inmediatos de la manzana, fomentando el sentido de pertenencia y la interacción barrial. El corazón de la supermanzana es una plaza central de 30 m x 30 m. 
+
+Las calles en dirección Norte-Sur presentan un desarrollo orgánico y las calles Este-Oeste  un desarrollo alineado despejando el cerro como telón de fondo y punto de referencia. 
+
+Tanto los pulmones de manzana como el corredor ambiental generado en la vía publica servirán como soporte para la restauración y regeneración del territorio natural, mediante un plan de forestación y paisajismo consciente el objetivo es recuperar flora y fauna autóctona original, evitar cambiar las funciones metabólicas del territorio y generar un estrato arbóreo continuo que permita el desarrollo de estas funciones sin interrupciones
+
+Ademas la diversidad de especies de arboles y el tratamiento de agua atraerá variadas especies de pájaros y demás fauna.
+
+El aumento de densidad edificada en altura propone saciar demanda habitacional y liberar superficie verde para uso común, aumentando metros cuadrados verdes por habitante.
+
+La dispersión homogénea de funciones facilita la llegada de los habitantes a bienes de consumo, trabajo, servicios en poco tiempo y sin necesidad de usar automóvil o transporte público, disminuyendo las emisiones de carbono y mejorando la calidad de vida y la disposición de tiempo de la gente.
+
+Este incremento de edificación será tratado visualmente con la interrupción de la continuidad del perfil urbano mediante retranqueos intermitentes, con masas arbóreas que “camuflarán” los edificios generando a su vez ensanches de vereda de apoyo comercial y recreativo.
+
+Idealmente, un edificio debería producir más energía de la que consume. Satisfacer esta demanda energética por completo con energía solar puede no ser posible, pero si reducirla. En vías de implementación del etiquetado energético y la posibilidad de donar energía fácilmente a la red, se propone desarrollar una red fotovoltaica que reduzca el consumo de la red.
+
+`;
+    }
+    if (
+      window.location.href ===
         "https://diego-helguera.netlify.app/html/santiago.html" ||
       window.location.href === "http://127.0.0.1:5500/html/santiago.html"
     ) {
@@ -265,6 +331,38 @@ Diego Helguera, Luz María Helguera, Javier Dagnilo, Ricardo Gómez como herrero
 
     if (
       window.location.href ===
+        "https://diego-helguera.netlify.app/html/ciudadparque.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/ciudadparque.html"
+    ) {
+      textCiudadParqueProject.innerText = `Equipo: Diego Helguera, Docentes Universidad Nacional de Tucumán
+
+Ciudad parque es un masterplan urbanístico para Yerba Buena, Tucumán, Argentina. Una aplicación de lineamientos urbanísticos contemporáneos para dar respuesta al context pospandémico que atravesamos.
+
+Cuenta con un parque con equipamiento deportivo y vías silvestres aprovechando las posibilidades paisajísticas del canal hídrico a cielo abierto. 
+
+Se dió continuidad a la trama urbana preexistente mediante una malla de manzanas rectangulares con mayor orientación Norte – Sur, para reducir las ganancias de calor en sentido este-oeste y aumentar superficie expuesta al favorable sol del norte y la ventilación del sur. A su vez, estas manzanas se agruparán en dos supermanzanas donde el principal objetivo es castigar el uso del automóvil para aumentar espacio público de apoyo comercial, recreativo y Ambiental.
+
+De esta manera las calles interiores de la supermanzana se convertirán en un corredor ambiental semipeatonal de acceso vehicular reducido, y los pulmones de manzana en parques semipúblicos para uso de los edificios circundantes. Estos últimos serán intervenidos y cuidados por los vecinos inmediatos de la manzana, fomentando el sentido de pertenencia y la interacción barrial. El corazón de la supermanzana es una plaza central de 30 m x 30 m. 
+
+Las calles en dirección Norte-Sur presentan un desarrollo orgánico y las calles Este-Oeste  un desarrollo alineado despejando el cerro como telón de fondo y punto de referencia. 
+
+Tanto los pulmones de manzana como el corredor ambiental generado en la vía publica servirán como soporte para la restauración y regeneración del territorio natural, mediante un plan de forestación y paisajismo consciente el objetivo es recuperar flora y fauna autóctona original, evitar cambiar las funciones metabólicas del territorio y generar un estrato arbóreo continuo que permita el desarrollo de estas funciones sin interrupciones
+
+Ademas la diversidad de especies de arboles y el tratamiento de agua atraerá variadas especies de pájaros y demás fauna.
+
+El aumento de densidad edificada en altura propone saciar demanda habitacional y liberar superficie verde para uso común, aumentando metros cuadrados verdes por habitante.
+
+La dispersión homogénea de funciones facilita la llegada de los habitantes a bienes de consumo, trabajo, servicios en poco tiempo y sin necesidad de usar automóvil o transporte público, disminuyendo las emisiones de carbono y mejorando la calidad de vida y la disposición de tiempo de la gente.
+
+Este incremento de edificación será tratado visualmente con la interrupción de la continuidad del perfil urbano mediante retranqueos intermitentes, con masas arbóreas que “camuflarán” los edificios generando a su vez ensanches de vereda de apoyo comercial y recreativo.
+
+Idealmente, un edificio debería producir más energía de la que consume. Satisfacer esta demanda energética por completo con energía solar puede no ser posible, pero si reducirla. En vías de implementación del etiquetado energético y la posibilidad de donar energía fácilmente a la red, se propone desarrollar una red fotovoltaica que reduzca el consumo de la red.
+
+`;
+    }
+
+    if (
+      window.location.href ===
         "https://diego-helguera.netlify.app/html/santiago.html" ||
       window.location.href === "http://127.0.0.1:5500/html/santiago.html"
     ) {
@@ -344,6 +442,37 @@ We understand that the form, the image of the building greatly influences the be
 Respect is not always mimetic.
 
 Diego Helguera, Luz María Helguera, Javier Dagnilo, Ricardo Gómez as a blacksmith who was a true craftsman.
+`;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/ciudadparque.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/ciudadparque.html"
+    ) {
+      textCiudadParqueProject.innerText = `Team: Diego Helguera, Teachers National University of Tucumán
+
+Ciudad Parque is an urban masterplan for Yerba Buena, Tucumán, Argentina. An application of contemporary urban guidelines to respond to the post-pandemic context that we are going through.
+
+It has a park with sports equipment and wild routes taking advantage of the landscape possibilities of the open-air water canal.
+
+Continuity was given to the pre-existing urban fabric by means of a grid of rectangular blocks with a greater North-South orientation, to reduce heat gains in an East-West direction and increase the surface area exposed to the favorable sun of the North and ventilation from the South. At the same time, these blocks will be grouped into two superblocks where the main objective is to punish the use of the car to increase public space for commercial, recreational and environmental support.
+
+In this way, the interior streets of the superblock will become a semi-pedestrian environmental corridor with reduced vehicular access, and the lungs of the block will become semi-public parks for the use of the surrounding buildings. The latter will be intervened and cared for by the immediate neighbors of the block, promoting a sense of belonging and neighborhood interaction. The heart of the superblock is a 30m x 30m central plaza.
+
+The streets in a North-South direction present an organic development and the East-West streets an aligned development, clearing the hill as a backdrop and reference point.
+
+Both the block lungs and the environmental corridor generated on the public road will serve as a support for the restoration and regeneration of the natural territory, through a conscious afforestation and landscaping plan, the goal is to recover original native flora and fauna, avoid changing the metabolic functions of the territory and generate a continuous tree layer that allows the development of these functions without interruptions.
+
+In addition, the diversity of tree species and water treatment will attract various species of birds and other fauna.
+
+The increase in built-up density in height proposes to satisfy housing demand and free up green space for common use, increasing green square meters per inhabitant.
+
+The homogeneous dispersion of functions facilitates the arrival of the inhabitants to consumer goods, work, services in a short time and without the need to use a car or public transport, reducing carbon emissions and improving the quality of life and the availability of time of the community. 
+
+This increase of building density will be treated visually with the interruption of the urban profile through intermittent setbacks, with tree masses that will “camouflage” the buildings, generating in turn widening of the sidewalk for commercial and recreational support.
+
+Ideally, a building should produce more energy than it consumes. Meeting this energy demand completely with solar energy may not be possible, but it may be possible to reduce it. In the process of implementing energy labeling and the possibility of easily donating energy to the grid, it is proposed to develop a photovoltaic grid that reduces electrical network consumption.
+
 `;
     }
     if (

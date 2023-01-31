@@ -13,7 +13,7 @@ let localSTGContact = JSON.parse(localStorage.getItem("number"));
 const RenderContact = () => {
   if (windowScreenContact.matches) {
     if (localSTGContact.id === 0) {
-      names.placeholder = "Nombre";
+      names.placeholder = "Nombre ";
       asunto.placeholder = "Asunto(opcional)";
       email.placeholder = "Email";
       text.placeholder = "Deje su mensaje";
