@@ -60,7 +60,7 @@
 }
 .torre-duo-detail {
   width: 50%;
-  justify-self: center;
+  align-self: center;
 }
 /* .project-detail-corrientes {
   gap: 10em;

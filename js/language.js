@@ -16,6 +16,7 @@ const textJardinesColgantesProject = document.querySelector(
   ".text-jardines-colgantes-project"
 );
 const textPatioAltoProject = document.querySelector(".text-patio-alto-project");
+const textTorreDuoProject = document.querySelector(".text-torre-duo-project");
 const WrongNameLanguage = document.getElementById("wrong-name");
 const wrongEmailLanguage = document.getElementById("wrong-email");
 const wrongMessageLanguage = document.getElementById("wrong-message");
@@ -147,6 +148,36 @@ Access to the apartments is through walkways that enter through the balcony. Thi
 Mixed uses: The ground floor is intended for commercial premises, the first floor (basement) for offices, the other levels for housing and the terrace for common space and gardens. That way, the inhabitants can work in their own building without having to do home office (something very exhausting according to the pandemic experience), buy products on the street floor without using the car, and produce their vegetables in their own garden.
 
 Circulation as a social space will strengthen the neighborhood bond.
+
+
+
+`;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/torreduo.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/torreduo.html"
+    ) {
+      textTorreDuoProject.innerText = `Team: Agustin Jarma, Diego Helguera
+
+Responsibilities:
+Revit 3d modeling.
+Apartments design.
+Proposal design.
+Proposal to land owners.
+Planimetry drawing.
+
+Torre duo is a building with a bioclimatic façade in which a ventilated air chamber reduces heat gain through openings. We wanted to experiment how practicable it is to apply this technology in Tucumán.
+
+It was a great challenge to design 9 different types of apartments, all ventilating properly and at the same time provide a graceful volumetry to the building in a limited deadline of two months while we carried out many other responsibilities. It was intense but it had its reward.
+
+The building was presented to the landowners who gave us their feedback and has been used as inspiration (a lot) for the tower that is actually being built on that site today. Maintaining the project name and the idea of the building.
+
+For sure there are many corrections I would make today, this Project was designed many years ago when I was still studyng, but I selected it because of its huge lessons. 
+
+Everything was modeled in Revit.
+
+
 
 
 
@@ -349,6 +380,34 @@ La circulación como espacio social fortalecerá el vínculo vecinal.
     }
     if (
       window.location.href ===
+        "https://diego-helguera.netlify.app/html/torreduo.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/torreduo.html"
+    ) {
+      textTorreDuoProject.innerText = `Equipo: Agustín Jarma, Diego Helguera.
+
+      Responsabilidades:
+      Modelado 3d Revit.
+Diseño de unidades de vivienda.
+Diseño de propuesta.
+Propuesta a dueños del terreno. 
+Dibujo de planimetría. 
+
+Torre duo es un edificio de fachada bioclimática que una cámara de aire ventilada reduce las ganancias de calor por aberturas. Quisimos experimentar que tan factible es aplicar esta tecnología en Tucumán. 
+
+Fue un gran desafío diseñar 9 tipologías distintas de departamentos, que todos ventilen correctamente y a la vez aporten una volumetría agraciada al edificio en un acotado tiempo de dos meses. Mientras llevaba adelante otras responsabilidades.
+
+El edificio fue presentado a los dueños del terreno quienes nos dieron su feedback y ha servido de inspiración (en gran medida) para la torre que se está construyendo de hecho hoy en día en ese lugar. Manteniendo el nombre del proyecto y la idea partido del edificio. 
+
+Claro que hoy en día le haría muchas correcciones, el edificio fue diseñado varios años atrás como estudiante, pero seleccioné el proyecto por los grandes aprendizajes que dejó.
+
+Todo está modelado en Revit. 
+
+
+
+`;
+    }
+    if (
+      window.location.href ===
         "https://diego-helguera.netlify.app/html/santiago.html" ||
       window.location.href === "http://127.0.0.1:5500/html/santiago.html"
     ) {
@@ -533,6 +592,34 @@ La circulación como espacio social fortalecerá el vínculo vecinal.
     }
     if (
       window.location.href ===
+        "https://diego-helguera.netlify.app/html/torreduo.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/torreduo.html"
+    ) {
+      textTorreDuoProject.innerText = `Equipo: Agustín Jarma, Diego Helguera.
+
+      Responsabilidades:
+      Modelado 3d Revit.
+Diseño de unidades de vivienda.
+Diseño de propuesta.
+Propuesta a dueños del terreno. 
+Dibujo de planimetría. 
+
+Torre duo es un edificio de fachada bioclimática que una cámara de aire ventilada reduce las ganancias de calor por aberturas. Quisimos experimentar que tan factible es aplicar esta tecnología en Tucumán. 
+
+Fue un gran desafío diseñar 9 tipologías distintas de departamentos, que todos ventilen correctamente y a la vez aporten una volumetría agraciada al edificio en un acotado tiempo de dos meses. Mientras llevaba adelante otras responsabilidades.
+
+El edificio fue presentado a los dueños del terreno quienes nos dieron su feedback y ha servido de inspiración (en gran medida) para la torre que se está construyendo de hecho hoy en día en ese lugar. Manteniendo el nombre del proyecto y la idea partido del edificio. 
+
+Claro que hoy en día le haría muchas correcciones, el edificio fue diseñado varios años atrás como estudiante, pero seleccioné el proyecto por los grandes aprendizajes que dejó.
+
+Todo está modelado en Revit. 
+
+
+
+`;
+    }
+    if (
+      window.location.href ===
         "https://diego-helguera.netlify.app/html/santiago.html" ||
       window.location.href === "http://127.0.0.1:5500/html/santiago.html"
     ) {
@@ -697,6 +784,36 @@ Access to the apartments is through walkways that enter through the balcony. Thi
 Mixed uses: The ground floor is intended for commercial premises, the first floor (basement) for offices, the other levels for housing and the terrace for common space and gardens. That way, the inhabitants can work in their own building without having to do home office (something very exhausting according to the pandemic experience), buy products on the street floor without using the car, and produce their vegetables in their own garden.
 
 Circulation as a social space will strengthen the neighborhood bond.
+
+
+
+`;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/torreduo.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/torreduo.html"
+    ) {
+      textTorreDuoProject.innerText = `Team: Agustin Jarma, Diego Helguera
+
+Responsibilities:
+Revit 3d modeling.
+Apartments design.
+Proposal design.
+Proposal to land owners.
+Planimetry drawing.
+
+Torre duo is a building with a bioclimatic façade in which a ventilated air chamber reduces heat gain through openings. We wanted to experiment how practicable it is to apply this technology in Tucumán.
+
+It was a great challenge to design 9 different types of apartments, all ventilating properly and at the same time provide a graceful volumetry to the building in a limited deadline of two months while we carried out many other responsibilities. It was intense but it had its reward.
+
+The building was presented to the landowners who gave us their feedback and has been used as inspiration (a lot) for the tower that is actually being built on that site today. Maintaining the project name and the idea of the building.
+
+For sure there are many corrections I would make today, this Project was designed many years ago when I was still studyng, but I selected it because of its huge lessons. 
+
+Everything was modeled in Revit.
+
+
 
 
 
