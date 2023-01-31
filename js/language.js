@@ -17,6 +17,9 @@ const textJardinesColgantesProject = document.querySelector(
 );
 const textPatioAltoProject = document.querySelector(".text-patio-alto-project");
 const textTorreDuoProject = document.querySelector(".text-torre-duo-project");
+const textCorrientesProject = document.querySelector(
+  ".text-corrientes-project"
+);
 const WrongNameLanguage = document.getElementById("wrong-name");
 const wrongEmailLanguage = document.getElementById("wrong-email");
 const wrongMessageLanguage = document.getElementById("wrong-message");
@@ -207,6 +210,29 @@ Trato directo con el cliente.
 Exposiciones al cliente.
 Renderismo.
 Visitas a obra. 
+
+     
+ `;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/corrientes.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/corrientes.html"
+    ) {
+      textCorrientesProject.innerText = `Team: Agustín Jarma, Ezequiel Bardavid, Diego Helguera.
+
+The Urban coastal project for the city of Corrientes is a Project commissioned by the association of architects of the province to respond to large vacant public lands near the Paraná River.
+
+The Project had to rehabilitate disused buildings, satisfy housing demand, generate public space, public equipment, contemplate the riverfront and optimize road connections.
+
+We had to present it in a limited time, so coordination and agreement among the team was key.
+
+Everything was modeled in revit and sketchup together.
+
+To our joy it meant a third place in the competition.
+
+Working on the urban scale opened our minds when it came to designing, we had to get good graphic communication and have a good reading of the Code of planning and order of the state as client. 
+
 
      
  `;
@@ -443,6 +469,29 @@ Armado de carpeta para aprobación municipal.
 Trato directo con el cliente.
  `;
     }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/corrientes.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/corrientes.html"
+    ) {
+      textCorrientesProject.innerText = `Equipo: Agustín Jarma, Ezequiel Bardavid, Diego Helguera.
+
+Proyecto costero urbano para la ciudad de Corrientes es un Proyecto encargado por el colegio de arquitectos de la provincia para dar respuesta a grandes tierras públicas vacantes próximas al río Paraná. 
+
+El Proyecto debía rehabilitar edificios en desuso, satisfacer demanda habitacional, generar espacio público, equipamiento público, contemplar la costanera del río y optimizar las conexiones viales. 
+
+Tuvimos que presentarlo en un tiempo acotado, por lo que la coordinación y la puesta de acuerdo entre el equipo fue clave. 
+
+Modelado en revit y sketchup en conjunto.
+
+Para nuestra alegría nos significó un tercer puesto en la competencia. 
+
+Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos que hacernos de Buena comunicación gráfica y tener una Buena lectura del Código de planeamiento y encargo del estado como comitente.
+
+
+     
+ `;
+    }
 
     if (
       window.location.href ===
@@ -669,6 +718,29 @@ Trato directo con el cliente.
     }
     if (
       window.location.href ===
+        "https://diego-helguera.netlify.app/html/corrientes.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/corrientes.html"
+    ) {
+      textCorrientesProject.innerText = `Equipo: Agustín Jarma, Ezequiel Bardavid, Diego Helguera.
+
+Proyecto costero urbano para la ciudad de Corrientes es un Proyecto encargado por el colegio de arquitectos de la provincia para dar respuesta a grandes tierras públicas vacantes próximas al río Paraná. 
+
+El Proyecto debía rehabilitar edificios en desuso, satisfacer demanda habitacional, generar espacio público, equipamiento público, contemplar la costanera del río y optimizar las conexiones viales. 
+
+Tuvimos que presentarlo en un tiempo acotado, por lo que la coordinación y la puesta de acuerdo entre el equipo fue clave. 
+
+Modelado en revit y sketchup en conjunto.
+
+Para nuestra alegría nos significó un tercer puesto en la competencia. 
+
+Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos que hacernos de Buena comunicación gráfica y tener una Buena lectura del Código de planeamiento y encargo del estado como comitente.
+
+
+     
+ `;
+    }
+    if (
+      window.location.href ===
         "https://diego-helguera.netlify.app/html/acercademi.html" ||
       window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
     ) {
@@ -880,6 +952,29 @@ Trato directo con el cliente.
 Exposiciones al cliente.
 Renderismo.
 Visitas a obra. 
+
+     
+ `;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/corrientes.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/corrientes.html"
+    ) {
+      textCorrientesProject.innerText = `Team: Agustín Jarma, Ezequiel Bardavid, Diego Helguera.
+
+The Urban coastal project for the city of Corrientes is a Project commissioned by the association of architects of the province to respond to large vacant public lands near the Paraná River.
+
+The Project had to rehabilitate disused buildings, satisfy housing demand, generate public space, public equipment, contemplate the riverfront and optimize road connections.
+
+We had to present it in a limited time, so coordination and agreement among the team was key.
+
+Everything was modeled in revit and sketchup together.
+
+To our joy it meant a third place in the competition.
+
+Working on the urban scale opened our minds when it came to designing, we had to get good graphic communication and have a good reading of the Code of planning and order of the state as client. 
+
 
      
  `;

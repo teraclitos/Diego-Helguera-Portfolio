@@ -62,9 +62,11 @@
   width: 50%;
   align-self: center;
 }
-/* .project-detail-corrientes {
+.project-detail-corrientes {
+  display: flex;
+  flex-direction: column;
   gap: 10em;
-} */
+}
 .img-croquis {
   width: 100%;
 }
