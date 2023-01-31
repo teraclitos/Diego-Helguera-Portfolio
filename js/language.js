@@ -12,6 +12,9 @@ const textAtelierProject = document.querySelector(".text-atelier-project");
 const textCiudadParqueProject = document.querySelector(
   ".text-ciudad-parque-project"
 );
+const textJardinesColgantesProject = document.querySelector(
+  ".text-jardines-colgantes-project"
+);
 const WrongNameLanguage = document.getElementById("wrong-name");
 const wrongEmailLanguage = document.getElementById("wrong-email");
 const wrongMessageLanguage = document.getElementById("wrong-message");
@@ -87,6 +90,38 @@ The homogeneous dispersion of functions facilitates the arrival of the inhabitan
 This increase of building density will be treated visually with the interruption of the urban profile through intermittent setbacks, with tree masses that will “camouflage” the buildings, generating in turn widening of the sidewalk for commercial and recreational support.
 
 Ideally, a building should produce more energy than it consumes. Meeting this energy demand completely with solar energy may not be possible, but it may be possible to reduce it. In the process of implementing energy labeling and the possibility of easily donating energy to the grid, it is proposed to develop a photovoltaic grid that reduces electrical network consumption.
+
+
+`;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/jardinescolgantes.html" ||
+      window.location.href ===
+        "http://127.0.0.1:5500/html/jardinescolgantes.html"
+    ) {
+      textJardinesColgantesProject.innerText = `Team: Diego Helguera
+Responsibilities:
+Design
+Modeling 
+rendering
+drawing plans
+Video edition
+
+Vertical Gardens of Yerba Buena was the product of exploring new ways of living for the post-pandemic. In the search for an architectural language adapted to the humid and warm climate of Tucumán, Argentina, the goal was to create an architecture that enables the interaction of neighbors in a social isolation situation and at the same time generate a pleasant and warm atmosphere to make life bearable during the lockdown.
+
+The proposal is part of an comprehensive urban Masterplan that integrates the building with common block lungs, Super blocks with central squares, mixed uses, collaborative photovoltaic network, afforestation plan, fauna insertion, landscape lamination lagoons, urban equipment among other things. that I designed as part of my thesis.
+
+The proposal was designed in an academic environment while considering its feasibility in the real commercial and urban environment.
+
+The houses have total cross ventilation, four types of one, two and three bedrooms, corner balconies and front patios linked to a continuous common walkway.
+
+The staggering of its levels allows access to natural light but at the same time its balconies protect the openings from the strong sun. 
+
+the building is lower than the native trees to give prominence to the natural environment and integrate the architecture with the vegetation.
+
+The front patios are a consequence of the cultural custom of placing chairs and tables on the sidewalk, in this case this tradition was brought to the height.
+
 
 
 `;
@@ -233,6 +268,36 @@ Idealmente, un edificio debería producir más energía de la que consume. Satis
     }
     if (
       window.location.href ===
+        "https://diego-helguera.netlify.app/html/jardinescolgantes.html" ||
+      window.location.href ===
+        "http://127.0.0.1:5500/html/jardinescolgantes.html"
+    ) {
+      textJardinesColgantesProject.innerText = `Equipo: Diego Helguera 
+Responsabilidades: 
+Diseño
+Renderismo
+Dibujo de planos 
+Edición de video
+
+Jardines verticales de Yerba Buena fue producto de la exploración de nuevos modos de habitar para la pospandemia. En la búsqueda de un lenguaje arquitectónico adaptado al húmedo y cálido clima de Tucumán, el objetivo fue crear una arquitectura que posibilite la interacción de los vecinos en situación de aislamiento social y al mismo tiempo generar una atmosfera agradable y cálida para hacer llevadera la vida en situación de encierro. 
+
+La propuesta es parte de un Masterplan urbano integral que integra el edificio con pulmones de manzana comunes, Super manzanas con plazas centrales, usos mixtos, red fotovoltaica colaborativa, plan de forestación, inserción de fauna, lagunas de laminación paisajísticas, equipamiento urbano entre otras cosas que diseñé como parte de mi tesis de grado. 
+
+La propuesta fue pensada en un ámbito académico teniendo a la vez en cuenta su factibilidad en el ámbito comercial y urbanístico real. 
+
+Las viviendas cuentan con ventilación cruzada total, cuatro tipologías de un, dos y tres dormitorios, balcones en esquina y patios frontales vinculados a una pasarela común corrida. 
+
+El escalonamiento de sus niveles permite el acceso a la luz natural a la vez que sus balcones protegen las aberturas del fuerte sol. La altura del edificio es menor a la de los árboles autóctonos para dar protagonismo al medio natural e integrar la arquitectura a la vegetación. 
+
+Las circulaciones son al aire libre para evitar focos de contagio.
+
+Los patios frontales son consecuencia de la costumbre cultural de situar sillas y mesas en la vereda, en este caso esta tradicion se llevo a la altura. 
+
+
+`;
+    }
+    if (
+      window.location.href ===
         "https://diego-helguera.netlify.app/html/santiago.html" ||
       window.location.href === "http://127.0.0.1:5500/html/santiago.html"
     ) {
@@ -360,6 +425,36 @@ Idealmente, un edificio debería producir más energía de la que consume. Satis
 
 `;
     }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/jardinescolgantes.html" ||
+      window.location.href ===
+        "http://127.0.0.1:5500/html/jardinescolgantes.html"
+    ) {
+      textJardinesColgantesProject.innerText = `Equipo: Diego Helguera 
+Responsabilidades: 
+Diseño
+Renderismo
+Dibujo de planos 
+Edición de video
+
+Jardines verticales de Yerba Buena fue producto de la exploración de nuevos modos de habitar para la pospandemia. En la búsqueda de un lenguaje arquitectónico adaptado al húmedo y cálido clima de Tucumán, el objetivo fue crear una arquitectura que posibilite la interacción de los vecinos en situación de aislamiento social y al mismo tiempo generar una atmosfera agradable y cálida para hacer llevadera la vida en situación de encierro. 
+
+La propuesta es parte de un Masterplan urbano integral que integra el edificio con pulmones de manzana comunes, Super manzanas con plazas centrales, usos mixtos, red fotovoltaica colaborativa, plan de forestación, inserción de fauna, lagunas de laminación paisajísticas, equipamiento urbano entre otras cosas que diseñé como parte de mi tesis de grado. 
+
+La propuesta fue pensada en un ámbito académico teniendo a la vez en cuenta su factibilidad en el ámbito comercial y urbanístico real. 
+
+Las viviendas cuentan con ventilación cruzada total, cuatro tipologías de un, dos y tres dormitorios, balcones en esquina y patios frontales vinculados a una pasarela común corrida. 
+
+El escalonamiento de sus niveles permite el acceso a la luz natural a la vez que sus balcones protegen las aberturas del fuerte sol. La altura del edificio es menor a la de los árboles autóctonos para dar protagonismo al medio natural e integrar la arquitectura a la vegetación. 
+
+Las circulaciones son al aire libre para evitar focos de contagio.
+
+Los patios frontales son consecuencia de la costumbre cultural de situar sillas y mesas en la vereda, en este caso esta tradicion se llevo a la altura. 
+
+
+`;
+    }
 
     if (
       window.location.href ===
@@ -472,6 +567,38 @@ The homogeneous dispersion of functions facilitates the arrival of the inhabitan
 This increase of building density will be treated visually with the interruption of the urban profile through intermittent setbacks, with tree masses that will “camouflage” the buildings, generating in turn widening of the sidewalk for commercial and recreational support.
 
 Ideally, a building should produce more energy than it consumes. Meeting this energy demand completely with solar energy may not be possible, but it may be possible to reduce it. In the process of implementing energy labeling and the possibility of easily donating energy to the grid, it is proposed to develop a photovoltaic grid that reduces electrical network consumption.
+
+`;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/jardinescolgantes.html" ||
+      window.location.href ===
+        "http://127.0.0.1:5500/html/jardinescolgantes.html"
+    ) {
+      textJardinesColgantesProject.innerText = `Team: Diego Helguera
+Responsibilities:
+Design
+Modeling 
+rendering
+drawing plans
+Video edition
+
+Vertical Gardens of Yerba Buena was the product of exploring new ways of living for the post-pandemic. In the search for an architectural language adapted to the humid and warm climate of Tucumán, Argentina, the goal was to create an architecture that enables the interaction of neighbors in a social isolation situation and at the same time generate a pleasant and warm atmosphere to make life bearable during the lockdown.
+
+The proposal is part of an comprehensive urban Masterplan that integrates the building with common block lungs, Super blocks with central squares, mixed uses, collaborative photovoltaic network, afforestation plan, fauna insertion, landscape lamination lagoons, urban equipment among other things. that I designed as part of my thesis.
+
+The proposal was designed in an academic environment while considering its feasibility in the real commercial and urban environment.
+
+The houses have total cross ventilation, four types of one, two and three bedrooms, corner balconies and front patios linked to a continuous common walkway.
+
+The staggering of its levels allows access to natural light but at the same time its balconies protect the openings from the strong sun. 
+
+the building is lower than the native trees to give prominence to the natural environment and integrate the architecture with the vegetation.
+
+The front patios are a consequence of the cultural custom of placing chairs and tables on the sidewalk, in this case this tradition was brought to the height.
+
+
 
 `;
     }
