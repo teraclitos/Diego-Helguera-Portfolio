@@ -8,6 +8,7 @@ const submit = document.getElementById("submit-btn");
 const aboutMeText = document.querySelector(".acercademi-text");
 const textSantiago1 = document.querySelector(".text-santiago-1");
 const textSantiago2 = document.querySelector(".text-santiago-2");
+const textAtelierProject = document.querySelector(".text-atelier-project");
 const WrongNameLanguage = document.getElementById("wrong-name");
 const wrongEmailLanguage = document.getElementById("wrong-email");
 const wrongMessageLanguage = document.getElementById("wrong-message");
@@ -26,6 +27,35 @@ const language = () => {
     contact.innerText = "Contact";
     languagePush.innerText = "ES";
     languageNarrowScreen.innerText = "Es";
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/atelier.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/atelier.html"
+    ) {
+      textAtelierProject.innerText = `Team: Diego Helguera, Luz María Helguera,
+       Javier Dagnilo (construction)
+        Ricardo Gomez (metal work) 
+
+This project was the greatest learning I had as an architect, with its mistakes and successes it gave me a clear notion of the climatic, aesthetic, cultural, functional, material and management issues that must be mastered as construction professionals.
+How to innovate and respect?
+How to extend an already complete house?
+The requirements of the clients were to build a workshop suitable for textile, architecture and music design, to generate a flexible space for creativity, to think "outside the box".
+One of the first challenges was the volumetric rigor of the pre-existing house that made it difficult to extend it without deforming it.
+ In the middle of the brainstorming, it occurred to us that it should be different from the house but somehow harmonize with it, generating an harmonic contrast. Its condition as a creative workshop led to this reading of an "art factory" that concluded in a sculptural volume, independent, light.
+
+Located over a stream, they gave us two clear premises:
+Zero humidity.
+Zero maintenance.
+Located in a large garden, we placed the studio in the back corner to obtain a total panoramic view of it, pointing its openings to the north to gain the most favorable sun. In addition, the difference in level (40 cm above the ground) makes this view more enjoyable.
+The material proposal is hybrid, from a raised concrete base a light metallic structure emerges in ascendance. There are two main intentions in this decision: On the one hand, to respect the natural order, to found the building from the stone, generating a sensation of consistency and solidity, arranging the heavy below and the light above. On the other hand, devoting good part of the building to reusable and easily removable metal and wood construction, although the entire building is not, we think that something is better than nothing. By raising the building we free the irrigation surface from the ground.
+A coincidence that we like is that its vertex points almost perfectly to the north, something that seemed poetic to us as it is a factory of projects, ideas and dreams.
+We understand that the form, the image of the building greatly influences the behavior that a person will have inside, so the exterior reading was a priority when thinking about it.
+
+Respect is not always mimetic.
+
+Diego Helguera, Luz María Helguera, Javier Dagnilo, Ricardo Gómez as a blacksmith who was a true craftsman.
+`;
+    }
 
     if (
       window.location.href ===
@@ -102,6 +132,41 @@ Manejo herramientas de representación gráfica, bim y renderismo.
     }
     if (
       window.location.href ===
+        "https://diego-helguera.netlify.app/html/atelier.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/atelier.html"
+    ) {
+      textAtelierProject.innerText = `Diego Helguera, Luz María Helguera 
+Javier Dagnilo (Dirección técnica) 
+Ricardo Gómez (Herrero)
+
+Atelier del Arroyo fue mi primer proyecto de manera independiente, en donde estuve a cargo del diseño, gestión de materiales, cómputos y presupuestos, dirección técnica y terminaciones. 
+Este proyecto fue el mayor aprendizaje que tuve como arquitecto, con sus errores y aciertos me dió una noción nítida de las cuestiones climáticas, estéticas, culturales, funcionales, materiales y de gestión que hay que dominar como profesionales. 
+¿Como innovar y respetar? 
+¿Como extender una casa ya completa?
+Los requisitos de los comitentes fueron construir un taller apto para diseño textil, de arquitectura y de música, generar un espacio flexible para la creatividad, para pensar “fuera de la caja”.
+En la suma de creatividades se nos ocurrió que debía ser diferente a la casa pero de alguna manera armonizar con ella, generando un contraste armónico. Su condición de taller creativo llevó a esta lectura de “fábrica de arte” que concluyó en un volumen escultórico, de múltiples lecturas, independiente, liviano.
+
+Emplazada sobre un arroyo nos dieron dos premisas claras:
+
+Humedad cero.
+Mantenimiento cero.
+Ubicado en un gran jardín situamos el taller en la esquina del fondo para obtener una vista panorámica total del mismo, apuntando sus aberturas al norte para ganar el sol más favorable. Además, la diferencia de nivel (40 cm sobre el suelo) hace esta vista más disfrutable. 
+
+La propuesta material es híbrida, desde un basamento sobreelevado de hormigón emerge una estructura liviana metálica en ascendencia. Hay dos intenciones principales en esta decisión: Por un lado respetar el orden natural, fundar el edificio desde la piedra, generando una sensación de consistencia y solidez, disponiendo lo pesado abajo y lo liviano arriba. Por otro lado destinar gran parte del edificio a construcción seca reutilizable y fácilmente desmontable, si bien la totalidad del edificio no lo es, pensamos que algo es mejor que nada. 
+Al sobreelevar el edificio liberamos la superficie de irrigación del suelo.
+Una casualidad que nos gusta es que su vértice apunta casi perfectamente al norte, algo que nos pareció poético al tratarse de una fábrica de proyectos, ideas y sueños. 
+Entendemos que la forma, la imagen del edificio influye en gran medida el comportamiento que una persona tendrá dentro, por lo que la lectura exterior tomó gran protagonismo a la hora de pensarlo.
+
+El respeto no es siempre mimético. 
+
+Diego Helguera, Luz María Helguera, Javier Dagnilo, Ricardo Gómez como herrero que fue un verdadero artesano.
+
+
+
+`;
+    }
+    if (
+      window.location.href ===
         "https://diego-helguera.netlify.app/html/santiago.html" ||
       window.location.href === "http://127.0.0.1:5500/html/santiago.html"
     ) {
@@ -111,6 +176,7 @@ Emplazado al pie del cerro y con vista indirecta a la ciudad, el objetivo del pr
 Equipo: Guillermo Cotella, Pablo Muruaga, Guadalupe Moraga, Diego Helguera.`;
       textSantiago2.innerHTML = ` Como resultado: Grandes aberturas en planta baja, una amplia terraza descubierta, una pileta de borde infinito, cocina como pivot de la galería y el living comedor, grandes ventanales de pared a pared que enmarcan las vistas en los dormitorios, un ingreso progresivo acompañado por paisajismo y materiales nobles.`;
     }
+
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/contacto.html" ||
@@ -161,6 +227,41 @@ const RenderLanguage = () => {
     me.innerText = "Acerca de mí";
     projects.innerText = "Proyectos";
     contact.innerText = "Contacto";
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/atelier.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/atelier.html"
+    ) {
+      textAtelierProject.innerText = `Diego Helguera, Luz María Helguera 
+      Javier Dagnilo (Dirección técnica) 
+      Ricardo Gómez (Herrero)
+
+      Atelier del Arroyo fue mi primer proyecto de manera independiente, en donde estuve a cargo del diseño, gestión de materiales, cómputos y presupuestos, dirección técnica y terminaciones. 
+Este proyecto fue el mayor aprendizaje que tuve como arquitecto, con sus errores y aciertos me dió una noción nítida de las cuestiones climáticas, estéticas, culturales, funcionales, materiales y de gestión que hay que dominar como profesionales. 
+¿Como innovar y respetar? 
+¿Como extender una casa ya completa?
+Los requisitos de los comitentes fueron construir un taller apto para diseño textil, de arquitectura y de música, generar un espacio flexible para la creatividad, para pensar “fuera de la caja”.
+En la suma de creatividades se nos ocurrió que debía ser diferente a la casa pero de alguna manera armonizar con ella, generando un contraste armónico. Su condición de taller creativo llevó a esta lectura de “fábrica de arte” que concluyó en un volumen escultórico, de múltiples lecturas, independiente, liviano.
+
+Emplazada sobre un arroyo nos dieron dos premisas claras:
+
+Humedad cero.
+Mantenimiento cero.
+Ubicado en un gran jardín situamos el taller en la esquina del fondo para obtener una vista panorámica total del mismo, apuntando sus aberturas al norte para ganar el sol más favorable. Además, la diferencia de nivel (40 cm sobre el suelo) hace esta vista más disfrutable. 
+
+La propuesta material es híbrida, desde un basamento sobreelevado de hormigón emerge una estructura liviana metálica en ascendencia. Hay dos intenciones principales en esta decisión: Por un lado respetar el orden natural, fundar el edificio desde la piedra, generando una sensación de consistencia y solidez, disponiendo lo pesado abajo y lo liviano arriba. Por otro lado destinar gran parte del edificio a construcción seca reutilizable y fácilmente desmontable, si bien la totalidad del edificio no lo es, pensamos que algo es mejor que nada. 
+Al sobreelevar el edificio liberamos la superficie de irrigación del suelo.
+Una casualidad que nos gusta es que su vértice apunta casi perfectamente al norte, algo que nos pareció poético al tratarse de una fábrica de proyectos, ideas y sueños. 
+Entendemos que la forma, la imagen del edificio influye en gran medida el comportamiento que una persona tendrá dentro, por lo que la lectura exterior tomó gran protagonismo a la hora de pensarlo.
+
+El respeto no es siempre mimético. 
+
+Diego Helguera, Luz María Helguera, Javier Dagnilo, Ricardo Gómez como herrero que fue un verdadero artesano.
+
+
+
+`;
+    }
 
     if (
       window.location.href ===
@@ -216,6 +317,35 @@ Manejo herramientas de representación gráfica, bim y renderismo.
     me.innerText = "About me";
     projects.innerText = "Projects";
     contact.innerText = "Contact";
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/atelier.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/atelier.html"
+    ) {
+      textAtelierProject.innerText = `Team: Diego Helguera, Luz María Helguera,
+       Javier Dagnilo (construction)
+        Ricardo Gomez (metal work) 
+
+This project was the greatest learning I had as an architect, with its mistakes and successes it gave me a clear notion of the climatic, aesthetic, cultural, functional, material and management issues that must be mastered as construction professionals.
+How to innovate and respect?
+How to extend an already complete house?
+The requirements of the clients were to build a workshop suitable for textile, architecture and music design, to generate a flexible space for creativity, to think "outside the box".
+One of the first challenges was the volumetric rigor of the pre-existing house that made it difficult to extend it without deforming it.
+ In the middle of the brainstorming, it occurred to us that it should be different from the house but somehow harmonize with it, generating an harmonic contrast. Its condition as a creative workshop led to this reading of an "art factory" that concluded in a sculptural volume, independent, light.
+
+Located over a stream, they gave us two clear premises:
+Zero humidity.
+Zero maintenance.
+Located in a large garden, we placed the studio in the back corner to obtain a total panoramic view of it, pointing its openings to the north to gain the most favorable sun. In addition, the difference in level (40 cm above the ground) makes this view more enjoyable.
+The material proposal is hybrid, from a raised concrete base a light metallic structure emerges in ascendance. There are two main intentions in this decision: On the one hand, to respect the natural order, to found the building from the stone, generating a sensation of consistency and solidity, arranging the heavy below and the light above. On the other hand, devoting good part of the building to reusable and easily removable metal and wood construction, although the entire building is not, we think that something is better than nothing. By raising the building we free the irrigation surface from the ground.
+A coincidence that we like is that its vertex points almost perfectly to the north, something that seemed poetic to us as it is a factory of projects, ideas and dreams.
+We understand that the form, the image of the building greatly influences the behavior that a person will have inside, so the exterior reading was a priority when thinking about it.
+
+Respect is not always mimetic.
+
+Diego Helguera, Luz María Helguera, Javier Dagnilo, Ricardo Gómez as a blacksmith who was a true craftsman.
+`;
+    }
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/santiago.html" ||

@@ -20,16 +20,17 @@
   gap: 4em;
 
   color: rgb(119, 107, 107);
-}
-.project-detail-flex {
-  display: flex;
-  flex-direction: column;
-  gap: 4em;
   margin-bottom: 6em;
 }
+
 .grid-img {
   display: grid;
   grid-template-columns: 5fr 4fr;
+  gap: 4em;
+}
+.gap-img {
+  display: flex;
+  flex-direction: column;
   gap: 4em;
 }
 .imgs {
@@ -44,6 +45,9 @@
   align-items: center;
   line-height: 1.5em;
 }
+.text-projects {
+  line-height: 1.5em;
+}
 .imgs-right {
   width: 100%;
 }
@@ -53,22 +57,22 @@
 .rotation-img {
   transform: rotate(-90deg);
 }
-.torre-duo-detail {
+/* .torre-duo-detail {
   width: 50%;
   justify-self: center;
 }
 .project-detail-corrientes {
   gap: 10em;
-}
+} */
 .img-croquis {
   width: 100%;
 }
-.width-90 {
+/* .width-90 {
   width: 90%;
 }
 .width-60 {
   width: 60%;
-}
+} */
 
 .img-modal-container-container {
   position: fixed;
