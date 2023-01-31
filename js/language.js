@@ -15,6 +15,7 @@ const textCiudadParqueProject = document.querySelector(
 const textJardinesColgantesProject = document.querySelector(
   ".text-jardines-colgantes-project"
 );
+const textPatioAltoProject = document.querySelector(".text-patio-alto-project");
 const WrongNameLanguage = document.getElementById("wrong-name");
 const wrongEmailLanguage = document.getElementById("wrong-email");
 const wrongMessageLanguage = document.getElementById("wrong-message");
@@ -121,6 +122,31 @@ The staggering of its levels allows access to natural light but at the same time
 the building is lower than the native trees to give prominence to the natural environment and integrate the architecture with the vegetation.
 
 The front patios are a consequence of the cultural custom of placing chairs and tables on the sidewalk, in this case this tradition was brought to the height.
+
+
+
+`;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/patioalto.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/patioalto.html"
+    ) {
+      textPatioAltoProject.innerText = `Team: Diego Helguera, Teachers of the National University of Tucumán.
+
+In a post-pandemic context, the design focused on spaces for interaction, rethinking, reimagining the ways of inhabiting, of circulating, taking advantage of this moment susceptible to drastic changes (for example, remote work and adoption of video calls) to make these innovative proposals feasible.
+ 
+Our climate in Tucumán, Argentina makes intermediate spaces (semi-covered) usable and desirable; this was identified as an opportunity to create these situations of direct and indirect interaction where just seeing neighbors and greeting each other during isolation can generate a sensation of well-being and where having the space to meet once it is over, too.
+
+Exposing circulation to the outside will help to avoid sources of contagion, replacing minimal distribution shields and stairwells with wide double-height halls and outdoor stairs where green and warm materials play an important role.
+
+The large double-height Elevated hall distributes 8 homes, where each one can accommodate six people. The great hall during the night will act as a great lamp giving identity to the building.
+
+Access to the apartments is through walkways that enter through the balcony. This is a big difference with traditional buildings, entering from the outside is something typical of homes, not apartments. These balconies are facing each other but at the same time distanced to generate this indirect interaction filtered by vegetation, used as a material that provides privacy but not totally.
+
+Mixed uses: The ground floor is intended for commercial premises, the first floor (basement) for offices, the other levels for housing and the terrace for common space and gardens. That way, the inhabitants can work in their own building without having to do home office (something very exhausting according to the pandemic experience), buy products on the street floor without using the car, and produce their vegetables in their own garden.
+
+Circulation as a social space will strengthen the neighborhood bond.
 
 
 
@@ -298,6 +324,31 @@ Los patios frontales son consecuencia de la costumbre cultural de situar sillas 
     }
     if (
       window.location.href ===
+        "https://diego-helguera.netlify.app/html/patioalto.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/patioalto.html"
+    ) {
+      textPatioAltoProject.innerText = `Equipo: Diego Helguera. Docentes de la Universidad Nacional de Tucumán.
+
+En un contexto pospandémico el diseño se enfocó en espacios de interacción, replantear, reimaginar los modos de habitar, de circular, aprovechando este momento susceptible a cambios drásticos (ejemplo trabajo remoto y adopción de videollamadas) para hacer factibles estas propuestas novedosas.
+ 
+Nuestro clima hace aprovechables y deseables los espacios intermedios (semicubiertos), esto se identificó como oportunidad para crear estas situaciones de interacción directa e indirecta. Donde solo ver vecinos y saludarse durante el aislamiento puede generar una situación de bienestar y donde disponer del espacio para reunirse una vez terminado éste, también. 
+
+Exponer las circulaciones al exterior ayudará a evitar focos de contagio, reemplazando palieres mínimos de distribución y cajas de escalera por amplios halles en dobles alturas y escaleras aéreas donde el verde y los materiales cálidos juegan un importante papel.
+
+El gran hall en doble altura Elevado distribuye 8 viviendas, donde cada una pude alojar seis personas. El gran hall durante la noche actuará como una gran lámpara dándole identidad al edificio. 
+
+El acceso a los departamentos es mediante pasarelas que ingresan por el balcón. Esta es una gran diferencia con los edificios tradicionales, ingresar por el exterior es algo propio de las viviendas, no de los departamentos. Estos balcones se encuentran enfrentados y distanciados para generar esta interacción indirecta filtrada por vegetación, usada como material que propicia privacidad pero no total. 
+
+Usos mixtos: La planta baja está destinada a locales comerciales, el primer piso (basamento) a oficinas, los demás niveles a Vivienda y la terraza a espacio común y Huertas. De esta manera los habitantes pueden trabajar en su mismo edificio sin necesidad de hacer home office (algo muy desgastante según la experiencia de la pandemia), comprar productos sin usar el automóvil, y producir sus verduras en su propia huerta. 
+
+La circulación como espacio social fortalecerá el vínculo vecinal. 
+
+
+
+`;
+    }
+    if (
+      window.location.href ===
         "https://diego-helguera.netlify.app/html/santiago.html" ||
       window.location.href === "http://127.0.0.1:5500/html/santiago.html"
     ) {
@@ -455,7 +506,31 @@ Los patios frontales son consecuencia de la costumbre cultural de situar sillas 
 
 `;
     }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/patioalto.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/patioalto.html"
+    ) {
+      textPatioAltoProject.innerText = `Equipo: Diego Helguera. Docentes de la Universidad Nacional de Tucumán.
 
+En un contexto pospandémico el diseño se enfocó en espacios de interacción, replantear, reimaginar los modos de habitar, de circular, aprovechando este momento susceptible a cambios drásticos (ejemplo trabajo remoto y adopción de videollamadas) para hacer factibles estas propuestas novedosas.
+ 
+Nuestro clima hace aprovechables y deseables los espacios intermedios (semicubiertos), esto se identificó como oportunidad para crear estas situaciones de interacción directa e indirecta. Donde solo ver vecinos y saludarse durante el aislamiento puede generar una situación de bienestar y donde disponer del espacio para reunirse una vez terminado éste, también. 
+
+Exponer las circulaciones al exterior ayudará a evitar focos de contagio, reemplazando palieres mínimos de distribución y cajas de escalera por amplios halles en dobles alturas y escaleras aéreas donde el verde y los materiales cálidos juegan un importante papel.
+
+El gran hall en doble altura Elevado distribuye 8 viviendas, donde cada una pude alojar seis personas. El gran hall durante la noche actuará como una gran lámpara dándole identidad al edificio. 
+
+El acceso a los departamentos es mediante pasarelas que ingresan por el balcón. Esta es una gran diferencia con los edificios tradicionales, ingresar por el exterior es algo propio de las viviendas, no de los departamentos. Estos balcones se encuentran enfrentados y distanciados para generar esta interacción indirecta filtrada por vegetación, usada como material que propicia privacidad pero no total. 
+
+Usos mixtos: La planta baja está destinada a locales comerciales, el primer piso (basamento) a oficinas, los demás niveles a Vivienda y la terraza a espacio común y Huertas. De esta manera los habitantes pueden trabajar en su mismo edificio sin necesidad de hacer home office (algo muy desgastante según la experiencia de la pandemia), comprar productos sin usar el automóvil, y producir sus verduras en su propia huerta. 
+
+La circulación como espacio social fortalecerá el vínculo vecinal. 
+
+
+
+`;
+    }
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/santiago.html" ||
@@ -597,6 +672,31 @@ The staggering of its levels allows access to natural light but at the same time
 the building is lower than the native trees to give prominence to the natural environment and integrate the architecture with the vegetation.
 
 The front patios are a consequence of the cultural custom of placing chairs and tables on the sidewalk, in this case this tradition was brought to the height.
+
+
+
+`;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/patioalto.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/patioalto.html"
+    ) {
+      textPatioAltoProject.innerText = `Team: Diego Helguera, Teachers of the National University of Tucumán.
+
+In a post-pandemic context, the design focused on spaces for interaction, rethinking, reimagining the ways of inhabiting, of circulating, taking advantage of this moment susceptible to drastic changes (for example, remote work and adoption of video calls) to make these innovative proposals feasible.
+ 
+Our climate in Tucumán, Argentina makes intermediate spaces (semi-covered) usable and desirable; this was identified as an opportunity to create these situations of direct and indirect interaction where just seeing neighbors and greeting each other during isolation can generate a sensation of well-being and where having the space to meet once it is over, too.
+
+Exposing circulation to the outside will help to avoid sources of contagion, replacing minimal distribution shields and stairwells with wide double-height halls and outdoor stairs where green and warm materials play an important role.
+
+The large double-height Elevated hall distributes 8 homes, where each one can accommodate six people. The great hall during the night will act as a great lamp giving identity to the building.
+
+Access to the apartments is through walkways that enter through the balcony. This is a big difference with traditional buildings, entering from the outside is something typical of homes, not apartments. These balconies are facing each other but at the same time distanced to generate this indirect interaction filtered by vegetation, used as a material that provides privacy but not totally.
+
+Mixed uses: The ground floor is intended for commercial premises, the first floor (basement) for offices, the other levels for housing and the terrace for common space and gardens. That way, the inhabitants can work in their own building without having to do home office (something very exhausting according to the pandemic experience), buy products on the street floor without using the car, and produce their vegetables in their own garden.
+
+Circulation as a social space will strengthen the neighborhood bond.
 
 
 
