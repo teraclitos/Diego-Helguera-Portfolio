@@ -23,6 +23,9 @@ const textCorrientesProject = document.querySelector(
 const textPatioDeUcoProject = document.querySelector(
   ".text-patio-de-uco-project"
 );
+// const textTermitiereProject = document.querySelector(
+//   ".text-termitiere-project"
+// );
 const WrongNameLanguage = document.getElementById("wrong-name");
 const wrongEmailLanguage = document.getElementById("wrong-email");
 const wrongMessageLanguage = document.getElementById("wrong-message");
@@ -537,6 +540,15 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
      
  `;
     }
+    //     if (
+    //       window.location.href ===
+    //         "https://diego-helguera.netlify.app/html/termitiere.html" ||
+    //       window.location.href === "http://127.0.0.1:5500/html/termitiere.html"
+    //     ) {
+    //       textTermitiereProject.innerText = `
+
+    //  `;
+    //     }
 
     if (
       window.location.href ===
