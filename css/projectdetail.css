@@ -77,13 +77,15 @@
 .img-croquis {
   width: 100%;
 }
-/* .width-90 {
+.width-90 {
   width: 90%;
 }
 .width-60 {
   width: 60%;
-} */
-
+}
+.width-80 {
+  width: 80%;
+}
 .img-modal-container-container {
   position: fixed;
   height: 100vh;
