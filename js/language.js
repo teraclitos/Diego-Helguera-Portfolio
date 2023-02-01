@@ -20,6 +20,9 @@ const textTorreDuoProject = document.querySelector(".text-torre-duo-project");
 const textCorrientesProject = document.querySelector(
   ".text-corrientes-project"
 );
+const textPatioDeUcoProject = document.querySelector(
+  ".text-patio-de-uco-project"
+);
 const WrongNameLanguage = document.getElementById("wrong-name");
 const wrongEmailLanguage = document.getElementById("wrong-email");
 const wrongMessageLanguage = document.getElementById("wrong-message");
@@ -200,16 +203,15 @@ As a result:
 
 Large openings on the ground floor, a large open terrace, an infinit pool, the kitchen as a pivot between the gallery and the living room, large wall-to-wall windows that frame the views in the bedrooms, a progressive entrance accompanied by landscaping and raw materials.
 
-Responsabilidad en proyecto:
+Project responsabilities:
 
-Definición de idea de proyecto.
-Desarrollo de la idea.
-Dibujo de planos.
-Armado de carpeta para aprobación municipal.
-Trato directo con el cliente.
-Exposiciones al cliente.
-Renderismo.
-Visitas a obra. 
+Definition of project idea.
+Plans drawings 
+Municipal approval folder
+Direct contact with the customer
+customer exposures
+Renders
+Site visits
 
      
  `;
@@ -232,6 +234,26 @@ Everything was modeled in revit and sketchup together.
 To our joy it meant a third place in the competition.
 
 Working on the urban scale opened our minds when it came to designing, we had to get good graphic communication and have a good reading of the Code of planning and order of the state as client. 
+
+
+     
+ `;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/patiodeuco.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/patiodeuco.html"
+    ) {
+      textPatioDeUcoProject.innerText = `Team: Josefina Viaña de la Serna, Diego Helguera
+
+Patio de Uco is a project for the Domaine Bousquet winery, producer of organic wines.
+
+The hotel tries to respect the company's philosophy, using organic materials (rammed earth) and creating a water reservoir that serves as a central square. Generating a symbiosis between technical and aesthetic implications.
+
+Competing with so many other architects was a great experience due to the need to find a clear, superior, outstanding idea that can differentiate between so many projects. At the same time have contact with the wide variety of responses that were given for the same assignment.
+
+Luckly, it gave us great satisfaction, winning three prizes, something that made us very happy and made us feel that we were more prepared to face real projects, with greater definition and seriousness.
+
 
 
      
@@ -460,13 +482,16 @@ Todo está modelado en Revit.
 
       Grandes aberturas en planta baja, una amplia terraza descubierta, una pileta de borde infinito, cocina como pivot de la galería y el living comedor, grandes ventanales de pared a pared que enmarcan las vistas en los dormitorios, un ingreso progresivo acompañado por paisajismo y materiales nobles. 
 
-      Responsabilidad en proyecto:
+Responsabilidad en proyecto:
 
 Definición de idea de proyecto.
 Desarrollo de la idea.
 Dibujo de planos.
 Armado de carpeta para aprobación municipal.
 Trato directo con el cliente.
+Exposiciones al cliente.
+Renderismo.
+Visitas a obra. 
  `;
     }
     if (
@@ -487,6 +512,26 @@ Modelado en revit y sketchup en conjunto.
 Para nuestra alegría nos significó un tercer puesto en la competencia. 
 
 Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos que hacernos de Buena comunicación gráfica y tener una Buena lectura del Código de planeamiento y encargo del estado como comitente.
+
+
+     
+ `;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/patiodeuco.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/patiodeuco.html"
+    ) {
+      textPatioDeUcoProject.innerText = `Equipo: Josefina Viaña de la Serna, Diego Helguera
+
+      Patio de Uco es un Proyecto para la bodega Domaine Bousquet, productora de vinos orgánicos. 
+
+      El hotel buscó respetar la filosofía de la empresa, utilizando materiales orgánicos (tapial) y creando un reservorio de agua que sirve como plaza central. Generando una simbiosis entre las implicancias técnicas y estéticas.
+
+      Competir con tantos otros arquitectos y arquitectas fue una gran experiencia por la necesidad de encontrar una idea clara, superadora, destacada que pueda diferenciarse entre tantos proyectos.  A la vez, tener contacto con la gran variedad de respuestas que se dieron para un mismo encargo.
+
+      Para nuestro agrado nos dió muchas satisfacciones ganando tres premios, algo que nos alegró mucho y nos hizo sentir que estabamos mas preparados para encarar proyectos reales, de mayor definición y seriedad.
+
 
 
      
@@ -707,13 +752,16 @@ Todo está modelado en Revit.
 
       Grandes aberturas en planta baja, una amplia terraza descubierta, una pileta de borde infinito, cocina como pivot de la galería y el living comedor, grandes ventanales de pared a pared que enmarcan las vistas en los dormitorios, un ingreso progresivo acompañado por paisajismo y materiales nobles. 
 
-      Responsabilidad en proyecto:
+Responsabilidad en proyecto:
 
 Definición de idea de proyecto.
 Desarrollo de la idea.
 Dibujo de planos.
 Armado de carpeta para aprobación municipal.
 Trato directo con el cliente.
+Exposiciones al cliente.
+Renderismo.
+Visitas a obra. 
  `;
     }
     if (
@@ -734,6 +782,26 @@ Modelado en revit y sketchup en conjunto.
 Para nuestra alegría nos significó un tercer puesto en la competencia. 
 
 Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos que hacernos de Buena comunicación gráfica y tener una Buena lectura del Código de planeamiento y encargo del estado como comitente.
+
+
+     
+ `;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/patiodeuco.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/patiodeuco.html"
+    ) {
+      textPatioDeUcoProject.innerText = `Equipo: Josefina Viaña de la Serna, Diego Helguera
+
+      Patio de Uco es un Proyecto para la bodega Domaine Bousquet, productora de vinos orgánicos. 
+
+      El hotel buscó respetar la filosofía de la empresa, utilizando materiales orgánicos (tapial) y creando un reservorio de agua que sirve como plaza central. Generando una simbiosis entre las implicancias técnicas y estéticas.
+
+      Competir con tantos otros arquitectos y arquitectas fue una gran experiencia por la necesidad de encontrar una idea clara, superadora, destacada que pueda diferenciarse entre tantos proyectos.  A la vez, tener contacto con la gran variedad de respuestas que se dieron para un mismo encargo.
+
+      Para nuestro agrado nos dió muchas satisfacciones ganando tres premios, algo que nos alegró mucho y nos hizo sentir que estabamos mas preparados para encarar proyectos reales, de mayor definición y seriedad.
+
 
 
      
@@ -942,16 +1010,15 @@ As a result:
 
 Large openings on the ground floor, a large open terrace, an infinit pool, the kitchen as a pivot between the gallery and the living room, large wall-to-wall windows that frame the views in the bedrooms, a progressive entrance accompanied by landscaping and raw materials.
 
-Responsabilidad en proyecto:
+Project responsabilities:
 
-Definición de idea de proyecto.
-Desarrollo de la idea.
-Dibujo de planos.
-Armado de carpeta para aprobación municipal.
-Trato directo con el cliente.
-Exposiciones al cliente.
-Renderismo.
-Visitas a obra. 
+Definition of project idea.
+Plans drawings 
+Municipal approval folder
+Direct contact with the customer
+customer exposures
+Renders
+Site visits
 
      
  `;
@@ -974,6 +1041,26 @@ Everything was modeled in revit and sketchup together.
 To our joy it meant a third place in the competition.
 
 Working on the urban scale opened our minds when it came to designing, we had to get good graphic communication and have a good reading of the Code of planning and order of the state as client. 
+
+
+     
+ `;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/patiodeuco.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/patiodeuco.html"
+    ) {
+      textPatioDeUcoProject.innerText = `Team: Josefina Viaña de la Serna, Diego Helguera
+
+Patio de Uco is a project for the Domaine Bousquet winery, producer of organic wines.
+
+The hotel tries to respect the company's philosophy, using organic materials (rammed earth) and creating a water reservoir that serves as a central square. Generating a symbiosis between technical and aesthetic implications.
+
+Competing with so many other architects was a great experience due to the need to find a clear, superior, outstanding idea that can differentiate between so many projects. At the same time have contact with the wide variety of responses that were given for the same assignment.
+
+Luckly, it gave us great satisfaction, winning three prizes, something that made us very happy and made us feel that we were more prepared to face real projects, with greater definition and seriousness.
+
 
 
      
