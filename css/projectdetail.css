@@ -28,11 +28,6 @@
   grid-template-columns: 5fr 4fr;
   gap: 4em;
 }
-.croquis-img {
-  width: 180%;
-  display: grid;
-  grid-template-columns: 5fr 4fr;
-}
 
 .gap-img {
   display: flex;
@@ -55,10 +50,7 @@
   line-height: 1.5em;
   font-size: 12px;
 }
-.imgs-right {
-  width: 100%;
-  margin-left: 1em;
-}
+
 .project-detail-display-narrow {
   display: none;
 }

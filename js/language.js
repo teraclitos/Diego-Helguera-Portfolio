@@ -23,9 +23,9 @@ const textCorrientesProject = document.querySelector(
 const textPatioDeUcoProject = document.querySelector(
   ".text-patio-de-uco-project"
 );
-// const textTermitiereProject = document.querySelector(
-//   ".text-termitiere-project"
-// );
+const textTermitiereProject = document.querySelector(
+  ".text-termitiere-project"
+);
 const WrongNameLanguage = document.getElementById("wrong-name");
 const wrongEmailLanguage = document.getElementById("wrong-email");
 const wrongMessageLanguage = document.getElementById("wrong-message");
@@ -261,6 +261,24 @@ Luckly, it gave us great satisfaction, winning three prizes, something that made
 
      
  `;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/termitiere.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/termitiere.html"
+    ) {
+      textTermitiereProject.innerText = `Termitière: green amphitheater was a proposal for a cultural center in Burkina Faso, within the framework of the Inspirelli Awards competition.
+
+      The proposal prioritizes the thermal function of the building, which will cause indirect natural lighting into the rooms as well as the expulsion of the heated air by chimneys and crossed ventilation.
+
+      The building activates residual spaces and creates a new public space by introducing itself into a variety of pre-existing activities, the Saint Jean Church, the René stadium and the surrounding commercial activities.
+
+      It seeks to preserve the essence of the current "green amphitheatre" invaded by nature. We seek to introduce the idea of vegetation as a material to the population, an initiative for subsequent sustainable development.
+
+      We understand that it could be possibly be the most important cultural center in the country and for this reason we chose an important scale. The stage box acts as an urban lamp, it is a key communication element to attract the population.
+
+      Our main intention is to use the irreplicable beauty of the trees to protect the theater from the sun, taking advantage of its acoustic performance and containing the central space.
+     `;
     }
     if (
       window.location.href ===
@@ -540,15 +558,25 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
      
  `;
     }
-    //     if (
-    //       window.location.href ===
-    //         "https://diego-helguera.netlify.app/html/termitiere.html" ||
-    //       window.location.href === "http://127.0.0.1:5500/html/termitiere.html"
-    //     ) {
-    //       textTermitiereProject.innerText = `
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/termitiere.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/termitiere.html"
+    ) {
+      textTermitiereProject.innerText = `TERMITERO: anfiteatro verde fue una propuesta para un centro cultural en burkina faso, en el marco del concurso Inspirelli Awards. 
 
-    //  `;
-    //     }
+          La propuesta gira en torno al funcionamiento térmico del edificio, que busca iluminación natural indirecta en los locales habitables a la vez que expulsión de aire caliente por chimeneas y ventilación cruzada.
+
+          El edificio como activador de espacios residuales, genera nuevo espacio publico introduciéndose en un gran conjunto de actividades preexistentes, la Iglesia Saint Jean, el estadio Rene, y las actividades comerciales circundantes.
+
+          Busca conservar la esencia de “anfiteatro verde” actual invadido por la naturaleza reinventándola. Buscamos introducir la idea de vegetación como material a la población, iniciativa para el posterior desarrollo sustentable.
+
+          Entendemos que será posiblemente el centro cultural más importante del país y por eso optamos por una escala importante. La caja del escenario actúa como faro urbano, es un elemento de comunicación clave para atraer a la población.
+
+          Nuestra principal intención es usar la belleza irreplicable de los árboles para proteger el teatro del sol aprovechando su funcionamiento acústico y conteniendo el espacio central. 
+
+     `;
+    }
 
     if (
       window.location.href ===
@@ -821,6 +849,25 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
     }
     if (
       window.location.href ===
+        "https://diego-helguera.netlify.app/html/termitiere.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/termitiere.html"
+    ) {
+      textTermitiereProject.innerText = `TERMITERO: anfiteatro verde fue una propuesta para un centro cultural en burkina faso, en el marco del concurso Inspirelli Awards. 
+
+          La propuesta gira en torno al funcionamiento térmico del edificio, que busca iluminación natural indirecta en los locales habitables a la vez que expulsión de aire caliente por chimeneas y ventilación cruzada.
+
+          El edificio como activador de espacios residuales, genera nuevo espacio publico introduciéndose en un gran conjunto de actividades preexistentes, la Iglesia Saint Jean, el estadio Rene, y las actividades comerciales circundantes.
+
+          Busca conservar la esencia de “anfiteatro verde” actual invadido por la naturaleza reinventándola. Buscamos introducir la idea de vegetación como material a la población, iniciativa para el posterior desarrollo sustentable.
+
+          Entendemos que será posiblemente el centro cultural más importante del país y por eso optamos por una escala importante. La caja del escenario actúa como faro urbano, es un elemento de comunicación clave para atraer a la población.
+
+          Nuestra principal intención es usar la belleza irreplicable de los árboles para proteger el teatro del sol aprovechando su funcionamiento acústico y conteniendo el espacio central. 
+
+     `;
+    }
+    if (
+      window.location.href ===
         "https://diego-helguera.netlify.app/html/acercademi.html" ||
       window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
     ) {
@@ -1077,6 +1124,24 @@ Luckly, it gave us great satisfaction, winning three prizes, something that made
 
      
  `;
+    }
+    if (
+      window.location.href ===
+        "https://diego-helguera.netlify.app/html/termitiere.html" ||
+      window.location.href === "http://127.0.0.1:5500/html/termitiere.html"
+    ) {
+      textTermitiereProject.innerText = `Termitière: green amphitheater was a proposal for a cultural center in Burkina Faso, within the framework of the Inspirelli Awards competition.
+
+      The proposal prioritizes the thermal function of the building, which will cause indirect natural lighting into the rooms as well as the expulsion of the heated air by chimneys and crossed ventilation.
+
+      The building activates residual spaces and creates a new public space by introducing itself into a variety of pre-existing activities, the Saint Jean Church, the René stadium and the surrounding commercial activities.
+
+      It seeks to preserve the essence of the current "green amphitheatre" invaded by nature. We seek to introduce the idea of vegetation as a material to the population, an initiative for subsequent sustainable development.
+
+      We understand that it could be possibly be the most important cultural center in the country and for this reason we chose an important scale. The stage box acts as an urban lamp, it is a key communication element to attract the population.
+
+      Our main intention is to use the irreplicable beauty of the trees to protect the theater from the sun, taking advantage of its acoustic performance and containing the central space.
+     `;
     }
     if (
       window.location.href ===
