@@ -276,8 +276,7 @@ Luckly, it gave us great satisfaction, winning three prizes, something that made
       window.location.href ===
         "https://diego-helguera.netlify.app/html/termitiere.html" ||
       window.location.href === "http://127.0.0.1:5500/html/termitiere.html" ||
-      window - location.href ===
-        "https://diegohelguera.com/html/termitiere.html"
+      window.location.href === "https://diegohelguera.com/html/termitiere.html"
     ) {
       textTermitiereProject.innerText = `Termitière: green amphitheater was a proposal for a cultural center in Burkina Faso, within the framework of the Inspirelli Awards competition.
 
@@ -587,8 +586,7 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
       window.location.href ===
         "https://diego-helguera.netlify.app/html/termitiere.html" ||
       window.location.href === "http://127.0.0.1:5500/html/termitiere.html" ||
-      window - location.href ===
-        "https://diegohelguera.com/html/termitiere.html"
+      window.location.href === "https://diegohelguera.com/html/termitiere.html"
     ) {
       textTermitiereProject.innerText = `TERMITERO: anfiteatro verde fue una propuesta para un centro cultural en burkina faso, en el marco del concurso Inspirelli Awards. 
 
@@ -893,8 +891,7 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
       window.location.href ===
         "https://diego-helguera.netlify.app/html/termitiere.html" ||
       window.location.href === "http://127.0.0.1:5500/html/termitiere.html" ||
-      window - location.href ===
-        "https://diegohelguera.com/html/termitiere.html"
+      window.location.href === "https://diegohelguera.com/html/termitiere.html"
     ) {
       textTermitiereProject.innerText = `TERMITERO: anfiteatro verde fue una propuesta para un centro cultural en burkina faso, en el marco del concurso Inspirelli Awards. 
 
@@ -1185,8 +1182,7 @@ Luckly, it gave us great satisfaction, winning three prizes, something that made
       window.location.href ===
         "https://diego-helguera.netlify.app/html/termitiere.html" ||
       window.location.href === "http://127.0.0.1:5500/html/termitiere.html" ||
-      window - location.href ===
-        "https://diegohelguera.com/html/termitiere.html"
+      window.location.href === "https://diegohelguera.com/html/termitiere.html"
     ) {
       textTermitiereProject.innerText = `Termitière: green amphitheater was a proposal for a cultural center in Burkina Faso, within the framework of the Inspirelli Awards competition.
 
