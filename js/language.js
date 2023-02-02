@@ -47,7 +47,8 @@ const language = () => {
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/atelier.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/atelier.html"
+      window.location.href === "http://127.0.0.1:5500/html/atelier.html" ||
+      window.location.href === "https://diegohelguera.com/html/atelier.html"
     ) {
       textAtelierProject.innerText = `Team: Diego Helguera, Luz María Helguera,
        Javier Dagnilo (construction)
@@ -76,7 +77,9 @@ Diego Helguera, Luz María Helguera, Javier Dagnilo, Ricardo Gómez as a blacksm
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/ciudadparque.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/ciudadparque.html"
+      window.location.href === "http://127.0.0.1:5500/html/ciudadparque.html" ||
+      window.location.href ===
+        "https://diegohelguera.com/html/ciudadparque.html"
     ) {
       textCiudadParqueProject.innerText = `Team: Diego Helguera, Teachers National University of Tucumán
 
@@ -109,7 +112,9 @@ Ideally, a building should produce more energy than it consumes. Meeting this en
       window.location.href ===
         "https://diego-helguera.netlify.app/html/jardinescolgantes.html" ||
       window.location.href ===
-        "http://127.0.0.1:5500/html/jardinescolgantes.html"
+        "http://127.0.0.1:5500/html/jardinescolgantes.html" ||
+      window.location.href ===
+        "https://diegohelguera.com/html/jardinescolgantes.html"
     ) {
       textJardinesColgantesProject.innerText = `Team: Diego Helguera
 Responsibilities:
@@ -140,7 +145,8 @@ The front patios are a consequence of the cultural custom of placing chairs and 
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/patioalto.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/patioalto.html"
+      window.location.href === "http://127.0.0.1:5500/html/patioalto.html" ||
+      window.location.href === "https://diegohelguera.com/html/patioalto.html"
     ) {
       textPatioAltoProject.innerText = `Team: Diego Helguera, Teachers of the National University of Tucumán.
 
@@ -165,7 +171,8 @@ Circulation as a social space will strengthen the neighborhood bond.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/torreduo.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/torreduo.html"
+      window.location.href === "http://127.0.0.1:5500/html/torreduo.html" ||
+      window.location.href === "https://diegohelguera.com/html/torreduo.html"
     ) {
       textTorreDuoProject.innerText = `Team: Agustin Jarma, Diego Helguera
 
@@ -196,7 +203,8 @@ Everything was modeled in Revit.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/santiago.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/santiago.html"
+      window.location.href === "http://127.0.0.1:5500/html/santiago.html" ||
+      window.location.href === "https://diegohelguera.com/html/santiago.html"
     ) {
       textSantiagoProject.innerText = `Casa Santiago is a single-family residential project developed in the Guillermo Cotella S.A. studio. With great lessons and achievements.
 
@@ -222,7 +230,8 @@ Site visits
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/corrientes.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/corrientes.html"
+      window.location.href === "http://127.0.0.1:5500/html/corrientes.html" ||
+      window.location.href === "https://diegohelguera.com/html/corrientes.html"
     ) {
       textCorrientesProject.innerText = `Team: Agustín Jarma, Ezequiel Bardavid, Diego Helguera.
 
@@ -245,7 +254,8 @@ Working on the urban scale opened our minds when it came to designing, we had to
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/patiodeuco.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/patiodeuco.html"
+      window.location.href === "http://127.0.0.1:5500/html/patiodeuco.html" ||
+      window.location.href === "https://diegohelguera.com/html/patiodeuco.html"
     ) {
       textPatioDeUcoProject.innerText = `Team: Josefina Viaña de la Serna, Diego Helguera
 
@@ -265,7 +275,9 @@ Luckly, it gave us great satisfaction, winning three prizes, something that made
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/termitiere.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/termitiere.html"
+      window.location.href === "http://127.0.0.1:5500/html/termitiere.html" ||
+      window - location.href ===
+        "https://diegohelguera.com/html/termitiere.html"
     ) {
       textTermitiereProject.innerText = `Termitière: green amphitheater was a proposal for a cultural center in Burkina Faso, within the framework of the Inspirelli Awards competition.
 
@@ -283,7 +295,8 @@ Luckly, it gave us great satisfaction, winning three prizes, something that made
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/acercademi.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
+      window.location.href === "http://127.0.0.1:5500/html/acercademi.html" ||
+      window.location.href === "https://diegohelguera.com/html/acercademi.html"
     ) {
       aboutMeText.innerText = `Im an architect graduated in the Architecture and urbanism Tucumán National University of Argentina. I participated in numerous workshops, competitions and architecture meetings. 
 With experience in the real estate sector and at the same time education in the purely project field, I believe that both approaches must cooperate to result in economically viable, culturally representative, socially responsable and environmentally correct projects that at the same time respond to the personal needs and desires of its users. But above all things: an architecture for daily enjoyment, which ensures good living. 
@@ -300,7 +313,8 @@ Management of graphic representation tools, bim and rendering.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/contacto.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/contacto.html"
+      window.location.href === "http://127.0.0.1:5500/html/contacto.html" ||
+      window.location.href === "https://diegohelguera.com/html/contacto.html"
     ) {
       nameLabel.innerText = "Name";
       matter.innerText = "Subject";
@@ -324,7 +338,8 @@ Management of graphic representation tools, bim and rendering.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/acercademi.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
+      window.location.href === "http://127.0.0.1:5500/html/acercademi.html" ||
+      window.location.href === "https://diegohelguera.com/html/acercademi.html"
     ) {
       aboutMeText.innerText = ` Arquitecto graduado de la facultad de arquitectura y urbanismo de la Universidad Nacional de Tucumán. Participe de numerosos workshops, concursos y encuentros de arquitectura. 
 Con experiencia en el rubro inmobiliario y de la construcción y a su vez educación en el ámbito meramente proyectual, creo que ambas lógicas deben cooperar para dar como resultado proyectos económicamente viables, culturalmente representativos, socialmente responsables, ambientalmente correctos que a la vez respondan a las necesidades y deseos personales de sus usuarios. Pero por sobre todas las cosas: una arquitectura de disfrute cotidiano, que vele por el buen vivir. 
@@ -343,7 +358,8 @@ Manejo herramientas de representación gráfica, bim y renderismo.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/atelier.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/atelier.html"
+      window.location.href === "http://127.0.0.1:5500/html/atelier.html" ||
+      window.location.href === "https://diegohelguera.com/html/atelier.html"
     ) {
       textAtelierProject.innerText = `Diego Helguera, Luz María Helguera 
 Javier Dagnilo (Dirección técnica) 
@@ -378,7 +394,9 @@ Diego Helguera, Luz María Helguera, Javier Dagnilo, Ricardo Gómez como herrero
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/ciudadparque.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/ciudadparque.html"
+      window.location.href === "http://127.0.0.1:5500/html/ciudadparque.html" ||
+      window.location.href ===
+        "https://diegohelguera.com/html/ciudadparque.html"
     ) {
       textCiudadParqueProject.innerText = `Equipo: Diego Helguera, Docentes Universidad Nacional de Tucumán
 
@@ -410,7 +428,9 @@ Idealmente, un edificio debería producir más energía de la que consume. Satis
       window.location.href ===
         "https://diego-helguera.netlify.app/html/jardinescolgantes.html" ||
       window.location.href ===
-        "http://127.0.0.1:5500/html/jardinescolgantes.html"
+        "http://127.0.0.1:5500/html/jardinescolgantes.html" ||
+      window.location.href ===
+        "https://diegohelguera.com/html/jardinescolgantes.html"
     ) {
       textJardinesColgantesProject.innerText = `Equipo: Diego Helguera 
 Responsabilidades: 
@@ -439,7 +459,8 @@ Los patios frontales son consecuencia de la costumbre cultural de situar sillas 
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/patioalto.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/patioalto.html"
+      window.location.href === "http://127.0.0.1:5500/html/patioalto.html" ||
+      window.location.href === "https://diegohelguera.com/html/patioalto.html"
     ) {
       textPatioAltoProject.innerText = `Equipo: Diego Helguera. Docentes de la Universidad Nacional de Tucumán.
 
@@ -464,7 +485,8 @@ La circulación como espacio social fortalecerá el vínculo vecinal.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/torreduo.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/torreduo.html"
+      window.location.href === "http://127.0.0.1:5500/html/torreduo.html" ||
+      window.location.href === "https://diegohelguera.com/html/torreduo.html"
     ) {
       textTorreDuoProject.innerText = `Equipo: Agustín Jarma, Diego Helguera.
 
@@ -492,7 +514,8 @@ Todo está modelado en Revit.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/santiago.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/santiago.html"
+      window.location.href === "http://127.0.0.1:5500/html/santiago.html" ||
+      window.location.href === "https://diegohelguera.com/html/santiago.html"
     ) {
       textSantiagoProject.innerText = `
       Casa Santiago fue un proyecto de vivienda unifamiliar llevado a cabo en el estudio Guillermo Cotella S.A. de grandes aprendizajes y logros.
@@ -518,7 +541,8 @@ Visitas a obra.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/corrientes.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/corrientes.html"
+      window.location.href === "http://127.0.0.1:5500/html/corrientes.html" ||
+      window.location.href === "https://diegohelguera.com/html/corrientes.html"
     ) {
       textCorrientesProject.innerText = `Equipo: Agustín Jarma, Ezequiel Bardavid, Diego Helguera.
 
@@ -541,7 +565,8 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/patiodeuco.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/patiodeuco.html"
+      window.location.href === "http://127.0.0.1:5500/html/patiodeuco.html" ||
+      window.location.href === "https://diegohelguera.com/html/patiodeuco.html"
     ) {
       textPatioDeUcoProject.innerText = `Equipo: Josefina Viaña de la Serna, Diego Helguera
 
@@ -561,7 +586,9 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/termitiere.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/termitiere.html"
+      window.location.href === "http://127.0.0.1:5500/html/termitiere.html" ||
+      window - location.href ===
+        "https://diegohelguera.com/html/termitiere.html"
     ) {
       textTermitiereProject.innerText = `TERMITERO: anfiteatro verde fue una propuesta para un centro cultural en burkina faso, en el marco del concurso Inspirelli Awards. 
 
@@ -581,7 +608,8 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/contacto.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/contacto.html"
+      window.location.href === "http://127.0.0.1:5500/html/contacto.html" ||
+      window.location.href === "https://diegohelguera.com/html/contacto.html"
     ) {
       nameLabel.innerText = "Nombre";
       matter.innerText = "Asunto";
@@ -606,19 +634,22 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
 const RenderLanguage = () => {
   if (
     window.location.href === "https://diego-helguera.netlify.app/index.html" ||
-    window.location.href === "http://127.0.0.1:5500/index.html"
+    window.location.href === "http://127.0.0.1:5500/index.html" ||
+    window.location.href === "https://diegohelguera.com/index.html"
   ) {
     projects.style.color = "#d65f37";
   } else if (
     window.location.href ===
       "https://diego-helguera.netlify.app/html/acercademi.html" ||
-    window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
+    window.location.href === "http://127.0.0.1:5500/html/acercademi.html" ||
+    window.location.href === "https://diegohelguera.com/html/acercademi.html"
   ) {
     me.style.color = "#d65f37";
   } else if (
     window.location.href ===
       "https://diego-helguera.netlify.app/html/contacto.html" ||
-    window.location.href === "http://127.0.0.1:5500/html/contacto.html"
+    window.location.href === "http://127.0.0.1:5500/html/contacto.html" ||
+    window.location.href === "https://diegohelguera.com/html/contacto.html"
   ) {
     contact.style.color = "#d65f37";
   } else {
@@ -631,7 +662,8 @@ const RenderLanguage = () => {
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/atelier.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/atelier.html"
+      window.location.href === "http://127.0.0.1:5500/html/atelier.html" ||
+      window.location.href === "https://diegohelguera.com/html/atelier.html"
     ) {
       textAtelierProject.innerText = `Diego Helguera, Luz María Helguera 
       Javier Dagnilo (Dirección técnica) 
@@ -667,7 +699,9 @@ Diego Helguera, Luz María Helguera, Javier Dagnilo, Ricardo Gómez como herrero
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/ciudadparque.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/ciudadparque.html"
+      window.location.href === "http://127.0.0.1:5500/html/ciudadparque.html" ||
+      window.location.href ===
+        "https://diegohelguera.com/html/ciudadparque.html"
     ) {
       textCiudadParqueProject.innerText = `Equipo: Diego Helguera, Docentes Universidad Nacional de Tucumán
 
@@ -699,7 +733,9 @@ Idealmente, un edificio debería producir más energía de la que consume. Satis
       window.location.href ===
         "https://diego-helguera.netlify.app/html/jardinescolgantes.html" ||
       window.location.href ===
-        "http://127.0.0.1:5500/html/jardinescolgantes.html"
+        "http://127.0.0.1:5500/html/jardinescolgantes.html" ||
+      window.location.href ===
+        "https://diegohelguera.com/html/jardinescolgantes.html"
     ) {
       textJardinesColgantesProject.innerText = `Equipo: Diego Helguera 
 Responsabilidades: 
@@ -728,7 +764,8 @@ Los patios frontales son consecuencia de la costumbre cultural de situar sillas 
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/patioalto.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/patioalto.html"
+      window.location.href === "http://127.0.0.1:5500/html/patioalto.html" ||
+      window.location.href === "https://diegohelguera.com/html/patioalto.html"
     ) {
       textPatioAltoProject.innerText = `Equipo: Diego Helguera. Docentes de la Universidad Nacional de Tucumán.
 
@@ -753,7 +790,8 @@ La circulación como espacio social fortalecerá el vínculo vecinal.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/torreduo.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/torreduo.html"
+      window.location.href === "http://127.0.0.1:5500/html/torreduo.html" ||
+      window.location.href === "https://diegohelguera.com/html/torreduo.html"
     ) {
       textTorreDuoProject.innerText = `Equipo: Agustín Jarma, Diego Helguera.
 
@@ -781,7 +819,8 @@ Todo está modelado en Revit.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/santiago.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/santiago.html"
+      window.location.href === "http://127.0.0.1:5500/html/santiago.html" ||
+      window.location.href === "https://diegohelguera.com/html/santiago.html"
     ) {
       textSantiagoProject.innerText = `
       Casa Santiago fue un proyecto de vivienda unifamiliar llevado a cabo en el estudio Guillermo Cotella S.A. de grandes aprendizajes y logros.
@@ -807,7 +846,8 @@ Visitas a obra.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/corrientes.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/corrientes.html"
+      window.location.href === "http://127.0.0.1:5500/html/corrientes.html" ||
+      window.location.href === "https://diegohelguera.com/html/corrientes.html"
     ) {
       textCorrientesProject.innerText = `Equipo: Agustín Jarma, Ezequiel Bardavid, Diego Helguera.
 
@@ -830,7 +870,8 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/patiodeuco.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/patiodeuco.html"
+      window.location.href === "http://127.0.0.1:5500/html/patiodeuco.html" ||
+      window.location.href === "https://diegohelguera.com/html/patiodeuco.html"
     ) {
       textPatioDeUcoProject.innerText = `Equipo: Josefina Viaña de la Serna, Diego Helguera
 
@@ -850,7 +891,9 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/termitiere.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/termitiere.html"
+      window.location.href === "http://127.0.0.1:5500/html/termitiere.html" ||
+      window - location.href ===
+        "https://diegohelguera.com/html/termitiere.html"
     ) {
       textTermitiereProject.innerText = `TERMITERO: anfiteatro verde fue una propuesta para un centro cultural en burkina faso, en el marco del concurso Inspirelli Awards. 
 
@@ -869,7 +912,8 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/acercademi.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
+      window.location.href === "http://127.0.0.1:5500/html/acercademi.html" ||
+      window.location.href === "https://diegohelguera.com/html/acercademi.html"
     ) {
       aboutMeText.innerText = ` Arquitecto graduado de la facultad de arquitectura y urbanismo de la Universidad Nacional de Tucumán. Participe de numerosos workshops, concursos y encuentros de arquitectura. 
 Con experiencia en el rubro inmobiliario y de la construcción y a su vez educación en el ámbito meramente proyectual, creo que ambas lógicas deben cooperar para dar como resultado proyectos económicamente viables, culturalmente representativos, socialmente responsables, ambientalmente correctos que a la vez respondan a las necesidades y deseos personales de sus usuarios. Pero por sobre todas las cosas: una arquitectura de disfrute cotidiano, que vele por el buen vivir. 
@@ -886,7 +930,8 @@ Manejo herramientas de representación gráfica, bim y renderismo.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/contacto.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/contacto.html"
+      window.location.href === "http://127.0.0.1:5500/html/contacto.html" ||
+      window.location.href === "https://diegohelguera.com/html/contacto.html"
     ) {
       contact.style.color = "#d65f37";
       nameLabel.innerText = "Nombre";
@@ -912,7 +957,8 @@ Manejo herramientas de representación gráfica, bim y renderismo.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/atelier.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/atelier.html"
+      window.location.href === "http://127.0.0.1:5500/html/atelier.html" ||
+      window.location.href === "https://diegohelguera.com/html/atelier.html"
     ) {
       textAtelierProject.innerText = `Team: Diego Helguera, Luz María Helguera,
        Javier Dagnilo (construction)
@@ -941,7 +987,9 @@ Diego Helguera, Luz María Helguera, Javier Dagnilo, Ricardo Gómez as a blacksm
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/ciudadparque.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/ciudadparque.html"
+      window.location.href === "http://127.0.0.1:5500/html/ciudadparque.html" ||
+      window.location.href ===
+        "https://diegohelguera.com/html/ciudadparque.html"
     ) {
       textCiudadParqueProject.innerText = `Team: Diego Helguera, Teachers National University of Tucumán
 
@@ -973,7 +1021,9 @@ Ideally, a building should produce more energy than it consumes. Meeting this en
       window.location.href ===
         "https://diego-helguera.netlify.app/html/jardinescolgantes.html" ||
       window.location.href ===
-        "http://127.0.0.1:5500/html/jardinescolgantes.html"
+        "http://127.0.0.1:5500/html/jardinescolgantes.html" ||
+      window.location.href ===
+        "https://diegohelguera.com/html/jardinescolgantes.html"
     ) {
       textJardinesColgantesProject.innerText = `Team: Diego Helguera
 Responsibilities:
@@ -1004,7 +1054,8 @@ The front patios are a consequence of the cultural custom of placing chairs and 
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/patioalto.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/patioalto.html"
+      window.location.href === "http://127.0.0.1:5500/html/patioalto.html" ||
+      window.location.href === "https://diegohelguera.com/html/patioalto.html"
     ) {
       textPatioAltoProject.innerText = `Team: Diego Helguera, Teachers of the National University of Tucumán.
 
@@ -1029,7 +1080,8 @@ Circulation as a social space will strengthen the neighborhood bond.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/torreduo.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/torreduo.html"
+      window.location.href === "http://127.0.0.1:5500/html/torreduo.html" ||
+      window.location.href === "https://diegohelguera.com/html/torreduo.html"
     ) {
       textTorreDuoProject.innerText = `Team: Agustin Jarma, Diego Helguera
 
@@ -1059,7 +1111,8 @@ Everything was modeled in Revit.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/santiago.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/santiago.html"
+      window.location.href === "http://127.0.0.1:5500/html/santiago.html" ||
+      window.location.href === "https://diegohelguera.com/html/santiago.html"
     ) {
       textSantiagoProject.innerText = `Casa Santiago is a single-family residential project developed in the Guillermo Cotella S.A. studio. With great lessons and achievements.
 
@@ -1085,7 +1138,8 @@ Site visits
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/corrientes.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/corrientes.html"
+      window.location.href === "http://127.0.0.1:5500/html/corrientes.html" ||
+      window.location.href === "https://diegohelguera.com/html/corrientes.html"
     ) {
       textCorrientesProject.innerText = `Team: Agustín Jarma, Ezequiel Bardavid, Diego Helguera.
 
@@ -1108,7 +1162,8 @@ Working on the urban scale opened our minds when it came to designing, we had to
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/patiodeuco.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/patiodeuco.html"
+      window.location.href === "http://127.0.0.1:5500/html/patiodeuco.html" ||
+      window.location.href === "https://diegohelguera.com/html/patiodeuco.html"
     ) {
       textPatioDeUcoProject.innerText = `Team: Josefina Viaña de la Serna, Diego Helguera
 
@@ -1128,7 +1183,9 @@ Luckly, it gave us great satisfaction, winning three prizes, something that made
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/termitiere.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/termitiere.html"
+      window.location.href === "http://127.0.0.1:5500/html/termitiere.html" ||
+      window - location.href ===
+        "https://diegohelguera.com/html/termitiere.html"
     ) {
       textTermitiereProject.innerText = `Termitière: green amphitheater was a proposal for a cultural center in Burkina Faso, within the framework of the Inspirelli Awards competition.
 
@@ -1146,7 +1203,8 @@ Luckly, it gave us great satisfaction, winning three prizes, something that made
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/acercademi.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/acercademi.html"
+      window.location.href === "http://127.0.0.1:5500/html/acercademi.html" ||
+      window.location.href === "https://diegohelguera.com/html/acercademi.html"
     ) {
       aboutMeText.innerText = `Im an architect graduated in the Architecture and urbanism Tucumán National University of Argentina. I participated in numerous workshops, competitions and architecture meetings. 
 With experience in the real estate sector and at the same time education in the purely project field, I believe that both approaches must cooperate to result in economically viable, culturally representative, socially responsable and environmentally correct projects that at the same time respond to the personal needs and desires of its users. But above all things: an architecture for daily enjoyment, which ensures good living. 
@@ -1162,7 +1220,8 @@ Management of graphic representation tools, bim and rendering.
     if (
       window.location.href ===
         "https://diego-helguera.netlify.app/html/contacto.html" ||
-      window.location.href === "http://127.0.0.1:5500/html/contacto.html"
+      window.location.href === "http://127.0.0.1:5500/html/contacto.html" ||
+      window.location.href === "https://diegohelguera.com/html/contacto.html"
     ) {
       nameLabel.innerText = "Name";
       matter.innerText = "Subject";
