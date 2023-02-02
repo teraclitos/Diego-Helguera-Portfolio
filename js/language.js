@@ -307,12 +307,12 @@ Management of graphic representation tools, bim and rendering.
       message.innerText = "Leave your message";
       submit.value = "send";
       WrongNameLanguage.innerText =
-        " The name can only have from 3 to 30 characters, it must not have numbers or symbols!!!";
+        " The name can only have from 3 to 30 characters, it must not have numbers or symbols";
       wrongEmailLanguage.innerText = " This doesn`t look like an email";
       wrongMessageLanguage.innerText =
         "The message can only have from 5 to 400 characters";
       errorSubmitLanguage.innerText =
-        "ERROR!!! Fill all the required fields correctly ";
+        "ERROR Fill all the required fields correctly ";
       correctSubmitLanguage.innerText =
         "Your message has been sent successfully";
     }
@@ -588,12 +588,12 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
       message.innerText = "Deje su mensaje";
       submit.value = "enviar";
       WrongNameLanguage.innerText =
-        " El nombre puede tener de 3 a 30 caracteres, no debe llevar ni números ni símbolos!!!";
+        " El nombre puede tener de 3 a 30 caracteres, no debe llevar ni números ni símbolos";
       wrongEmailLanguage.innerText = " Debe respetar la forma de un email";
       wrongMessageLanguage.innerText =
         "El mensaje puede tener un largo de 5 a 400 caracteres";
       errorSubmitLanguage.innerText =
-        " ERROR!!! Rellena correctamente todos los campos obligatorios";
+        " ERROR Rellena correctamente todos los campos obligatorios";
       correctSubmitLanguage.innerText = "Su mensaje ha sido enviado con éxito";
     }
 
@@ -894,12 +894,12 @@ Manejo herramientas de representación gráfica, bim y renderismo.
       message.innerText = "Deje su mensaje";
       submit.value = "enviar";
       WrongNameLanguage.innerText =
-        "El nombre puede tener de 3 a 30 caracteres, no debe llevar ni números ni símbolos!!!";
+        "El nombre puede tener de 3 a 30 caracteres, no debe llevar ni números ni símbolos";
       wrongEmailLanguage.innerText = " Debe respetar la forma de un email";
       wrongMessageLanguage.innerText =
         "El mensaje puede tener un largo de 5 a 400 caracteres";
       errorSubmitLanguage.innerText =
-        " ERROR!!! Rellena correctamente todos los campos obligatorios";
+        " ERROR Rellena correctamente todos los campos obligatorios";
       correctSubmitLanguage.innerText = "Su mensaje ha sido enviado con éxito";
     }
 
@@ -1169,12 +1169,12 @@ Management of graphic representation tools, bim and rendering.
       message.innerText = "Leave your message";
       submit.value = "send";
       WrongNameLanguage.innerText =
-        " The name can only have from 3 to 30 characters, it must not have numbers or symbols!!!";
+        " The name can only have from 3 to 30 characters, it must not have numbers or symbols";
       wrongEmailLanguage.innerText = " This doesn`t look like an email";
       wrongMessageLanguage.innerText =
         "The message can only have from 5 to 400 characters";
       errorSubmitLanguage.innerText =
-        "ERROR!!! Fill all the required fields correctly ";
+        "ERROR Fill all the required fields correctly ";
       correctSubmitLanguage.innerText =
         "Your message has been sent successfully";
     }
