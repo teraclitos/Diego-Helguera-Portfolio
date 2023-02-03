@@ -174,26 +174,24 @@ Circulation as a social space will strengthen the neighborhood bond.
       window.location.href === "http://127.0.0.1:5500/html/torreduo.html" ||
       window.location.href === "https://diegohelguera.com/html/torreduo.html"
     ) {
-      textTorreDuoProject.innerText = `Team: Agustin Jarma, Diego Helguera
+      textTorreDuoProject.innerText = `Team: Agustin Jarma, Diego Helguera.
 
 Responsibilities:
 Revit 3d modeling.
-Apartments design.
+Design of housing units.
 Proposal design.
 Proposal to land owners.
 Planimetry drawing.
 
-Torre duo is a building with a bioclimatic façade in which a ventilated air chamber reduces heat gain through openings. We wanted to experiment how practicable it is to apply this technology in Tucumán.
+Torre duo is a building with a bioclimatic façade with a ventilated air chamber that seeks to reduce heat gains in a humid and hot climate such as Tucumán. The challenge was to experiment how feasible it is to apply this technology in Tucumán and how good results it would give.
 
-It was a great challenge to design 9 different types of apartments, all ventilating properly and at the same time provide a graceful volumetry to the building in a limited deadline of two months while we carried out many other responsibilities. It was intense but it had its reward.
+It was a great challenge to design 9 different types of apartments, that all ventilate correctly and at the same time provide a graceful volumetry to the building in a limited time of two months.
 
-The building was presented to the landowners who gave us their feedback and has been used as inspiration (a lot) for the tower that is actually being built on that site today. Maintaining the project name and the idea of the building.
+The building was presented to the owners of the land, which meant an enriching experience when listening to the feedback they had to give us.
 
-For sure there are many corrections I would make today, this Project was designed many years ago when I was still studyng, but I selected it because of its huge lessons. 
+The experience served to understand the importance of applying high-resistance construction systems in climatically aggressive environments such as Tucumán, understand the perspective and expectations of real estate developers, and work in a coordinated team with a great colleague.
 
-Everything was modeled in Revit.
-
-
+Everything is modeled in Revit.
 
 
 
@@ -489,22 +487,22 @@ La circulación como espacio social fortalecerá el vínculo vecinal.
     ) {
       textTorreDuoProject.innerText = `Equipo: Agustín Jarma, Diego Helguera.
 
-      Responsabilidades:
-      Modelado 3d Revit.
+Responsabilidades:
+Modelado 3d Revit.
 Diseño de unidades de vivienda.
 Diseño de propuesta.
-Propuesta a dueños del terreno. 
-Dibujo de planimetría. 
+Propuesta a dueños del terreno.
+Dibujo de planimetría.
 
-Torre duo es un edificio de fachada bioclimática que una cámara de aire ventilada reduce las ganancias de calor por aberturas. Quisimos experimentar que tan factible es aplicar esta tecnología en Tucumán. 
+Torre duo es un edificio de fachada bioclimática con cámara de aire ventilada que busca reducir las ganancias de calor en un clima húmedo y caliente como es el de Tucumán. El desafío fue experimentar que tan factible es aplicar esta tecnología en Tucumán y que tan buenos resultados daría.
 
-Fue un gran desafío diseñar 9 tipologías distintas de departamentos, que todos ventilen correctamente y a la vez aporten una volumetría agraciada al edificio en un acotado tiempo de dos meses. Mientras llevaba adelante otras responsabilidades.
+Fue un gran desafío diseñar 9 tipologías distintas de departamentos, que todos ventilen correctamente y a la vez aporten una volumetría agraciada al edificio en un acotado tiempo de dos meses. 
 
-El edificio fue presentado a los dueños del terreno quienes nos dieron su feedback y ha servido de inspiración (en gran medida) para la torre que se está construyendo de hecho hoy en día en ese lugar. Manteniendo el nombre del proyecto y la idea partido del edificio. 
+El edificio fue presentado a los propietarios del terreno lo cual significó una enriquecedora experiencia al escuchar el feedback que tenían para darnos. 
 
-Claro que hoy en día le haría muchas correcciones, el edificio fue diseñado varios años atrás como estudiante, pero seleccioné el proyecto por los grandes aprendizajes que dejó.
+La experiencia sirvió para comprender la importancia de aplicar sistemas constructivos de alta resistencia en medios agresivos climáticamente como es el de Tucumán, entender la perspectiva y expectativa de desarrolladores inmobiliarios y trabajar coordinadamente en equipo junto a un gran colega. 
 
-Todo está modelado en Revit. 
+Todo está modelado en Revit.
 
 
 
@@ -794,22 +792,22 @@ La circulación como espacio social fortalecerá el vínculo vecinal.
     ) {
       textTorreDuoProject.innerText = `Equipo: Agustín Jarma, Diego Helguera.
 
-      Responsabilidades:
-      Modelado 3d Revit.
+Responsabilidades:
+Modelado 3d Revit.
 Diseño de unidades de vivienda.
 Diseño de propuesta.
-Propuesta a dueños del terreno. 
-Dibujo de planimetría. 
+Propuesta a dueños del terreno.
+Dibujo de planimetría.
 
-Torre duo es un edificio de fachada bioclimática que una cámara de aire ventilada reduce las ganancias de calor por aberturas. Quisimos experimentar que tan factible es aplicar esta tecnología en Tucumán. 
+Torre duo es un edificio de fachada bioclimática con cámara de aire ventilada que busca reducir las ganancias de calor en un clima húmedo y caliente como es el de Tucumán. El desafío fue experimentar que tan factible es aplicar esta tecnología en Tucumán y que tan buenos resultados daría.
 
-Fue un gran desafío diseñar 9 tipologías distintas de departamentos, que todos ventilen correctamente y a la vez aporten una volumetría agraciada al edificio en un acotado tiempo de dos meses. Mientras llevaba adelante otras responsabilidades.
+Fue un gran desafío diseñar 9 tipologías distintas de departamentos, que todos ventilen correctamente y a la vez aporten una volumetría agraciada al edificio en un acotado tiempo de dos meses. 
 
-El edificio fue presentado a los dueños del terreno quienes nos dieron su feedback y ha servido de inspiración (en gran medida) para la torre que se está construyendo de hecho hoy en día en ese lugar. Manteniendo el nombre del proyecto y la idea partido del edificio. 
+El edificio fue presentado a los propietarios del terreno lo cual significó una enriquecedora experiencia al escuchar el feedback que tenían para darnos. 
 
-Claro que hoy en día le haría muchas correcciones, el edificio fue diseñado varios años atrás como estudiante, pero seleccioné el proyecto por los grandes aprendizajes que dejó.
+La experiencia sirvió para comprender la importancia de aplicar sistemas constructivos de alta resistencia en medios agresivos climáticamente como es el de Tucumán, entender la perspectiva y expectativa de desarrolladores inmobiliarios y trabajar coordinadamente en equipo junto a un gran colega. 
 
-Todo está modelado en Revit. 
+Todo está modelado en Revit.
 
 
 
@@ -1081,26 +1079,24 @@ Circulation as a social space will strengthen the neighborhood bond.
       window.location.href === "http://127.0.0.1:5500/html/torreduo.html" ||
       window.location.href === "https://diegohelguera.com/html/torreduo.html"
     ) {
-      textTorreDuoProject.innerText = `Team: Agustin Jarma, Diego Helguera
+      textTorreDuoProject.innerText = `Team: Agustin Jarma, Diego Helguera.
 
 Responsibilities:
 Revit 3d modeling.
-Apartments design.
+Design of housing units.
 Proposal design.
 Proposal to land owners.
 Planimetry drawing.
 
-Torre duo is a building with a bioclimatic façade in which a ventilated air chamber reduces heat gain through openings. We wanted to experiment how practicable it is to apply this technology in Tucumán.
+Torre duo is a building with a bioclimatic façade with a ventilated air chamber that seeks to reduce heat gains in a humid and hot climate such as Tucumán. The challenge was to experiment how feasible it is to apply this technology in Tucumán and how good results it would give.
 
-It was a great challenge to design 9 different types of apartments, all ventilating properly and at the same time provide a graceful volumetry to the building in a limited deadline of two months while we carried out many other responsibilities. It was intense but it had its reward.
+It was a great challenge to design 9 different types of apartments, that all ventilate correctly and at the same time provide a graceful volumetry to the building in a limited time of two months.
 
-The building was presented to the landowners who gave us their feedback and has been used as inspiration (a lot) for the tower that is actually being built on that site today. Maintaining the project name and the idea of the building.
+The building was presented to the owners of the land, which meant an enriching experience when listening to the feedback they had to give us.
 
-For sure there are many corrections I would make today, this Project was designed many years ago when I was still studyng, but I selected it because of its huge lessons. 
+The experience served to understand the importance of applying high-resistance construction systems in climatically aggressive environments such as Tucumán, understand the perspective and expectations of real estate developers, and work in a coordinated team with a great colleague.
 
-Everything was modeled in Revit.
-
-
+Everything is modeled in Revit.
 
 
 
