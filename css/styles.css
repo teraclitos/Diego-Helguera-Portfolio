@@ -64,6 +64,7 @@ html {
   grid-template-areas: "titulo links language";
   grid-template-columns: 6fr 6fr 1fr;
   grid-template-rows: 5em;
+  background-color: white;
 }
 .menu-icon-container {
   display: none;
