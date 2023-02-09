@@ -630,6 +630,7 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
 const RenderLanguage = () => {
   if (
     window.location.href === "https://diego-helguera.netlify.app/index.html" ||
+    window.location.href === "https://diego-helguera.netlify.app/" ||
     window.location.href === "http://127.0.0.1:5500/index.html" ||
     window.location.href === "https://diegohelguera.com/index.html" ||
     window.location.href === "https://diegohelguera.com/"
