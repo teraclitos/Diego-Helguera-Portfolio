@@ -216,10 +216,17 @@ const heightGrey = () => {
   }
 };
 
-heightGrey();
-window.addEventListener("resize", () => {
+if (
+  window.location.href === "https://diego-helguera.netlify.app/index.html" ||
+  window.location.href === "http://127.0.0.1:5500/index.html" ||
+  window.location.href === "https://diegohelguera.com/index.html" ||
+  window.location.href === "https://diegohelguera.com/"
+) {
   heightGrey();
-});
+  window.addEventListener("resize", () => {
+    heightGrey();
+  });
+}
 
 const slideNatVar = () => {
   let height = 0;
@@ -233,6 +240,7 @@ const slideNatVar = () => {
 
   menu.classList.toggle("arrow-rotate");
 };
+
 const slideNatVarOut = () => {
   linksNatVar.classList.remove("links-container-height");
   menu.classList.remove("arrow-rotate");
