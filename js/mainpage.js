@@ -212,7 +212,7 @@ const heightGrey = () => {
   if (window.innerWidth > 450) {
     greyBackground.style.height = `${bodyHeight - navBarHeight - 172}px`;
   } else {
-    greyBackground.style.height = `${bodyHeight - navBarHeight - 128}px`;
+    greyBackground.style.height = `${bodyHeight - navBarHeight - 138}px`;
   }
 };
 
