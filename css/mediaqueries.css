@@ -267,6 +267,10 @@
   .nat-var-container {
     font-size: 14px;
   }
+  .grey-background {
+    font-size: 14px;
+    top: 90px;
+  }
   .form-contact {
     font-size: 8px;
   }
@@ -277,6 +281,10 @@
   }
   .nat-var-container {
     font-size: 12px;
+  }
+  .grey-background {
+    font-size: 12px;
+    top: 80px;
   }
   .acercademi-text-container {
     font-size: 8px;

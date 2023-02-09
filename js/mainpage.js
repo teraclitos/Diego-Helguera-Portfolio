@@ -16,6 +16,8 @@ const textPatioDeUco = document.getElementById("text-patio-de-uco");
 const patioDeUcoGreen = document.getElementById("patio-de-uco-green");
 const textTermitiere = document.getElementById("text-termitiere");
 const termitiereGreen = document.getElementById("termitiere-green");
+const greyBackground = document.querySelector(".grey-background");
+const navBar = document.querySelector(".title-container");
 
 const textHoverInImg = (title) => {
   switch (title) {
@@ -188,6 +190,7 @@ const socialIcons = document.getElementById("social-icons");
 const scrollRedesFunction = () => {
   let documentHeight = document.body.scrollHeight;
   let currentScroll = window.scrollY + window.innerHeight;
+
   // When the user is [modifier]px from the bottom, fire the event.
   let modifier = 75;
 
@@ -202,6 +205,20 @@ const linksNatVar = document.getElementById("links-nat-var");
 const mainBody = document.getElementById("main-body");
 const menu = document.querySelector(".menu-icon");
 let windowScreen = window.matchMedia("(max-width: 991.98px)");
+const heightGrey = () => {
+  if (windowScreen.matches) {
+    let bodyHeight = document.body.clientHeight;
+    let navBarHeight = navBar.clientHeight;
+
+    greyBackground.style.height = `${bodyHeight - navBarHeight - 142}px`;
+  } else {
+    let bodyHeight = document.body.clientHeight;
+    let navBarHeight = navBar.clientHeight;
+
+    greyBackground.style.height = `${bodyHeight - navBarHeight - 172}px`;
+  }
+};
+heightGrey();
 const slideNatVar = () => {
   let height = 0;
   if (linksNatVar.clientHeight === 0) {
@@ -238,8 +255,5 @@ window.addEventListener("scroll", () => {
 windowScreen.addEventListener("change", () => {
   scrollRedesFunction();
   removeArrowWideScreen();
+  heightGrey();
 });
-
-
-
-
