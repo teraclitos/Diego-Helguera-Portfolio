@@ -209,11 +209,8 @@ let windowScreen = window.matchMedia("(max-width: 991.98px)");
 const heightGrey = () => {
   let bodyHeight = document.body.clientHeight;
   let navBarHeight = navBar.clientHeight;
-  if (window.innerWidth > 550) {
-    greyBackground.style.height = `${bodyHeight - navBarHeight - 172}px`;
-  } else {
-    greyBackground.style.height = `${bodyHeight - navBarHeight - 142}px`;
-  }
+
+  greyBackground.style.height = `${bodyHeight - navBarHeight - 142}px`;
 };
 
 heightGrey();

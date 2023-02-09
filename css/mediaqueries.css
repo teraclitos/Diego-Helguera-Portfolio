@@ -237,6 +237,10 @@
   .video-container {
     height: 50%;
   }
+  .grey-background {
+    font-size: 14px;
+    top: 113.594px;
+  }
 }
 @media (max-width: 576px) {
   .acercademi-text-container {
@@ -269,7 +273,7 @@
   }
   .grey-background {
     font-size: 14px;
-    top: 90px;
+    top: 103.375px;
   }
   .form-contact {
     font-size: 8px;
@@ -284,7 +288,7 @@
   }
   .grey-background {
     font-size: 12px;
-    top: 80px;
+    top: 92.188px;
   }
   .acercademi-text-container {
     font-size: 8px;
