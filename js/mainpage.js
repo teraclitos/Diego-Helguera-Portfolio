@@ -205,20 +205,22 @@ const linksNatVar = document.getElementById("links-nat-var");
 const mainBody = document.getElementById("main-body");
 const menu = document.querySelector(".menu-icon");
 let windowScreen = window.matchMedia("(max-width: 991.98px)");
+
 const heightGrey = () => {
-  if (windowScreen.matches) {
-    let bodyHeight = document.body.clientHeight;
-    let navBarHeight = navBar.clientHeight;
-
-    greyBackground.style.height = `${bodyHeight - navBarHeight - 142}px`;
-  } else {
-    let bodyHeight = document.body.clientHeight;
-    let navBarHeight = navBar.clientHeight;
-
+  let bodyHeight = document.body.clientHeight;
+  let navBarHeight = navBar.clientHeight;
+  if (window.innerWidth > 550) {
     greyBackground.style.height = `${bodyHeight - navBarHeight - 172}px`;
+  } else {
+    greyBackground.style.height = `${bodyHeight - navBarHeight - 142}px`;
   }
 };
+
 heightGrey();
+window.addEventListener("resize", () => {
+  heightGrey();
+});
+
 const slideNatVar = () => {
   let height = 0;
   if (linksNatVar.clientHeight === 0) {
@@ -255,5 +257,4 @@ window.addEventListener("scroll", () => {
 windowScreen.addEventListener("change", () => {
   scrollRedesFunction();
   removeArrowWideScreen();
-  heightGrey();
 });
