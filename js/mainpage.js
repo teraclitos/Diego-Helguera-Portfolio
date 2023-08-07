@@ -205,6 +205,7 @@ const linksNatVar = document.getElementById("links-nat-var");
 const mainBody = document.getElementById("main-body");
 const menu = document.querySelector(".menu-icon");
 
+me.href = "/html/acercademi.html"
 let windowScreen = window.matchMedia("(max-width: 991.98px)");
 
 const heightGrey = () => {
