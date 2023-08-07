@@ -141,40 +141,40 @@ const textHoverOutImg = (title) => {
 const projectsDetailWideScreen = (title) => {
   switch (title) {
     case "atelier":
-      location.href = "/html/atelier.html";
+      location.pathname = "/html/atelier.html";
 
       break;
     case "ciudadParque":
-      location.href = "/html/ciudadparque.html";
+      location.pathname = "/html/ciudadparque.html";
 
       break;
     case "edificio1":
-      location.href = "/html/jardinescolgantes.html";
+      location.pathname = "/html/jardinescolgantes.html";
 
       break;
     case "edificio2":
-      location.href = "/html/patioalto.html";
+      location.pathname = "/html/patioalto.html";
 
       break;
     case "torreDual":
-      location.href = "/html/torreduo.html";
+      location.pathname = "/html/torreduo.html";
 
       break;
     case "santiago":
-      location.href = "/html/santiago.html";
+      location.pathname = "/html/santiago.html";
 
       break;
     case "corrientes":
-      location.href = "/html/corrientes.html";
+      location.pathname = "/html/corrientes.html";
 
       break;
     case "patioDeUco":
-      location.href = "/html/patiodeuco.html";
+      location.pathname = "/html/patiodeuco.html";
 
       break;
 
     default:
-      location.href = "/html/termitiere.html";
+      location.pathname = "/html/termitiere.html";
 
       break;
   }
@@ -183,7 +183,7 @@ const projectsDetailWideScreen = (title) => {
 const titleDiego = document.getElementById("title-diego");
 
 titleDiego.addEventListener("click", () => {
-  location.href = "/index.html";
+  location.pathname = "/index.html";
 });
 
 const socialIcons = document.getElementById("social-icons");
@@ -204,6 +204,7 @@ const scrollRedesFunction = () => {
 const linksNatVar = document.getElementById("links-nat-var");
 const mainBody = document.getElementById("main-body");
 const menu = document.querySelector(".menu-icon");
+
 let windowScreen = window.matchMedia("(max-width: 991.98px)");
 
 const heightGrey = () => {
@@ -217,11 +218,8 @@ const heightGrey = () => {
 };
 
 if (
-  window.location.href === "https://diego-helguera.netlify.app/index.html" ||
-  window.location.href === "https://diego-helguera.netlify.app/" ||
-  window.location.href === "http://127.0.0.1:5500/index.html" ||
-  window.location.href === "https://diegohelguera.com/index.html" ||
-  window.location.href === "https://diegohelguera.com/"
+  window.location.pathname === "/" 
+
 ) {
   heightGrey();
   window.addEventListener("resize", () => {
