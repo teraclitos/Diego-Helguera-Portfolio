@@ -71,7 +71,7 @@ const validation = (inputName, inputValue, inputs) => {
 
     default:
       if (
-        // (expression.text.test(inputValue) &&
+     
         (inputValue.trim().length > 4 && inputValue.trim().length < 401) ||
         inputValue.trim() === ""
       ) {
@@ -104,7 +104,6 @@ inputsArray.forEach((input) => {
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  //  let response = grecaptcha.getResponse();
    
 
   if (validations.name && validations.email && validations.text ) {
@@ -115,14 +114,7 @@ form.addEventListener("submit", (e) => {
       form.submit();
     }, 3000);
   } else {
-//      if (validations.name && validations.email && validations.text && response.length === 0) {
-//             swal({
-//   title: "Error!",
-//   text: "please validate captcha!",
-//   type: "error",
-//   confirmButtonText: "Cool"
-// });return};
-   
+
     inputsArrayRequired.forEach((inputs) => {
       if (inputs.value.trim() === "") {
         inputs.classList.add("border-wrong");
