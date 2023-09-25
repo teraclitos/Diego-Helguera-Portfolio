@@ -104,10 +104,10 @@ inputsArray.forEach((input) => {
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-   let response = grecaptcha.getResponse();
+  //  let response = grecaptcha.getResponse();
    
 
-  if (validations.name && validations.email && validations.text && response.length>0) {
+  if (validations.name && validations.email && validations.text ) {
     correct.classList.remove("hidden");
     error.classList.add("hidden");
 
@@ -115,13 +115,13 @@ form.addEventListener("submit", (e) => {
       form.submit();
     }, 3000);
   } else {
-     if (validations.name && validations.email && validations.text && response.length === 0) {
-            swal({
-  title: "Error!",
-  text: "please validate captcha!",
-  type: "error",
-  confirmButtonText: "Cool"
-});return};
+//      if (validations.name && validations.email && validations.text && response.length === 0) {
+//             swal({
+//   title: "Error!",
+//   text: "please validate captcha!",
+//   type: "error",
+//   confirmButtonText: "Cool"
+// });return};
    
     inputsArrayRequired.forEach((inputs) => {
       if (inputs.value.trim() === "") {
