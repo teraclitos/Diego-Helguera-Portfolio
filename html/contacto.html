@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/mediaqueries.css" />
     <link rel="shortcut icon" href="/documentation/LOGO DH.jpg" />
-
     <script
       src="https://kit.fontawesome.com/7d7ea919ec.js"
       crossorigin="anonymous"
     ></script>
+     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body class="body-container">
     <header class="nat-var-container-fixed">
@@ -72,6 +72,7 @@
         </div>
       </nav>
     </header>
+    
     <main
       onclick="slideNatVarOut()"
       id="main-body"
@@ -119,6 +120,7 @@
             />
             <p id="wrong-email" class="wrong-email none"></p>
           </div>
+          
 
           <div class="text-contact-container">
             <label
@@ -135,7 +137,10 @@
               name="text-area"
             ></textarea>
           </div>
-
+        
+  <div class="g-recaptcha-container">
+           <div class="g-recaptcha" data-sitekey="6LclKVIoAAAAAHGCRkRS0vc8pG2mBw0-4m6tYTSC"></div>
+          </div>
           <p id="wrong-message" class="wrong-text none"></p>
           <div id="btn-submit" class="btn-submit-container-wide-screen">
             <input class="btn" type="submit" id="submit-btn" />
@@ -181,5 +186,13 @@
     <script src="/js/language.js"></script>
     <script src="/js/contacto.js"></script>
     <script src="/js/formulario.js"></script>
+     <script src="https://www.google.com/recaptcha/api.js"></script>
+      <script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ </script>
+  </script>
+
   </body>
 </html>
