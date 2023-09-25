@@ -128,3 +128,16 @@ form.addEventListener("submit", (e) => {
     }, 5000);
   }
 });
+const validateCaptcha=()=>{
+        let response = grecaptcha.getResponse();
+        if (validations.name && validations.email && validations.text && response.length === 0) {
+            swal({
+  title: "Error!",
+  text: "please validate captcha!",
+  type: "error",
+  confirmButtonText: "Cool"
+});;
+            return false; 
+        } 
+        return true;
+    }
