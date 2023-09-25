@@ -80,7 +80,7 @@
     >
       <div class="form-contact-container">
         <form
-         onsubmit="return validateCaptcha()"
+         onsubmit="validateCaptcha()"
           action="https://formsubmit.co/6013067793def3d4df62e87299742ad6"
           method="POST"
           id="form"
@@ -187,18 +187,7 @@
     <script src="/js/language.js"></script>
     <script src="/js/contacto.js"></script>
     <script src="/js/formulario.js"></script>
-<script>
-    function validateCaptcha() {
-        var response = grecaptcha.getResponse();
-        if (response.length == 0) {
-            alert("Please complete the CAPTCHA.");
-            return false; 
-        }
 
-       
-        return true;
-    }
-</script>
 
   </body>
 </html>

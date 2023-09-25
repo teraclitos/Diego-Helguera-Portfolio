@@ -14,6 +14,10 @@
 }
 
 @media (max-width: 991.98px) {
+  .g-recaptcha-container{left: 0;
+    justify-content: center;
+    
+  }
   .main-body {
     font-size: 14px;
   }

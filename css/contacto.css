@@ -10,6 +10,7 @@
 .form-contact {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1em;
 }
 
@@ -134,7 +135,10 @@
   visibility: hidden;
 }
 .g-recaptcha-container{
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
+  position: relative;
+  left: 1.5em;
 }
