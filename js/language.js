@@ -1131,4 +1131,8 @@ Management of graphic representation tools, bim and rendering.
     languageNarrowScreen.innerText = "ES";
   }
 };
-RenderLanguage();
+
+document.addEventListener('DOMContentLoaded', ()=> {
+  RenderLanguage();
+});
+
