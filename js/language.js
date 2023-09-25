@@ -1133,6 +1133,7 @@ Management of graphic representation tools, bim and rendering.
 };
 
 document.addEventListener('DOMContentLoaded', ()=> {
+  language();
   RenderLanguage();
 });
 
