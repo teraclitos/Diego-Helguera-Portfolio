@@ -83,7 +83,7 @@
           class="form-contact"
         >
           <div>
-            <label class="label-contact" for="name" id="name-label"></label>
+            <label class="label-contact" for="name" id="name-label">Name</label>
             <input
               maxlength="30"
               autocomplete="off"
@@ -92,10 +92,12 @@
               id="name"
               name="name"
             />
-            <p class="wrong-name none" id="wrong-name"></p>
+            <p class="wrong-name none" id="wrong-name">
+              The name must have 3 to 30 characters and cannot contain numbers or symbols.
+            </p>
           </div>
           <div>
-            <label id="matter" class="label-contact" for="asunto"></label>
+            <label id="matter" class="label-contact" for="asunto">Subject</label>
             <input
               maxlength="30"
               autocomplete="off"
@@ -115,7 +117,9 @@
               id="email"
               name="email"
             />
-            <p id="wrong-email" class="wrong-email none"></p>
+            <p id="wrong-email" class="wrong-email none">
+              Please enter a valid email address.
+            </p>
           </div>
           
 
@@ -123,8 +127,8 @@
             <label
               id="message"
               class="label-contact label-contact-text"
-              for="text-area"
-            ></label>
+              for="area"
+            >Leave your message</label>
             <textarea
               type="text"
               maxlength="450"
@@ -135,17 +139,23 @@
             ></textarea>
           </div>
         
-          <p id="wrong-message" class="wrong-text none"></p>
+          <p id="wrong-message" class="wrong-text none">
+            The message must have 5 to 400 characters.
+          </p>
           <div id="btn-submit" class="btn-submit-container-wide-screen">
-            <input class="btn" type="submit" id="submit-btn" />
+            <input class="btn" type="submit" id="submit-btn" value="send" />
           </div>
 
           <div class="correct-container hidden">
-            <p id="correct" class="correct-text"></p>
+            <p id="correct" class="correct-text">
+              Your message has been sent successfully.
+            </p>
           </div>
 
           <div class="error-container hidden">
-            <p id="error" class="error-text"></p>
+            <p id="error" class="error-text">
+              ERROR: Fill all the required fields correctly.
+            </p>
           </div>
           <input
             type="hidden"

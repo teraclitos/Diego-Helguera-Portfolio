@@ -8,7 +8,7 @@ const languageBtnNarrowScreen = document.getElementById(
   "language-narrow-screen"
 );
 
-let localSTGContact = JSON.parse(localStorage.getItem("number"));
+let localSTGContact = JSON.parse(localStorage.getItem("number")) || { id: 0 };
 
 const RenderContact = () => {
   if (windowScreenContact.matches) {

@@ -33,6 +33,7 @@ const errorSubmitLanguage = document.getElementById("error");
 const correctSubmitLanguage = document.getElementById("correct");
 const languagePush = document.getElementById("language");
 const languageNarrowScreen = document.getElementById("language-narrow-screen");
+const isContactPage = Boolean(document.getElementById("form"));
 
 let localSTGLanguage = JSON.parse(localStorage.getItem("number")) || { id: 0 };
 
@@ -285,10 +286,7 @@ Management of graphic representation tools, bim and rendering.
   Mendoza, Argentina.  2018.
  `;
     }
-    if (
-      window.location.pathname ===
-        "/html/contacto.html" 
-    ) {
+    if (isContactPage) {
       nameLabel.innerText = "Name";
       matter.innerText = "Subject";
       message.innerText = "Leave your message";
@@ -555,10 +553,7 @@ Trabajar en la escala urbana nos abrió la cabeza a la hora de diseñar, tuvimos
      `;
     }
 
-    if (
-      window.location.pathname ===
-        "/html/contacto.html"
-    ) {
+    if (isContactPage) {
       nameLabel.innerText = "Nombre";
       matter.innerText = "Asunto";
       message.innerText = "Deje su mensaje";
@@ -590,10 +585,7 @@ const RenderLanguage = () => {
       "/html/acercademi.html" 
   ) {
     me.style.color = "#d65f37";
-  } else if (
-    window.location.pathname ===
-      "/html/contacto.html"
-  ) {
+  } else if (isContactPage) {
     contact.style.color = "#d65f37";
   } else {
     contact.style.color = "#d65f37";
@@ -846,10 +838,7 @@ Manejo herramientas de representación gráfica, bim y renderismo.
   FAU en premios Arzotegui.
 - 3° Puesto en concurso internacional de estudiantes taller virtual de las Américas 2018. `;
     }
-    if (
-      window.location.pathname ===
-        "/html/contacto.html"
-    ) {
+    if (isContactPage) {
       contact.style.color = "#d65f37";
       nameLabel.innerText = "Nombre";
       matter.innerText = "Asunto";
@@ -1108,10 +1097,7 @@ Management of graphic representation tools, bim and rendering.
 - 3° place: “Taller virtual de las Américas” international contest for winery building in 
   Mendoza, Argentina.  2018. `;
     }
-    if (
-      window.location.pathname ===
-        "/html/contacto.html"
-    ) {
+    if (isContactPage) {
       nameLabel.innerText = "Name";
       matter.innerText = "Subject";
       message.innerText = "Leave your message";

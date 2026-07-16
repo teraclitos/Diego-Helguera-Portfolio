@@ -16,9 +16,8 @@ const validations = {
 };
 
 const expression = {
-  name: /^[a-zA-ZÀ-ÿ\s]{0,100}$/,
-
-  mail: /[[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+]{0,100}$/,
+  name: /^[a-zA-ZÀ-ÿ\s'-]+$/,
+  mail: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
 };
 
 const validation = (inputName, inputValue, inputs) => {
@@ -104,7 +103,11 @@ inputsArray.forEach((input) => {
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-   
+
+  // Revalidate on submit so browser autofill and restored values are covered.
+  inputsArray.forEach((input) => {
+    validation(input.name, input.value, input);
+  });
 
   if (validations.name && validations.email && validations.text ) {
     correct.classList.remove("hidden");
